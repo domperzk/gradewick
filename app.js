@@ -1901,7 +1901,7 @@ function sendBugReport() {
 
   const body = encodeURIComponent(`${desc}\n\n${debugBlock}`);
   const encodedSubject = encodeURIComponent(`[Gradewick] ${subject}`);
-  window.location.href = `mailto:your-email@example.com?subject=${encodedSubject}&body=${body}`;
+  window.location.href = `mailto:kuku.dompreh@warwick.ac.uk?subject=${encodedSubject}&body=${body}`;
   closeOverlayDirect('supportOverlay');
   showToast('Opening your email client…');
 }
