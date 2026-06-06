@@ -167,18 +167,6 @@ const EXAM_TIMETABLE = {
     "duration": "2h 0m",
     "location": "Panorama Room, Rootes Building"
   },
-  "CS131-15": {
-    "date": "2026-05-19",
-    "time": "09:30",
-    "duration": "3h 0m",
-    "location": "JUNCTION_2"
-  },
-  "CS131": {
-    "date": "2026-05-19",
-    "time": "09:30",
-    "duration": "3h 0m",
-    "location": "JUNCTION_2"
-  },
   "CS132-15": {
     "date": "2026-06-08",
     "time": "09:30",
@@ -257,18 +245,6 @@ const EXAM_TIMETABLE = {
     "duration": "2h 0m",
     "location": "JUNCTION_1"
   },
-  "CS147-10": {
-    "date": "2026-06-08",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "JUNCTION_1"
-  },
-  "CS147": {
-    "date": "2026-06-08",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "JUNCTION_1"
-  },
   "CS249-15": {
     "date": "2026-06-02",
     "time": "09:30",
@@ -325,18 +301,6 @@ const EXAM_TIMETABLE = {
   },
   "CS259": {
     "date": "2026-06-15",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "Panorama Room, Rootes Building"
-  },
-  "CS261-15": {
-    "date": "2026-06-06",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "Panorama Room, Rootes Building"
-  },
-  "CS261": {
-    "date": "2026-06-06",
     "time": "09:30",
     "duration": "2h 0m",
     "location": "Panorama Room, Rootes Building"
@@ -1197,37 +1161,37 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-03",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "OC0.02.1 - Oculus Building"
+    "location": "JUNCTION_1/JUNCTION_2/OC0.02.1"
   },
   "EC107": {
     "date": "2026-06-03",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "OC0.02.1 - Oculus Building"
+    "location": "JUNCTION_1/JUNCTION_2/OC0.02.1"
   },
   "EC108-30": {
     "date": "2026-06-05",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "EC108": {
     "date": "2026-06-05",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "EC109-30": {
     "date": "2026-05-27",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "EC109": {
     "date": "2026-05-27",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "EC119-15": {
     "date": "2026-05-30",
@@ -1257,13 +1221,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-20",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2/Panorama Room"
   },
   "EC124": {
     "date": "2026-05-20",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2/Panorama Room"
   },
   "EC131-15": {
     "date": "2026-06-05",
@@ -1353,37 +1317,37 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-19",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_/JUNCTION_2/Panorama Room"
   },
   "EC140": {
     "date": "2026-05-19",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_/JUNCTION_2/Panorama Room"
   },
   "EC201-30": {
     "date": "2026-06-02",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "EC201": {
     "date": "2026-06-02",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "EC202-30": {
     "date": "2026-06-05",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "EC202": {
     "date": "2026-06-05",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "EC203-30": {
     "date": "2026-06-15",
@@ -1401,13 +1365,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-02",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "Panorama Room, Rootes Building"
   },
   "EC204": {
     "date": "2026-06-02",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "Panorama Room, Rootes Building"
   },
   "EC205-15": {
     "date": "2026-05-20",
@@ -1461,25 +1425,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-16",
     "time": "09:10",
     "duration": "3h 0m",
-    "location": "Rootes Restaurant - Rootes Building"
+    "location": "Panorama Room/ Rootes Restaurant - Rootes Building"
   },
   "EC226": {
     "date": "2026-06-16",
     "time": "09:10",
     "duration": "3h 0m",
-    "location": "Rootes Restaurant - Rootes Building"
-  },
-  "EC228-15": {
-    "date": "2026-05-19",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "Panorama Room, Rootes Building"
-  },
-  "EC228": {
-    "date": "2026-05-19",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "Panorama Room, Rootes Building"
+    "location": "Panorama Room/ Rootes Restaurant - Rootes Building"
   },
   "EC229-15": {
     "date": "2026-06-02",
@@ -1977,25 +1929,25 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-27",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "Panorama Room/ Rootes Restaurant - Rootes Building"
   },
   "ES190": {
     "date": "2026-05-27",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "Panorama Room/ Rootes Restaurant - Rootes Building"
   },
   "ES191-15": {
     "date": "2026-05-21",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "ES191": {
     "date": "2026-05-21",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "ES193-15": {
     "date": "2026-05-18",
@@ -2013,13 +1965,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-30",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "ES194": {
     "date": "2026-05-30",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "ES197-15": {
     "date": "2026-05-20",
@@ -2036,26 +1988,26 @@ const EXAM_TIMETABLE = {
   "ES2C0-15": {
     "date": "2026-06-16",
     "time": "14:00",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "2h 0m",
+    "location": "JUNCTION_2"
   },
   "ES2C0": {
     "date": "2026-06-16",
     "time": "14:00",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "2h 0m",
+    "location": "JUNCTION_2"
   },
   "ES2C4-15": {
     "date": "2026-06-04",
     "time": "09:30",
-    "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "3h 0m",
+    "location": "JUNCTION_1"
   },
   "ES2C4": {
     "date": "2026-06-04",
     "time": "09:30",
-    "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "3h 0m",
+    "location": "JUNCTION_1"
   },
   "ES2C7-15": {
     "date": "2026-06-02",
@@ -2069,53 +2021,29 @@ const EXAM_TIMETABLE = {
     "duration": "2h 0m",
     "location": "Panorama Room, Rootes Building"
   },
-  "ES2C9-15": {
-    "date": "2026-06-09",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "JUNCTION_2"
-  },
-  "ES2C9": {
-    "date": "2026-06-09",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "JUNCTION_2"
-  },
   "ES2D5-15": {
     "date": "2026-06-04",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_1"
   },
   "ES2D5": {
     "date": "2026-06-04",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
-  },
-  "ES2D7-15": {
-    "date": "2026-05-20",
-    "time": "09:30",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
-  },
-  "ES2D7": {
-    "date": "2026-05-20",
-    "time": "09:30",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_1"
   },
   "ES2E3-15": {
     "date": "2026-05-21",
     "time": "14:00",
     "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "location": "Rootes Restaurant - Rootes Building"
   },
   "ES2E3": {
     "date": "2026-05-21",
     "time": "14:00",
     "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "location": "Rootes Restaurant - Rootes Building"
   },
   "ES2F5-15": {
     "date": "2026-06-06",
@@ -2205,25 +2133,25 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-18",
     "time": "14:00",
     "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_1"
   },
   "ES2J7": {
     "date": "2026-06-18",
     "time": "14:00",
     "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_1"
   },
   "ES335-15": {
     "date": "2026-05-26",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_2"
   },
   "ES335": {
     "date": "2026-05-26",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_2"
   },
   "ES382-15": {
     "date": "2026-05-30",
@@ -2240,13 +2168,13 @@ const EXAM_TIMETABLE = {
   "ES386-15": {
     "date": "2026-05-19",
     "time": "09:30",
-    "duration": "2h 0m",
+    "duration": "1h 0m",
     "location": "Departmental Room - Engineering"
   },
   "ES386": {
     "date": "2026-05-19",
     "time": "09:30",
-    "duration": "2h 0m",
+    "duration": "1h 0m",
     "location": "Departmental Room - Engineering"
   },
   "ES3A7-15": {
@@ -2264,26 +2192,26 @@ const EXAM_TIMETABLE = {
   "ES3A9-15": {
     "date": "2026-06-05",
     "time": "14:00",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "1h 30m",
+    "location": "Rootes Restaurant - Rootes Building"
   },
   "ES3A9": {
     "date": "2026-06-05",
     "time": "14:00",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "1h 30m",
+    "location": "Rootes Restaurant - Rootes Building"
   },
   "ES3B2-15": {
     "date": "2026-05-21",
     "time": "14:00",
     "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "location": "Rootes Restaurant - Rootes Building"
   },
   "ES3B2": {
     "date": "2026-05-21",
     "time": "14:00",
     "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "location": "Rootes Restaurant - Rootes Building"
   },
   "ES3B6-30": {
     "date": "2026-05-30",
@@ -2307,18 +2235,6 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-21",
     "time": "09:30",
     "duration": "1h 30m",
-    "location": "Panorama Room, Rootes Building"
-  },
-  "ES3C8-15": {
-    "date": "2026-06-02",
-    "time": "14:00",
-    "duration": "2h 0m",
-    "location": "Panorama Room, Rootes Building"
-  },
-  "ES3C8": {
-    "date": "2026-06-02",
-    "time": "14:00",
-    "duration": "2h 0m",
     "location": "Panorama Room, Rootes Building"
   },
   "ES3D2-15": {
@@ -2357,29 +2273,17 @@ const EXAM_TIMETABLE = {
     "duration": "3h 0m",
     "location": "JUNCTION_1"
   },
-  "ES3E5-15": {
-    "date": "2026-05-21",
-    "time": "09:30",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
-  },
-  "ES3E5": {
-    "date": "2026-05-21",
-    "time": "09:30",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
-  },
   "ES3E6-15": {
     "date": "2026-05-19",
     "time": "09:30",
-    "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "duration": "3h 0m",
+    "location": "JUNCTION_2"
   },
   "ES3E6": {
     "date": "2026-05-19",
     "time": "09:30",
-    "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "duration": "3h 0m",
+    "location": "JUNCTION_2"
   },
   "ES3E7-15": {
     "date": "2026-05-28",
@@ -2397,13 +2301,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-26",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_2"
   },
   "ES3E8": {
     "date": "2026-05-26",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_2"
   },
   "ES3F1-15": {
     "date": "2026-06-05",
@@ -2463,18 +2367,6 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-12",
     "time": "14:00",
     "duration": "1h 0m",
-    "location": "JUNCTION_1"
-  },
-  "ES4A1-15": {
-    "date": "2026-05-30",
-    "time": "09:30",
-    "duration": "1h 30m",
-    "location": "JUNCTION_1"
-  },
-  "ES4A1": {
-    "date": "2026-05-30",
-    "time": "09:30",
-    "duration": "1h 30m",
     "location": "JUNCTION_1"
   },
   "ES4A3-15": {
@@ -2588,26 +2480,26 @@ const EXAM_TIMETABLE = {
   "ES4E8-15": {
     "date": "2026-05-26",
     "time": "09:30",
-    "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "duration": "2h 0m",
+    "location": "OC0.02.1 - Oculus Building"
   },
   "ES4E8": {
     "date": "2026-05-26",
     "time": "09:30",
-    "duration": "1h 30m",
-    "location": "Departmental Room - Engineering"
+    "duration": "2h 0m",
+    "location": "OC0.02.1 - Oculus Building"
   },
   "ES4F2-15": {
     "date": "2026-06-09",
     "time": "14:00",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "2h 0m",
+    "location": "JUNCTION_2"
   },
   "ES4F2": {
     "date": "2026-06-09",
     "time": "14:00",
-    "duration": "1h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "2h 0m",
+    "location": "JUNCTION_2"
   },
   "ES4F3-15": {
     "date": "2026-06-05",
@@ -2637,13 +2529,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-27",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_2"
   },
   "ES4G3": {
     "date": "2026-05-27",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "location": "JUNCTION_2"
   },
   "ES96T-15": {
     "date": "2026-06-20",
@@ -2660,14 +2552,14 @@ const EXAM_TIMETABLE = {
   "ES96X-15": {
     "date": "2026-05-22",
     "time": "09:30",
-    "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "3h 0m",
+    "location": "JUNCTION_2"
   },
   "ES96X": {
     "date": "2026-05-22",
     "time": "09:30",
-    "duration": "2h 0m",
-    "location": "Departmental Room - Engineering"
+    "duration": "3h 0m",
+    "location": "JUNCTION_2"
   },
   "ES97A-15": {
     "date": "2026-06-24",
@@ -3487,63 +3379,63 @@ const EXAM_TIMETABLE = {
   },
   "IB113-15": {
     "date": "2026-06-03",
-    "time": "14:00",
+    "time": "13:40",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "Panorama Room, Rootes Building"
   },
   "IB113": {
     "date": "2026-06-03",
-    "time": "14:00",
+    "time": "13:40",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "Panorama Room, Rootes Building"
   },
   "IB116-15": {
     "date": "2026-05-30",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "Panorama Room, Rootes Building"
   },
   "IB116": {
     "date": "2026-05-30",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "Panorama Room, Rootes Building"
   },
   "IB122-15": {
     "date": "2026-05-28",
     "time": "14:00",
     "duration": "1h 30m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "IB122": {
     "date": "2026-05-28",
     "time": "14:00",
     "duration": "1h 30m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "IB125-15": {
     "date": "2026-05-22",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "IB125": {
     "date": "2026-05-22",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "IB132-15": {
     "date": "2026-06-09",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Rootes Restaurant - Rootes Building"
+    "location": "Panorama Room/ Rootes Restaurant - Rootes Building"
   },
   "IB132": {
     "date": "2026-06-09",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Rootes Restaurant - Rootes Building"
+    "location": "Panorama Room/ Rootes Restaurant - Rootes Building"
   },
   "IB133-15": {
     "date": "2026-06-23",
@@ -3595,51 +3487,51 @@ const EXAM_TIMETABLE = {
   },
   "IB233-15": {
     "date": "2026-06-03",
-    "time": "09:30",
+    "time": "09:10",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "Panorama Room, Rootes Building"
   },
   "IB233": {
     "date": "2026-06-03",
-    "time": "09:30",
+    "time": "09:10",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "Panorama Room, Rootes Building"
   },
   "IB234-15": {
     "date": "2026-06-10",
-    "time": "09:30",
+    "time": "09:10",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_2"
   },
   "IB234": {
     "date": "2026-06-10",
-    "time": "09:30",
+    "time": "09:10",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_2"
   },
   "IB235-15": {
     "date": "2026-06-06",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "Panorama Room, Rootes Building"
   },
   "IB235": {
     "date": "2026-06-06",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "Panorama Room, Rootes Building"
   },
   "IB236-15": {
     "date": "2026-06-13",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "IB236": {
     "date": "2026-06-13",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "IB237-15": {
     "date": "2026-06-12",
@@ -3705,13 +3597,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-08",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_2"
   },
   "IB2B2": {
     "date": "2026-06-08",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_2"
   },
   "IB2B6-15": {
     "date": "2026-06-08",
@@ -3739,15 +3631,15 @@ const EXAM_TIMETABLE = {
   },
   "IB2C1-15": {
     "date": "2026-06-20",
-    "time": "09:30",
+    "time": "09:10",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_2"
   },
   "IB2C1": {
     "date": "2026-06-20",
-    "time": "09:30",
+    "time": "09:10",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_2"
   },
   "IB2D3-15": {
     "date": "2026-05-26",
@@ -3844,18 +3736,6 @@ const EXAM_TIMETABLE = {
     "time": "09:30",
     "duration": "2h 0m",
     "location": "JUNCTION_1"
-  },
-  "IB381-15": {
-    "date": "2026-05-26",
-    "time": "09:30",
-    "duration": "1h 30m",
-    "location": "WAS Online Platform"
-  },
-  "IB381": {
-    "date": "2026-05-26",
-    "time": "09:30",
-    "duration": "1h 30m",
-    "location": "WAS Online Platform"
   },
   "IB394-15": {
     "date": "2026-05-27",
@@ -3957,13 +3837,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-11",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_1"
   },
   "IB3H9": {
     "date": "2026-06-11",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "WAS Online Platform"
+    "location": "JUNCTION_1"
   },
   "IB3J8-15": {
     "date": "2026-06-01",
@@ -4353,13 +4233,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-26",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "MA139": {
     "date": "2026-05-26",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "MA143-10": {
     "date": "2026-06-11",
@@ -4377,13 +4257,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-05-29",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "MA144": {
     "date": "2026-05-29",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "MA145-10": {
     "date": "2026-05-21",
@@ -4425,13 +4305,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-01",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "MA150": {
     "date": "2026-06-01",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "MA152-15": {
     "date": "2026-05-19",
@@ -4497,37 +4377,37 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-08",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "MA260": {
     "date": "2026-06-08",
     "time": "14:00",
     "duration": "2h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Chancellor's Suite/Panorama Room - Rootes Building"
   },
   "MA263-10": {
     "date": "2026-06-11",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Panorama Room, Rootes Building"
   },
   "MA263": {
     "date": "2026-06-11",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Chancellor's Suite, Rootes Building"
+    "location": "Panorama Room, Rootes Building"
   },
   "MA266-10": {
     "date": "2026-06-04",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Rootes Restaurant - Rootes Building"
+    "location": "Panorama Room/ Rootes Restaurant - Rootes Building"
   },
   "MA266": {
     "date": "2026-06-04",
     "time": "09:30",
     "duration": "2h 0m",
-    "location": "Rootes Restaurant - Rootes Building"
+    "location": "Panorama Room/ Rootes Restaurant - Rootes Building"
   },
   "MA269-10": {
     "date": "2026-06-10",
@@ -4653,13 +4533,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-05",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "Rootes Restaurant - Rootes Building"
   },
   "MA3D9": {
     "date": "2026-06-05",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "Rootes Restaurant - Rootes Building"
   },
   "MA3E1-15": {
     "date": "2026-05-19",
@@ -4713,13 +4593,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-05",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "OC1.09.1 - Oculus Building"
   },
   "MA3H2": {
     "date": "2026-06-05",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "JUNCTION_1"
+    "location": "OC1.09.1 - Oculus Building"
   },
   "MA3H6-15": {
     "date": "2026-06-01",
@@ -4769,18 +4649,6 @@ const EXAM_TIMETABLE = {
     "duration": "3h 0m",
     "location": "Panorama Room, Rootes Building"
   },
-  "MA3K8-15": {
-    "date": "2026-06-09",
-    "time": "09:30",
-    "duration": "3h 0m",
-    "location": "JUNCTION_1"
-  },
-  "MA3K8": {
-    "date": "2026-06-09",
-    "time": "09:30",
-    "duration": "3h 0m",
-    "location": "JUNCTION_1"
-  },
   "MA3P2-15": {
     "date": "2026-05-30",
     "time": "09:30",
@@ -4809,13 +4677,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-08",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "OC1.09.1 - Oculus Building"
+    "location": "OC1.01.1/OC1.09.1 - Oculus Building"
   },
   "MA442": {
     "date": "2026-06-08",
     "time": "09:30",
     "duration": "3h 0m",
-    "location": "OC1.09.1 - Oculus Building"
+    "location": "OC1.01.1/OC1.09.1 - Oculus Building"
   },
   "MA453-15": {
     "date": "2026-05-29",
@@ -5405,18 +5273,6 @@ const EXAM_TIMETABLE = {
     "duration": "2h 0m",
     "location": "WAS Online Platform"
   },
-  "PS348-15": {
-    "date": "2026-05-20",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "WAS Online Platform"
-  },
-  "PS348": {
-    "date": "2026-05-20",
-    "time": "09:30",
-    "duration": "2h 0m",
-    "location": "WAS Online Platform"
-  },
   "PS350-15": {
     "date": "2026-06-08",
     "time": "09:30",
@@ -5949,13 +5805,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-06",
     "time": "13:40",
     "duration": "2h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "ST120": {
     "date": "2026-06-06",
     "time": "13:40",
     "duration": "2h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "ST121-10": {
     "date": "2026-05-18",
@@ -5973,13 +5829,13 @@ const EXAM_TIMETABLE = {
     "date": "2026-06-06",
     "time": "09:10",
     "duration": "2h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "ST227": {
     "date": "2026-06-06",
     "time": "09:10",
     "duration": "2h 0m",
-    "location": "JUNCTION_1"
+    "location": "JUNCTION_1/JUNCTION_2"
   },
   "ST230-10": {
     "date": "2026-05-29",
