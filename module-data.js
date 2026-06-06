@@ -1,4 +1,5 @@
-window.WARWICK_ALL_MODULES = [
+window.WARWICK_ALL_MODULES = 
+[
   {
     "course": "Research Project",
     "url": "https://courses.warwick.ac.uk/modules/2025/BS341-30",
@@ -7,7 +8,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS341-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -156,7 +157,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS934-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -203,7 +204,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS936-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -250,7 +251,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS942-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -301,7 +302,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1E1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -348,7 +349,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1F2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -395,7 +396,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1F8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -442,7 +443,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE283-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -480,7 +481,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE289-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -578,7 +579,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE355-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -625,7 +626,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE357-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -672,7 +673,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE932-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -715,7 +716,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE941-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -758,7 +759,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE952-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -801,7 +802,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9A6-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -848,7 +849,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9A8-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -891,7 +892,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH155-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "86% coursework, 14% exam",
@@ -1095,7 +1096,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3C3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -1338,7 +1339,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3H7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -1624,7 +1625,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH913-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -1667,7 +1668,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH922-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -1714,7 +1715,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH958-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -1757,7 +1758,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH961-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -1800,7 +1801,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH967-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -1843,7 +1844,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH972-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -1894,7 +1895,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH983-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -1941,7 +1942,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH985-70",
-    "credits": 15,
+    "credits": 70,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -1992,7 +1993,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH986-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -2345,7 +2346,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS325-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -2537,7 +2538,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS912-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -2678,7 +2679,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW317-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -2725,7 +2726,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW907-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -2768,7 +2769,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW911-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -2811,7 +2812,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW917-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -2854,7 +2855,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX102-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -2909,7 +2910,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX106-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -3195,7 +3196,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX306-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -3238,7 +3239,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX398-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -3289,7 +3290,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX913-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -3332,7 +3333,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX915-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -3375,7 +3376,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC300-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -3413,7 +3414,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC901-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -3558,7 +3559,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC104-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -3613,7 +3614,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC108-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -3715,7 +3716,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -4150,7 +4151,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC907-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -4405,7 +4406,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9A2-35",
-    "credits": 15,
+    "credits": 35,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -4456,7 +4457,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9B9-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -4499,7 +4500,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C6-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -4542,7 +4543,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9D4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -4593,7 +4594,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9D8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -4636,7 +4637,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN123-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -4683,7 +4684,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2C8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -4734,7 +4735,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2E2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -4781,7 +4782,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2E4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -4828,7 +4829,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2F2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -4922,7 +4923,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2F7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5020,7 +5021,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2G7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5118,7 +5119,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2H2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5169,7 +5170,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2J4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5212,7 +5213,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2L4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5310,7 +5311,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2M6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5459,7 +5460,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3D2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5510,7 +5511,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3F5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5608,7 +5609,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3J7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5702,7 +5703,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3M6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5757,7 +5758,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3N1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5804,7 +5805,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9C2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -5992,7 +5993,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP314-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6090,7 +6091,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP315-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6141,7 +6142,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP933-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6184,7 +6185,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP939-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6227,7 +6228,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP945-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6270,7 +6271,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP954-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6454,7 +6455,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP965-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6634,7 +6635,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ923-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6677,7 +6678,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ927-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6720,7 +6721,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ937-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -6763,7 +6764,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ939-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -7037,7 +7038,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES2E0-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -7953,7 +7954,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3G3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -8748,7 +8749,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES97N-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -8803,7 +8804,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES98E-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -9273,7 +9274,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET118-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -9461,7 +9462,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET315-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -9504,7 +9505,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET920-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -9547,7 +9548,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9B5-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -9590,7 +9591,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9B8-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -9633,7 +9634,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9D2-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -9676,7 +9677,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9D9-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -9719,7 +9720,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9E3-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10220,7 +10221,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI905-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10263,7 +10264,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI908-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10306,7 +10307,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI911-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10349,7 +10350,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI930-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10392,7 +10393,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI959-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10439,7 +10440,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI960-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10486,7 +10487,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP009-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10537,7 +10538,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP018-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10588,7 +10589,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP031-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10639,7 +10640,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP052-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10690,7 +10691,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP053-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -10741,7 +10742,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR103-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -10796,7 +10797,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR202-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -11047,7 +11048,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD201-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -11090,7 +11091,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD206-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -11239,7 +11240,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD314-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -11282,7 +11283,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD319-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -11376,7 +11377,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD912-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -11427,7 +11428,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD916-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -11470,7 +11471,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GE101-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "35% coursework, 65% exam",
@@ -11533,7 +11534,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GE103-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -11588,7 +11589,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GE203-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -11694,7 +11695,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA1A1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -11847,7 +11848,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA2F1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -11945,7 +11946,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA3A1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -11992,7 +11993,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA3B2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12043,7 +12044,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA3C9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -12247,7 +12248,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2J8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12302,7 +12303,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2K2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12404,7 +12405,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI31Z-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12459,7 +12460,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI33Y-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12514,7 +12515,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3G9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12565,7 +12566,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3J1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12675,7 +12676,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3S8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12730,7 +12731,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3T1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -12785,7 +12786,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3U1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12840,7 +12841,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI907-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12887,7 +12888,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI992-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12934,7 +12935,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI993-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -12977,7 +12978,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI996-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -13020,7 +13021,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI997-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -13067,7 +13068,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HP101-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "35% coursework, 65% exam",
@@ -13126,7 +13127,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HP201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "20% coursework, 80% exam",
@@ -13177,7 +13178,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HP301-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -13361,7 +13362,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR902-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -13404,7 +13405,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR922-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -14360,7 +14361,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB700-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -14501,7 +14502,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB820-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -14681,7 +14682,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB918-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -14771,7 +14772,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB93Y-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -14861,7 +14862,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB98B-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -14908,7 +14909,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99E-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -14951,7 +14952,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99K-50",
-    "credits": 15,
+    "credits": 50,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15041,7 +15042,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99U-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15190,7 +15191,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9BZ-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15378,7 +15379,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9ED-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15421,7 +15422,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9FB-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15574,7 +15575,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9FY-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15809,7 +15810,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9JK-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15852,7 +15853,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9JP-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15895,7 +15896,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9JQ-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -15942,7 +15943,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9JR-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -16173,7 +16174,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9KG-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -16306,7 +16307,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9LT-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -16396,7 +16397,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9MM-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -16533,7 +16534,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NF-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -16619,7 +16620,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9RN-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -16662,7 +16663,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9RP-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -16842,7 +16843,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9RY-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -16885,7 +16886,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9S3-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -16928,7 +16929,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9SH-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -17022,7 +17023,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9SL-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -17065,7 +17066,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9SN-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -17108,7 +17109,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9T1-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -17531,7 +17532,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IE9K5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -17911,7 +17912,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IL905-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -17958,7 +17959,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IL906-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18009,7 +18010,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IL907-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18056,7 +18057,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IL927-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18150,7 +18151,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM349-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18197,7 +18198,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM904-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18244,7 +18245,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM919-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18291,7 +18292,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM925-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18338,7 +18339,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM931-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18389,7 +18390,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM948-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18432,7 +18433,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM950-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18522,7 +18523,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM955-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18773,7 +18774,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP901-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -18820,7 +18821,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IT401-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -18867,7 +18868,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA128-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -18922,7 +18923,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA131-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -18960,7 +18961,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA212-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -19054,7 +19055,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA245-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -19097,7 +19098,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA2E1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -19140,7 +19141,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA301-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -19487,7 +19488,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA960-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -19530,7 +19531,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9G1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -19573,7 +19574,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF122-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -20171,7 +20172,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF909-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -20214,7 +20215,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF910-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -20257,7 +20258,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF911-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -20304,7 +20305,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF924-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% exam",
@@ -20342,7 +20343,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF925-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -20380,7 +20381,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL121-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -20431,7 +20432,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL130-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -20490,7 +20491,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL131-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -20541,7 +20542,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL174-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -20579,7 +20580,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL177-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -20770,7 +20771,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL20A-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -20821,7 +20822,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL20A-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -20872,7 +20873,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL20B-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -20923,7 +20924,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL20B-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -20974,7 +20975,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL211-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21025,7 +21026,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL216-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -21063,7 +21064,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL225-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -21101,7 +21102,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL227-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -21160,7 +21161,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL233-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21211,7 +21212,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL234-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -21249,7 +21250,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL237-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21300,7 +21301,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL250-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21351,7 +21352,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL256-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -21389,7 +21390,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL262-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -21427,7 +21428,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL263-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21478,7 +21479,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL290-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21529,7 +21530,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL290-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21580,7 +21581,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL299-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -21618,7 +21619,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2A4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21669,7 +21670,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2A5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21720,7 +21721,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B2-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21771,7 +21772,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C5-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -21907,7 +21908,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL309-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -21945,7 +21946,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL313-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -22000,7 +22001,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL313-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -22055,7 +22056,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL316-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -22093,7 +22094,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL316-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -22140,7 +22141,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL323-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -22195,7 +22196,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL352-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -22233,7 +22234,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL357-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -22288,7 +22289,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL360-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -22378,7 +22379,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL363-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -22433,7 +22434,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL390-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -22488,7 +22489,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL3B1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -22551,7 +22552,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL3B2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -22606,7 +22607,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL3B5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -22669,7 +22670,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL3C4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -22724,7 +22725,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN206-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -22912,7 +22913,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN400-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -22998,7 +22999,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN917-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -23088,7 +23089,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP102-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -23237,7 +23238,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP303-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -23280,7 +23281,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP911-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -23374,7 +23375,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP918-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -23421,7 +23422,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP919-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -23515,7 +23516,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA133-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -23562,7 +23563,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA138-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -23609,7 +23610,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA142-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -23656,7 +23657,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA146-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -23703,7 +23704,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA148-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -23750,7 +23751,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA222-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -23797,7 +23798,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA250-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -23835,7 +23836,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA269-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -23873,7 +23874,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA270-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -23963,7 +23964,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA352-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -24001,7 +24002,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA369-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -24209,7 +24210,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA3J5-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -24763,7 +24764,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD1A6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "70% coursework, 30% exam",
@@ -24857,7 +24858,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD20X-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -24955,7 +24956,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD3A2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25006,7 +25007,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD4A1-90",
-    "credits": 15,
+    "credits": 90,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25057,7 +25058,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD915-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25104,7 +25105,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD941-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25147,7 +25148,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD979-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25198,7 +25199,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD990-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25245,7 +25246,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD999-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25292,7 +25293,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MH910-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25335,7 +25336,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS911-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25378,7 +25379,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS912-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25425,7 +25426,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS918-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25472,7 +25473,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS923-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25519,7 +25520,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS926-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25750,7 +25751,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH313-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25930,7 +25931,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH923-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -25973,7 +25974,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH948-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26016,7 +26017,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9F7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26188,7 +26189,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO2D0-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26278,7 +26279,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO301-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -26325,7 +26326,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO353-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26376,7 +26377,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO358-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -26423,7 +26424,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO379-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26470,7 +26471,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO382-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26517,7 +26518,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO390-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26658,7 +26659,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO92Q-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26701,7 +26702,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO966-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26748,7 +26749,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9B4-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26791,7 +26792,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9F7-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -26834,7 +26835,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9G1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -27124,7 +27125,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS224-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -27265,7 +27266,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS925-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -27367,7 +27368,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX157-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -27410,7 +27411,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX158-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -27453,7 +27454,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX271-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -27582,7 +27583,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX3A1-35",
-    "credits": 15,
+    "credits": 35,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -27981,7 +27982,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX916-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -28028,7 +28029,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX918-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -28337,7 +28338,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO301-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -28654,7 +28655,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO923-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -28701,7 +28702,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO945-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -28748,7 +28749,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9D1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -28791,7 +28792,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9D6-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -29196,7 +29197,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST960-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "",
@@ -29281,7 +29282,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH354-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -29606,7 +29607,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM240-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -29653,7 +29654,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM242-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -29700,7 +29701,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM243-18",
-    "credits": 15,
+    "credits": 18,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -29837,7 +29838,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM278-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -29888,7 +29889,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM291-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -31486,7 +31487,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS935-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31576,7 +31577,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1E6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31619,7 +31620,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1F1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31709,7 +31710,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1F7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31752,7 +31753,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1FA-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31799,7 +31800,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE274-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31846,7 +31847,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE275-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31893,7 +31894,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE282-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31940,7 +31941,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE284-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -31983,7 +31984,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE285-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32026,7 +32027,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE291-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32073,7 +32074,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE302-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32116,7 +32117,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE349-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32163,7 +32164,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE350-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32210,7 +32211,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE944-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32253,7 +32254,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE951-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32296,7 +32297,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE968-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32339,7 +32340,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9B9-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32390,7 +32391,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9C1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32441,7 +32442,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9C3-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32621,7 +32622,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3E2-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32766,7 +32767,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3G1-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -32962,7 +32963,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH911-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -33013,7 +33014,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH915-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -33056,7 +33057,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH934-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -33099,7 +33100,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH938-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -33150,7 +33151,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH954-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -33193,7 +33194,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH975-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "25% coursework, 75% exam",
@@ -33240,7 +33241,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH982-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "25% coursework, 75% exam",
@@ -33338,7 +33339,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH991-15",
-    "credits": 5,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -33385,7 +33386,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH993-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -33797,7 +33798,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS342-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -33844,7 +33845,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS345-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -33989,7 +33990,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS413-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -34201,7 +34202,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS908-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -34303,7 +34304,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS915-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -34350,7 +34351,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS917-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -34401,7 +34402,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW215-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -34444,7 +34445,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW901-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -34491,7 +34492,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW911-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -34632,7 +34633,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX206-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -34777,7 +34778,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX298-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -34828,7 +34829,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX30P-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -34871,7 +34872,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX336-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -34914,7 +34915,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX344-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -34965,7 +34966,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX355-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -35063,7 +35064,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX362-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -35114,7 +35115,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC902-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -35157,7 +35158,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC957-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -35200,7 +35201,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC958-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -35290,7 +35291,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DI106-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -35341,7 +35342,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC107-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -35581,7 +35582,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC226-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -35678,7 +35679,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC304-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -36015,7 +36016,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC901-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -36168,7 +36169,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC959-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -36352,7 +36353,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C1-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36399,7 +36400,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C5-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36446,7 +36447,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9D5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -36497,7 +36498,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN107-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36544,7 +36545,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2D8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36591,7 +36592,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2E8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36638,7 +36639,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3C4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36685,7 +36686,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3D8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36732,7 +36733,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3D9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36826,7 +36827,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3F1-15",
-    "credits": 30,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36873,7 +36874,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3F2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -36975,7 +36976,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3K6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37026,7 +37027,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3K9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37116,7 +37117,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN985-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -37159,7 +37160,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9A7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37202,7 +37203,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9B5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37245,7 +37246,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9B8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37288,7 +37289,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9ZE-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37331,7 +37332,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9ZE-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37374,7 +37375,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP309-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37519,7 +37520,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP946-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37562,7 +37563,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP956-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37605,7 +37606,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP970-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -37695,7 +37696,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37832,7 +37833,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ903-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37875,7 +37876,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ905-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37918,7 +37919,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ930-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -37961,7 +37962,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ931-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -38004,7 +38005,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ934-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -38051,7 +38052,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ939-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -38094,7 +38095,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ948-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -38145,7 +38146,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ949-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -38235,7 +38236,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ969-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -38599,7 +38600,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES2E1-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -38787,7 +38788,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES327-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -38932,7 +38933,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3B6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -39261,7 +39262,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES93Z-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -39304,7 +39305,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES94R-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -39531,7 +39532,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES981-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -39574,7 +39575,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES98D-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -39668,7 +39669,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES9R7-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -39711,7 +39712,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES9U9-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -39844,7 +39845,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES9ZU-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40169,7 +40170,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET909-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40212,7 +40213,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET922-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40255,7 +40256,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9A7-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40345,7 +40346,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9E1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40388,7 +40389,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9E4-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40482,7 +40483,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI116-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40533,7 +40534,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI310-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40713,7 +40714,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI931-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40756,7 +40757,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI951-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40799,7 +40800,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI954-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -40850,7 +40851,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP006-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -40901,7 +40902,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP008-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -40952,7 +40953,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP020-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -41003,7 +41004,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP025-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -41058,7 +41059,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP026-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -41113,7 +41114,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP036-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -41211,7 +41212,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP077-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -41262,7 +41263,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR117-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -41501,7 +41502,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD202-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -41893,7 +41894,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD905-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -41940,7 +41941,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD912-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -42234,7 +42235,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA2G1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -42281,7 +42282,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA3E1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "70% coursework, 30% exam",
@@ -42332,7 +42333,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA3F2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -42489,7 +42490,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI178-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -42846,7 +42847,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2H3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -42948,7 +42949,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2J6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43003,7 +43004,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2K1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43105,7 +43106,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2L1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43207,7 +43208,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI390-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43262,7 +43263,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI399-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43317,7 +43318,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3T8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43372,7 +43373,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HP103-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43560,7 +43561,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR903-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43603,7 +43604,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR920-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43646,7 +43647,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR924-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43689,7 +43690,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR933-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -43779,7 +43780,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR933-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -44770,7 +44771,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB810-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -44813,7 +44814,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB921-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -45224,7 +45225,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB984-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -45357,7 +45358,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99H-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -45447,7 +45448,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99Q-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -45623,7 +45624,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9AM-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -45807,7 +45808,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9BJ-15",
-    "credits": 5,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -46269,7 +46270,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9JC-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -46457,7 +46458,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9KK-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -46598,7 +46599,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9LL-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -46747,7 +46748,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9LR-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -46794,7 +46795,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9MF-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -46880,7 +46881,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NE-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -46923,7 +46924,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NR-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -46970,7 +46971,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NT-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -47017,7 +47018,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NU-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -47244,7 +47245,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9RA-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -47440,7 +47441,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9S5-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -47487,7 +47488,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9S9-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -47910,7 +47911,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9ZM-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -47953,7 +47954,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9ZY-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -48477,7 +48478,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IL915-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -48571,7 +48572,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM339-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -48618,7 +48619,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM354-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -48712,7 +48713,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM355-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -48759,7 +48760,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM356-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -48857,7 +48858,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM904-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -48904,7 +48905,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM906-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -48998,7 +48999,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM931-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49049,7 +49050,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM941-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49096,7 +49097,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM942-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49147,7 +49148,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM942-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49198,7 +49199,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM948-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49241,7 +49242,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM952-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49284,7 +49285,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM954-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49331,7 +49332,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM954-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49425,7 +49426,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP205-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -49625,7 +49626,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP905-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "80% coursework, 20% exam",
@@ -49680,7 +49681,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IT116-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -49735,7 +49736,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IT301-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -49919,7 +49920,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA104-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -49962,7 +49963,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA124-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -50005,7 +50006,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -50052,7 +50053,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA205-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -50142,7 +50143,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA246-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -50271,7 +50272,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA2D9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -50412,7 +50413,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA307-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -50751,7 +50752,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA402-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -50794,7 +50795,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA919-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -50837,7 +50838,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA932-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -50880,7 +50881,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9B9-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -50923,7 +50924,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9F7-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -50966,7 +50967,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9G2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -51009,7 +51010,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF130-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -51350,7 +51351,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL117-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -51401,7 +51402,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL117-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -51452,7 +51453,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL121-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51490,7 +51491,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL122-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51528,7 +51529,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL122-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -51579,7 +51580,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL122-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -51630,7 +51631,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL171-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51668,7 +51669,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL183-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51706,7 +51707,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL186-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51744,7 +51745,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL1B4-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51782,7 +51783,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL1B5-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51820,7 +51821,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL1B6-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51858,7 +51859,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL1B7-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51896,7 +51897,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL1D4-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -51934,7 +51935,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL203-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -51985,7 +51986,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL208-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -52023,7 +52024,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL212-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -52061,7 +52062,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL215-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52112,7 +52113,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL224-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -52150,7 +52151,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL226-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52201,7 +52202,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL227-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -52239,7 +52240,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL235-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52290,7 +52291,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL239-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -52349,7 +52350,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL239-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -52408,7 +52409,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL255-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52459,7 +52460,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL256-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52510,7 +52511,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL257-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -52548,7 +52549,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL259-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52599,7 +52600,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL263-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52650,7 +52651,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL264-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -52688,7 +52689,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL264-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52739,7 +52740,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL291-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52790,7 +52791,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL292-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -52828,7 +52829,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL292-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52879,7 +52880,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL299-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52930,7 +52931,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL299-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -52981,7 +52982,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -53040,7 +53041,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B2-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -53078,7 +53079,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -53129,7 +53130,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B4-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -53180,7 +53181,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -53231,7 +53232,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -53290,7 +53291,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -53349,7 +53350,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C4-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -53387,7 +53388,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -53438,7 +53439,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -53489,7 +53490,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL308-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -53720,7 +53721,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL317-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -53775,7 +53776,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL321-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -53830,7 +53831,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL340-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -53885,7 +53886,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL349-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -53940,7 +53941,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL350-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -53995,7 +53996,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL351-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -54033,7 +54034,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL356-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -54088,7 +54089,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL360-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -54126,7 +54127,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL362-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -54181,7 +54182,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL366-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -54236,7 +54237,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL391-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -54291,7 +54292,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL392-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -54346,7 +54347,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL399-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -54401,7 +54402,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL3B4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -54546,7 +54547,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN205-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -54691,7 +54692,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP204-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -54785,7 +54786,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP913-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -54832,7 +54833,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP914-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -54879,7 +54880,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA124-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -54930,7 +54931,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA147-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -55071,7 +55072,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA240-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -55122,7 +55123,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA252-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -55160,7 +55161,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA256-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -55198,7 +55199,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA268-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -55292,7 +55293,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA341-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -55766,7 +55767,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA926-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -55942,7 +55943,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD1B2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -56036,7 +56037,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD3A2-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56087,7 +56088,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD40X-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -56142,7 +56143,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD90A-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56189,7 +56190,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD967-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56232,7 +56233,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD970-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56279,7 +56280,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD9A3-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "70% coursework, 30% exam",
@@ -56330,7 +56331,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD9A7-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56377,7 +56378,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MDX91-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56420,7 +56421,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MH930-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56530,7 +56531,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS900-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56577,7 +56578,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS914-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56624,7 +56625,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS916-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56675,7 +56676,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS920-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56722,7 +56723,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS921-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56765,7 +56766,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS924-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "",
@@ -56803,7 +56804,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS932-140",
-    "credits": 15,
+    "credits": 140,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -56858,7 +56859,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS935-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -56905,7 +56906,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MSX00-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "",
@@ -56990,7 +56991,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH134-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -57608,7 +57609,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH924-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -57651,7 +57652,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH998-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -57694,7 +57695,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9F6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -57737,7 +57738,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9GT-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -57780,7 +57781,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9HD-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -57995,7 +57996,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO231-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -58042,7 +58043,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO238-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -58304,7 +58305,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO366-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -58347,7 +58348,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO383-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -58531,7 +58532,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO91Q-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -58574,7 +58575,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO943-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -58617,7 +58618,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9A4-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -58668,7 +58669,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9D9-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -58758,7 +58759,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS125-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -59033,7 +59034,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS914-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -59217,7 +59218,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS942-75",
-    "credits": 15,
+    "credits": 75,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -59264,7 +59265,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX151-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -59307,7 +59308,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX152-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -59350,7 +59351,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX156-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -59522,7 +59523,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX402-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -59823,7 +59824,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "RS904-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -59866,7 +59867,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "RS906-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -59956,7 +59957,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "RS908-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -60003,7 +60004,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "RS908-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -60054,7 +60055,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "RS909-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -60445,7 +60446,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9B3-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -60488,7 +60489,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9C2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -60531,7 +60532,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9E1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -60578,7 +60579,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST224-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -60621,7 +60622,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST227-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -61138,7 +61139,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST980-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61181,7 +61182,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH113-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61228,7 +61229,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH114-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61279,7 +61280,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH115-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61373,7 +61374,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH248-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61514,7 +61515,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH329-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61600,7 +61601,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH992-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61647,7 +61648,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH997-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61690,7 +61691,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM009-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -61733,7 +61734,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM047-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -62280,7 +62281,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM3A6-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -62327,7 +62328,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM3B2-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -62746,7 +62747,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM996-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -62840,7 +62841,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9B8-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -63254,7 +63255,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9F9-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -64088,7 +64089,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS977-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64131,7 +64132,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS978-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64178,7 +64179,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1D8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64225,7 +64226,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1D9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64311,7 +64312,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1E8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64358,7 +64359,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1F9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64405,7 +64406,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE276-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64452,7 +64453,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE2A2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64499,7 +64500,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE2A6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -64546,7 +64547,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE341-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64589,7 +64590,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE358-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64636,7 +64637,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE930-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64679,7 +64680,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE931-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64722,7 +64723,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE935-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64765,7 +64766,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE954-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64808,7 +64809,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE956-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64851,7 +64852,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9A1-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64894,7 +64895,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9B3-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64937,7 +64938,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9B6-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -64980,7 +64981,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9C5-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -65147,7 +65148,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH222-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65249,7 +65250,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3E2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65292,7 +65293,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3G2-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65578,7 +65579,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH914-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -65629,7 +65630,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH921-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -65676,7 +65677,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH933-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65719,7 +65720,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH935-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65766,7 +65767,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH936-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65817,7 +65818,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH941-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65868,7 +65869,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH943-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65919,7 +65920,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH948-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -65962,7 +65963,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH953-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -66005,7 +66006,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH974-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "20% coursework, 80% exam",
@@ -66107,7 +66108,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS141-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -66158,7 +66159,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS143-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -66256,7 +66257,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS354-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -66350,7 +66351,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS407-30",
-    "credits": 3,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -66507,7 +66508,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS435-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -66554,7 +66555,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS913-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -66605,7 +66606,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW322-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -66648,7 +66649,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW903-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -66691,7 +66692,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW910-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -66734,7 +66735,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW912-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -67083,7 +67084,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX233-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -67134,7 +67135,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX251-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -67232,7 +67233,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX262-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -67432,7 +67433,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX363-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -67483,7 +67484,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX364-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -67628,7 +67629,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX389-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -67679,7 +67680,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX907-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -67722,7 +67723,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC900-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -67765,7 +67766,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC903-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -67808,7 +67809,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC904-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -67898,7 +67899,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC109-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -68106,7 +68107,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC204-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -68488,7 +68489,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC331-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -68719,7 +68720,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC400-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -68770,7 +68771,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC910-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -69013,7 +69014,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9A3-35",
-    "credits": 15,
+    "credits": 35,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -69064,7 +69065,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C2-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69111,7 +69112,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C7-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69158,7 +69159,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9D1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -69209,7 +69210,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2B3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69256,7 +69257,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2B5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69303,7 +69304,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2D2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69354,7 +69355,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2G3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69401,7 +69402,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2J6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69448,7 +69449,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2J7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69495,7 +69496,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2J9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69542,7 +69543,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2L6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69589,7 +69590,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2M1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69640,7 +69641,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2M2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69687,7 +69688,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3B5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69734,7 +69735,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3D7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69781,7 +69782,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3E8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69828,7 +69829,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3E9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69879,7 +69880,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3G7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -69926,7 +69927,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3M2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70114,7 +70115,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN956-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70157,7 +70158,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9B5-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70200,7 +70201,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9C5-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70243,7 +70244,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP307-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70341,7 +70342,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP918-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70384,7 +70385,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP948-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70474,7 +70475,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP967-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70521,7 +70522,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP968-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70568,7 +70569,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP971-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -70834,7 +70835,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ927-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70877,7 +70878,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ936-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -70967,7 +70968,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ964-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -71018,7 +71019,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ966-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -71535,7 +71536,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES2E2-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -71993,7 +71994,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3E1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -72314,7 +72315,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3G8-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -72365,7 +72366,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3H0-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -72745,7 +72746,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES927-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -72788,7 +72789,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES956-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -72882,7 +72883,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES961-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -73023,7 +73024,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES98B-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -73074,7 +73075,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES98C-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -73395,7 +73396,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET122-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -73728,7 +73729,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET923-50",
-    "credits": 15,
+    "credits": 50,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -73771,7 +73772,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9A2-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -73818,7 +73819,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9B4-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -73865,7 +73866,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9C5-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -74228,7 +74229,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI952-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -74279,7 +74280,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI956-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -74322,7 +74323,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP004-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "66% coursework, 34% exam",
@@ -74373,7 +74374,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP007-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -74424,7 +74425,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP023-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -74479,7 +74480,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP037-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -74718,7 +74719,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR102-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -74773,7 +74774,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR121-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "70% coursework, 30% exam",
@@ -75114,7 +75115,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD205-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -75212,7 +75213,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD215-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -75357,7 +75358,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD901-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "80% coursework, 20% exam",
@@ -75408,7 +75409,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD902-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "80% coursework, 20% exam",
@@ -75459,7 +75460,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GE201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -75510,7 +75511,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA1A2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -75612,7 +75613,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA977-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "90% coursework, 10% exam",
@@ -75659,7 +75660,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI114-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -75961,7 +75962,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI31R-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76016,7 +76017,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3G1-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76059,7 +76060,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3S7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76114,7 +76115,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3S9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76169,7 +76170,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3T6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -76224,7 +76225,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI995-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76267,7 +76268,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI9A1-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76310,7 +76311,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HP104-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76357,7 +76358,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HP106-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -76412,7 +76413,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HP202-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -76702,7 +76703,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR901-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76749,7 +76750,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR923-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76792,7 +76793,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR926-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -76937,7 +76938,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB104-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -78100,7 +78101,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB822-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -78186,7 +78187,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB844-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -78233,7 +78234,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB904-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -78280,7 +78281,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB907-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -78327,7 +78328,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB917-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -78613,7 +78614,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB93R-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -78848,7 +78849,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB98Y-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -78934,7 +78935,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99A-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -79028,7 +79029,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99P-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -79071,7 +79072,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99S-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -79157,7 +79158,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9B6-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -79251,7 +79252,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9BF-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -79294,7 +79295,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9C3-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -79893,7 +79894,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9JL-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80034,7 +80035,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9KT-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80081,7 +80082,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9KU-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80128,7 +80129,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9KZ-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80355,7 +80356,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9MN-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -80402,7 +80403,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9MQ-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -80539,7 +80540,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9MZ-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80582,7 +80583,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NA-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80625,7 +80626,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NJ-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80668,7 +80669,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NK-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80711,7 +80712,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NO-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80754,7 +80755,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NP-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80797,7 +80798,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NQ-50",
-    "credits": 15,
+    "credits": 50,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -80930,7 +80931,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9PH-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -81020,7 +81021,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9PW-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -81063,7 +81064,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9PX-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -81251,7 +81252,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9SJ-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -81294,7 +81295,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9TC-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -81529,7 +81530,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9YX-50",
-    "credits": 15,
+    "credits": 50,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -81686,7 +81687,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IE3D9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -82305,7 +82306,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IL947-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -82454,7 +82455,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM923-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -82505,7 +82506,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM926-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -82595,7 +82596,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM939-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -82642,7 +82643,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM949-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -82689,7 +82690,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM961-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -82740,7 +82741,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM961-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -82791,7 +82792,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP121-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -82897,7 +82898,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP307-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -83038,7 +83039,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP906-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -83089,7 +83090,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IT101-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -83187,7 +83188,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA216-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -83808,7 +83809,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA908-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -83855,7 +83856,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA951-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -83941,7 +83942,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA961-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -83984,7 +83985,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9C2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -84027,7 +84028,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9F3-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -84070,7 +84071,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9FD-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -84113,7 +84114,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9FN-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -84156,7 +84157,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9FX-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -84199,7 +84200,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9FZ-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -84285,7 +84286,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF136-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -84709,7 +84710,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF271-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -84878,7 +84879,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF310-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -84921,7 +84922,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF407-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -84984,7 +84985,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF912-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -85027,7 +85028,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL113-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85065,7 +85066,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL113-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -85116,7 +85117,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL121-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -85167,7 +85168,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL129-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85205,7 +85206,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL129-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -85256,7 +85257,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL129-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -85307,7 +85308,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL130-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -85366,7 +85367,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL180-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85404,7 +85405,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL181-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85442,7 +85443,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL185-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85480,7 +85481,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL189-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85518,7 +85519,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL192-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85556,7 +85557,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL197-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85594,7 +85595,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL203-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85632,7 +85633,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL206-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85670,7 +85671,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL208-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -85721,7 +85722,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL20A-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85759,7 +85760,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL211-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -85797,7 +85798,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL211-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -85848,7 +85849,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL212-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -85899,7 +85900,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL212-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -85950,7 +85951,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL216-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86001,7 +86002,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL216-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86052,7 +86053,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL222-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86103,7 +86104,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL225-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86154,7 +86155,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL226-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86205,7 +86206,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL227-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -86260,7 +86261,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL227-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -86319,7 +86320,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL228-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86370,7 +86371,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL232-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -86408,7 +86409,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL234-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86459,7 +86460,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL235-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86510,7 +86511,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL236-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86561,7 +86562,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL257-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86612,7 +86613,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL257-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86663,7 +86664,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL290-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -86701,7 +86702,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL291-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -86739,7 +86740,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL293-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86790,7 +86791,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C5-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -86828,7 +86829,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -86879,7 +86880,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL303-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -86934,7 +86935,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL305-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -86989,7 +86990,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL307-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -87027,7 +87028,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL307-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -87121,7 +87122,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL309-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -87168,7 +87169,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL30A-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87223,7 +87224,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL314-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -87282,7 +87283,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL335-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87337,7 +87338,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL336-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87392,7 +87393,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL337-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87447,7 +87448,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL338-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87502,7 +87503,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL339-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -87565,7 +87566,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL341-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -87603,7 +87604,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL343-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87658,7 +87659,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL345-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -87717,7 +87718,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL348-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87772,7 +87773,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL351-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -87819,7 +87820,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL355-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87874,7 +87875,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL364-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87929,7 +87930,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL367-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -87984,7 +87985,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL3B3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -88226,7 +88227,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN313-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -88312,7 +88313,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN914-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -88402,7 +88403,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP103-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -88453,7 +88454,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP104-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -88641,7 +88642,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP306-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -88726,7 +88727,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP901-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -88820,7 +88821,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP923-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -88867,7 +88868,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA117-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -88965,7 +88966,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA140-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89012,7 +89013,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA141-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89059,7 +89060,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA143-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89106,7 +89107,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA144-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89157,7 +89158,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA151-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89251,7 +89252,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA241-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89298,7 +89299,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA257-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89345,7 +89346,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA263-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89392,7 +89393,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA265-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89439,7 +89440,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA271-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -89541,7 +89542,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA354-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -89579,7 +89580,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA356-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -89834,7 +89835,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA3K5-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -90387,7 +90388,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD10X-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -90438,7 +90439,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD1A2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "70% coursework, 30% exam",
@@ -90583,7 +90584,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD2B1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -90630,7 +90631,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD2B3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -90677,7 +90678,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD2B4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -90771,7 +90772,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD30X-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -90818,7 +90819,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD3B3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -90951,7 +90952,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD913-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -90994,7 +90995,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD938-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -91041,7 +91042,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD969-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91088,7 +91089,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD980-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91190,7 +91191,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD9A5-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91237,7 +91238,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MH928-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91284,7 +91285,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS200-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -91322,7 +91323,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS201-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -91407,7 +91408,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS902-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91454,7 +91455,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS906-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91501,7 +91502,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS910-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91544,7 +91545,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS913-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91587,7 +91588,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS915-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91634,7 +91635,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS927-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91681,7 +91682,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS930-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -91775,7 +91776,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS933-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -91860,7 +91861,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH147-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -92142,7 +92143,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH3A8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -92180,7 +92181,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH3B2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -92265,7 +92266,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9F2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "80% coursework, 20% exam",
@@ -92316,7 +92317,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9HE-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -92359,7 +92360,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO102-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -92504,7 +92505,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO131-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -92594,7 +92595,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO206-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -92645,7 +92646,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO207-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -92786,7 +92787,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO2D1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -92966,7 +92967,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO909-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93009,7 +93010,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO920-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93056,7 +93057,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO942-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93103,7 +93104,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9B1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93146,7 +93147,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9B2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93189,7 +93190,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9D4-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93232,7 +93233,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9E3-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93275,7 +93276,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9F4-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -93318,7 +93319,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9G4-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93502,7 +93503,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS223-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -93545,7 +93546,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS225-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -93804,7 +93805,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS902-90",
-    "credits": 15,
+    "credits": 90,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -94008,7 +94009,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS929-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -94153,7 +94154,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS939-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -94196,7 +94197,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX160-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -94329,7 +94330,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX283-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -94372,7 +94373,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX286-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -94462,7 +94463,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX3A3-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -94724,7 +94725,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX452-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -94900,7 +94901,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX920-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -94947,7 +94948,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX925-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -94985,7 +94986,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "QS305-15",
-    "credits": 45,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -95032,7 +95033,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "RS902-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -95070,7 +95071,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "RS903-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -95113,7 +95114,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "RS907-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -95551,7 +95552,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO907-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -95589,7 +95590,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO929-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -95632,7 +95633,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO944-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -95675,7 +95676,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST119-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -95773,7 +95774,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST202-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -95832,7 +95833,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST219-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -95891,7 +95892,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST223-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -95934,7 +95935,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST228-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -95981,7 +95982,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST231-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -96312,7 +96313,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST421-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -96665,7 +96666,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH116-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -96712,7 +96713,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH205-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -96759,7 +96760,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH235-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -96900,7 +96901,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH993-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -97037,7 +97038,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM195-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -97182,7 +97183,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM3B1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -97225,7 +97226,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM3B7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -97413,7 +97414,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM3D5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -97840,7 +97841,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM991-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -98451,7 +98452,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9J7-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -98584,7 +98585,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9M6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -98631,7 +98632,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9P0-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99371,7 +99372,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS937-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99414,7 +99415,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1D7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99461,7 +99462,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1E7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99504,7 +99505,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE277-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99551,7 +99552,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE292-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99598,7 +99599,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE298-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99645,7 +99646,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE299-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99692,7 +99693,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE328-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99735,7 +99736,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE335-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99782,7 +99783,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE339-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99833,7 +99834,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE340-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99876,7 +99877,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE354-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99923,7 +99924,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE933-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -99966,7 +99967,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE942-100",
-    "credits": 15,
+    "credits": 100,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100009,7 +100010,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE946-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100052,7 +100053,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9B2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100095,7 +100096,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9B4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100138,7 +100139,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9C4-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -100278,7 +100279,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3G0-15",
-    "credits": 5,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100325,7 +100326,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH401-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "70% coursework, 30% exam",
@@ -100474,7 +100475,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH937-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100525,7 +100526,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH939-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100576,7 +100577,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH940-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100627,7 +100628,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH951-10",
-    "credits": 2,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100670,7 +100671,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH955-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100713,7 +100714,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH956-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100756,7 +100757,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH957-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -100842,7 +100843,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH973-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -101026,7 +101027,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH9A1-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -101069,7 +101070,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS146-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101225,7 +101226,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS310-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101323,7 +101324,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS344-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101374,7 +101375,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS346-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101421,7 +101422,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS349-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101468,7 +101469,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS357-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101566,7 +101567,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS430-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101625,7 +101626,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS907-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101676,7 +101677,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS910-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101841,7 +101842,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS933-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -101888,7 +101889,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW101-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -101947,7 +101948,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW102-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -101994,7 +101995,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -102041,7 +102042,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW209-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -102135,7 +102136,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW923-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -102276,7 +102277,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX136-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -102319,7 +102320,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX244-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -102370,7 +102371,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX252-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -102421,7 +102422,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX263-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -102472,7 +102473,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX289-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -102570,7 +102571,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX303-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -102664,7 +102665,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX315-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -102707,7 +102708,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX333-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -102903,7 +102904,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX900-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -102946,7 +102947,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX911-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -102993,7 +102994,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC953-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -103036,7 +103037,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC954-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -103079,7 +103080,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC973-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -103416,7 +103417,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC240-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -103787,7 +103788,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC902-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -103987,7 +103988,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC987-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -104089,7 +104090,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9A1-35",
-    "credits": 15,
+    "credits": 35,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -104136,7 +104137,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9B4-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104179,7 +104180,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C3-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104226,7 +104227,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C8-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104273,7 +104274,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9D2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -104324,7 +104325,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN121-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -104371,7 +104372,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN122-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104418,7 +104419,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN126-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104469,7 +104470,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2B4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -104516,7 +104517,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2D0-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104567,7 +104568,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2J3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104614,7 +104615,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2J5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -104661,7 +104662,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2K1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104708,7 +104709,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2K6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104861,7 +104862,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3B4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -104908,7 +104909,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3C8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -104959,7 +104960,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3D0-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105010,7 +105011,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3D6-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105053,7 +105054,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3E2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -105100,7 +105101,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3E4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105190,7 +105191,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3F7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105288,7 +105289,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3G3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105335,7 +105336,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3H2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105386,7 +105387,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3J3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105433,7 +105434,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3J4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105476,7 +105477,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3J5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -105523,7 +105524,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3K1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105570,7 +105571,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3M1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105715,7 +105716,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9C4-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105758,7 +105759,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9C6-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105801,7 +105802,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP304-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105946,7 +105947,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP947-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -105989,7 +105990,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP966-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -106036,7 +106037,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP969-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -106173,7 +106174,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ301-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -106306,7 +106307,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ906-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -106349,7 +106350,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ923-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -106392,7 +106393,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ933-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -106435,7 +106436,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ936-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -106482,7 +106483,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ956-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -106529,7 +106530,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ968-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -106623,7 +106624,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES101-5",
-    "credits": 15,
+    "credits": 5,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -107798,7 +107799,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3G5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -107853,7 +107854,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3H6-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -107904,7 +107905,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3H7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -108174,7 +108175,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES93N-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -108490,7 +108491,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES99J-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -108639,7 +108640,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES9U1-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -108682,7 +108683,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET116-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -108784,7 +108785,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET220-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109058,7 +109059,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET918-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109187,7 +109188,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9B7-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109273,7 +109274,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9C1-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109316,7 +109317,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9C2-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109363,7 +109364,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9C4-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109406,7 +109407,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9D3-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109449,7 +109450,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9D5-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109492,7 +109493,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9D7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109817,7 +109818,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI922-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109864,7 +109865,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI941-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109911,7 +109912,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI955-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -109958,7 +109959,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP016-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "57% coursework, 43% exam",
@@ -110056,7 +110057,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP055-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -110107,7 +110108,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP062-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -110196,7 +110197,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "10% coursework, 90% exam",
@@ -110412,7 +110413,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD200-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -110455,7 +110456,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD204-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -110753,7 +110754,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD904-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -110800,7 +110801,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD908-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -110851,7 +110852,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD909-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -110902,7 +110903,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD916-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -110992,7 +110993,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GE401-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -111137,7 +111138,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA2G3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -111192,7 +111193,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI100-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -111524,7 +111525,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2M0-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -111567,7 +111568,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2N0-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -111610,7 +111611,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3H7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -111665,7 +111666,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3K6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -111822,7 +111823,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI961-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -111865,7 +111866,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI998-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -113408,7 +113409,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB711-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -113455,7 +113456,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB814-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -113498,7 +113499,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB827-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -113678,7 +113679,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB97R-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -113725,7 +113726,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99B-15",
-    "credits": 5,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -113768,7 +113769,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99D-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -113815,7 +113816,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9AK-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -114003,7 +114004,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9CA-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -114191,7 +114192,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9JM-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -114234,7 +114235,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9KH-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -114457,7 +114458,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9ML-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -114504,7 +114505,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9MP-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -114547,7 +114548,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9PJ-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -114590,7 +114591,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9QB-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -114633,7 +114634,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9QP-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -114676,7 +114677,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9RM-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -115040,7 +115041,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9YK-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -115392,7 +115393,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IE9J1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -115772,7 +115773,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IL905-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -115819,7 +115820,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IL924-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -115917,7 +115918,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM350-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -115960,7 +115961,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM923-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116011,7 +116012,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM939-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116101,7 +116102,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM941-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116148,7 +116149,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM946-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116195,7 +116196,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM946-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116289,7 +116290,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM949-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116336,7 +116337,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM952-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116379,7 +116380,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM955-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116426,7 +116427,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP101-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -116464,7 +116465,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP207-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116507,7 +116508,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP208-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116550,7 +116551,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP302-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116856,7 +116857,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA217-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -116946,7 +116947,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA244-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -116989,7 +116990,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA245-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -117079,7 +117080,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA300-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -117693,7 +117694,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA3D4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -117736,7 +117737,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA404-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -117779,7 +117780,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA406-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -117822,7 +117823,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA904-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -117865,7 +117866,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA906-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -117908,7 +117909,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA984-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -117951,7 +117952,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA985-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -117994,7 +117995,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9A8-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -118037,7 +118038,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9FQ-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -118268,7 +118269,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF404-90",
-    "credits": 15,
+    "credits": 90,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -118319,7 +118320,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF408-90",
-    "credits": 15,
+    "credits": 90,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -118374,7 +118375,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF409-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -118421,7 +118422,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL113-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -118472,7 +118473,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL131-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -118510,7 +118511,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL172-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -118548,7 +118549,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL173-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -118586,7 +118587,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL176-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -118624,7 +118625,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL187-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -118662,7 +118663,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL191-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -118700,7 +118701,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL1B1-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -118738,7 +118739,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL206-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -118789,7 +118790,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL206-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -118840,7 +118841,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL208-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -118891,7 +118892,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL209-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -118942,7 +118943,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL215-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -118980,7 +118981,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL224-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119031,7 +119032,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL224-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119082,7 +119083,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL225-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119133,7 +119134,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL228-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119184,7 +119185,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL230-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -119222,7 +119223,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL230-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -119281,7 +119282,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL232-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119332,7 +119333,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL233-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119383,7 +119384,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL235-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -119421,7 +119422,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL236-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -119459,7 +119460,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL237-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119510,7 +119511,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL245-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -119565,7 +119566,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL250-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119616,7 +119617,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL253-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -119654,7 +119655,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL262-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119705,7 +119706,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL263-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -119743,7 +119744,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL264-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119794,7 +119795,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL292-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119845,7 +119846,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL293-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119896,7 +119897,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2A1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -119947,7 +119948,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2A2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -120006,7 +120007,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B1-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -120044,7 +120045,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B4-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -120082,7 +120083,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -120133,7 +120134,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -120184,7 +120185,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -120235,7 +120236,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -120286,7 +120287,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C6-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "",
@@ -120324,7 +120325,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C6-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -120375,7 +120376,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL304-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -120430,7 +120431,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL306-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -120485,7 +120486,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL313-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -120523,7 +120524,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL319-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -120578,7 +120579,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL324-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -120633,7 +120634,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL342-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -120688,7 +120689,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL346-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -120743,7 +120744,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL352-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -120837,7 +120838,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL359-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -120939,7 +120940,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL361-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -120982,7 +120983,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL393-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -121037,7 +121038,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL3C5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -121092,7 +121093,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN115-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -121143,7 +121144,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN203-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -121194,7 +121195,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN204-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -121241,7 +121242,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN207-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -121382,7 +121383,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN904-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -121515,7 +121516,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP205-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -121562,7 +121563,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP904-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -121605,7 +121606,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP915-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -121699,7 +121700,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA132-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -121784,7 +121785,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA254-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -121822,7 +121823,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA259-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -121869,7 +121870,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA267-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -121916,7 +121917,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA343-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -121963,7 +121964,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA357-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -122529,7 +122530,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA4K8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -122584,7 +122585,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA4K9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -122984,7 +122985,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD1A4-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "80% coursework, 20% exam",
@@ -123039,7 +123040,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD1B4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -123086,7 +123087,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD1B5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -123321,7 +123322,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD3B2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123368,7 +123369,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD900-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123411,7 +123412,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD991-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123458,7 +123459,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD998-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -123505,7 +123506,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD9A4-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -123552,7 +123553,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD9A8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123607,7 +123608,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MH900-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123697,7 +123698,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS903-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123744,7 +123745,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS905-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123834,7 +123835,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS934-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "70% coursework, 30% exam",
@@ -123881,7 +123882,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS945-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123928,7 +123929,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "NT908-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -123971,7 +123972,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH133-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -124022,7 +124023,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH258-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -124065,7 +124066,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH259-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -124386,7 +124387,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9GQ-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -124429,7 +124430,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9HC-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -124472,7 +124473,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO107-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
@@ -124519,7 +124520,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO203-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -124656,7 +124657,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO233-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -125098,7 +125099,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO381-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -125145,7 +125146,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO391-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -125427,7 +125428,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO977-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -125470,7 +125471,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9C7-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -125513,7 +125514,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9C8-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -125556,7 +125557,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9E8-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -125599,7 +125600,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9F8-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -125646,7 +125647,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9F9-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -125740,7 +125741,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS221-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -126081,7 +126082,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS916-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -126281,7 +126282,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS940-75",
-    "credits": 15,
+    "credits": 75,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -126336,7 +126337,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX153-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "15% coursework, 85% exam",
@@ -126383,7 +126384,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX155-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -126473,7 +126474,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX278-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -126649,7 +126650,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX3A0-35",
-    "credits": 15,
+    "credits": 35,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -126778,7 +126779,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX448-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -126821,7 +126822,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX449-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -127052,7 +127053,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX921-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -127489,7 +127490,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO257-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -127613,7 +127614,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO915-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -127660,7 +127661,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO916-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -127719,7 +127720,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9C1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -127762,7 +127763,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9D4-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -127805,7 +127806,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9D5-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -127895,7 +127896,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST237-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -128438,7 +128439,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST415-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -128540,7 +128541,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST915-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -128810,7 +128811,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH342-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -128853,7 +128854,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH996-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -128896,7 +128897,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM016-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -129131,7 +129132,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM241-18",
-    "credits": 15,
+    "credits": 18,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -129178,7 +129179,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM245-18",
-    "credits": 15,
+    "credits": 18,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -129362,7 +129363,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM388-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -129405,7 +129406,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM3B4-18",
-    "credits": 15,
+    "credits": 18,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -129448,7 +129449,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM3B5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -129730,7 +129731,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM908-15",
-    "credits": 10,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -130529,7 +130530,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9H4-25",
-    "credits": 15,
+    "credits": 25,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -131220,7 +131221,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9Q1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -131365,7 +131366,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9QR-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "90% coursework, 10% exam",
@@ -131701,7 +131702,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS945-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -131744,7 +131745,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "BS979-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -131834,7 +131835,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE1E9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -131881,7 +131882,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE287-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -131924,7 +131925,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE297-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -131967,7 +131968,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE352-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132014,7 +132015,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE356-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132065,7 +132066,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE934-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132108,7 +132109,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE953-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132151,7 +132152,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE955-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132194,7 +132195,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE993-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132237,7 +132238,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9A9-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132280,7 +132281,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9B1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132323,7 +132324,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CE9B5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132578,7 +132579,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3C8-90",
-    "credits": 15,
+    "credits": 90,
     "assessment": {
       "ok": true,
       "assessmentSplit": "80% coursework, 20% exam",
@@ -132633,7 +132634,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3D7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132723,7 +132724,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH3E2-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -132954,7 +132955,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH908-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -133001,7 +133002,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH916-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -133048,7 +133049,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH923-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -133095,7 +133096,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH946-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -133146,7 +133147,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH949-80",
-    "credits": 15,
+    "credits": 80,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -133197,7 +133198,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH950-10",
-    "credits": 1,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -133240,7 +133241,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH952-10",
-    "credits": 5,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -133326,7 +133327,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH970-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -133373,7 +133374,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CH971-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -133667,7 +133668,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS258-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -133761,7 +133762,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS263-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -133902,7 +133903,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS350-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -133953,7 +133954,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS351-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -134004,7 +134005,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS353-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -134094,7 +134095,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS3D2-30",
-    "credits": 3,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -134141,7 +134142,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS3D6-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -134196,7 +134197,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS3D7-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -134357,7 +134358,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS918-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -134404,7 +134405,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CS924-15",
-    "credits": 3,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -134549,7 +134550,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW301-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -134596,7 +134597,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW302-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -134639,7 +134640,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW319-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -134682,7 +134683,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW911-45",
-    "credits": 15,
+    "credits": 45,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -134725,7 +134726,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CW915-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -135023,7 +135024,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX236-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -135066,7 +135067,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX264-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -135164,7 +135165,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX301-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -135207,7 +135208,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX352-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -135305,7 +135306,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "CX914-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -135348,7 +135349,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC955-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -135391,7 +135392,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "DC961-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -135532,7 +135533,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC106-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -135764,7 +135765,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC202-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -135815,7 +135816,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC203-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -136125,7 +136126,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9B8-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136172,7 +136173,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C0-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136219,7 +136220,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9C4-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136270,7 +136271,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EC9D3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -136364,7 +136365,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN101-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136411,7 +136412,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2C4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136458,7 +136459,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2C5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136505,7 +136506,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2D9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136552,7 +136553,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2E9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136650,7 +136651,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2F1-15",
-    "credits": 30,
+    "credits": 15,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136697,7 +136698,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2F5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136838,7 +136839,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN2N1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136936,7 +136937,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3C5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -136983,7 +136984,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3E0-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137026,7 +137027,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3J6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137073,7 +137074,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN3L2-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137120,7 +137121,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN913-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137163,7 +137164,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN942-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137206,7 +137207,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9C1-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137249,7 +137250,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EN9ZF-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137292,7 +137293,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP305-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137390,7 +137391,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP311-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137441,7 +137442,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP317-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -137492,7 +137493,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EP938-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -138306,7 +138307,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ924-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -138353,7 +138354,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ940-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -138396,7 +138397,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ943-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -138439,7 +138440,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ950-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -138533,7 +138534,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ953-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -138580,7 +138581,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ963-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -138623,7 +138624,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "EQ966-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -139428,7 +139429,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES3E9-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -139608,7 +139609,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES410-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -140027,7 +140028,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES4F6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -140125,7 +140126,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES928-90",
-    "credits": 15,
+    "credits": 90,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -140258,7 +140259,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES987-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -140399,7 +140400,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ES9X5-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -140629,7 +140630,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET211-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -140817,7 +140818,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET219-120",
-    "credits": 30,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -140860,7 +140861,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET221-60",
-    "credits": 30,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -140903,7 +140904,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET222-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141130,7 +141131,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET914-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141224,7 +141225,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET917-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141267,7 +141268,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET919-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141310,7 +141311,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET921-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141353,7 +141354,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET924-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141396,7 +141397,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9B6-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141439,7 +141440,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9B9-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141482,7 +141483,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9C6-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141525,7 +141526,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9C8-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141568,7 +141569,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ET9E2-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141889,7 +141890,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI924-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141936,7 +141937,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI927-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -141979,7 +141980,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI953-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -142026,7 +142027,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI957-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -142073,7 +142074,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FI958-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -142120,7 +142121,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP014-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -142171,7 +142172,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP034-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -142316,7 +142317,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP057-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -142371,7 +142372,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP070-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "",
@@ -142409,7 +142410,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FP076-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "",
@@ -142447,7 +142448,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR101-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -142557,7 +142558,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR117-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -142659,7 +142660,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "FR301-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -142808,7 +142809,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD307-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -143004,7 +143005,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD903-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -143055,7 +143056,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GD906-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -143102,7 +143103,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "GE112-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -143392,7 +143393,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA2C4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -143529,7 +143530,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA3D9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "70% coursework, 30% exam",
@@ -143580,7 +143581,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HA960-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -143682,7 +143683,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI113-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -143847,7 +143848,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI179-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -143949,7 +143950,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI275-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144196,7 +144197,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2K9-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144251,7 +144252,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI2L4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -144353,7 +144354,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI31X-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144408,7 +144409,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI32B-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144463,7 +144464,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3G5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144518,7 +144519,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3T4-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144573,7 +144574,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3T5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144628,7 +144629,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI3T7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144730,7 +144731,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HI991-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144773,7 +144774,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HP102-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -144875,7 +144876,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR909-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -144926,7 +144927,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "HR919-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -145302,7 +145303,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB207-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -145670,7 +145671,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB2PY-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -146383,7 +146384,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB712-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -146430,7 +146431,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB811-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -146473,7 +146474,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB818-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -146520,7 +146521,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB819-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -146794,7 +146795,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99C-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -146841,7 +146842,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99F-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -146888,7 +146889,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB99J-50",
-    "credits": 15,
+    "credits": 50,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -147170,7 +147171,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9BY-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -147405,7 +147406,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9EC-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -147589,7 +147590,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9HB-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -147808,7 +147809,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9JJ-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -147984,7 +147985,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9KX-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148129,7 +148130,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9LS-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148219,7 +148220,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9MK-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -148540,7 +148541,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NG-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148583,7 +148584,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NL-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148626,7 +148627,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9NN-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148720,7 +148721,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9PQ-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148767,7 +148768,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9PT-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148814,7 +148815,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9PY-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148861,7 +148862,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9QG-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -148908,7 +148909,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9QZ-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -149092,7 +149093,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9SP-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -149413,7 +149414,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9YF-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -149456,7 +149457,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IB9YL-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -149499,7 +149500,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IE9E7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -149542,7 +149543,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IE9M5-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -150156,7 +150157,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM334-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -150289,7 +150290,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM902-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -150383,7 +150384,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM919-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -150473,7 +150474,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM934-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -150516,7 +150517,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM934-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -150606,7 +150607,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IM945-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -150747,7 +150748,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP308-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -150845,7 +150846,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP904-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "80% coursework, 20% exam",
@@ -150896,7 +150897,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IP906-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -150947,7 +150948,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IT107-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -151002,7 +151003,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "IT201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -151057,7 +151058,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA129-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -151112,7 +151113,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA130-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -151150,7 +151151,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA244-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -151193,7 +151194,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA2D8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -151279,7 +151280,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA310-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
@@ -151669,7 +151670,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA399-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -151798,7 +151799,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA905-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -151841,7 +151842,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA952-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -151884,7 +151885,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA964-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -151927,7 +151928,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9A3-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -151970,7 +151971,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LA9FC-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -152521,7 +152522,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF309-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -152670,7 +152671,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LF913-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -152713,7 +152714,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL002-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -152751,7 +152752,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL117-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -152789,7 +152790,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL130-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -152827,7 +152828,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL130-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -152882,7 +152883,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL131-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -152933,7 +152934,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL175-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -152971,7 +152972,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL193-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153009,7 +153010,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL194-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153047,7 +153048,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL1B2-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153085,7 +153086,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL1B3-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153123,7 +153124,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL203-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -153174,7 +153175,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL209-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153212,7 +153213,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL209-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -153263,7 +153264,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL20B-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153301,7 +153302,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL215-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -153352,7 +153353,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL222-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153390,7 +153391,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL222-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -153441,7 +153442,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL226-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153479,7 +153480,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL228-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153517,7 +153518,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL230-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -153576,7 +153577,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL232-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -153627,7 +153628,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL233-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153665,7 +153666,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL234-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -153716,7 +153717,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL236-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -153767,7 +153768,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL237-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153805,7 +153806,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL239-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153843,7 +153844,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL245-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153881,7 +153882,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL245-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -153936,7 +153937,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL250-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -153974,7 +153975,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL253-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154025,7 +154026,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL253-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154076,7 +154077,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL255-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -154114,7 +154115,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL255-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154165,7 +154166,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL256-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154216,7 +154217,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL259-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -154254,7 +154255,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL259-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154305,7 +154306,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL262-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154356,7 +154357,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL291-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154407,7 +154408,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL293-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -154445,7 +154446,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2A6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154496,7 +154497,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2B1-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "75% coursework, 25% exam",
@@ -154555,7 +154556,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C4-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154606,7 +154607,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2C8-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154657,7 +154658,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL2D3-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -154755,7 +154756,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL308-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -154793,7 +154794,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL30B-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -154848,7 +154849,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL318-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "65% coursework, 35% exam",
@@ -154950,7 +154951,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL344-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -155005,7 +155006,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL347-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -155107,7 +155108,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL353-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -155162,7 +155163,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL361-0",
-    "credits": 15,
+    "credits": 0,
     "assessment": {
       "ok": false,
       "assessmentSplit": "100% coursework",
@@ -155200,7 +155201,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL365-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -155255,7 +155256,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LL3C6-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "45% coursework, 55% exam",
@@ -155348,7 +155349,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN102-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -155395,7 +155396,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LN208-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -155716,7 +155717,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP900-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -155763,7 +155764,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP907-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -155810,7 +155811,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP909-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -155857,7 +155858,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "LP922-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -155904,7 +155905,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA145-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -155951,7 +155952,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA243-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -155998,7 +155999,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA260-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -156104,7 +156105,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA266-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -156151,7 +156152,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA2K3-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -156194,7 +156195,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA2K4-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": false,
       "assessmentSplit": "Multiple",
@@ -156783,7 +156784,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MA5Q5-30",
-    "credits": 24,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -156963,7 +156964,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD907-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157006,7 +157007,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD955-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157053,7 +157054,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD962-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157139,7 +157140,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD9A2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -157186,7 +157187,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MD9A6-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157233,7 +157234,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MDX91-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157276,7 +157277,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ME956-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157319,7 +157320,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MH901-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157366,7 +157367,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MH902-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157409,7 +157410,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MH903-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157456,7 +157457,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MH933-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157546,7 +157547,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS904-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157593,7 +157594,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS907-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157640,7 +157641,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS908-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157683,7 +157684,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS909-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157777,7 +157778,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS917-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157824,7 +157825,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS925-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157871,7 +157872,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS928-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157918,7 +157919,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "MS929-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -157965,7 +157966,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PC950-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -158059,7 +158060,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH201-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -158451,7 +158452,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH3B7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -158588,7 +158589,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH975-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -158631,7 +158632,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9GY-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -158674,7 +158675,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PH9HF-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -158760,7 +158761,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO219-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -158807,7 +158808,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO230-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159073,7 +159074,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO374-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159210,7 +159211,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO3A7-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159363,7 +159364,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO926-40",
-    "credits": 15,
+    "credits": 40,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159414,7 +159415,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO980-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159457,7 +159458,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9A2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159500,7 +159501,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9D1-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159543,7 +159544,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9F5-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159590,7 +159591,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9G2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -159633,7 +159634,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PO9G3-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -159833,7 +159834,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS302-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -160029,7 +160030,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS369-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -160315,7 +160316,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS915-90",
-    "credits": 15,
+    "credits": 90,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -160358,7 +160359,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PS924-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -160554,7 +160555,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX154-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
@@ -160597,7 +160598,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX159-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -160640,7 +160641,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX161-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -160683,7 +160684,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX3A2-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -160730,7 +160731,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX915-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -160789,7 +160790,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX919-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "60% coursework, 40% exam",
@@ -160836,7 +160837,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "PX923-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
@@ -160969,7 +160970,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO180-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -161321,7 +161322,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9C3-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -161364,7 +161365,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9C8-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -161407,7 +161408,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9C9-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -161454,7 +161455,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9D2-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -161497,7 +161498,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9E3-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -161540,7 +161541,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "SO9E5-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -161689,7 +161690,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST120-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -161736,7 +161737,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST121-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -161787,7 +161788,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST208-12",
-    "credits": 15,
+    "credits": 12,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -161846,7 +161847,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST225-120",
-    "credits": 15,
+    "credits": 120,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -161889,7 +161890,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST229-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -161936,7 +161937,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST230-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -162030,7 +162031,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST234-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -162077,7 +162078,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST236-10",
-    "credits": 15,
+    "credits": 10,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -162242,7 +162243,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "ST347-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -162522,7 +162523,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH249-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -162569,7 +162570,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH261-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -162616,7 +162617,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH332-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -162757,7 +162758,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH994-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -162804,7 +162805,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "TH995-30",
-    "credits": 15,
+    "credits": 30,
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
@@ -163137,7 +163138,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM279-18",
-    "credits": 15,
+    "credits": 18,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -163317,7 +163318,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM3B3-24",
-    "credits": 15,
+    "credits": 24,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -163505,7 +163506,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM979-20",
-    "credits": 15,
+    "credits": 20,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
@@ -163885,7 +163886,7 @@ window.WARWICK_ALL_MODULES = [
     "duration": null,
     "ucas": null,
     "code": "WM9PA-60",
-    "credits": 15,
+    "credits": 60,
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
