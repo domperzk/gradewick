@@ -94,6 +94,14 @@
       <button class="btn btn-ghost" onclick="exportDataCSV()">
         ⬇ Download your grades as a spreadsheet
       </button>
+      <!-- Privacy disclaimer — Settings modal -->
+<div class="privacy-badge" role="note" aria-label="Data privacy notice">
+  <span class="privacy-badge-icon">🔒</span>
+  <div>
+    <strong>100% Local Storage. No Backend.</strong>
+    <span>Your data never leaves your device. Everything is saved in your browser only — nothing is sent to any server.</span>
+  </div>
+</div>
       <div style="margin-top:24px;display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn btn-primary" onclick="saveSettings()">Save settings</button>
         <button class="btn btn-ghost" onclick="closeOverlayDirect('settingsOverlay')">Cancel</button>
@@ -266,6 +274,14 @@
             <div class="cp-path-title">Find my course automatically</div>
             <div class="cp-path-sub">Choose your department and course name — your modules and assessment details will be filled in for you.</div>
           </button>
+          <!-- Privacy disclaimer — Course Picker modal, Step 0 -->
+<div class="privacy-badge" role="note" aria-label="Data privacy notice" style="margin-top:16px">
+  <span class="privacy-badge-icon">🔒</span>
+  <div>
+    <strong>100% Local Storage. No Backend.</strong>
+    <span>Your data never leaves your device. Everything is saved in your browser only — nothing is sent to any server.</span>
+  </div>
+</div>
           <button class="cp-path-card" onclick="cpSkip()">
             <div class="cp-path-icon">✏</div>
             <div class="cp-path-title">Set up manually</div>

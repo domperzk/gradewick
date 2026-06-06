@@ -761,14 +761,33 @@ function renderYearPane(yid) {
   `;
 }
 
+// AFTER
 function switchSubtab(yid, st) {
-  _yearSubtabs[yid]=st;
+  _yearSubtabs[yid] = st;
   if (!APP.lastTab) APP.lastTab = {};
   APP.lastTab[yid] = st;
+
+  // ── FIX: If the user is currently on the "All Years" overview,
+  //    force the app back to the year view before switching the subtab.
+  if (APP.activeOverview) {
+    APP.activeOverview = false;
+    APP.activeYear = yid;
+
+    // Hide overview pane
+    const ovPane = document.getElementById('pane-overview');
+    if (ovPane) { ovPane.style.display = 'none'; ovPane.classList.remove('active'); }
+
+    // Show the target year pane
+    const yearPane = document.getElementById('pane-' + yid);
+    if (yearPane) { yearPane.style.display = 'block'; yearPane.classList.add('active'); }
+
+    renderYearsNav();
+  }
+
   persist();
-  document.querySelectorAll(`#pane-${yid} > .subpane`).forEach(p=>p.classList.remove('active'));
-  const target=document.getElementById(`sp-${yid}-${st}`);
-  if(target) target.classList.add('active');
+  document.querySelectorAll(`#pane-${yid} > .subpane`).forEach(p => p.classList.remove('active'));
+  const target = document.getElementById(`sp-${yid}-${st}`);
+  if (target) target.classList.add('active');
   renderSidebarNav(yid);
   renderHeader();
   closeSidebar();
@@ -1790,7 +1809,7 @@ function buildChecklist(yr) {
     const done=cl.topics.filter((_,i)=>cl.done[i]).length, total=cl.topics.length;
     const fpct=total>0?Math.round(done/total*100):0;
     let items='';
-    cl.topics.forEach((topic,i)=>{const chk=!!cl.done[i];items+=`<div class="cl-item${chk?' chk':''}" onclick="clToggle('${yr.id}','${m.id}',${i})"><div class="cl-box"><svg class="cl-tick" viewBox="0 0 10 10" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 5 4 7.5 8.5 2.5"/></svg></div><span class="cl-lbl">${topic||'Topic '+(i+1)}</span></div>`;});
+    cl.topics.forEach((topic,i)=>{const chk=!!cl.done[i];items+=`<div class="cl-item${chk?' chk':''}" onclick="clToggle('${yr.id}','${m.id}',${i})"><div class="cl-box"><svg class="cl-tick" viewBox="0 0 10 10" fill="none" stroke="currentColor"  stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 5 4 7.5 8.5 2.5"/></svg></div><span class="cl-lbl">${topic||'Topic '+(i+1)}</span></div>`;});
     if(!items) items=`<div style="font-family:var(--fm);font-size:11px;color:var(--tx4);font-style:italic;padding:8px 0">No topics yet. Click ✎ to add some.</div>`;
     const modResetBtn=total>0?`<button class="btn btn-danger btn-sm" style="margin-top:10px" onclick="clResetMod('${yr.id}','${m.id}')">Reset ${m.code} progress</button>`:'';
     modHtml+=`<div class="card" id="clcard-${yr.id}-${m.id}">
@@ -2146,9 +2165,9 @@ function cpConfirm() {
   if (!cpSelectedCourse) return;
   const c = cpSelectedCourse;
   
-  APP.settings.uni  = APP.settings.uni  || 'University of Warwick';
-  APP.settings.dept = APP.settings.dept || c.department;
-  APP.settings.code = APP.settings.code || c.course;
+APP.settings.uni  = 'University of Warwick';
+APP.settings.dept = c.department;
+APP.settings.code = c.course;
 
   const populatedKeys = Object.keys(c.years || {}).filter(k => c.years[k].core && c.years[k].core.length > 0);
   const yearOrder = ['Year 1','Year 2','Year 3','Year 4','Year 5','Intermediate Year','Final Year'];
