@@ -1,6 +1,7 @@
 // ── COURSE DATA ──
 // Load the full dataset from course-data.js, which should be included before this file.
 const WARWICK_COURSES = window.WARWICK_COURSES || [];
+const WARWICK_ALL_MODULES = window.WARWICK_ALL_MODULES || [];
 let courseData = WARWICK_COURSES;
 
 // First-run course import prompt. Separate from the main saved data so
