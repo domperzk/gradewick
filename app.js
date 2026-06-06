@@ -1860,35 +1860,62 @@ let cpSelectedDept = null, cpSelectedCourse = null, cpCurrentStep = 0;
 const ALL_MODULES_DICT = {};
 
 function buildModuleDict() {
-  if (!courseData || courseData.length === 0) return;
-  courseData.forEach(c => {
-    if (c.years) {
-      Object.values(c.years).forEach(yr => {
-        if (yr.core) {
-          yr.core.forEach(m => {
-            const code = m.code.toUpperCase();
-            // Only set once per code (first occurrence wins, they're the same module)
-            if (!ALL_MODULES_DICT[code]) {
-              const asm = m.assessment || {};
-              const components = [];
-              if (asm.ok && asm.components && asm.components.length > 0) {
-                asm.components.forEach(comp => {
-                  components.push({ name: comp.name, weight: comp.weighting });
-                });
+  // 1. Load ALL 3,500+ modules from your new Deep Scrape into the autofill dictionary
+  if (typeof WARWICK_ALL_MODULES !== 'undefined' && WARWICK_ALL_MODULES.length > 0) {
+    WARWICK_ALL_MODULES.forEach(m => {
+      if (!m.code) return;
+      const code = m.code.toUpperCase();
+      
+      const asm = m.assessment || {};
+      const components = [];
+      if (asm.ok && asm.components && asm.components.length > 0) {
+        asm.components.forEach(comp => {
+          components.push({ name: comp.name, weight: comp.weighting });
+        });
+      }
+      
+      ALL_MODULES_DICT[code] = {
+        name: m.course || m.name, // The deep scraper saved the name as 'course'
+        cats: m.credits !== null ? m.credits : 15,
+        url: m.url || '',
+        assessmentSplit: asm.assessmentSplit || '',
+        components: components
+      };
+    });
+  }
+
+  // 2. Fallback: Add any core modules from the degree data just in case the deep scrape missed them
+  if (typeof WARWICK_COURSES !== 'undefined' && WARWICK_COURSES.length > 0) {
+    WARWICK_COURSES.forEach(c => {
+      if (c.years) {
+        Object.values(c.years).forEach(yr => {
+          if (yr.core) {
+            yr.core.forEach(m => {
+              const code = m.code.toUpperCase();
+              
+              // Only add if it wasn't already caught by the deep scrape above
+              if (!ALL_MODULES_DICT[code]) {
+                const asm = m.assessment || {};
+                const components = [];
+                if (asm.ok && asm.components && asm.components.length > 0) {
+                  asm.components.forEach(comp => {
+                    components.push({ name: comp.name, weight: comp.weighting });
+                  });
+                }
+                ALL_MODULES_DICT[code] = {
+                  name: m.name,
+                  cats: m.credits || 15,
+                  url: asm.url || '',
+                  assessmentSplit: asm.assessmentSplit || '',
+                  components: components
+                };
               }
-              ALL_MODULES_DICT[code] = {
-                name: m.name,
-                cats: m.credits,
-                url: asm.url || '',
-                assessmentSplit: asm.assessmentSplit || '',
-                components,
-              };
-            }
-          });
-        }
-      });
-    }
-  });
+            });
+          }
+        });
+      }
+    });
+  }
 }
 
 function populateDatalists() {
