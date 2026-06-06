@@ -109,6 +109,58 @@ function inferCategory(name) {
   return 'Coursework';
 }
 
+/**
+ * enrichExamData(moduleCode, componentObj)
+ *
+ * Mutates componentObj in-place with official exam details from EXAM_TIMETABLE
+ * when the component is an Exam category (or its name contains "exam").
+ *
+ * Lookup strategy (most → least specific):
+ *   1. Exact uppercase key:        "CS118"
+ *   2. Credit-suffixed variant:    "CS118-15", "CS118-10" (first match wins)
+ *
+ * Only overwrites date / time / duration / location — all other fields
+ * (id, name, category, weight, etc.) are left completely untouched.
+ *
+ * Returns true if enrichment was applied, false otherwise.
+ * The boolean return value lets callers decide whether to show a toast.
+ */
+function enrichExamData(moduleCode, componentObj) {
+  // Guard 1 — dictionary must be loaded
+  if (typeof EXAM_TIMETABLE === 'undefined') return false;
+
+  // Guard 2 — must be an Exam component (by category or name keyword)
+  const isExam =
+    componentObj.category === 'Exam' ||
+    (componentObj.name || '').toLowerCase().includes('exam');
+  if (!isExam) return false;
+
+  // Guard 3 — module code must be a usable string
+  if (!moduleCode || typeof moduleCode !== 'string') return false;
+
+  const code = moduleCode.trim().toUpperCase();
+
+  // Lookup: exact match first, then any key that starts with "CODE-"
+  let entry = EXAM_TIMETABLE[code] || null;
+
+  if (!entry) {
+    const suffixedKey = Object.keys(EXAM_TIMETABLE).find(
+      k => k.toUpperCase() === code || k.toUpperCase().startsWith(code + '-')
+    );
+    if (suffixedKey) entry = EXAM_TIMETABLE[suffixedKey];
+  }
+
+  if (!entry) return false;
+
+  // Apply official data — only these four fields are ever overwritten
+  componentObj.date     = entry.date     || componentObj.date;
+  componentObj.time     = entry.time     || componentObj.time;
+  componentObj.duration = entry.duration || componentObj.duration;
+  componentObj.location = entry.location || componentObj.location;
+
+  return true;
+}
+
 function gradeColor(m) {
   const thresholds = getGradeThresholds();
   if (!thresholds.length || m === null || m === undefined || isNaN(parseFloat(m))) return 'var(--accent-mid)';
@@ -659,11 +711,20 @@ function saveCompEdit() {
   if (!name||!weight) { showToast('Fill in name and weight'); return; }
   const yr=getYear(ceYid), mod=yr.modules.find(m=>m.id===ceModId);
   if (ceCompId) {
+    // ── EDIT existing component — apply the user's explicit values as-is ──
     const comp=mod.components.find(c=>c.id===ceCompId);
     comp.name=name; comp.category=category; comp.weight=weight;
     comp.date=date; comp.time=time; comp.duration=duration; comp.location=location;
   } else {
-    mod.components.push({id:makeId(),name,category,weight,date,time,duration,location});
+    // ── ADD new component — build the object, then attempt auto-fill ──
+    const newComp = {id:makeId(),name,category,weight,date,time,duration,location};
+    // enrichExamData returns true only when it found and applied official timetable data
+    const wasEnriched = enrichExamData(mod.code, newComp);
+    mod.components.push(newComp);
+    if (wasEnriched) {
+      // Defer the toast slightly so it appears after the overlay close animation
+      setTimeout(() => showToast('📅 Official exam details auto-filled.'), 150);
+    }
   }
   persist(); closeOverlayDirect('compEditOverlay'); renderYearPane(ceYid);
 }
@@ -2567,13 +2628,16 @@ APP.settings.code = c.course;
       const asm = m.assessment || {};
       if (asm.ok && asm.components && asm.components.length > 0) {
         asm.components.forEach(comp => {
-          components.push({
-            id: makeId(),
-            name: comp.name,
-            weight: comp.weighting,
+          const componentObj = {
+            id:       makeId(),
+            name:     comp.name,
+            weight:   comp.weighting,
             category: inferCategory(comp.name),
             date: '', time: '', duration: '', location: ''
-          });
+          };
+          // ── AUTO-FILL: overwrite exam fields from the official timetable ──
+          enrichExamData(m.code, componentObj);
+          components.push(componentObj);
         });
       }
 
