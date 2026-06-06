@@ -1,4 +1,4 @@
-window.WARWICK_ALL_MODULES = [
+window.WARWICK_ALL_MODULES = [[
   {
     "course": "Research Project",
     "url": "https://courses.warwick.ac.uk/modules/2025/BS341-30",
@@ -164300,4 +164300,4 @@ window.WARWICK_ALL_MODULES = [
       }
     }
   }
-];
+]];
