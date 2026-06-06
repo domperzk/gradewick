@@ -1,8 +1,8 @@
 // ── COURSE DATA ──
 // Load the full dataset from course-data.js, which should be included before this file.
 const WARWICK_COURSES = window.WARWICK_COURSES || [];
+let courseData = WARWICK_COURSES;
 const WARWICK_ALL_MODULES = window.WARWICK_ALL_MODULES || [];
-let courseData = WARWICK_ALL_MODULES.length ? WARWICK_ALL_MODULES : WARWICK_COURSES;
 
 // First-run course import prompt. Separate from the main saved data so
 // choosing "Skip" is remembered even if the user has not added modules yet.
