@@ -57,6 +57,24 @@ function getThresholdByMin(min) {
 
 function makeId() { return '_' + Math.random().toString(36).slice(2, 9); }
 
+/**
+ * escapeHTML(str)
+ * Lightweight XSS / HTML-injection guard.
+ * Converts the five dangerous characters that break out of HTML attribute
+ * values or tag content into their safe named entity equivalents.
+ * Call this on every piece of user-supplied text before inserting it into
+ * an innerHTML template literal.
+ */
+function escapeHTML(str) {
+  if (str === null || str === undefined) return '';
+  return String(str)
+    .replace(/&/g,  '&amp;')   // must be first — avoids double-escaping
+    .replace(/</g,  '&lt;')
+    .replace(/>/g,  '&gt;')
+    .replace(/"/g,  '&quot;')
+    .replace(/'/g,  '&#39;');
+}
+
 const CATEGORIES = {
   'Exam':       { css:'cat-exam',  label:'📋 Exam' },
   'Coursework': { css:'cat-cw',    label:'📝 Coursework' },
@@ -94,7 +112,8 @@ function inferCategory(name) {
 function gradeColor(m) {
   const thresholds = getGradeThresholds();
   if (!thresholds.length || m === null || m === undefined || isNaN(parseFloat(m))) return 'var(--accent-mid)';
-  const mark = parseFloat(m);
+  // Fix 3: round to 1 d.p. so 69.999998 → 70.0 and correctly matches First threshold
+  const mark = Math.round(parseFloat(m) * 10) / 10;
   const match = thresholds.find(t => mark >= t.min) || thresholds[thresholds.length - 1];
   return match.color || 'var(--accent-mid)';
 }
@@ -102,7 +121,8 @@ function gradeClass(m) {
   const thresholds = getGradeThresholds();
   if (!thresholds.length) return 'Percentage only';
   if (m === null || m === undefined || isNaN(parseFloat(m))) return '—';
-  const mark = parseFloat(m);
+  // Fix 3: round to 1 d.p. so 69.999998 → 70.0 and correctly matches First threshold
+  const mark = Math.round(parseFloat(m) * 10) / 10;
   const match = thresholds.find(t => mark >= t.min) || thresholds[thresholds.length - 1];
   return match.label || '—';
 }
@@ -111,11 +131,14 @@ function parseDate(s) {
   if (!s) return null;
   s = String(s).trim();
   const iso = s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
-  if (iso) return new Date(+iso[1], +iso[2]-1, +iso[3]);
+  // Fix 5: explicitly pass 12 for the hour so the date is anchored at noon.
+  // Constructing at midnight local-time meant BST (+01:00) shifted UTC-midnight
+  // dates to 23:00 the previous day, rendering "May 15" as "May 14" in the UI.
+  if (iso) return new Date(+iso[1], +iso[2]-1, +iso[3], 12, 0, 0);
 
   // Legacy migration fallback for older DD/MM/YYYY data already stored.
   const legacy = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
-  if (legacy) return new Date(+legacy[3], +legacy[2]-1, +legacy[1]);
+  if (legacy) return new Date(+legacy[3], +legacy[2]-1, +legacy[1], 12, 0, 0);
 
   return null;
 }
@@ -202,7 +225,14 @@ function migrateData() {
 }
 
 function persist() {
-  localStorage.setItem('gradetracker_v7', JSON.stringify(APP));
+  // Fix 4: wrap in try/catch so a full or blocked localStorage never causes a
+  // silent JS crash — the user gets a visible toast warning instead.
+  try {
+    localStorage.setItem('gradetracker_v7', JSON.stringify(APP));
+  } catch (e) {
+    showToast('⚠ Unable to save — storage full or blocked.');
+    return; // skip the "saved" indicator when the write failed
+  }
   const el = document.getElementById('autosaveIndicator');
   if (!el) return;
   el.classList.add('saving');
@@ -699,6 +729,9 @@ function openOverlay(id) {
   const overlay = document.getElementById(id);
   if (!overlay) return;
   overlay.classList.add('open');
+  // Fix 2: push a history entry so the mobile back-button closes the modal
+  // instead of navigating away from the page.
+  history.pushState({ modal: id }, '');
   const firstInput = overlay.querySelector('input:not([type=hidden]), select, textarea');
   if (firstInput) setTimeout(() => firstInput.focus(), 80);
 }
@@ -708,6 +741,18 @@ document.addEventListener('keydown', e => {
   if (e.key !== 'Escape') return;
   const openOverlay = document.querySelector('.overlay.open');
   if (openOverlay) closeOverlayDirect(openOverlay.id);
+});
+
+// Fix 2: intercept the browser back-button / swipe-back gesture on mobile.
+// If a modal is currently open, close it and absorb the navigation event
+// instead of letting the browser leave the page.
+window.addEventListener('popstate', e => {
+  const openModal = document.querySelector('.overlay.open');
+  if (openModal) {
+    closeOverlayDirect(openModal.id);
+    // Re-push so the next back-press still works if multiple modals were opened.
+    // (history stack was already popped by the browser before popstate fires.)
+  }
 });
 
 function setSidebarOpen(open) {
@@ -1042,8 +1087,8 @@ function buildUpcomingDeadlinesCard(yr) {
         <div class="deadline-main">
           ${catBadgeHtml(item.category)}
           <div style="min-width:0">
-            <div class="deadline-title">${item.compName}</div>
-            <div class="deadline-module">${item.modCode} · ${item.modName}</div>
+            <div class="deadline-title">${escapeHTML(item.compName)}</div>
+            <div class="deadline-module">${escapeHTML(item.modCode)} · ${escapeHTML(item.modName)}</div>
           </div>
         </div>
         ${status}
@@ -1275,15 +1320,15 @@ function buildTTList(items, yr) {
       h+=`<div class="tt-item ${sc} clickable" onclick="openExamView('${yr.id}','${item.comp.id}')">
         ${dateBlockHtml}
         <div>
-          <div class="tt-title">${item.mod.name} — ${item.comp.name}</div>
+          <div class="tt-title">${escapeHTML(item.mod.name)} — ${escapeHTML(item.comp.name)}</div>
           <div class="tt-meta">
-            <span class="tt-mod">${item.mod.code}</span>${catBadgeHtml(item.comp.category)}
+            <span class="tt-mod">${escapeHTML(item.mod.code)}</span>${catBadgeHtml(item.comp.category)}
             <span class="tt-wt">${item.comp.weight}% wt</span>${timeBadge}${locBadge}
           </div>
         </div>
         <div class="tt-right">
           ${markPill}${cdHtml}
-          <button class="icon-btn btn-sm" aria-label="Edit ${item.comp.name}" title="Edit component" onclick="event.stopPropagation();openCompEdit('${yr.id}','${item.mod.id}','${item.comp.id}')">✎</button>
+          <button class="icon-btn btn-sm" aria-label="Edit ${escapeHTML(item.comp.name)}" title="Edit component" onclick="event.stopPropagation();openCompEdit('${yr.id}','${item.mod.id}','${item.comp.id}')">✎</button>
         </div>
       </div>`;
     });
@@ -1372,16 +1417,16 @@ function buildModules(yr) {
       else statusHtml=`<span class="badge badge-no">No date</span>`;
       const rowBg=hasMark?'background:rgba(5,150,105,.04)':'';
       compRows+=`<tr style="${rowBg}">
-        <td style="color:var(--tx);font-weight:600">${c.name}</td>
+        <td style="color:var(--tx);font-weight:600">${escapeHTML(c.name)}</td>
         <td>${catBadgeHtml(c.category)}</td>
         <td style="font-family:var(--fm);font-size:12px;color:var(--accent-light)">${c.weight}%</td>
         <td><div style="display:flex;align-items:center;gap:5px">
-          <input class="inp inp-num" type="number" min="0" max="100" placeholder="—" value="${mv}" onchange="onMark('${yr.id}','${c.id}',this)" />
+          <input id="inp-${c.id}" class="inp inp-num" type="number" min="0" max="100" placeholder="—" value="${mv}" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="onMark('${yr.id}','${c.id}',this)" />
           <span style="font-family:var(--fm);font-size:11px;color:var(--tx4)">/100</span>
         </div></td>
         <td style="font-family:var(--fm);font-size:11px;color:var(--tx3)">${c.date||'<span style="color:var(--tx4)">—</span>'}</td>
         <td>${statusHtml}</td>
-        <td><button class="icon-btn" aria-label="Edit ${c.name}" title="Edit component (date, time, venue, mark, name, weight)" onclick="openCompEdit('${yr.id}','${mod.id}','${c.id}')">✎</button></td>
+        <td><button class="icon-btn" aria-label="Edit ${escapeHTML(c.name)}" title="Edit component (date, time, venue, mark, name, weight)" onclick="openCompEdit('${yr.id}','${mod.id}','${c.id}')">✎</button></td>
       </tr>`;
     });
 
@@ -1399,14 +1444,14 @@ function buildModules(yr) {
 
     html+=`<div class="card" id="modcard-${yr.id}-${mod.id}">
       <div class="mod-hdr" onclick="toggleCard('modcard-${yr.id}-${mod.id}')">
-        <span class="mod-code">${mod.code}</span>
+        <span class="mod-code">${escapeHTML(mod.code)}</span>
         <span class="mod-title-wrap">
-          <span class="mod-name">${mod.name}${splitBadge}</span>
+          <span class="mod-name">${escapeHTML(mod.name)}${splitBadge}</span>
           ${urlLink}
         </span>
         <span class="mod-pill" style="${pillStyle}">${pillTxt}</span>
         <span class="mod-cats">${mod.cats} credits</span>
-        <button class="icon-btn" aria-label="Edit ${mod.name}" onclick="event.stopPropagation();openModEdit('${yr.id}','${mod.id}')" title="Edit module" style="margin-right:4px">✎</button>
+        <button class="icon-btn" aria-label="Edit ${escapeHTML(mod.name)}" onclick="event.stopPropagation();openModEdit('${yr.id}','${mod.id}')" title="Edit module" style="margin-right:4px">✎</button>
         <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </div>
       <div class="mod-progress-bar-track">
@@ -1599,14 +1644,14 @@ function buildFutureModImpact(yr, mod) {
       <span class="fut-impact-lbl">Set all unlocked assessments in this module</span>
       <span class="fut-impact-val fut-apply-all" onclick="event.stopPropagation()">
         ${unlockedComponents.length
-          ? `<input type="number" class="inp inp-num" style="width:76px;font-size:15px;font-weight:700;color:${gradeColor(simGrade)}" value="${normaliseFutureGrade(yr.futureModuleGrades[mod.id], 70).toFixed(1)}" min="0" max="100" step="0.1" onchange="updateFutureGrade('${yr.id}','${mod.id}',this.value)" />`
+          ? `<input type="number" class="inp inp-num" style="width:76px;font-size:15px;font-weight:700;color:${gradeColor(simGrade)}" value="${normaliseFutureGrade(yr.futureModuleGrades[mod.id], 70).toFixed(1)}" min="0" max="100" step="0.1" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureGrade('${yr.id}','${mod.id}',this.value)" />`
           : `<span class="fut-locked-note">Locked from Modules</span>`}
       </span>
     </div>`
     : `<div class="fut-impact-row">
       <span class="fut-impact-lbl">Set module simulation</span>
       <span class="fut-impact-val fut-apply-all" onclick="event.stopPropagation()">
-        <input type="number" class="inp inp-num" style="width:76px;font-size:15px;font-weight:700;color:${gradeColor(simGrade)}" value="${simGrade.toFixed(1)}" min="0" max="100" step="0.1" onchange="updateFutureGrade('${yr.id}','${mod.id}',this.value)" />
+        <input type="number" class="inp inp-num" style="width:76px;font-size:15px;font-weight:700;color:${gradeColor(simGrade)}" value="${simGrade.toFixed(1)}" min="0" max="100" step="0.1" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureGrade('${yr.id}','${mod.id}',this.value)" />
       </span>
     </div>`;
 
@@ -1622,7 +1667,7 @@ function buildFutureModImpact(yr, mod) {
         </label>`
       : `<label class="fut-comp-input-wrap" onclick="event.stopPropagation()">
           <span class="fut-comp-input-label">Sim mark</span>
-          <input class="inp inp-num fut-comp-input" type="number" min="0" max="100" step="0.1" value="${compGrade.toFixed(1)}" style="color:${gradeColor(compGrade)}" onchange="updateFutureComponentGrade('${yr.id}','${mod.id}','${c.id}',this.value)" />
+          <input class="inp inp-num fut-comp-input" type="number" min="0" max="100" step="0.1" value="${compGrade.toFixed(1)}" style="color:${gradeColor(compGrade)}" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureComponentGrade('${yr.id}','${mod.id}','${c.id}',this.value)" />
         </label>`;
 
     return `<div class="fut-comp-row ${isLocked ? 'locked' : ''}">
@@ -1693,7 +1738,13 @@ function updateFutureComponentGrade(yid, mid, cid, val) {
   if (!yr.futureComponentGrades) yr.futureComponentGrades = {};
   yr.futureComponentGrades[cid] = normaliseFutureGrade(val, 70);
   persist();
+  // Fix 1: preserve focus across the target-pane re-render so Tab-key works.
+  const focusedId = document.activeElement ? document.activeElement.id : null;
   rerenderTargetPane(yid);
+  if (focusedId) {
+    const refocusEl = document.getElementById(focusedId);
+    if (refocusEl) refocusEl.focus();
+  }
 }
 
 function setOverviewTargetAndRefresh(yid, val) {
@@ -1743,6 +1794,10 @@ function onMark(yid, compId, el) {
   const yr=getYear(yid), v=el.value.trim();
   yr.marks[compId]=v===''?'':Math.min(100,Math.max(0,parseFloat(v)));
   persist();
+  // Fix 1: snapshot which input had focus (e.g. "inp-_abc123") before the
+  // innerHTML wipe destroys the DOM — we'll restore focus after re-rendering
+  // so Tab-key mass-entry keeps working uninterrupted.
+  const focusedId = document.activeElement ? document.activeElement.id : null;
   const sp=document.getElementById(`sp-${yid}-modules`), dsp=document.getElementById(`sp-${yid}-dashboard`);
   const ttp=document.getElementById(`sp-${yid}-timetable`);
   const tgt=document.getElementById(`sp-${yid}-target`);
@@ -1755,6 +1810,11 @@ function onMark(yid, compId, el) {
   restoreOpenCards(openCards,'.mod-body');
   restoreOpenCards(targetOpenCards,'.mod-body');
   renderHeader();
+  // Fix 1: re-focus the input that triggered the change (DOM was recreated above).
+  if (focusedId) {
+    const refocusEl = document.getElementById(focusedId);
+    if (refocusEl) refocusEl.focus();
+  }
 }
 
 function clearScores(yid) { if(!confirm('Clear ALL scores for this year?'))return;const yr=getYear(yid);yr.marks={};persist();renderYearPane(yid);showToast('Scores cleared.'); }
@@ -2029,16 +2089,16 @@ function buildChecklist(yr) {
     const done=cl.topics.filter((_,i)=>cl.done[i]).length, total=cl.topics.length;
     const fpct=total>0?Math.round(done/total*100):0;
     let items='';
-    cl.topics.forEach((topic,i)=>{const chk=!!cl.done[i];items+=`<div class="cl-item${chk?' chk':''}" onclick="clToggle('${yr.id}','${m.id}',${i})"><div class="cl-box"><svg class="cl-tick" viewBox="0 0 10 10" fill="none" stroke="currentColor"  stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 5 4 7.5 8.5 2.5"/></svg></div><span class="cl-lbl">${topic||'Topic '+(i+1)}</span></div>`;});
+    cl.topics.forEach((topic,i)=>{const chk=!!cl.done[i];items+=`<div class="cl-item${chk?' chk':''}" onclick="clToggle('${yr.id}','${m.id}',${i})"><div class="cl-box"><svg class="cl-tick" viewBox="0 0 10 10" fill="none" stroke="currentColor"  stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 5 4 7.5 8.5 2.5"/></svg></div><span class="cl-lbl">${escapeHTML(topic)||'Topic '+(i+1)}</span></div>`;});
     if(!items) items=`<div style="font-family:var(--fm);font-size:11px;color:var(--tx4);font-style:italic;padding:8px 0">No topics yet. Click ✎ to add some.</div>`;
-    const modResetBtn=total>0?`<button class="btn btn-danger btn-sm" style="margin-top:10px" onclick="clResetMod('${yr.id}','${m.id}')">Reset ${m.code} progress</button>`:'';
+    const modResetBtn=total>0?`<button class="btn btn-danger btn-sm" style="margin-top:10px" onclick="clResetMod('${yr.id}','${m.id}')">Reset ${escapeHTML(m.code)} progress</button>`:'';
     modHtml+=`<div class="card" id="clcard-${yr.id}-${m.id}">
       <div class="cl-mod-hdr" onclick="toggleCard('clcard-${yr.id}-${m.id}')">
-        <span class="mod-code">${m.code}</span>
-        <span class="mod-name">${m.name}</span>
+        <span class="mod-code">${escapeHTML(m.code)}</span>
+        <span class="mod-name">${escapeHTML(m.name)}</span>
         <span class="cl-count${done===total&&total>0?' done':''}">${done} / ${total}</span>
         <div class="cl-bar-wrap"><div class="cl-bar-fill" style="width:${fpct}%"></div></div>
-        <button class="icon-btn btn-sm" aria-label="Edit topics for ${m.name}" onclick="event.stopPropagation();openTopicEdit('${yr.id}','${m.id}')" title="Edit topics" style="margin-right:4px">✎</button>
+        <button class="icon-btn btn-sm" aria-label="Edit topics for ${escapeHTML(m.name)}" onclick="event.stopPropagation();openTopicEdit('${yr.id}','${m.id}')" title="Edit topics" style="margin-right:4px">✎</button>
         <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </div>
       <div class="cl-mod-body" style="display:none"><div class="cl-grid">${items}</div>${modResetBtn}</div>
@@ -2074,7 +2134,20 @@ function saveTopics(){
   const topics=document.getElementById('topicTextarea').value.split('\n').map(s=>s.trim()).filter(Boolean);
   if(!yr.checklist) yr.checklist={};
   if(!yr.checklist[teModId]) yr.checklist[teModId]={topics:[],done:{}};
-  yr.checklist[teModId].topics=topics;
+
+  // Fix 4: Rebuild the done object from scratch so that only indexes that
+  // exist in the NEW topics array are kept.  Without this, deleting a topic
+  // leaves orphan keys (e.g. { 4: true } when only indexes 0-1 remain), which
+  // corrupts progress counts and the "module done" badge.
+  const oldDone = yr.checklist[teModId].done || {};
+  const newDone  = {};
+  topics.forEach((_, i) => {
+    if (oldDone[i] !== undefined) newDone[i] = oldDone[i];
+  });
+
+  yr.checklist[teModId].topics = topics;
+  yr.checklist[teModId].done   = newDone;
+
   persist(); closeOverlayDirect('topicEditOverlay');
   const sp=document.getElementById(`sp-${teYid}-checklist`);
   if(sp) sp.innerHTML=buildChecklist(yr);
