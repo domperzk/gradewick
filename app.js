@@ -2097,63 +2097,99 @@ let cpSelectedDept = null, cpSelectedCourse = null, cpCurrentStep = 0;
 // Each entry: { name, cats, url, assessmentSplit, components: [{name, weight}] }
 const ALL_MODULES_DICT = {};
 
+/**
+ * buildModuleDict()
+ *
+ * Populates ALL_MODULES_DICT with every searchable module so the autofill
+ * datalists contain the full 3,500+ entry set.
+ *
+ * PRIORITY RULES:
+ *  1. PRIMARY  — WARWICK_ALL_MODULES (deep-scraped, module-data.js).
+ *                Every entry here is written unconditionally.
+ *  2. FALLBACK — WARWICK_COURSES (core degree structures, course-data.js).
+ *                A code is only written from this source if it was NOT already
+ *                found in the primary set, so the deep-scraped assessment data
+ *                is never clobbered by the smaller core dataset.
+ *
+ * IMPORTANT: module-data.js **must** be loaded before app.js in index.html
+ * for the primary source to be available at call time.  If the load order is
+ * wrong the function falls back gracefully to WARWICK_COURSES only.
+ */
 function buildModuleDict() {
-  // 1. Load ALL 3,500+ modules from your new Deep Scrape into the autofill dictionary
-  if (typeof WARWICK_ALL_MODULES !== 'undefined' && WARWICK_ALL_MODULES.length > 0) {
+  // ── 1. PRIMARY: deep-scraped full module list ─────────────────────────────
+  let primaryCount = 0;
+  if (typeof WARWICK_ALL_MODULES !== 'undefined' && Array.isArray(WARWICK_ALL_MODULES) && WARWICK_ALL_MODULES.length > 0) {
     WARWICK_ALL_MODULES.forEach(m => {
       if (!m.code) return;
       const code = m.code.toUpperCase();
-      
+
       const asm = m.assessment || {};
       const components = [];
-      if (asm.ok && asm.components && asm.components.length > 0) {
+      if (asm.ok && Array.isArray(asm.components) && asm.components.length > 0) {
         asm.components.forEach(comp => {
           components.push({ name: comp.name, weight: comp.weighting });
         });
       }
-      
+
       ALL_MODULES_DICT[code] = {
-        name: m.course || m.name, // The deep scraper saved the name as 'course'
-        cats: m.credits !== null ? m.credits : 15,
+        name: m.course || m.name || code,   // deep-scraper stores the title in 'course'
+        cats: (m.credits !== null && !isNaN(m.credits)) ? m.credits : 15,
         url: m.url || '',
         assessmentSplit: asm.assessmentSplit || '',
-        components: components
+        components
       };
+      primaryCount++;
+    });
+  } else {
+    // Warn if the primary source is missing — likely a script load-order problem.
+    console.warn(
+      '[Gradewick] buildModuleDict: WARWICK_ALL_MODULES is not defined or empty. ' +
+      'Make sure module-data.js is loaded BEFORE app.js in index.html. ' +
+      'Falling back to WARWICK_COURSES only.'
+    );
+  }
+
+  // ── 2. FALLBACK: core degree structures from course-data.js ───────────────
+  // Only adds a code if the deep-scrape did NOT already cover it.
+  let fallbackCount = 0;
+  if (typeof WARWICK_COURSES !== 'undefined' && Array.isArray(WARWICK_COURSES) && WARWICK_COURSES.length > 0) {
+    WARWICK_COURSES.forEach(c => {
+      if (!c.years) return;
+      Object.values(c.years).forEach(yr => {
+        if (!yr.core) return;
+        yr.core.forEach(m => {
+          if (!m.code) return;
+          const code = m.code.toUpperCase();
+          if (ALL_MODULES_DICT[code]) return; // already covered by primary — do not overwrite
+
+          const asm = m.assessment || {};
+          const components = [];
+          if (asm.ok && Array.isArray(asm.components) && asm.components.length > 0) {
+            asm.components.forEach(comp => {
+              components.push({ name: comp.name, weight: comp.weighting });
+            });
+          }
+          ALL_MODULES_DICT[code] = {
+            name: m.name || code,
+            cats: (m.credits !== null && !isNaN(m.credits)) ? m.credits : 15,
+            url: asm.url || '',
+            assessmentSplit: asm.assessmentSplit || '',
+            components
+          };
+          fallbackCount++;
+        });
+      });
     });
   }
 
-  // 2. Fallback: Add any core modules from the degree data just in case the deep scrape missed them
-  if (typeof WARWICK_COURSES !== 'undefined' && WARWICK_COURSES.length > 0) {
-    WARWICK_COURSES.forEach(c => {
-      if (c.years) {
-        Object.values(c.years).forEach(yr => {
-          if (yr.core) {
-            yr.core.forEach(m => {
-              const code = m.code.toUpperCase();
-              
-              // Only add if it wasn't already caught by the deep scrape above
-              if (!ALL_MODULES_DICT[code]) {
-                const asm = m.assessment || {};
-                const components = [];
-                if (asm.ok && asm.components && asm.components.length > 0) {
-                  asm.components.forEach(comp => {
-                    components.push({ name: comp.name, weight: comp.weighting });
-                  });
-                }
-                ALL_MODULES_DICT[code] = {
-                  name: m.name,
-                  cats: m.credits || 15,
-                  url: asm.url || '',
-                  assessmentSplit: asm.assessmentSplit || '',
-                  components: components
-                };
-              }
-            });
-          }
-        });
-      }
-    });
-  }
+  // ── 3. Verification log ───────────────────────────────────────────────────
+  const totalLoaded = Object.keys(ALL_MODULES_DICT).length;
+  console.log(
+    `[Gradewick] buildModuleDict complete: ` +
+    `${primaryCount} from WARWICK_ALL_MODULES (primary), ` +
+    `${fallbackCount} from WARWICK_COURSES (fallback), ` +
+    `${totalLoaded} total unique modules loaded into ALL_MODULES_DICT.`
+  );
 }
 
 function populateDatalists() {

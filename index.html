@@ -22,11 +22,13 @@
     <div class="wordmark">Grade<em>wick</em></div>
     <div class="sub" id="logoSub">Your academic journey</div>
   </div>
-  <div class="sidebar-years">
-    <div class="sidebar-section-label">Academic years</div>
-    <div id="yearsNav"></div>
+  <div class="sidebar-middle">
+    <div class="sidebar-years">
+      <div class="sidebar-section-label">Academic years</div>
+      <div id="yearsNav"></div>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav"></nav>
   </div>
-  <nav class="sidebar-nav" id="sidebarNav"></nav>
   <div class="sidebar-footer">
     <button class="nav-btn" onclick="cpShowOnboarding()">
       <div class="nav-btn-left"><span class="nav-icon">🎓</span> <span class="nav-lbl">Set up my course</span></div>
@@ -338,9 +340,13 @@
   </div>
 </div>
 
+<!-- !! LOAD ORDER IS CRITICAL !!
+     course-data.js   → defines WARWICK_COURSES  (core degree structures / fallback)
+     module-data.js   → defines WARWICK_ALL_MODULES (3,500+ deep-scraped modules, PRIMARY source)
+     app.js           → consumes both; buildModuleDict() at boot needs both arrays present -->
 <script src="course-data.js"></script>
-<script src="app.js"></script>
 <script src="module-data.js"></script>
+<script src="app.js"></script>
 
 <!-- ── DATA & PRIVACY MODAL ── -->
 <div class="overlay" id="dataPrivacyOverlay" onclick="closeOverlay('dataPrivacyOverlay',event)">
