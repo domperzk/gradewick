@@ -343,9 +343,11 @@
 <!-- !! LOAD ORDER IS CRITICAL !!
      course-data.js   → defines WARWICK_COURSES  (core degree structures / fallback)
      module-data.js   → defines WARWICK_ALL_MODULES (3,500+ deep-scraped modules, PRIMARY source)
-     app.js           → consumes both; buildModuleDict() at boot needs both arrays present -->
+     exam-data.js     → defines EXAM_TIMETABLE (official summer exam timetable, keyed by module code)
+     app.js           → consumes all three; buildModuleDict() at boot needs both arrays present -->
 <script src="course-data.js"></script>
 <script src="module-data.js"></script>
+<script src="exam-data.js"></script>
 <script src="app.js"></script>
 
 <!-- ── DATA & PRIVACY MODAL ── -->
