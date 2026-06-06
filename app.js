@@ -573,7 +573,16 @@ function openCompEdit(yid, modId, compId) {
   document.getElementById('ce-location').value = comp ? (comp.location || '') : '';
   document.getElementById('ce-category').value = comp ? (comp.category || 'Coursework') : 'Coursework';
   document.getElementById('deleteCompBtn').style.display = compId ? 'inline-flex' : 'none';
-  syncCatSelector(comp ? comp.category : 'Coursework');
+  // Handle custom category input visibility
+  const savedCat = comp ? (comp.category || 'Coursework') : 'Coursework';
+  const isCustom = !CATEGORIES[savedCat];
+  const customWrap = document.getElementById('ce-category-custom-wrap');
+  const customInp  = document.getElementById('ce-category-custom');
+  if (customWrap) customWrap.style.display = isCustom ? 'block' : 'none';
+  if (customInp)  customInp.value = isCustom ? savedCat : '';
+  // If category is a custom string, mark Other as active in the selector
+  syncCatSelector(isCustom ? 'Other' : savedCat);
+  if (isCustom) document.getElementById('ce-category').value = 'Other';
   openOverlay('compEditOverlay');
 }
 
@@ -590,11 +599,27 @@ function syncCatSelector(selectedCat) {
   });
 }
 
-function selectCat(btn) { document.getElementById('ce-category').value=btn.dataset.cat; syncCatSelector(btn.dataset.cat); }
+function selectCat(btn) {
+  document.getElementById('ce-category').value = btn.dataset.cat;
+  syncCatSelector(btn.dataset.cat);
+  const customWrap = document.getElementById('ce-category-custom-wrap');
+  if (customWrap) {
+    const isOther = btn.dataset.cat === 'Other';
+    customWrap.style.display = isOther ? 'block' : 'none';
+    if (!isOther) {
+      const customInp = document.getElementById('ce-category-custom');
+      if (customInp) customInp.value = '';
+    }
+  }
+}
 
 function saveCompEdit() {
   const name     = document.getElementById('ce-name').value.trim();
-  const category = document.getElementById('ce-category').value || 'Coursework';
+  const customCatInp = document.getElementById('ce-category-custom');
+  const customCatVal = customCatInp ? customCatInp.value.trim() : '';
+  const baseCat  = document.getElementById('ce-category').value || 'Coursework';
+  // If the user typed a custom category name, use that; otherwise use the button selection
+  const category = (baseCat === 'Other' && customCatVal) ? customCatVal : baseCat;
   const weight   = parseFloat(document.getElementById('ce-weight').value) || 0;
   const date     = document.getElementById('ce-date').value.trim();
   const time     = document.getElementById('ce-time').value.trim();
@@ -1785,6 +1810,191 @@ function importData() {
     reader.readAsText(file);
   };
   input.click();
+}
+
+// ── DATA & PRIVACY ──────────────────────────────────────────────────────────
+function openDataPrivacy() {
+  buildDataHealthSummary();
+  openOverlay('dataPrivacyOverlay');
+}
+
+function buildDataHealthSummary() {
+  const el = document.getElementById('dataHealthSummary');
+  if (!el) return;
+  const totalModules    = APP.years.reduce((s, y) => s + y.modules.length, 0);
+  const totalComponents = APP.years.reduce((s, y) => s + y.modules.reduce((ms, m) => ms + m.components.length, 0), 0);
+  const totalMarks      = APP.years.reduce((s, y) => s + Object.values(y.marks || {}).filter(v => v !== '' && v !== null && v !== undefined && !isNaN(parseFloat(v))).length, 0);
+  const totalTopics     = APP.years.reduce((s, y) => {
+    if (!y.checklist) return s;
+    return s + Object.values(y.checklist).reduce((cs, cl) => cs + (cl.topics ? cl.topics.length : 0), 0);
+  }, 0);
+
+  const storageRaw = localStorage.getItem('gradetracker_v7') || '';
+  const storageKB  = (new Blob([storageRaw]).size / 1024).toFixed(1);
+
+  el.innerHTML = `
+    <div class="data-health-card">
+      <div class="dhc-val">${APP.years.length}</div>
+      <div class="dhc-lbl">Academic Years</div>
+    </div>
+    <div class="data-health-card">
+      <div class="dhc-val">${totalModules}</div>
+      <div class="dhc-lbl">Modules</div>
+    </div>
+    <div class="data-health-card">
+      <div class="dhc-val">${totalComponents}</div>
+      <div class="dhc-lbl">Components</div>
+    </div>
+    <div class="data-health-card">
+      <div class="dhc-val">${totalMarks}</div>
+      <div class="dhc-lbl">Grades Entered</div>
+    </div>
+    <div class="data-health-card">
+      <div class="dhc-val">${totalTopics}</div>
+      <div class="dhc-lbl">Revision Topics</div>
+    </div>
+    <div class="data-health-card">
+      <div class="dhc-val">${storageKB}<span style="font-size:13px;font-weight:500"> KB</span></div>
+      <div class="dhc-lbl">Storage Used</div>
+    </div>
+  `;
+}
+
+// ── SUPPORT / BUG REPORT ────────────────────────────────────────────────────
+function openSupport() {
+  const debugEl = document.getElementById('supportDebugInfo');
+  if (debugEl) {
+    const sanitisedSettings = JSON.parse(JSON.stringify(APP.settings || {}));
+    // Remove any PII fields before including in debug info
+    delete sanitisedSettings.name;
+    delete sanitisedSettings.uni;
+    delete sanitisedSettings.dept;
+    delete sanitisedSettings.code;
+    debugEl.innerHTML = `
+      <div class="support-debug-label">Debug info (auto-included in your email)</div>
+      <div class="support-debug-body">
+        <div><strong>Browser:</strong> ${navigator.userAgent}</div>
+        <div><strong>App Settings (sanitised):</strong> ${JSON.stringify(sanitisedSettings)}</div>
+        <div><strong>Years:</strong> ${APP.years.length} · <strong>Modules:</strong> ${APP.years.reduce((s,y)=>s+y.modules.length,0)}</div>
+      </div>
+    `;
+  }
+  openOverlay('supportOverlay');
+}
+
+function sendBugReport() {
+  const subject = document.getElementById('support-subject').value.trim() || 'Gradewick Bug Report';
+  const desc    = document.getElementById('support-desc').value.trim();
+  if (!desc) { showToast('Please describe the issue first'); return; }
+
+  const sanitisedSettings = JSON.parse(JSON.stringify(APP.settings || {}));
+  delete sanitisedSettings.name; delete sanitisedSettings.uni;
+  delete sanitisedSettings.dept; delete sanitisedSettings.code;
+
+  const debugBlock = [
+    '--- Debug Info (auto-generated) ---',
+    `Browser: ${navigator.userAgent}`,
+    `App Settings (sanitised): ${JSON.stringify(sanitisedSettings)}`,
+    `Years: ${APP.years.length}  |  Modules: ${APP.years.reduce((s,y)=>s+y.modules.length,0)}`,
+    '---',
+  ].join('\n');
+
+  const body = encodeURIComponent(`${desc}\n\n${debugBlock}`);
+  const encodedSubject = encodeURIComponent(`[Gradewick] ${subject}`);
+  window.location.href = `mailto:your-email@example.com?subject=${encodedSubject}&body=${body}`;
+  closeOverlayDirect('supportOverlay');
+  showToast('Opening your email client…');
+}
+
+// ── HELP & FAQ ───────────────────────────────────────────────────────────────
+function openHelp() {
+  buildHelpPane();
+  openOverlay('helpOverlay');
+}
+
+function buildHelpPane() {
+  const el = document.getElementById('helpModalBody');
+  if (!el) return;
+
+  const faqs = [
+    {
+      q: 'How does Gradewick calculate my grades?',
+      a: `<p>Each assessment component is assigned a <strong>weight</strong> (e.g. 60% Exam, 40% Coursework). Your module mark is the <strong>weighted average</strong> of all components:</p>
+      <div class="help-formula">Module Mark = Σ (Component Mark × Component Weight%) ÷ 100</div>
+      <p>For example, if you score 72% on a 60%-weighted Exam and 68% on a 40%-weighted Coursework:</p>
+      <div class="help-formula">(72 × 0.60) + (68 × 0.40) = 43.2 + 27.2 = <strong>70.4%</strong></div>`
+    },
+    {
+      q: 'How do CATS credits affect my overall degree mark?',
+      a: `<p>Your overall <strong>year mark</strong> is a CATS-weighted average across modules. Modules worth more credits contribute more to your year average:</p>
+      <div class="help-formula">Year Mark = Σ (Module Mark × CATS) ÷ Total CATS in year</div>
+      <p>So a 30-credit module counts twice as much as a 15-credit module when calculating your year score.</p>`
+    },
+    {
+      q: 'How is my projected degree classification calculated?',
+      a: `<p>Each academic year has a <strong>weighting percentage</strong> (e.g. Year 1 = 0%, Year 2 = 30%, Year 3 = 70%). The overall degree mark is:</p>
+      <div class="help-formula">Degree Mark = Σ (Year Mark × Year Weighting%) ÷ Total Weighting%</div>
+      <p>Set year weightings by clicking the <strong>✎ Edit</strong> button on any year in the sidebar. Years with a 0% weighting are excluded from the calculation.</p>`
+    },
+    {
+      q: 'What does the Target Grade planner show?',
+      a: `<p>The Target Grade planner works <em>backwards</em> from your goal classification. Given your already-graded years and their weightings, it calculates what average you need across your <strong>remaining ungraded years</strong> to hit your target.</p>
+      <p>If all years are graded, it tells you whether you have already achieved the target or not.</p>`
+    },
+    {
+      q: 'What does "What do I need?" on the Dashboard show?',
+      a: `<p>For each module where you have entered <em>some</em> marks (but not all), Gradewick calculates the average you need on your <strong>remaining components</strong> to reach your chosen target grade for that module.</p>
+      <div class="help-formula">Needed = (Target − Earned so far) ÷ Remaining weight fraction</div>
+      <p>If the result is over 100%, the target is no longer achievable from those marks alone.</p>`
+    },
+    {
+      q: 'Can I add custom assessment categories?',
+      a: `<p>Yes! When adding or editing a component, select <strong>📦 Other</strong> in the category picker — a text field will appear below where you can type any custom label (e.g. "Lab Report", "Presentation", "Viva").</p>`
+    },
+    {
+      q: 'How do I add or edit academic years?',
+      a: `<p>In the sidebar, click the <strong>+ Add year</strong> button at the bottom of the years list. To edit an existing year (rename it, change the academic year string, or set its weighting), hover over it and click the <strong>✎</strong> pencil icon.</p>`
+    },
+    {
+      q: 'Where is my data stored? Is it private?',
+      a: `<p>All your data is stored exclusively in your browser's <strong>localStorage</strong> — it never leaves your device and is never sent to any server. Gradewick has no backend, no accounts, and no tracking.</p>
+      <p>To back up your data, use <strong>Data &amp; Privacy → Download JSON backup</strong>.</p>`
+    },
+    {
+      q: 'How do I import or restore a backup?',
+      a: `<p>Go to <strong>Data &amp; Privacy</strong> in the sidebar footer, then click <strong>Restore from JSON backup</strong> and select a previously downloaded <code>.json</code> file. This will replace all current data.</p>`
+    },
+    {
+      q: 'What does hard reset do?',
+      a: `<p><strong>Hard reset</strong> permanently deletes all years, modules, components, marks, and settings from localStorage. This cannot be undone. Always download a backup before resetting.</p>`
+    },
+  ];
+
+  el.innerHTML = `
+    <p style="font-family:var(--fm);font-size:12px;color:var(--tx3);margin-bottom:20px;line-height:1.65">Tap any question to expand the answer. Use the sidebar's <strong>Report an Issue</strong> button if you still need help.</p>
+    <div class="help-accordion" id="helpAccordion">
+      ${faqs.map((faq, i) => `
+        <div class="help-item" id="help-item-${i}">
+          <button class="help-q" onclick="toggleHelp(${i})" aria-expanded="false">
+            <span>${faq.q}</span>
+            <svg class="help-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="help-a" id="help-a-${i}" style="display:none">${faq.a}</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function toggleHelp(idx) {
+  const item = document.getElementById(`help-item-${idx}`);
+  const body = document.getElementById(`help-a-${idx}`);
+  const btn  = item ? item.querySelector('.help-q') : null;
+  if (!body) return;
+  const isOpen = body.style.display !== 'none';
+  body.style.display = isOpen ? 'none' : 'block';
+  item.classList.toggle('open', !isOpen);
+  if (btn) btn.setAttribute('aria-expanded', !isOpen);
 }
 
 let teYid=null, teModId=null;
