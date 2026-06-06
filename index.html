@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Grade Tracker</title>
+<title>Gradewick</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Lora:ital,wght@0,400;1,400;1,600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
@@ -15,7 +15,7 @@
 
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-logo">
-    <div class="wordmark">Grade <em>Tracker</em></div>
+    <div class="wordmark">Grade<em>wick</em></div>
     <div class="sub" id="logoSub">Your academic journey</div>
   </div>
   <div class="sidebar-years">
@@ -30,6 +30,7 @@
     <button class="nav-btn" onclick="openEditSettings()">
       <div class="nav-btn-left"><span class="nav-icon">⚙</span> <span class="nav-lbl">Settings</span></div>
     </button>
+    <div class="sidebar-credit">Made by Kuku Dompreh @domperzk</div>
   </div>
 </aside>
 
@@ -37,7 +38,7 @@
   <div class="wrap">
     <div class="page-header">
       <div class="page-header-left">
-        <div class="eyebrow" id="hdrEyebrow">Grade Tracker</div>
+        <div class="eyebrow" id="hdrEyebrow">Gradewick</div>
         <h1 id="hdrTitle">Dashboard</h1>
       </div>
       <div class="page-header-right">
@@ -95,13 +96,13 @@
         ⬇ Download your grades as a spreadsheet
       </button>
       <!-- Privacy disclaimer — Settings modal -->
-<div class="privacy-badge" role="note" aria-label="Data privacy notice">
-  <span class="privacy-badge-icon">🔒</span>
-  <div>
-    <strong>100% Local Storage. No Backend.</strong>
-    <span>Your data never leaves your device. Everything is saved in your browser only — nothing is sent to any server.</span>
-  </div>
-</div>
+      <div class="privacy-badge" role="note" aria-label="Data privacy notice">
+        <span class="privacy-badge-icon">🔒</span>
+        <div>
+          <strong>100% Local Storage. No Backend.</strong>
+          <span>Your data never leaves your device. Everything is saved in your browser only — nothing is sent to any server.</span>
+        </div>
+      </div>
       <div style="margin-top:24px;display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn btn-primary" onclick="saveSettings()">Save settings</button>
         <button class="btn btn-ghost" onclick="closeOverlayDirect('settingsOverlay')">Cancel</button>
@@ -261,7 +262,7 @@
 <div class="overlay" id="coursePickerOverlay">
   <div class="modal modal-wide" onclick="event.stopPropagation()">
     <div class="modal-hdr">
-      <div style="font-family:var(--fm);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">Welcome to Grade Tracker</div>
+      <div style="font-family:var(--fm);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">Welcome to Gradewick</div>
       <div style="font-family:var(--fd);font-size:20px;font-weight:800" id="cpTitle">Set up your course</div>
       <div style="font-family:var(--fm);font-size:12px;color:var(--tx3);margin-top:6px" id="cpSub">Find your course to set up the website automatically, or continue manually.</div>
     </div>
@@ -274,19 +275,19 @@
             <div class="cp-path-title">Find my course automatically</div>
             <div class="cp-path-sub">Choose your department and course name — your modules and assessment details will be filled in for you.</div>
           </button>
-          <!-- Privacy disclaimer — Course Picker modal, Step 0 -->
-<div class="privacy-badge" role="note" aria-label="Data privacy notice" style="margin-top:16px">
-  <span class="privacy-badge-icon">🔒</span>
-  <div>
-    <strong>100% Local Storage. No Backend.</strong>
-    <span>Your data never leaves your device. Everything is saved in your browser only — nothing is sent to any server.</span>
-  </div>
-</div>
           <button class="cp-path-card" onclick="cpSkip()">
             <div class="cp-path-icon">✏</div>
             <div class="cp-path-title">Set up manually</div>
             <div class="cp-path-sub">Add modules, components and credits yourself at any time from the website's Modules tab.</div>
           </button>
+        </div>
+        <!-- Privacy disclaimer — Course Picker modal, Step 0 -->
+        <div class="privacy-badge" role="note" aria-label="Data privacy notice" style="margin-top:16px">
+          <span class="privacy-badge-icon">🔒</span>
+          <div>
+            <strong>100% Local Storage. No Backend.</strong>
+            <span>Your data never leaves your device. Everything is saved in your browser only — nothing is sent to any server.</span>
+          </div>
         </div>
       </div>
 

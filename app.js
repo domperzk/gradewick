@@ -8,7 +8,7 @@ let courseData = WARWICK_COURSES;
 const COURSE_ONBOARDING_KEY = 'gradetracker_course_onboarding_seen_v1';
 // ── Colour presets ──
 const COLOUR_PRESETS = [
-  { name:'Warwick', hex:'#5B21B6', mid:'#7C3AED', light:'#A78BFA', bg:'#F5F3FF', border:'#DDD6FE' },
+  { name:'Warwick', hex:'#5B21B6', mid:'#3c1053', light:'#A78BFA', bg:'#F5F3FF', border:'#DDD6FE' },
   { name:'Navy',    hex:'#1E3A8A', mid:'#2563EB', light:'#93C5FD', bg:'#EFF6FF', border:'#BFDBFE' },
   { name:'Teal',    hex:'#0F766E', mid:'#0D9488', light:'#5EEAD4', bg:'#F0FDFA', border:'#99F6E4' },
   { name:'Rose',    hex:'#9F1239', mid:'#E11D48', light:'#FDA4AF', bg:'#FFF1F2', border:'#FECDD3' },
@@ -335,7 +335,7 @@ function renderHeader() {
   document.getElementById('logoSub').textContent = s.uni || 'Your academic journey';
   const name = s.name ? `<span class="hl">${s.name}'s </span>` : '';
   const eyeParts = [s.uni, s.dept].filter(Boolean);
-  document.getElementById('hdrEyebrow').textContent = eyeParts.length ? eyeParts.join(' · ') : 'Grade Tracker';
+  document.getElementById('hdrEyebrow').textContent = eyeParts.length ? eyeParts.join(' · ') : 'Gradewick';
   
   if (APP.activeOverview) {
     document.getElementById('hdrTitle').innerHTML = `${name}All Years Overview`;
@@ -422,11 +422,11 @@ function renderSidebarNav(yid) {
   const names = APP.settings.tabNames;
   
   const tabs = [
-    { id: 'dashboard', icon: '◈' },
-    { id: 'timetable', icon: '◷' },
-    { id: 'modules',   icon: '◫' },
-    { id: 'checklist', icon: '☑' },
-    { id: 'target',    icon: '🎯' },
+    { id: 'dashboard', icon: `<svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>` },
+    { id: 'timetable', icon: `<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>` },
+    { id: 'modules',   icon: `<svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>` },
+    { id: 'checklist', icon: `<svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>` },
+    { id: 'target',    icon: `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg>` },
   ];
 
   nav.innerHTML = tabs.map(t => `
@@ -884,7 +884,7 @@ function buildOverviewTargetPlanner() {
   }
 
   const targetBtns = TARGETS.map(t =>
-    `<button class="ov-target-btn${sel===t.min?' active':''}" style="${sel===t.min?`background:${t.color};color:#fff;border-color:${t.color}`:`color:${t.color};border-color:${t.color}44`}" onclick="setOverviewTarget(${t.min})">${t.label} (${t.min}%+)</button>`
+    `<button class="ov-target-btn${sel===t.min?' active':''}" style="${sel===t.min?`background:${t.color};color:var(--s1);border-color:${t.color}`:`color:${t.color};border-color:${t.color}44`}" onclick="setOverviewTarget(${t.min})">${t.label} (${t.min}%+)</button>`
   ).join('');
 
   let resultHtml = '';
@@ -921,7 +921,7 @@ function buildOverviewTargetPlanner() {
   }
 
   return `<div class="ov-target-planner">
-    <div class="ov-section-title">🎯 Target Grade Planner</div>
+    <div class="ov-section-title" style="display:flex;align-items:center;gap:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Target Grade Planner</div>
     <div style="font-family:var(--fm);font-size:11px;color:var(--tx3);margin-bottom:14px">Select your target degree classification to see what you need in ungraded years.</div>
     <div class="ov-target-btns">${targetBtns}</div>
     ${resultHtml}
@@ -971,7 +971,7 @@ function buildDegreeBoundaryCard() {
   if (gradedYears < 2 || overall === null) {
     return `<div class="dashboard-card degree-boundary-card">
       <div>
-        <div class="dashboard-card-title">🎓 Degree average</div>
+        <div class="dashboard-card-title">🎓 Projected Degree Classification</div>
         <div class="degree-boundary-muted">Add more grades to see your overall average.</div>
       </div>
     </div>`;
@@ -994,7 +994,7 @@ function buildDegreeBoundaryCard() {
 
   return `<div class="dashboard-card degree-boundary-card">
     <div>
-      <div class="dashboard-card-title">🎓 Degree average</div>
+      <div class="dashboard-card-title">🎓 Projected Degree Classification</div>
       <div class="degree-boundary-mark" style="color:${col}">${overall.toFixed(1)}%</div>
       <div class="degree-boundary-class" style="color:${col}">${thresholds.length ? cls : 'Percentage only'}</div>
     </div>
@@ -1082,7 +1082,7 @@ function buildDashboardTargetsCard(yr) {
   return `<div class="dashboard-card dashboard-targets-card">
     <div class="toggle-row">
       <div>
-        <div class="dashboard-card-title" style="margin-bottom:2px">🎯 What do I need?</div>
+        <div class="dashboard-card-title" style="margin-bottom:2px;display:flex;align-items:center;gap:6px"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> What do I need?</div>
         <div class="toggle-sub">See the average needed on remaining assessments.</div>
       </div>
       <label class="toggle-switch">
@@ -1155,7 +1155,7 @@ function buildDashboard(yr) {
     + buildUpcomingDeadlinesCard(yr)
     + `
     <div class="year-overview" data-label="${yr.label.toUpperCase()}">
-      <div style="margin-bottom:4px;font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3)">${yr.label} Overall</div>
+      <div style="margin-bottom:4px;font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3)">Current Year Average</div>
       <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:8px">${gradeHtml}</div>
       <p style="font-size:12px;color:var(--tx3);font-family:var(--fm)">${ym!==null?`Credits-weighted · ${completedCredits} of ${totalCats(yr)} credits complete`:''}</p>
       <div class="yr-pills">${pills}</div>
@@ -1360,12 +1360,10 @@ function buildModules(yr) {
     });
 
     let weightedHtml='';
-    if(total!==null){weightedHtml=`<div class="mod-weighted"><span class="mod-wlbl">Module mark</span><span class="mod-wscore" style="color:${gradeColor(total)}">${total.toFixed(1)}% · ${gradeClass(total)}</span></div>`;}
+    if(total!==null){weightedHtml=`<div class="mod-weighted"><span class="mod-wlbl">Module Average</span><span class="mod-wscore" style="color:${gradeColor(total)}">${total.toFixed(1)}% · ${gradeClass(total)}</span></div>`;}
     else if(partial!==null){const remaining=mod.components.length-mod.components.filter(c=>{const v=yr.marks[c.id];return v!==''&&v!==undefined&&v!==null&&!isNaN(parseFloat(v));}).length;weightedHtml=`<div class="mod-weighted"><span class="mod-wlbl">Points so far <span style="font-size:11px;color:var(--tx4)">(${remaining} remaining)</span></span><span class="mod-wscore" style="color:var(--tx2);font-size:14px">${partial.toFixed(1)} / ${ew} pts</span></div>`;}
 
-    const modResetHtml=`<div class="mod-reset-row"><span class="mod-reset-lbl">Reset:</span>
-      <button class="btn btn-ghost btn-sm" onclick="clearModScores('${yr.id}','${mod.id}')">Scores</button>
-      <button class="btn btn-danger btn-sm" onclick="clearModAll('${yr.id}','${mod.id}')">All</button></div>`;
+    const modResetHtml=``;
 
     // Assessment split badge (if available in dict)
     const dictEntry = ALL_MODULES_DICT[mod.code];
@@ -1473,7 +1471,7 @@ function buildTarget(yr) {
     });
     const neededAvg = unknownW > 0 ? (sel * totalW - knownSum) / unknownW : null;
     const targetBtns = targets
-      .map(t => `<button class="ov-target-btn${Number(sel)===Number(t.min)?' active':''}" style="${Number(sel)===Number(t.min)?`background:${t.color};color:#fff;border-color:${t.color}`:`color:${t.color};border-color:${t.color}44`}" onclick="setOverviewTargetAndRefresh('${yr.id}',${t.min})">${t.label}</button>`).join('');
+      .map(t => `<button class="ov-target-btn${Number(sel)===Number(t.min)?' active':''}" style="${Number(sel)===Number(t.min)?`background:${t.color};color:var(--s1);border-color:${t.color}`:`color:${t.color};border-color:${t.color}44`}" onclick="setOverviewTargetAndRefresh('${yr.id}',${t.min})">${t.label}</button>`).join('');
 
     let needHtml = '';
     if (neededAvg !== null) {
@@ -1483,7 +1481,7 @@ function buildTarget(yr) {
     }
 
     yearTargetSection = `<div class="ov-target-planner" style="margin-bottom:24px">
-      <div class="ov-section-title">🎯 Degree Target</div>
+      <div class="ov-section-title" style="display:flex;align-items:center;gap:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Degree Target</div>
       <div style="font-family:var(--fm);font-size:11px;color:var(--tx3);margin-bottom:12px">Select a target classification, then adjust the unlocked assessment simulations below.</div>
       <div class="ov-target-btns" style="margin-bottom:12px">${targetBtns}</div>
       ${needHtml}
@@ -1491,7 +1489,7 @@ function buildTarget(yr) {
   }
 
   let html = `
-    <div style="font-family:var(--fd);font-size:20px;font-weight:800;color:var(--tx);margin-bottom:8px">Target Grades & Planning</div>
+    <div style="font-family:var(--fd);font-size:20px;font-weight:800;color:var(--tx);margin-bottom:8px">Target Grades &amp; Planning</div>
     <div style="font-family:var(--fm);font-size:12px;color:var(--tx3);margin-bottom:24px;line-height:1.5">
       Edit the simulated grade for each unmarked assessment. Marks entered in <strong>Modules</strong> are locked here and only change when you update them in Modules.
     </div>
@@ -1507,7 +1505,7 @@ function buildTarget(yr) {
       : ew > 0
         ? `${ew}% locked from Modules · ${100-ew}% simulated`
         : 'All assessments simulated';
-    const summaryLabel = realTotal !== null ? 'Final module' : anyModuleMarks ? 'Projected module' : 'Simulated module';
+    const summaryLabel = realTotal !== null ? 'Module Average' : anyModuleMarks ? 'Projected Module Average' : 'Simulated Module Average';
 
     html += `
       <div class="card future-mod-card" id="futcard-${yr.id}-${mod.id}" style="padding:20px;cursor:pointer" onclick="toggleCard('futcard-${yr.id}-${mod.id}')">
@@ -1681,12 +1679,23 @@ function setOverviewTargetAndRefresh(yid, val) {
 
 
 function buildResetZone(yr) {
-  const modScoreBtns=yr.modules.map(m=>`<button class="btn btn-ghost btn-sm" onclick="clearModScores('${yr.id}','${m.id}')">${m.code}</button>`).join('');
-  const modAllBtns=yr.modules.map(m=>`<button class="btn btn-danger btn-sm" onclick="clearModAll('${yr.id}','${m.id}')">${m.code}</button>`).join('');
   return `<div class="reset-zone">
     <div class="reset-zone-title">Reset Options — ${yr.label}</div>
-    <div class="reset-group"><span class="reset-group-label">Clear all scores</span><div class="reset-btns"><button class="btn btn-ghost btn-sm" onclick="clearScores('${yr.id}')">All modules</button>${modScoreBtns}</div></div>
-    <div class="reset-group" style="margin-bottom:0"><span class="reset-group-label" style="color:rgba(220,38,38,.7)">Clear scores (by module)</span><div class="reset-btns"><button class="btn btn-danger btn-sm" onclick="clearAll('${yr.id}')">All modules</button>${modAllBtns}</div></div>
+    <div class="reset-zone-sub">Use these options to clear grades or remove module data. Actions take effect immediately and cannot be undone.</div>
+    <div class="reset-group">
+      <div>
+        <div class="reset-group-label">Clear Scores</div>
+        <div class="reset-group-desc">Remove all entered marks for this year. Module structure is preserved.</div>
+      </div>
+      <div class="reset-btns"><button class="btn btn-ghost btn-sm" onclick="clearScores('${yr.id}')">Clear Scores</button></div>
+    </div>
+    <div class="reset-group">
+      <div>
+        <div class="reset-group-label" style="color:var(--red2)">Clear All Module Data</div>
+        <div class="reset-group-desc">Remove all scores <strong>and</strong> all modules from this year permanently.</div>
+      </div>
+      <div class="reset-btns"><button class="btn btn-danger btn-sm" onclick="clearAll('${yr.id}')">Clear All Module Data</button></div>
+    </div>
   </div>
   <p class="save-note" style="margin-top:10px">Auto-saved to your browser on every change.</p>
   ${buildDangerZone()}`;
@@ -1722,8 +1731,8 @@ function onMark(yid, compId, el) {
   renderHeader();
 }
 
-function clearScores(yid) { if(!confirm('Clear ALL scores?'))return;const yr=getYear(yid);yr.marks={};persist();renderYearPane(yid);showToast('Scores cleared.'); }
-function clearAll(yid)    { if(!confirm('Clear ALL scores?'))return;const yr=getYear(yid);yr.marks={};persist();renderYearPane(yid);showToast('All cleared.'); }
+function clearScores(yid) { if(!confirm('Clear ALL scores for this year?'))return;const yr=getYear(yid);yr.marks={};persist();renderYearPane(yid);showToast('Scores cleared.'); }
+function clearAll(yid)    { if(!confirm('Clear ALL scores and modules for this year? This cannot be undone.'))return;const yr=getYear(yid);yr.marks={};yr.modules=[];yr.checklist={};yr.futureModuleGrades={};yr.futureComponentGrades={};persist();renderYearPane(yid);showToast('All module data cleared.'); }
 function clearModScores(yid,mid) { if(!confirm('Clear scores for this module?'))return;const yr=getYear(yid),mod=yr.modules.find(m=>m.id===mid);mod.components.forEach(c=>{delete yr.marks[c.id];});persist();renderYearPane(yid);showToast(`${mod.code} scores cleared.`); }
 function clearModAll(yid,mid)    { if(!confirm('Clear all scores for this module?'))return;const yr=getYear(yid),mod=yr.modules.find(m=>m.id===mid);mod.components.forEach(c=>{delete yr.marks[c.id];});persist();renderYearPane(yid);showToast(`${mod.code} cleared.`); }
 
