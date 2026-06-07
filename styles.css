@@ -593,7 +593,11 @@ html[data-density="compact"] .inp { padding: 3px 6px; font-size: 11px; }
 .ov-yr-card-hdr { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
 .ov-yr-card-label { font-family: var(--fd); font-size: 14px; font-weight: 700; color: var(--tx); }
 .ov-yr-acyr { font-family: var(--fm); font-size: 10px; color: var(--tx4); margin-left: 6px; }
-.ov-yr-card-wt { font-family: var(--fm); font-size: 10px; color: var(--accent-mid); background: var(--accent-bg); border: 1px solid var(--accent-border); border-radius: var(--r-pill); padding: 2px 8px; }
+.ov-yr-card-wt { font-family: var(--fm); font-size: 10px; border-radius: var(--r-pill); padding: 2px 8px; cursor: pointer; transition: all var(--t-fast); display: flex; align-items: center; gap: 4px; user-select: none; }
+.ov-wt-set   { color: var(--accent-mid); background: var(--accent-bg); border: 1px solid var(--accent-border); }
+.ov-wt-set:hover { background: var(--accent-border); }
+.ov-wt-unset { color: var(--tx4); background: var(--s2); border: 1px dashed var(--b2); }
+.ov-wt-unset:hover { color: var(--accent-mid); border-color: var(--accent-border); background: var(--accent-bg); }
 .ov-yr-card-mark { font-family: var(--fd); font-size: 26px; font-weight: 800; line-height: 1.1; margin-bottom: 4px; }
 .ov-yr-card-cls { font-size: 14px; font-weight: 600; }
 .ov-yr-card-meta { font-family: var(--fm); font-size: 10px; color: var(--tx4); }
@@ -994,6 +998,24 @@ html[data-density="compact"] .inp { padding: 3px 6px; font-size: 11px; }
 #ce-category-custom-wrap {
   animation: floatUp var(--t-fast) var(--spring) both;
 }
+
+/* ── OPEN BOOK TOGGLE BUTTONS (comp edit) ── */
+.ob-btn {
+  padding: 6px 14px;
+  border-radius: var(--r-pill);
+  font-family: var(--fm);
+  font-size: 11px;
+  font-weight: 500;
+  border: 1px solid var(--b1);
+  background: var(--s2);
+  color: var(--tx3);
+  cursor: pointer;
+  transition: all var(--t-fast);
+}
+.ob-btn:hover { border-color: var(--accent-border); color: var(--tx); }
+.ob-btn.active[data-val="yes"] { border-color: var(--gn); background: var(--gnbg); color: var(--gn); box-shadow: 0 0 0 1px var(--gn); }
+.ob-btn.active[data-val="no"]  { border-color: var(--red2); background: var(--redbg); color: var(--red2); box-shadow: 0 0 0 1px var(--red2); }
+.ob-btn.active[data-val=""]   { border-color: var(--accent-border); background: var(--accent-bg); color: var(--accent-mid); box-shadow: 0 0 0 1px var(--accent-border); }
 
 @media(max-width: 520px) {
   .data-health-grid { grid-template-columns: repeat(2, 1fr); }

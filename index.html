@@ -216,6 +216,19 @@
         <div class="form-row" style="margin:0"><label for="ce-duration">Duration</label><input class="form-inp" id="ce-duration" placeholder="2h 0m" /></div>
       </div>
       <div class="form-row"><label for="ce-location">Venue / Location</label><input class="form-inp" id="ce-location" placeholder="Room 101, Main Building" /></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">
+        <div class="form-row" style="margin:0"><label for="ce-readingTime">Reading time</label><input class="form-inp" id="ce-readingTime" placeholder="e.g. 15 mins" /><div style="font-family:var(--fm);font-size:10px;color:var(--tx4);margin-top:4px">Allocated reading time before the exam starts.</div></div>
+        <div class="form-row" style="margin:0"><label for="ce-seat">Seat number</label><input class="form-inp" id="ce-seat" placeholder="e.g. A14" /><div style="font-family:var(--fm);font-size:10px;color:var(--tx4);margin-top:4px">Your assigned seat — fill this in closer to the date.</div></div>
+      </div>
+      <div class="form-row" style="margin-bottom:18px">
+        <label style="margin-bottom:8px;display:block">Open book?</label>
+        <div style="display:flex;gap:8px">
+          <button type="button" class="ob-btn" id="ob-yes" data-val="yes" onclick="selectOpenBook('yes')">✅ Yes</button>
+          <button type="button" class="ob-btn" id="ob-no"  data-val="no"  onclick="selectOpenBook('no')">🚫 No</button>
+          <button type="button" class="ob-btn" id="ob-na"  data-val=""    onclick="selectOpenBook('')">— Not set</button>
+        </div>
+        <input type="hidden" id="ce-openBook" />
+      </div>
       <div style="margin-top:4px;display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn btn-primary" onclick="saveCompEdit()">Save</button>
         <button class="btn btn-ghost" onclick="closeOverlayDirect('compEditOverlay')">Cancel</button>

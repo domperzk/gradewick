@@ -263,11 +263,14 @@ function migrateData() {
     (yr.modules || []).forEach(mod => {
       (mod.components || []).forEach(c => {
         if (oldDates[c.id] && !c.date)  c.date = oldDates[c.id];
-        if (!c.time)     c.time     = '';
-        if (!c.duration) c.duration = '';
-        if (!c.location) c.location = '';
-        if (!c.category) c.category = 'Coursework';
+        if (!c.time)        c.time        = '';
+        if (!c.duration)    c.duration    = '';
+        if (!c.location)    c.location    = '';
+        if (!c.category)    c.category    = 'Coursework';
         if (c.category === 'Coursework & Essays') c.category = 'Coursework';
+        if (c.readingTime  === undefined) c.readingTime  = '';
+        if (c.seat         === undefined) c.seat         = '';
+        if (c.openBook     === undefined) c.openBook     = '';
       });
     });
     // TODO: remove in v9 — legacy migration for pre-v6 data
@@ -612,13 +615,16 @@ function saveModEdit() {
     const components = [];
     if (dictEntry && dictEntry.components && dictEntry.components.length > 0) {
       dictEntry.components.forEach(c => {
-        components.push({
+        const componentObj = {
           id: makeId(),
           name: c.name,
           weight: c.weight,
           category: inferCategory(c.name),
-          date: '', time: '', duration: '', location: ''
-        });
+          date: '', time: '', duration: '', location: '',
+          readingTime: '', seat: '', openBook: ''
+        };
+        enrichExamData(code, componentObj);
+        components.push(componentObj);
       });
     }
     yr.modules.push({id:nid, code, name, cats, components, url: dictEntry ? dictEntry.url : ''});
@@ -654,6 +660,11 @@ function openCompEdit(yid, modId, compId) {
   document.getElementById('ce-time').value     = comp ? (comp.time     || '') : '';
   document.getElementById('ce-duration').value = comp ? (comp.duration || '') : '';
   document.getElementById('ce-location').value = comp ? (comp.location || '') : '';
+  document.getElementById('ce-readingTime').value = comp ? (comp.readingTime || '') : '';
+  document.getElementById('ce-seat').value       = comp ? (comp.seat        || '') : '';
+  document.getElementById('ce-openBook').value   = comp ? (comp.openBook    || '') : '';
+  // Sync the open-book toggle buttons
+  selectOpenBook(comp ? (comp.openBook || '') : '');
   document.getElementById('ce-category').value = comp ? (comp.category || 'Coursework') : 'Coursework';
   document.getElementById('deleteCompBtn').style.display = compId ? 'inline-flex' : 'none';
   // Handle custom category input visibility
@@ -696,6 +707,14 @@ function selectCat(btn) {
   }
 }
 
+function selectOpenBook(val) {
+  document.getElementById('ce-openBook').value = val;
+  ['yes','no','na'].forEach(id => {
+    const btn = document.getElementById('ob-' + id);
+    if (btn) btn.classList.toggle('active', btn.dataset.val === val);
+  });
+}
+
 function saveCompEdit() {
   const name     = document.getElementById('ce-name').value.trim();
   const customCatInp = document.getElementById('ce-category-custom');
@@ -708,6 +727,9 @@ function saveCompEdit() {
   const time     = document.getElementById('ce-time').value.trim();
   const duration = document.getElementById('ce-duration').value.trim();
   const location = document.getElementById('ce-location').value.trim();
+  const readingTime = document.getElementById('ce-readingTime').value.trim();
+  const seat        = document.getElementById('ce-seat').value.trim();
+  const openBook    = document.getElementById('ce-openBook').value;
   if (!name||!weight) { showToast('Fill in name and weight'); return; }
   const yr=getYear(ceYid), mod=yr.modules.find(m=>m.id===ceModId);
   if (ceCompId) {
@@ -715,9 +737,10 @@ function saveCompEdit() {
     const comp=mod.components.find(c=>c.id===ceCompId);
     comp.name=name; comp.category=category; comp.weight=weight;
     comp.date=date; comp.time=time; comp.duration=duration; comp.location=location;
+    comp.readingTime=readingTime; comp.seat=seat; comp.openBook=openBook;
   } else {
     // ── ADD new component — build the object, then attempt auto-fill ──
-    const newComp = {id:makeId(),name,category,weight,date,time,duration,location};
+    const newComp = {id:makeId(),name,category,weight,date,time,duration,location,readingTime,seat,openBook};
     // enrichExamData returns true only when it found and applied official timetable data
     const wasEnriched = enrichExamData(mod.code, newComp);
     mod.components.push(newComp);
@@ -980,11 +1003,14 @@ function buildOverview() {
       return `<div class="yr-pill">${m.code} ${label}</div>`;
     }).join('');
 
+    const wtLabel = wt ? wt + '% weight ✎' : 'No weight set — click to add ✎';
+    const wtCls   = wt ? 'ov-yr-card-wt ov-wt-set' : 'ov-yr-card-wt ov-wt-unset';
+
     yearCards += `
       <div class="ov-yr-card" onclick="switchYear('${yr.id}')">
         <div class="ov-yr-card-hdr">
           <div class="ov-yr-card-label">${yr.label} <span class="ov-yr-acyr">${yr.acyr||''}</span></div>
-          <div class="ov-yr-card-wt">${wt ? wt+'% weight' : 'No weight set'}</div>
+          <div id="ov-wt-${yr.id}" class="${wtCls}" title="Click to set year weighting" onclick="event.stopPropagation();ovStartWeightEdit('${yr.id}')">${wtLabel}</div>
         </div>
         <div class="ov-yr-card-mark" style="color:${col}">${ym !== null ? ym.toFixed(1)+'%' : '—'} <span class="ov-yr-card-cls">${cls}</span></div>
         <div class="ov-yr-card-meta">${completedMods} / ${totalMods} modules · ${completedCats} / ${totalCats2} credits</div>
@@ -1065,6 +1091,58 @@ function setOverviewTarget(val) {
   persist();
   const pane = document.getElementById('pane-overview');
   if (pane) pane.innerHTML = buildOverview();
+}
+
+/**
+ * ovStartWeightEdit(yid)
+ * Replaces the weight badge on an overview card with an inline
+ * number input + confirm button, without navigating to the year.
+ */
+function ovStartWeightEdit(yid) {
+  const el = document.getElementById('ov-wt-' + yid);
+  if (!el || el.querySelector('input')) return; // already in edit mode
+  const yr = getYear(yid);
+  const current = yr ? (yr.weighting || 0) : 0;
+  // Swap label for an inline editor
+  el.innerHTML = `
+    <span style="font-size:10px;color:var(--tx3);margin-right:4px">Weight&nbsp;%</span>
+    <input
+      id="ov-wt-inp-${yid}"
+      type="number" min="0" max="100" step="1"
+      value="${current}"
+      style="width:52px;padding:2px 5px;font-family:var(--fm);font-size:11px;font-weight:600;
+             border:1.5px solid var(--accent-border);border-radius:5px;background:var(--s1);
+             color:var(--tx);text-align:center"
+      onkeydown="if(event.key==='Enter'){event.preventDefault();ovSaveWeightEdit('${yid}')}
+                 if(event.key==='Escape'){renderOverviewPane()}"
+      onclick="event.stopPropagation()"
+    />
+    <button
+      style="margin-left:4px;padding:2px 8px;font-family:var(--fm);font-size:10px;font-weight:600;
+             border-radius:5px;border:1.5px solid var(--accent-border);background:var(--accent-bg);
+             color:var(--accent-mid);cursor:pointer"
+      onclick="event.stopPropagation();ovSaveWeightEdit('${yid}')">Save</button>
+    <button
+      style="margin-left:3px;padding:2px 7px;font-family:var(--fm);font-size:10px;
+             border-radius:5px;border:1.5px solid var(--b1);background:var(--s2);
+             color:var(--tx3);cursor:pointer"
+      onclick="event.stopPropagation();renderOverviewPane()">✕</button>
+  `;
+  // Focus and select so the user can type immediately
+  const inp = document.getElementById('ov-wt-inp-' + yid);
+  if (inp) { inp.focus(); inp.select(); }
+}
+
+function ovSaveWeightEdit(yid) {
+  const inp = document.getElementById('ov-wt-inp-' + yid);
+  if (!inp) return;
+  const val = Math.min(100, Math.max(0, parseFloat(inp.value) || 0));
+  const yr = getYear(yid);
+  if (yr) yr.weighting = val;
+  persist();
+  // Re-render the whole overview so the overall card and target planner update too
+  renderOverviewPane();
+  showToast(val ? `${yr.label} set to ${val}% weight.` : `${yr.label} weight cleared.`);
 }
 
 
@@ -1375,16 +1453,20 @@ function buildTTList(items, yr) {
       let cdHtml=item.hasMark?`<span class="tt-cd">Marked ✓</span>`:'';
       if(!item.hasMark&&item.daysUntil!==null){const cls=item.daysUntil<=7?'urgent':item.daysUntil<=14?'soon':'';cdHtml=`<span class="tt-cd ${cls}">${item.daysUntil===0?'Today!':item.daysUntil<0?Math.abs(item.daysUntil)+'d ago':item.daysUntil+'d'}</span>`;}
       const markPill=item.hasMark?`<span class="tt-mark" style="color:${gradeColor(item.mark)};border-color:${gradeColor(item.mark)}44">${item.mark.toFixed(1)}% · ${gradeClass(item.mark)}</span>`:`<span class="tt-mark">—</span>`;
-      let timeBadge='', locBadge='';
+      let timeBadge='', locBadge='', rdBadge='', seatBadge='', obBadge='';
       if(item.comp.time) timeBadge=`<span class="tt-timebadge">⏰ ${item.comp.time}${item.comp.duration?' · '+item.comp.duration:''}</span>`;
       if(item.comp.location) locBadge=`<span class="tt-locbadge">📍 ${item.comp.location}</span>`;
+      if(item.comp.readingTime) rdBadge=`<span class="tt-timebadge">📖 ${item.comp.readingTime} reading</span>`;
+      if(item.comp.seat)        seatBadge=`<span class="tt-locbadge">💺 Seat ${escapeHTML(item.comp.seat)}</span>`;
+      if(item.comp.openBook==='yes') obBadge=`<span class="tt-timebadge" style="color:var(--gn)">✅ Open book</span>`;
+      else if(item.comp.openBook==='no') obBadge=`<span class="tt-timebadge" style="color:var(--red2)">🚫 Closed book</span>`;
       h+=`<div class="tt-item ${sc} clickable" onclick="openExamView('${yr.id}','${item.comp.id}')">
         ${dateBlockHtml}
         <div>
           <div class="tt-title">${escapeHTML(item.mod.name)} — ${escapeHTML(item.comp.name)}</div>
           <div class="tt-meta">
             <span class="tt-mod">${escapeHTML(item.mod.code)}</span>${catBadgeHtml(item.comp.category)}
-            <span class="tt-wt">${item.comp.weight}% wt</span>${timeBadge}${locBadge}
+            <span class="tt-wt">${item.comp.weight}% wt</span>${timeBadge}${rdBadge}${locBadge}${seatBadge}${obBadge}
           </div>
         </div>
         <div class="tt-right">
@@ -1425,7 +1507,10 @@ function openExamView(yid, compId) {
   if(comp.date)     grid+=`<div class="modal-det"><div class="modal-det-lbl">📅 Date</div><div class="modal-det-val hl">${fmtDate(comp.date)}</div></div>`;
   if(comp.time)     grid+=`<div class="modal-det"><div class="modal-det-lbl">⏰ Time</div><div class="modal-det-val hl">${comp.time}</div></div>`;
   if(comp.duration) grid+=`<div class="modal-det"><div class="modal-det-lbl">⏱ Duration</div><div class="modal-det-val">${comp.duration}</div></div>`;
-  if(comp.location) grid+=`<div class="modal-det${!comp.duration?' full':''}"><div class="modal-det-lbl">📍 Venue</div><div class="modal-det-val" style="font-size:13px">${comp.location}</div></div>`;
+  if(comp.readingTime) grid+=`<div class="modal-det"><div class="modal-det-lbl">📖 Reading time</div><div class="modal-det-val">${comp.readingTime}</div></div>`;
+  if(comp.location) grid+=`<div class="modal-det${!comp.duration&&!comp.readingTime?' full':''}"><div class="modal-det-lbl">📍 Venue</div><div class="modal-det-val" style="font-size:13px">${comp.location}</div></div>`;
+  if(comp.seat)     grid+=`<div class="modal-det"><div class="modal-det-lbl">💺 Seat</div><div class="modal-det-val hl">${escapeHTML(comp.seat)}</div></div>`;
+  if(comp.openBook) grid+=`<div class="modal-det"><div class="modal-det-lbl">📚 Open book</div><div class="modal-det-val">${comp.openBook==='yes'?'✅ Yes':'🚫 No'}</div></div>`;
   grid+=`<div class="modal-det"><div class="modal-det-lbl">⚖️ Weight</div><div class="modal-det-val">${comp.weight}% of module</div></div>`;
   grid+=`<div class="modal-det"><div class="modal-det-lbl">📚 Credits</div><div class="modal-det-val">${mod.cats} credits</div></div>`;
   grid+=`<div class="modal-det full" style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap"><div><div class="modal-det-lbl">Edit component</div><div style="font-size:12px;color:var(--tx3)">Date, time, venue, name, weight, category</div></div><button class="btn btn-ghost btn-sm" onclick="closeOverlayDirect('examViewOverlay');openCompEdit('${yid}','${mod.id}','${compId}')">✎ Edit</button></div>`;
