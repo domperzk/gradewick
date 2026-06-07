@@ -1,5 +1,4 @@
-window.WARWICK_ALL_MODULES = 
-[
+const WARWICK_ALL_MODULES = [
   {
     "course": "Research Project",
     "url": "https://courses.warwick.ac.uk/modules/2025/BS341-30",
