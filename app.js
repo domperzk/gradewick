@@ -1,9 +1,8 @@
 // ── COURSE DATA ──
 // Load the full dataset from course-data.js, which should be included before this file.
-const WARWICK_COURSES = window.WARWICK_COURSES || [];
-let courseData = WARWICK_COURSES;
-const WARWICK_ALL_MODULES = window.WARWICK_ALL_MODULES || [];
-
+// ── COURSE DATA ──
+// Data is loaded globally from course-data.js and module-data.js
+let courseData = WARWICK_COURSES || [];
 // First-run course import prompt. Separate from the main saved data so
 // choosing "Skip" is remembered even if the user has not added modules yet.
 const COURSE_ONBOARDING_KEY = 'gradetracker_course_onboarding_seen_v1';
