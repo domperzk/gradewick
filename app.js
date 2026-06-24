@@ -206,7 +206,7 @@ function resolveCompDate(comp) {
 
 const DEFAULT_TAB_NAMES = {
   dashboard: 'Dashboard',
-  timetable: 'Timetable',
+  timetable: 'Exam Timetable',
   modules: 'Modules',
   checklist: 'Revision Checklist',
   target: 'Target Grades'
