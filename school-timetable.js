@@ -1285,7 +1285,7 @@ window.renderSidebarNav = function(yid) {
   if (!nav) return;
   const st = _yearSubtabs[yid] || APP.lastTab?.[yid] || 'dashboard';
   const names = APP.settings.tabNames;
-  const ttName = names.schooltimetable || 'School Timetable';
+  const ttName = names.schooltimetable || 'Uni Timetable';
   const ttBtn = document.createElement('div');
   ttBtn.className = `nav-btn ${st === 'schooltimetable' ? 'active' : ''}`;
   ttBtn.setAttribute('onclick', `switchSubtab('${yid}','schooltimetable')`);
