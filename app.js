@@ -301,101 +301,6 @@ function persist() {
 }
 function saveAll()  { persist(); }
 function getYear(yid) { return APP.years.find(y => y.id === yid); }
-
-// ── BACKUP REMINDER SYSTEM ────────────────────────────────────────────────────
-// Tracks "big" structural changes (not just score tweaks) since the last backup.
-// A "big change" = a module added/removed, a year added/removed, a course import,
-// a component added/removed, or a data restore. Score-only edits are ignored.
-let backup_changesSinceBackup = 0;
-const BACKUP_BIG_CHANGE_THRESHOLD = 5;  // show banner after this many structural changes
-const BACKUP_PERIODIC_MS = 30 * 60 * 1000; // also remind every 30 min if data exists & stale
-
-/**
- * Call this after any "big" structural change (not score-only edits).
- * Increments the change counter and shows the reminder banner if the threshold
- * is reached.
- */
-function backup_recordBigChange() {
-  backup_changesSinceBackup++;
-  if (backup_changesSinceBackup >= BACKUP_BIG_CHANGE_THRESHOLD) {
-    showBackupBanner('You have made a lot of changes — consider downloading a backup.');
-  }
-}
-
-/**
- * Returns true if there is meaningful data worth backing up.
- */
-function backup_hasSignificantData() {
-  const totalModules = APP.years.reduce((s, y) => s + y.modules.length, 0);
-  return totalModules >= 1;
-}
-
-/**
- * Returns ms since last backup, or Infinity if never backed up.
- */
-function backup_msSinceLastBackup() {
-  const raw = localStorage.getItem('gradetracker_last_backup');
-  if (!raw) return Infinity;
-  return Date.now() - parseInt(raw, 10);
-}
-
-/**
- * Periodic timer that nudges for a backup every 30 min IF:
- *  - there is meaningful data
- *  - it has been more than 30 min since last backup (or never backed up)
- */
-function backup_startPeriodicReminder() {
-  setInterval(() => {
-    if (!backup_hasSignificantData()) return;
-    const ms = backup_msSinceLastBackup();
-    if (ms < BACKUP_PERIODIC_MS) return; // backed up recently enough
-
-    const mins = Math.round(ms / 60000);
-    const timeStr = mins < 60
-      ? `${mins} min${mins!==1?'s':''} ago`
-      : ms === Infinity
-        ? 'never'
-        : `${Math.round(ms/3600000)} hour${Math.round(ms/3600000)!==1?'s':''} ago`;
-    const lastBackupStr = ms === Infinity ? 'You have never downloaded a backup.' : `Last backup: ${timeStr}.`;
-    showBackupBanner(`${lastBackupStr} Download one to keep your data safe.`);
-  }, BACKUP_PERIODIC_MS);
-}
-
-/**
- * Show the backup reminder banner with a message.
- * Calling it again while already showing just updates the text (no flash).
- */
-function showBackupBanner(msg) {
-  let banner = document.getElementById('backupBanner');
-  if (!banner) {
-    banner = document.createElement('div');
-    banner.id = 'backupBanner';
-    banner.className = 'backup-banner';
-    banner.innerHTML = `
-      <span class="backup-banner-icon">💾</span>
-      <span class="backup-banner-msg" id="backupBannerMsg"></span>
-      <div class="backup-banner-actions">
-        <button class="backup-banner-btn backup-banner-btn-primary" onclick="exportData()">Download backup</button>
-        <button class="backup-banner-btn" onclick="dismissBackupBanner()">Dismiss</button>
-      </div>
-    `;
-    document.body.appendChild(banner);
-    // Animate in on next frame
-    requestAnimationFrame(() => banner.classList.add('backup-banner--visible'));
-  }
-  const msgEl = document.getElementById('backupBannerMsg');
-  if (msgEl) msgEl.textContent = msg;
-}
-
-function dismissBackupBanner() {
-  const banner = document.getElementById('backupBanner');
-  if (!banner) return;
-  banner.classList.remove('backup-banner--visible');
-  setTimeout(() => banner.remove(), 350);
-}
-
-// Kick off the periodic reminder after boot
-setTimeout(backup_startPeriodicReminder, 5000);
 function activeYear()  { return getYear(APP.activeYear); }
 function totalCats(yr) { return yr.modules.reduce((s,m) => s+m.cats, 0); }
 
@@ -682,7 +587,7 @@ function saveYearEdit() {
     APP.activeYear = nid;
     APP.activeOverview = false;
   }
-  persist(); backup_recordBigChange(); closeOverlayDirect('yearEditOverlay'); renderAll();
+  persist(); closeOverlayDirect('yearEditOverlay'); renderAll();
 }
 
 function deleteCurrentYear() {
@@ -691,7 +596,7 @@ function deleteCurrentYear() {
   if (!confirm(`Delete "${yrToDelete.label}" and all its data? This cannot be undone.`)) return;
   APP.years = APP.years.filter(y => y.id!==yeEditId);
   if (APP.activeYear===yeEditId) APP.activeYear = APP.years[0].id;
-  persist(); backup_recordBigChange(); closeOverlayDirect('yearEditOverlay'); renderAll();
+  persist(); closeOverlayDirect('yearEditOverlay'); renderAll();
 }
 
 let meYid=null, meModId=null;
@@ -740,7 +645,7 @@ function saveModEdit() {
     if (!yr.futureComponentGrades) yr.futureComponentGrades={};
     yr.checklist[nid]={topics:[],done:{}};
   }
-  persist(); backup_recordBigChange(); closeOverlayDirect('modEditOverlay'); renderYearPane(meYid);
+  persist(); closeOverlayDirect('modEditOverlay'); renderYearPane(meYid);
 }
 
 function deleteCurrentMod() {
@@ -752,7 +657,7 @@ function deleteCurrentMod() {
     if (yr.futureComponentGrades) (modToDelete.components || []).forEach(c=>delete yr.futureComponentGrades[c.id]);
   }
   yr.modules=yr.modules.filter(m=>m.id!==meModId);
-  persist(); backup_recordBigChange(); closeOverlayDirect('modEditOverlay'); renderYearPane(meYid);
+  persist(); closeOverlayDirect('modEditOverlay'); renderYearPane(meYid);
 }
 
 let ceYid=null, ceModId=null, ceCompId=null;
@@ -856,7 +761,7 @@ function saveCompEdit() {
       setTimeout(() => showToast('📅 Official exam details auto-filled.'), 150);
     }
   }
-  persist(); backup_recordBigChange(); closeOverlayDirect('compEditOverlay'); renderYearPane(ceYid);
+  persist(); closeOverlayDirect('compEditOverlay'); renderYearPane(ceYid);
 }
 
 function deleteCurrentComp() {
@@ -867,7 +772,7 @@ function deleteCurrentComp() {
   if (yr.marks) delete yr.marks[ceCompId];
   mod.components=mod.components.filter(c=>c.id!==ceCompId);
   if (yr.futureModuleGrades && mod) yr.futureModuleGrades[mod.id] = getFutureModuleGrade(yr, mod);
-  persist(); backup_recordBigChange(); closeOverlayDirect('compEditOverlay'); renderYearPane(ceYid);
+  persist(); closeOverlayDirect('compEditOverlay'); renderYearPane(ceYid);
 }
 
 function openEditSettings() {
@@ -1331,11 +1236,11 @@ function buildDegreeBoundaryCard() {
 
     return `<div class="dashboard-card degree-boundary-card">
       <div>
-        <div class="dashboard-card-title">🎓 Current Year Average</div>
+        <div class="dashboard-card-title">🎓 Projected Degree Classification</div>
         <div class="degree-boundary-mark" style="color:${col}">${anyYearMark.toFixed(1)}%</div>
         <div class="degree-boundary-class" style="color:${col}">${thresholds.length ? cls : 'Percentage only'}</div>
       </div>
-      <div class="degree-boundary-gap">${gapText}<br><span style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Set year weightings via ✎ to see your projected degree classification.</span></div>
+      <div class="degree-boundary-gap">${gapText}<br><span style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Based on this year's marks. Set year weightings via ✎ for a full degree projection.</span></div>
     </div>`;
   }
 
@@ -2116,13 +2021,7 @@ function hardResetAll() {
 function exportData() {
   const blob=new Blob([JSON.stringify(APP,null,2)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='grade-tracker-backup.json'; a.click();
-  // Record the backup timestamp so the reminder system knows when we last backed up
-  localStorage.setItem('gradetracker_last_backup', Date.now().toString());
-  backup_changesSinceBackup = 0;
-  dismissBackupBanner();
   showToast('Backup downloaded!');
-  // Refresh the data privacy modal if it's open, so the "Last backup" line updates
-  if (document.getElementById('dataPrivacyOverlay').classList.contains('open')) buildDataHealthSummary();
 }
 
 
@@ -2153,12 +2052,7 @@ function importData() {
     const file=e.target.files[0]; if(!file)return;
     const reader=new FileReader();
     reader.onload=ev=>{
-      try{const data=JSON.parse(ev.target.result);if(!data.years||!data.settings)throw new Error('Invalid format');if(!confirm('Restore this backup? Current data will be replaced.'))return;APP=data;migrateData();persist();renderAll();restoreAppearance();
-        // Treat restoring a backup as equivalent to having a fresh backup
-        localStorage.setItem('gradetracker_last_backup', Date.now().toString());
-        backup_changesSinceBackup = 0;
-        dismissBackupBanner();
-        showToast('Backup restored!');}
+      try{const data=JSON.parse(ev.target.result);if(!data.years||!data.settings)throw new Error('Invalid format');if(!confirm('Restore this backup? Current data will be replaced.'))return;APP=data;migrateData();persist();renderAll();restoreAppearance();showToast('Backup restored!');}
       catch(err){alert('Could not import: '+err.message);}
     };
     reader.readAsText(file);
@@ -2186,29 +2080,6 @@ function buildDataHealthSummary() {
   const storageRaw = localStorage.getItem('gradetracker_v7') || '';
   const storageKB  = (new Blob([storageRaw]).size / 1024).toFixed(1);
 
-  // Last backup timestamp
-  const lastBackupRaw = localStorage.getItem('gradetracker_last_backup');
-  let lastBackupHtml;
-  if (!lastBackupRaw) {
-    lastBackupHtml = `<div class="data-health-card data-health-card--warn">
-      <div class="dhc-val" style="font-size:18px">Never</div>
-      <div class="dhc-lbl">Last Backup</div>
-    </div>`;
-  } else {
-    const ms = Date.now() - parseInt(lastBackupRaw, 10);
-    const mins = Math.round(ms / 60000);
-    let backupAgo;
-    if (mins < 2) backupAgo = 'Just now';
-    else if (mins < 60) backupAgo = `${mins}m ago`;
-    else if (mins < 1440) backupAgo = `${Math.round(mins/60)}h ago`;
-    else backupAgo = `${Math.round(mins/1440)}d ago`;
-    const isStale = ms > 7 * 24 * 60 * 60 * 1000; // warn if > 7 days
-    lastBackupHtml = `<div class="data-health-card${isStale ? ' data-health-card--warn' : ' data-health-card--ok'}">
-      <div class="dhc-val" style="font-size:18px">${backupAgo}</div>
-      <div class="dhc-lbl">Last Backup</div>
-    </div>`;
-  }
-
   el.innerHTML = `
     <div class="data-health-card">
       <div class="dhc-val">${APP.years.length}</div>
@@ -2234,7 +2105,6 @@ function buildDataHealthSummary() {
       <div class="dhc-val">${storageKB}<span style="font-size:13px;font-weight:500"> KB</span></div>
       <div class="dhc-lbl">Storage Used</div>
     </div>
-    ${lastBackupHtml}
   `;
 }
 
@@ -2919,9 +2789,6 @@ APP.settings.code = c.course;
   restoreAppearance();
   renderAll();
   showToast(`✓ ${cpSelectedCourse.course} added!`);
-  // Big structural change — prompt for a backup after a short delay so the toast is read first
-  backup_changesSinceBackup = 0;
-  setTimeout(() => showBackupBanner('Course imported! Download a backup to keep your new data safe.'), 2500);
 }
 
 function cpSkip() {
