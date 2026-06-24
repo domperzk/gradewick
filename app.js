@@ -335,21 +335,34 @@ function yearMark(yr) {
   return parts.reduce((s,p)=>s+p.mark*p.cats,0)/tc;
 }
 
-// Compute a weighted overall degree mark from all years using their weightings
+// Compute a weighted overall degree mark from GRADED years only, using their
+// weightings as a ratio against each other (not against the full degree's
+// total weighting). E.g. Year 1 = 10% weighting at 60%, Year 2 = 30%
+// weighting at 70%, Year 3 = 60% weighting but ungraded → projected mark is
+// (60*10 + 70*30) / (10+30) = 67.5%, not diluted down to ~27% by Year 3's
+// not-yet-earned weighting.
 function overallDegreeMark() {
-  const totalW = APP.years.reduce((s,y) => s + (y.weighting||0), 0);
-  if (!totalW) return null;
-  let sum = 0, hasAny = false;
+  let sum = 0, gradedW = 0, hasAny = false;
   for (const yr of APP.years) {
     const w = yr.weighting || 0;
     if (!w) continue;
     const ym = yearMark(yr);
     if (ym === null) continue;
     sum += ym * w;
+    gradedW += w;
     hasAny = true;
   }
   if (!hasAny) return null;
-  return sum / totalW;
+  return sum / gradedW;
+}
+
+/** Sum of weighting (%) across years that currently have a usable grade. */
+function gradedDegreeWeighting() {
+  return APP.years.reduce((s, y) => {
+    const w = y.weighting || 0;
+    if (!w) return s;
+    return yearMark(y) !== null ? s + w : s;
+  }, 0);
 }
 
 
@@ -952,6 +965,7 @@ function buildOverview() {
   const totalW = APP.years.reduce((s,y) => s + (y.weighting||0), 0);
   const hasWeightings = totalW > 0;
   const overallMark = overallDegreeMark();
+  const gradedW = gradedDegreeWeighting();
 
   const hint = `<div class="menu-hint">
     <span class="menu-hint-icon">☰</span>
@@ -963,12 +977,15 @@ function buildOverview() {
   if (hasWeightings) {
     const col = overallMark !== null ? gradeColor(overallMark) : 'var(--tx4)';
     const cls = overallMark !== null ? gradeClass(overallMark) : '—';
+    const subText = overallMark !== null
+      ? `Based on ${gradedW}% of your degree graded so far${gradedW < totalW ? ` (${totalW}% weighting assigned in total)` : ''}`
+      : `Based on year weightings · ${totalW}% accounted for`;
     overallHtml = `
       <div class="ov-overall-card">
         <div class="ov-overall-label">Projected Degree Classification</div>
         <div class="ov-overall-mark" style="color:${col}">${overallMark !== null ? overallMark.toFixed(1)+'%' : '—'}</div>
         <div class="ov-overall-cls" style="color:${col}">${cls}</div>
-        <div class="ov-overall-sub">Based on year weightings · ${totalW}% accounted for</div>
+        <div class="ov-overall-sub">${subText}</div>
       </div>`;
   } else {
     overallHtml = `
@@ -2163,9 +2180,11 @@ function buildHelpPane() {
     },
     {
       q: 'How is my projected degree classification calculated?',
-      a: `<p>Each academic year has a <strong>weighting percentage</strong> (e.g. Year 1 = 0%, Year 2 = 30%, Year 3 = 70%). The overall degree mark is:</p>
-      <div class="help-formula">Degree Mark = Σ (Year Mark × Year Weighting%) ÷ Total Weighting%</div>
-      <p>Set year weightings by clicking the <strong>✎ Edit</strong> button on any year in the sidebar. Years with a 0% weighting are excluded from the calculation.</p>`
+      a: `<p>Each academic year has a <strong>weighting percentage</strong> (e.g. Year 1 = 10%, Year 2 = 30%, Year 3 = 60%). Your projected mark is the weighted average of the years you've <strong>actually graded so far</strong>, using their weightings as a ratio against each other — not against your whole degree:</p>
+      <div class="help-formula">Projected Mark = Σ (Year Mark × Year Weighting%) ÷ Σ (Weighting% of graded years)</div>
+      <p>For example, Year 1 (10% weighting) at 60% and Year 2 (30% weighting) at 70%, with Year 3 not yet graded:</p>
+      <div class="help-formula">(60 × 10 + 70 × 30) ÷ (10 + 30) = 2700 ÷ 40 = <strong>67.5%</strong></div>
+      <p>This way, finishing Year 1 strongly doesn't get diluted down by years you haven't started yet. As you grade more years, they're folded into the ratio automatically. Set year weightings by clicking the <strong>✎ Edit</strong> button on any year in the sidebar. Years with a 0% weighting are excluded from the calculation.</p>`
     },
     {
       q: 'What does the Target Grade planner show?',
