@@ -1173,41 +1173,66 @@ function getUpcomingDeadlines(yr, n = 5) {
 }
 
 function buildDegreeBoundaryCard() {
-  const gradedYears = APP.years.filter(y => yearMark(y) !== null).length;
-  const overall = overallDegreeMark();
   const thresholds = getGradeThresholds();
+  const overall = overallDegreeMark();
 
-  if (gradedYears < 2 || overall === null) {
+  // If we have a proper weighted degree mark (2+ graded years with weightings), show it
+  if (overall !== null) {
+    const col = gradeColor(overall);
+    const cls = gradeClass(overall);
+    const higher = thresholds
+      .filter(t => t.min > overall)
+      .sort((a,b) => a.min - b.min)[0];
+
+    let gapText = '';
+    if (!thresholds.length) {
+      gapText = 'Classification labels are turned off, so this shows your percentage only.';
+    } else if (higher) {
+      gapText = `${(higher.min - overall).toFixed(1)} marks from a ${higher.label}.`;
+    } else {
+      gapText = `You are in ${cls} class territory — keep it up!`;
+    }
+
     return `<div class="dashboard-card degree-boundary-card">
       <div>
         <div class="dashboard-card-title">🎓 Projected Degree Classification</div>
-        <div class="degree-boundary-muted">Add more grades to see your overall average.</div>
+        <div class="degree-boundary-mark" style="color:${col}">${overall.toFixed(1)}%</div>
+        <div class="degree-boundary-class" style="color:${col}">${thresholds.length ? cls : 'Percentage only'}</div>
       </div>
+      <div class="degree-boundary-gap">${gapText}</div>
     </div>`;
   }
 
-  const col = gradeColor(overall);
-  const cls = gradeClass(overall);
-  const higher = thresholds
-    .filter(t => t.min > overall)
-    .sort((a,b) => a.min - b.min)[0];
+  // Fall back: show current year average if any year has marks
+  const anyYearMark = APP.years.map(y => yearMark(y)).find(m => m !== null);
+  if (anyYearMark !== null && anyYearMark !== undefined) {
+    const col = gradeColor(anyYearMark);
+    const cls = gradeClass(anyYearMark);
+    const higher = thresholds
+      .filter(t => t.min > anyYearMark)
+      .sort((a,b) => a.min - b.min)[0];
+    const gapText = !thresholds.length
+      ? 'Classification labels are turned off.'
+      : higher
+        ? `${(higher.min - anyYearMark).toFixed(1)} marks from a ${higher.label}.`
+        : `You are in ${cls} class territory — keep it up!`;
 
-  let gapText = '';
-  if (!thresholds.length) {
-    gapText = 'Classification labels are turned off, so this shows your percentage only.';
-  } else if (higher) {
-    gapText = `${(higher.min - overall).toFixed(1)} marks from a ${higher.label}.`;
-  } else {
-    gapText = `You are in ${cls} class territory — keep it up!`;
+    return `<div class="dashboard-card degree-boundary-card">
+      <div>
+        <div class="dashboard-card-title">🎓 Current Year Average</div>
+        <div class="degree-boundary-mark" style="color:${col}">${anyYearMark.toFixed(1)}%</div>
+        <div class="degree-boundary-class" style="color:${col}">${thresholds.length ? cls : 'Percentage only'}</div>
+      </div>
+      <div class="degree-boundary-gap">${gapText}<br><span style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Set year weightings via ✎ to see your projected degree classification.</span></div>
+    </div>`;
   }
 
+  // No marks at all yet
   return `<div class="dashboard-card degree-boundary-card">
     <div>
       <div class="dashboard-card-title">🎓 Projected Degree Classification</div>
-      <div class="degree-boundary-mark" style="color:${col}">${overall.toFixed(1)}%</div>
-      <div class="degree-boundary-class" style="color:${col}">${thresholds.length ? cls : 'Percentage only'}</div>
+      <div class="degree-boundary-muted">Add more grades to see your overall average.</div>
     </div>
-    <div class="degree-boundary-gap">${gapText}</div>
   </div>`;
 }
 
