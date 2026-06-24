@@ -146,7 +146,9 @@ function parseIcal(text) {
         break;
       case 'ORGANIZER': {
         // ORGANIZER;CN=Name:MAILTO:email@example.com
-        const cnMatch    = propFull.match(/CN=([^;:]+)/i);
+        // Use the original (non-uppercased) line so the CN value keeps its casing.
+        const rawPropPart = raw.trim().slice(0, colonIdx);
+        const cnMatch    = rawPropPart.match(/CN=([^;:]+)/i);
         const emailMatch = value.match(/MAILTO:(.+)/i);
         cur.organiserName  = cnMatch    ? ttUnescape(cnMatch[1])    : '';
         cur.organiserEmail = emailMatch ? emailMatch[1].trim()      : '';
@@ -302,10 +304,13 @@ async function ttImportFromUrl() {
   // Save the URL for future re-imports
   localStorage.setItem(TT_IMPORT_KEY, urlRaw);
 
-  // Tabula .ics files are public (no auth on the token URL), but may hit
-  // CORS in the browser. We try the URL directly first; if that fails we
-  // fall back to a public CORS-anywhere proxy.
+  // Tabula's /api/v1/timetable/calendar/... URLs require an SSO session cookie
+  // and will return 403 when fetched from JS (no cookie) or via a proxy (no
+  // cookie either).  Detect this early and guide the user to the file-upload
+  // path instead, offering a direct download link so they can grab the .ics
+  // in one click and then upload it.
   let text = null;
+  let got403 = false;
   let errorMsg = '';
 
   const attempts = [
@@ -317,6 +322,7 @@ async function ttImportFromUrl() {
   for (const attempt of attempts) {
     try {
       const res = await fetch(attempt, { cache: 'no-store' });
+      if (res.status === 403) { got403 = true; errorMsg = 'HTTP 403'; continue; }
       if (!res.ok) { errorMsg = `HTTP ${res.status}`; continue; }
       const t = await res.text();
       if (t.includes('BEGIN:VCALENDAR')) { text = t; break; }
@@ -327,7 +333,23 @@ async function ttImportFromUrl() {
   }
 
   if (!text) {
-    statusEl.innerHTML = `<span style="color:var(--red)">❌ Could not fetch: ${escapeHTML(errorMsg)}<br>Try uploading the .ics file instead.</span>`;
+    if (got403) {
+      // This URL requires a Warwick SSO login — proxies can't pass the session
+      // cookie.  The easiest fix is to download the file while logged in and
+      // then upload it with the file picker below.
+      statusEl.innerHTML = `
+        <span style="color:var(--red)">
+          ❌ <strong>403 Forbidden</strong> — this URL requires you to be logged in to Tabula.<br>
+          Proxies can't pass your session cookie, so the fetch always fails.<br><br>
+          <strong>Fix:</strong> <a href="${escapeHTML(urlRaw)}" target="_blank" rel="noopener"
+            style="color:var(--accent-mid);text-decoration:underline">
+            👉 Open the .ics link while logged in to Tabula</a>,
+          let the browser download the file, then use
+          <strong>"Choose .ics file"</strong> below to import it.
+        </span>`;
+    } else {
+      statusEl.innerHTML = `<span style="color:var(--red)">❌ Could not fetch: ${escapeHTML(errorMsg)}<br>Try downloading the .ics file and uploading it below instead.</span>`;
+    }
     return;
   }
 
@@ -950,7 +972,8 @@ function ttInjectDOM() {
 
         <div class="settings-section-title">From Tabula iCal URL</div>
         <p style="font-family:var(--fm);font-size:11px;color:var(--tx3);margin-bottom:12px;line-height:1.65">
-          Go to <strong>tabula.warwick.ac.uk → Profile → Export calendar</strong> and copy the URL ending in <code>.ics</code>.
+          Go to <strong>tabula.warwick.ac.uk → Profile → Export calendar</strong> and copy the iCal URL.<br>
+          <span style="color:var(--amber,#D97706)">⚠ If you see a 403 error, your URL requires login — use the file upload below instead.</span>
         </p>
         <div class="form-row">
           <label for="ttImportUrl">iCal URL</label>
@@ -958,9 +981,9 @@ function ttInjectDOM() {
         </div>
         <button class="btn btn-primary" onclick="ttImportFromUrl()">📥 Fetch &amp; Import</button>
 
-        <div class="settings-section-title" style="margin-top:24px">Or upload a .ics file</div>
+        <div class="settings-section-title" style="margin-top:24px">Upload a .ics file <span style="font-family:var(--fm);font-size:10px;font-weight:400;color:var(--gn,#059669)">(recommended for Tabula)</span></div>
         <p style="font-family:var(--fm);font-size:11px;color:var(--tx3);margin-bottom:12px;line-height:1.65">
-          Download the .ics from Tabula and upload it here.
+          Open your iCal URL <strong>while logged in to Tabula</strong> — the browser will download a <code>.ics</code> file. Then upload it here.
         </p>
         <label class="btn btn-ghost" style="cursor:pointer">
           📎 Choose .ics file
