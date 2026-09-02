@@ -1,0 +1,16 @@
+{
+  "name": "gradewick-scrapers",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "scrape:modules": "node scrape-modules-only.mjs",
+    "scrape:courses": "node scrape-courses-2026.mjs",
+    "build:data": "node build-2026-data.mjs",
+    "update:all": "npm run scrape:modules && npm run scrape:courses && npm run build:data"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.40.0"
+  }
+}
