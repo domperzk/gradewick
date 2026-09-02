@@ -209,7 +209,7 @@ const DEFAULT_TAB_NAMES = {
   timetables: 'Timetables', // Changed from 'timetable'
   modules: 'Modules',
   checklist: 'Revision Checklist',
-  target: 'Target Grades'
+  target: 'Grade Simulator'
 };
 
 // Add these new functions to handle the internal timetable switching
@@ -271,6 +271,7 @@ function migrateData() {
   if (!APP.settings) APP.settings = {};
   if (!APP.settings.tabNames) APP.settings.tabNames = JSON.parse(JSON.stringify(DEFAULT_TAB_NAMES));
   if (APP.settings.tabNames.checklist === 'Exam Checklist') APP.settings.tabNames.checklist = 'Revision Checklist';
+  if (APP.settings.tabNames.target === 'Target Grades') APP.settings.tabNames.target = 'Grade Simulator';
   if (!APP.settings.gradeScale) APP.settings.gradeScale = DEFAULT_GRADE_SCALE;
   if (!Array.isArray(APP.settings.gradeThresholds)) APP.settings.gradeThresholds = cloneGradeThresholds(APP.settings.gradeScale);
   if (APP.settings.showGradeTargets === undefined) APP.settings.showGradeTargets = true;
@@ -281,6 +282,24 @@ function migrateData() {
   APP.years.forEach(yr => {
     if (!yr.marks)     yr.marks     = {};
     if (!yr.checklist) yr.checklist = {};
+    // Migrate the old { topics: [string], done: {index: bool} } checklist shape into
+    // the new { topics: [{ id, name, status, subtopics: [...] }] } shape. Gated
+    // implicitly: once a module's topics are objects (post-migration), the
+    // "some topic is still a string" check below is false and it's skipped for good.
+    Object.keys(yr.checklist).forEach(mid => {
+      const cl = yr.checklist[mid];
+      if (!cl || !Array.isArray(cl.topics)) return;
+      const isOldShape = cl.topics.some(t => typeof t === 'string');
+      if (!isOldShape) return;
+      const doneMap = cl.done || {};
+      const newTopics = cl.topics.map((name, i) => ({
+        id: clGenId('t'),
+        name: name,
+        status: doneMap[i] ? 'mastered' : 'not-started',
+        subtopics: []
+      }));
+      yr.checklist[mid] = { topics: newTopics };
+    });
     if (yr.weighting === undefined) yr.weighting = 0;
     if (!yr.futureModuleGrades) yr.futureModuleGrades = {};
     if (!yr.futureComponentGrades) yr.futureComponentGrades = {};
@@ -411,11 +430,11 @@ function applyAccentColour(preset, customHex) {
     root.style.setProperty('--accent',        p.hex);
     root.style.setProperty('--accent-mid',    p.mid);
     root.style.setProperty('--accent-light',  p.light);
-    root.style.setProperty('--accent-bg',     p.bg);
-    root.style.setProperty('--accent-border', p.border);
+    root.style.setProperty('--accent-bg',     hexWithAlpha(p.mid,0.08));
+    root.style.setProperty('--accent-border', hexWithAlpha(p.mid,0.25));
     root.style.setProperty('--cat-exam-color',  p.mid);
-    root.style.setProperty('--cat-exam-bg',     p.bg);
-    root.style.setProperty('--cat-exam-border', p.border);
+    root.style.setProperty('--cat-exam-bg',     hexWithAlpha(p.mid,0.08));
+    root.style.setProperty('--cat-exam-border', hexWithAlpha(p.mid,0.25));
   }
 }
 
@@ -669,7 +688,7 @@ function saveModEdit() {
     if (!yr.checklist) yr.checklist={};
     if (!yr.futureModuleGrades) yr.futureModuleGrades={};
     if (!yr.futureComponentGrades) yr.futureComponentGrades={};
-    yr.checklist[nid]={topics:[],done:{}};
+    yr.checklist[nid]={topics:[]};
   }
   persist(); closeOverlayDirect('modEditOverlay'); renderYearPane(meYid);
 }
@@ -1611,8 +1630,14 @@ function buildModules(yr) {
     if(total!==null){pillTxt=total.toFixed(1)+'%';pillStyle=`color:${gradeColor(total)};background:${gradeColor(total)}18;border-color:${gradeColor(total)}44`;}
     else if(partial!==null){pillTxt=`${partial.toFixed(1)} / ${ew} pts`;pillStyle='color:var(--tx2);';}
 
+    // Normalized dictionary lookup — saveModEdit() already normalizes codes with
+    // .trim().toUpperCase() before storing/looking up, but cpConfirm() (the automatic
+    // course-onboarding flow) stores m.code as-is. ALL_MODULES_DICT keys are always
+    // uppercase, so normalize here too — fixes the lookup regardless of how the module was added.
+    const dictEntry = ALL_MODULES_DICT[(mod.code || '').trim().toUpperCase()];
+
     // Module URL quick-link (from course import/catalogue data)
-    const modUrl = mod.url || (ALL_MODULES_DICT[mod.code] ? ALL_MODULES_DICT[mod.code].url : '');
+    const modUrl = mod.url || (dictEntry ? dictEntry.url : '');
     const safeModUrl = String(modUrl || '').replace(/"/g, '&quot;');
     const urlLink = safeModUrl
       ? `<a href="${safeModUrl}" target="_blank" rel="noopener" class="mod-url-link" title="Open official module page" onclick="event.stopPropagation()">📎 Module page</a>`
@@ -1650,7 +1675,6 @@ function buildModules(yr) {
     const modResetHtml=``;
 
     // Assessment split badge (if available in dict)
-    const dictEntry = ALL_MODULES_DICT[mod.code];
     const splitBadge = dictEntry && dictEntry.assessmentSplit
       ? `<span style="font-family:var(--fm);font-size:10px;color:var(--tx3);margin-left:6px;background:var(--bg2);padding:2px 6px;border-radius:4px;border:1px solid var(--b2)">${dictEntry.assessmentSplit}</span>`
       : '';
@@ -1733,7 +1757,7 @@ function buildTarget(yr) {
   if (!yr.futureComponentGrades) yr.futureComponentGrades = {};
 
   if (!yr.modules || !yr.modules.length) {
-    return `<div class="tt-empty">No modules yet. Add modules to start exploring target grades.</div>`;
+    return `<div class="tt-empty">No modules yet. Add modules to start simulating your grades.</div>`;
   }
 
   const anyModuleMarks = yr.modules.some(m => (m.components || []).some(c => getModuleMarkForComponent(yr, c) !== null));
@@ -1773,7 +1797,7 @@ function buildTarget(yr) {
   }
 
   let html = `
-    <div style="font-family:var(--fd);font-size:20px;font-weight:800;color:var(--tx);margin-bottom:8px">Target Grades &amp; Planning</div>
+    <div style="font-family:var(--fd);font-size:20px;font-weight:800;color:var(--tx);margin-bottom:8px">Grade Simulator</div>
     <div style="font-family:var(--fm);font-size:12px;color:var(--tx3);margin-bottom:24px;line-height:1.5">
       Edit the simulated grade for each unmarked assessment. Marks entered in <strong>Modules</strong> are locked here and only change when you update them in Modules.
     </div>
@@ -2135,7 +2159,46 @@ function buildDataHealthSummary() {
 }
 
 // ── SUPPORT / BUG REPORT ────────────────────────────────────────────────────
+const FEEDBACK_TYPE_COPY = {
+  bug: {
+    subjectPlaceholder: 'e.g. Grade calculation is wrong for module X',
+    descLabel: 'Description',
+    descPlaceholder: 'Describe what happened, what you expected, and the steps to reproduce…'
+  },
+  suggestion: {
+    subjectPlaceholder: 'e.g. Add support for weighted GPA imports',
+    descLabel: 'Your suggestion',
+    descPlaceholder: `Tell us what you'd like to see added or improved…`
+  },
+  question: {
+    subjectPlaceholder: 'e.g. How is my overall grade calculated?',
+    descLabel: 'Your question',
+    descPlaceholder: 'Ask away — the more detail you give, the better we can help…'
+  }
+};
+
+function selectFeedbackType(btn) {
+  const type = btn.dataset.type;
+  const hiddenInp = document.getElementById('support-type');
+  if (hiddenInp) hiddenInp.value = type;
+
+  const selector = document.getElementById('fbTypeSelector');
+  if (selector) selector.querySelectorAll('.fb-type-btn').forEach(b => b.classList.toggle('active', b === btn));
+
+  const copy = FEEDBACK_TYPE_COPY[type] || FEEDBACK_TYPE_COPY.bug;
+  const subjectInp = document.getElementById('support-subject');
+  const descInp = document.getElementById('support-desc');
+  const descLabelEl = document.querySelector('label[for="support-desc"]');
+  if (subjectInp) subjectInp.placeholder = copy.subjectPlaceholder;
+  if (descInp) descInp.placeholder = copy.descPlaceholder;
+  if (descLabelEl) descLabelEl.textContent = copy.descLabel;
+}
+
 function openSupport() {
+  // Reset the feedback type selector back to its default (Bug report) each time the modal opens
+  const defaultTypeBtn = document.querySelector('#fbTypeSelector .fb-type-btn[data-type="bug"]');
+  if (defaultTypeBtn) selectFeedbackType(defaultTypeBtn);
+
   const debugEl = document.getElementById('supportDebugInfo');
   if (debugEl) {
     const sanitisedSettings = JSON.parse(JSON.stringify(APP.settings || {}));
@@ -2156,8 +2219,12 @@ function openSupport() {
   openOverlay('supportOverlay');
 }
 
-function sendBugReport() {
-  const subject = document.getElementById('support-subject').value.trim() || 'Gradewick Bug Report';
+function sendFeedback() {
+  const typeLabels = { bug: 'Bug', suggestion: 'Suggestion', question: 'Question' };
+  const type = document.getElementById('support-type').value || 'bug';
+  const typeLabel = typeLabels[type] || 'Bug';
+
+  const subject = document.getElementById('support-subject').value.trim() || `Gradewick ${typeLabel}`;
   const desc    = document.getElementById('support-desc').value.trim();
   if (!desc) { showToast('Please describe the issue first'); return; }
 
@@ -2174,7 +2241,7 @@ function sendBugReport() {
   ].join('\n');
 
   const body = encodeURIComponent(`${desc}\n\n${debugBlock}`);
-  const encodedSubject = encodeURIComponent(`[Gradewick] ${subject}`);
+  const encodedSubject = encodeURIComponent(`[Gradewick ${typeLabel}] ${subject}`);
   window.location.href = `mailto:kuku.dompreh@warwick.ac.uk?subject=${encodedSubject}&body=${body}`;
   closeOverlayDirect('supportOverlay');
   showToast('Opening your email client…');
@@ -2275,19 +2342,73 @@ function toggleHelp(idx) {
 
 let teYid=null, teModId=null;
 
+// Status weights used to roll individual (sub)topic statuses up into percentages.
+const CL_STATUS_WEIGHT = { 'not-started': 0, 'reviewing': 0.5, 'mastered': 1 };
+const CL_STATUS_LABEL  = { 'not-started': 'Not Started', 'reviewing': 'Reviewing', 'mastered': 'Mastered' };
+
+let _clIdCounter = 0;
+function clGenId(prefix) {
+  _clIdCounter++;
+  return `${prefix}${Date.now().toString(36)}${_clIdCounter}`;
+}
+
+/**
+ * Compute a topic's effective status and progress (0..1).
+ * If the topic has sub-topics, its status is a computed rollup of them rather
+ * than a directly-set value: fully mastered sub-topics → 'mastered', a mix →
+ * 'reviewing', none started → 'not-started'. Shared by both the editor and
+ * the display view so the two never disagree.
+ */
+function computeTopicProgress(topic) {
+  if (topic.subtopics && topic.subtopics.length) {
+    const sum = topic.subtopics.reduce((s, st) => s + (CL_STATUS_WEIGHT[st.status] ?? 0), 0);
+    const pct = sum / topic.subtopics.length;
+    const status = pct >= 1 ? 'mastered' : pct <= 0 ? 'not-started' : 'reviewing';
+    return { pct, status };
+  }
+  const status = topic.status || 'not-started';
+  return { pct: CL_STATUS_WEIGHT[status] ?? 0, status };
+}
+
+function clStatusBadge(status) {
+  const cls = status === 'mastered' ? 'cl-badge-mastered' : status === 'reviewing' ? 'cl-badge-reviewing' : 'cl-badge-notstarted';
+  return `<span class="cl-status-badge ${cls}">${CL_STATUS_LABEL[status] || CL_STATUS_LABEL['not-started']}</span>`;
+}
+
+function clStatusSelect(yid, mid, topicId, subtopicId, currentStatus) {
+  const subArg = subtopicId ? `'${subtopicId}'` : 'null';
+  return `<select class="cl-status-select" aria-label="Set status" onclick="event.stopPropagation()" onchange="event.stopPropagation();clSetStatus('${yid}','${mid}','${topicId}',${subArg},this.value)">
+    <option value="not-started" ${currentStatus==='not-started'?'selected':''}>Not Started</option>
+    <option value="reviewing" ${currentStatus==='reviewing'?'selected':''}>Reviewing</option>
+    <option value="mastered" ${currentStatus==='mastered'?'selected':''}>Mastered</option>
+  </select>`;
+}
+
 function buildChecklist(yr) {
   if(!yr.checklist) yr.checklist={};
-  let totalQ=0, totalDone=0;
-  yr.modules.forEach(m=>{const cl=yr.checklist[m.id]||{topics:[],done:{}};totalQ+=cl.topics.length;totalDone+=cl.topics.filter((_,i)=>cl.done[i]).length;});
-  const modsDone=yr.modules.filter(m=>{const cl=yr.checklist[m.id]||{topics:[],done:{}};return cl.topics.length>0&&cl.topics.every((_,i)=>cl.done[i]);}).length;
-  const pct=totalQ>0?Math.round(totalDone/totalQ*100):0;
 
   if(!yr.modules||!yr.modules.length) {
     return `<div class="tt-empty">No modules yet. Add modules via the Modules tab first.</div>`;
   }
 
+  let totalTopics=0, totalWeight=0;
+  yr.modules.forEach(m=>{
+    const cl=yr.checklist[m.id]||{topics:[]};
+    (cl.topics||[]).forEach(t=>{ totalTopics++; totalWeight+=computeTopicProgress(t).pct; });
+  });
+  const modsDone=yr.modules.filter(m=>{
+    const cl=yr.checklist[m.id]||{topics:[]};
+    const topics=cl.topics||[];
+    return topics.length>0 && topics.every(t=>computeTopicProgress(t).status==='mastered');
+  }).length;
+  const masteredTopics=yr.modules.reduce((s,m)=>{
+    const cl=yr.checklist[m.id]||{topics:[]};
+    return s+(cl.topics||[]).filter(t=>computeTopicProgress(t).status==='mastered').length;
+  },0);
+  const pct=totalTopics>0?Math.round(totalWeight/totalTopics*100):0;
+
   const statsHtml=`<div class="cl-stats">
-    <div class="cl-stat"><div class="cl-stat-lbl">Topics done</div><div class="cl-stat-val">${totalDone} <span style="font-size:15px;color:var(--tx4)">/ ${totalQ}</span></div></div>
+    <div class="cl-stat"><div class="cl-stat-lbl">Topics mastered</div><div class="cl-stat-val">${masteredTopics} <span style="font-size:15px;color:var(--tx4)">/ ${totalTopics}</span></div></div>
     <div class="cl-stat"><div class="cl-stat-lbl">Progress</div><div class="cl-stat-val" style="color:var(--gn)">${pct}%</div></div>
     <div class="cl-stat"><div class="cl-stat-lbl">Modules done</div><div class="cl-stat-val">${modsDone} <span style="font-size:15px;color:var(--tx4)">/ ${yr.modules.length}</span></div></div>
   </div>`;
@@ -2300,68 +2421,260 @@ function buildChecklist(yr) {
 
   let modHtml='';
   yr.modules.forEach(m=>{
-    const cl=yr.checklist[m.id]||{topics:[],done:{}};
-    const done=cl.topics.filter((_,i)=>cl.done[i]).length, total=cl.topics.length;
-    const fpct=total>0?Math.round(done/total*100):0;
+    const cl=yr.checklist[m.id]||{topics:[]};
+    const topics=cl.topics||[];
+    const total=topics.length;
+    const masteredCount=topics.filter(t=>computeTopicProgress(t).status==='mastered').length;
+    const weightSum=topics.reduce((s,t)=>s+computeTopicProgress(t).pct,0);
+    const fpct=total>0?Math.round(weightSum/total*100):0;
+
     let items='';
-    cl.topics.forEach((topic,i)=>{const chk=!!cl.done[i];items+=`<div class="cl-item${chk?' chk':''}" onclick="clToggle('${yr.id}','${m.id}',${i})"><div class="cl-box"><svg class="cl-tick" viewBox="0 0 10 10" fill="none" stroke="currentColor"  stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 5 4 7.5 8.5 2.5"/></svg></div><span class="cl-lbl">${escapeHTML(topic)||'Topic '+(i+1)}</span></div>`;});
+    topics.forEach(topic=>{
+      const prog=computeTopicProgress(topic);
+      const hasSub=topic.subtopics && topic.subtopics.length>0;
+      const subListId=`cltopic-${yr.id}-${m.id}-${topic.id}`;
+      let subHtml='';
+      if(hasSub){
+        subHtml=topic.subtopics.map(st=>`
+          <div class="cl-subtopic-row">
+            <span class="cl-subtopic-name">${escapeHTML(st.name)||'Sub-topic'}</span>
+            ${clStatusBadge(st.status||'not-started')}
+            ${clStatusSelect(yr.id,m.id,topic.id,st.id,st.status||'not-started')}
+          </div>`).join('');
+      }
+      items+=`<div class="cl-topic${hasSub?' has-sub':''}">
+        <div class="cl-topic-hdr"${hasSub?` onclick="toggleClTopic('${subListId}')"`:''}>
+          <span class="cl-topic-name">${escapeHTML(topic.name)||'Topic'}</span>
+          <div class="cl-topic-right">
+            ${clStatusBadge(prog.status)}
+            <span class="cl-topic-pct">${Math.round(prog.pct*100)}%</span>
+            ${hasSub
+              ? `<svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>`
+              : clStatusSelect(yr.id,m.id,topic.id,null,topic.status||'not-started')}
+          </div>
+        </div>
+        ${hasSub?`<div class="cl-subtopic-list" id="${subListId}" style="display:none">${subHtml}</div>`:''}
+      </div>`;
+    });
     if(!items) items=`<div style="font-family:var(--fm);font-size:11px;color:var(--tx4);font-style:italic;padding:8px 0">No topics yet. Click ✎ to add some.</div>`;
     const modResetBtn=total>0?`<button class="btn btn-danger btn-sm" style="margin-top:10px" onclick="clResetMod('${yr.id}','${m.id}')">Reset ${escapeHTML(m.code)} progress</button>`:'';
     modHtml+=`<div class="card" id="clcard-${yr.id}-${m.id}">
       <div class="cl-mod-hdr" onclick="toggleCard('clcard-${yr.id}-${m.id}')">
         <span class="mod-code">${escapeHTML(m.code)}</span>
         <span class="mod-name">${escapeHTML(m.name)}</span>
-        <span class="cl-count${done===total&&total>0?' done':''}">${done} / ${total}</span>
+        <span class="cl-count${masteredCount===total&&total>0?' done':''}">${masteredCount} / ${total}</span>
         <div class="cl-bar-wrap"><div class="cl-bar-fill" style="width:${fpct}%"></div></div>
         <button class="icon-btn btn-sm" aria-label="Edit topics for ${escapeHTML(m.name)}" onclick="event.stopPropagation();openTopicEdit('${yr.id}','${m.id}')" title="Edit topics" style="margin-right:4px">✎</button>
         <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </div>
-      <div class="cl-mod-body" style="display:none"><div class="cl-grid">${items}</div>${modResetBtn}</div>
+      <div class="cl-mod-body" style="display:none"><div class="cl-topic-list">${items}</div>${modResetBtn}</div>
     </div>`;
   });
 
   return statsHtml+actHtml+`<div>${modHtml}</div>`;
 }
 
-function clToggle(yid,mid,idx){const yr=getYear(yid);if(!yr.checklist)yr.checklist={};if(!yr.checklist[mid])yr.checklist[mid]={topics:[],done:{}};yr.checklist[mid].done[idx]=!yr.checklist[mid].done[idx];persist();const sp=document.getElementById(`sp-${yid}-checklist`);const openCards=sp?[...sp.querySelectorAll('.card.open')].map(c=>c.id):[];if(sp)sp.innerHTML=buildChecklist(yr);restoreOpenCards(openCards,'.cl-mod-body');}
-function clExpandAll(yid){document.querySelectorAll(`#sp-${yid}-checklist .card`).forEach(c=>{c.classList.add('open');const body=c.querySelector('.cl-mod-body');if(body)body.style.display='block';const chev=c.querySelector('.chevron');if(chev)chev.style.transform='rotate(180deg)';});}
-function clCollapseAll(yid){document.querySelectorAll(`#sp-${yid}-checklist .card`).forEach(c=>{c.classList.remove('open');const body=c.querySelector('.cl-mod-body');if(body)body.style.display='none';const chev=c.querySelector('.chevron');if(chev)chev.style.transform='';});}
-function clReset(yid){if(!confirm('Reset ALL checklist progress?'))return;const yr=getYear(yid);if(yr.checklist)Object.values(yr.checklist).forEach(cl=>{cl.done={};});persist();const sp=document.getElementById(`sp-${yid}-checklist`);if(sp)sp.innerHTML=buildChecklist(yr);showToast('Checklist reset.');}
-function clResetMod(yid,mid){const yr=getYear(yid),mod=yr.modules.find(m=>m.id===mid);if(!confirm(`Reset checklist progress for ${mod.code}?`))return;if(yr.checklist&&yr.checklist[mid])yr.checklist[mid].done={};persist();const sp=document.getElementById(`sp-${yid}-checklist`);const openCards=sp?[...sp.querySelectorAll('.card.open')].map(c=>c.id):[];if(sp)sp.innerHTML=buildChecklist(yr);restoreOpenCards(openCards,'.cl-mod-body');showToast(`${mod.code} checklist reset.`);}
+function toggleClTopic(id){
+  const el=document.getElementById(id);if(!el)return;
+  const isOpen=el.style.display==='block';
+  el.style.display=isOpen?'none':'block';
+  const hdr=el.previousElementSibling;
+  const chev=hdr?hdr.querySelector('.chevron'):null;
+  if(chev) chev.style.transform=isOpen?'':'rotate(180deg)';
+}
+
+function clSetStatus(yid,mid,topicId,subtopicId,status){
+  const yr=getYear(yid);
+  if(!yr.checklist) yr.checklist={};
+  const cl=yr.checklist[mid];
+  if(!cl) return;
+  const topic=(cl.topics||[]).find(t=>t.id===topicId);
+  if(!topic) return;
+  if(subtopicId){
+    const st=(topic.subtopics||[]).find(s=>s.id===subtopicId);
+    if(st) st.status=status;
+  } else {
+    topic.status=status;
+  }
+  persist();
+  const sp=document.getElementById(`sp-${yid}-checklist`);
+  const openCards=sp?[...sp.querySelectorAll('.card.open')].map(c=>c.id):[];
+  const openTopicLists=sp?[...sp.querySelectorAll('.cl-subtopic-list')].filter(el=>el.style.display==='block').map(el=>el.id):[];
+  if(sp) sp.innerHTML=buildChecklist(yr);
+  restoreOpenCards(openCards,'.cl-mod-body');
+  openTopicLists.forEach(id=>{
+    const el=document.getElementById(id);if(!el)return;
+    el.style.display='block';
+    const hdr=el.previousElementSibling;
+    const chev=hdr?hdr.querySelector('.chevron'):null;
+    if(chev) chev.style.transform='rotate(180deg)';
+  });
+}
+
+function clExpandAll(yid){document.querySelectorAll(`#sp-${yid}-checklist .card`).forEach(c=>{c.classList.add('open');const body=c.querySelector('.cl-mod-body');if(body)body.style.display='block';const chev=c.querySelector('.cl-mod-hdr .chevron');if(chev)chev.style.transform='rotate(180deg)';});}
+function clCollapseAll(yid){document.querySelectorAll(`#sp-${yid}-checklist .card`).forEach(c=>{c.classList.remove('open');const body=c.querySelector('.cl-mod-body');if(body)body.style.display='none';const chev=c.querySelector('.cl-mod-hdr .chevron');if(chev)chev.style.transform='';});}
+
+function clReset(yid){
+  if(!confirm('Reset ALL checklist progress?'))return;
+  const yr=getYear(yid);
+  if(yr.checklist) Object.values(yr.checklist).forEach(cl=>{
+    (cl.topics||[]).forEach(t=>{ t.status='not-started'; (t.subtopics||[]).forEach(st=>st.status='not-started'); });
+  });
+  persist();
+  const sp=document.getElementById(`sp-${yid}-checklist`);
+  if(sp)sp.innerHTML=buildChecklist(yr);
+  showToast('Checklist reset.');
+}
+function clResetMod(yid,mid){
+  const yr=getYear(yid),mod=yr.modules.find(m=>m.id===mid);
+  if(!confirm(`Reset checklist progress for ${mod.code}?`))return;
+  const cl=yr.checklist&&yr.checklist[mid];
+  if(cl) (cl.topics||[]).forEach(t=>{ t.status='not-started'; (t.subtopics||[]).forEach(st=>st.status='not-started'); });
+  persist();
+  const sp=document.getElementById(`sp-${yid}-checklist`);
+  const openCards=sp?[...sp.querySelectorAll('.card.open')].map(c=>c.id):[];
+  if(sp)sp.innerHTML=buildChecklist(yr);
+  restoreOpenCards(openCards,'.cl-mod-body');
+  showToast(`${mod.code} checklist reset.`);
+}
 
 function restoreOpenCards(openCardIds, bodySelector) {
-  openCardIds.forEach(id=>{const card=document.getElementById(id);if(!card)return;card.classList.add('open');const body=card.querySelector(bodySelector);if(body)body.style.display='block';const chev=card.querySelector('.chevron');if(chev)chev.style.transform='rotate(180deg)';});
+  openCardIds.forEach(id=>{const card=document.getElementById(id);if(!card)return;card.classList.add('open');const body=card.querySelector(bodySelector);if(body)body.style.display='block';const chev=card.querySelector('.cl-mod-hdr .chevron, .mod-hdr .chevron');if(chev)chev.style.transform='rotate(180deg)';});
 }
+
+// ── Checklist topic/sub-topic structured editor ─────────────────────────────
+// Working copy of the topics being edited; only committed to yr.checklist on Save.
+let teTopics = [];
 
 function openTopicEdit(yid,mid){
   teYid=yid; teModId=mid;
   const yr=getYear(yid),mod=yr.modules.find(m=>m.id===mid);
   if(!yr.checklist) yr.checklist={};
-  if(!yr.checklist[mid]) yr.checklist[mid]={topics:[],done:{}};
+  if(!yr.checklist[mid]) yr.checklist[mid]={topics:[]};
+
+  // Deep-clone into a working copy so cancelling doesn't mutate live data, and
+  // backfill ids for any legacy rows that predate the id field.
+  teTopics=(yr.checklist[mid].topics||[]).map(t=>({
+    id: t.id || clGenId('t'),
+    name: t.name || '',
+    status: t.status || 'not-started',
+    subtopics: (t.subtopics||[]).map(st=>({
+      id: st.id || clGenId('s'),
+      name: st.name || '',
+      status: st.status || 'not-started'
+    }))
+  }));
+
   document.getElementById('topicEditEyebrow').textContent=mod.code;
   document.getElementById('topicEditModName').textContent=mod.name;
-  document.getElementById('topicTextarea').value=yr.checklist[mid].topics.join('\n');
+  renderTopicEditor();
   openOverlay('topicEditOverlay');
 }
 
-function saveTopics(){
-  const yr=getYear(teYid);
-  const topics=document.getElementById('topicTextarea').value.split('\n').map(s=>s.trim()).filter(Boolean);
-  if(!yr.checklist) yr.checklist={};
-  if(!yr.checklist[teModId]) yr.checklist[teModId]={topics:[],done:{}};
+function renderTopicEditor(){
+  const list=document.getElementById('topicEditorList');
+  if(!list) return;
+  if(!teTopics.length){
+    list.innerHTML=`<div class="cl-editor-empty">No topics yet. Click "+ Add topic" below to get started.</div>`;
+    return;
+  }
+  list.innerHTML=teTopics.map(topic=>{
+    const hasSub=topic.subtopics.length>0;
+    const subRows=topic.subtopics.map(st=>`
+      <div class="cl-editor-subrow" data-subtopic-id="${st.id}">
+        <input class="form-inp cl-editor-sub-name" type="text" value="${escapeHTML(st.name)}" placeholder="Sub-topic name" data-field="name" />
+        <select class="cl-editor-status" data-field="status">
+          <option value="not-started" ${st.status==='not-started'?'selected':''}>Not Started</option>
+          <option value="reviewing" ${st.status==='reviewing'?'selected':''}>Reviewing</option>
+          <option value="mastered" ${st.status==='mastered'?'selected':''}>Mastered</option>
+        </select>
+        <button type="button" class="icon-btn btn-sm" aria-label="Remove sub-topic" onclick="removeSubtopicRow('${topic.id}','${st.id}')">✕</button>
+      </div>`).join('');
 
-  // Fix 4: Rebuild the done object from scratch so that only indexes that
-  // exist in the NEW topics array are kept.  Without this, deleting a topic
-  // leaves orphan keys (e.g. { 4: true } when only indexes 0-1 remain), which
-  // corrupts progress counts and the "module done" badge.
-  const oldDone = yr.checklist[teModId].done || {};
-  const newDone  = {};
-  topics.forEach((_, i) => {
-    if (oldDone[i] !== undefined) newDone[i] = oldDone[i];
+    return `<div class="cl-editor-topic" data-topic-id="${topic.id}">
+      <div class="cl-editor-topic-row">
+        <input class="form-inp cl-editor-topic-name" type="text" value="${escapeHTML(topic.name)}" placeholder="Topic name" data-field="name" />
+        ${hasSub
+          ? `<span class="cl-editor-rollup-note">Status set by sub-topics</span>`
+          : `<select class="cl-editor-status" data-field="status">
+               <option value="not-started" ${topic.status==='not-started'?'selected':''}>Not Started</option>
+               <option value="reviewing" ${topic.status==='reviewing'?'selected':''}>Reviewing</option>
+               <option value="mastered" ${topic.status==='mastered'?'selected':''}>Mastered</option>
+             </select>`}
+        <button type="button" class="icon-btn btn-sm" aria-label="Remove topic" onclick="removeTopicRow('${topic.id}')">✕</button>
+      </div>
+      <div class="cl-editor-subtopics">${subRows}</div>
+      <button type="button" class="btn-add-dashed btn-sm" onclick="addSubtopicRow('${topic.id}')">+ Add sub-topic</button>
+    </div>`;
+  }).join('');
+}
+
+/** Read whatever's currently in the editor's DOM inputs back into teTopics. */
+function syncEditorDOMToState(){
+  const list=document.getElementById('topicEditorList');
+  if(!list) return;
+  list.querySelectorAll('.cl-editor-topic').forEach(topicEl=>{
+    const topic=teTopics.find(t=>t.id===topicEl.dataset.topicId);
+    if(!topic) return;
+    const nameInp=topicEl.querySelector('.cl-editor-topic-row .cl-editor-topic-name');
+    if(nameInp) topic.name=nameInp.value;
+    const statusSel=topicEl.querySelector('.cl-editor-topic-row .cl-editor-status');
+    if(statusSel) topic.status=statusSel.value;
+    topicEl.querySelectorAll('.cl-editor-subrow').forEach(subEl=>{
+      const st=topic.subtopics.find(s=>s.id===subEl.dataset.subtopicId);
+      if(!st) return;
+      const subName=subEl.querySelector('.cl-editor-sub-name');
+      if(subName) st.name=subName.value;
+      const subStatus=subEl.querySelector('.cl-editor-status');
+      if(subStatus) st.status=subStatus.value;
+    });
   });
+}
 
-  yr.checklist[teModId].topics = topics;
-  yr.checklist[teModId].done   = newDone;
+function addTopicRow(){
+  syncEditorDOMToState();
+  teTopics.push({id:clGenId('t'),name:'',status:'not-started',subtopics:[]});
+  renderTopicEditor();
+}
+function addSubtopicRow(topicId){
+  syncEditorDOMToState();
+  const topic=teTopics.find(t=>t.id===topicId);
+  if(!topic) return;
+  topic.subtopics.push({id:clGenId('s'),name:'',status:'not-started'});
+  renderTopicEditor();
+}
+function removeTopicRow(topicId){
+  syncEditorDOMToState();
+  teTopics=teTopics.filter(t=>t.id!==topicId);
+  renderTopicEditor();
+}
+function removeSubtopicRow(topicId,subtopicId){
+  syncEditorDOMToState();
+  const topic=teTopics.find(t=>t.id===topicId);
+  if(!topic) return;
+  topic.subtopics=topic.subtopics.filter(s=>s.id!==subtopicId);
+  renderTopicEditor();
+}
+
+function saveTopics(){
+  syncEditorDOMToState();
+  const yr=getYear(teYid);
+  if(!yr.checklist) yr.checklist={};
+
+  // Drop rows that are entirely blank (never touched) so stray empty add-clicks
+  // don't get persisted; keep anything with a name, a non-default status, or subtopics.
+  const cleaned=teTopics
+    .map(t=>({
+      id:t.id,
+      name:t.name.trim(),
+      status:t.status,
+      subtopics:t.subtopics
+        .map(st=>({id:st.id,name:st.name.trim(),status:st.status}))
+        .filter(st=>st.name||st.status!=='not-started')
+    }))
+    .filter(t=>t.name||t.subtopics.length||t.status!=='not-started');
+
+  yr.checklist[teModId]={topics:cleaned};
 
   persist(); closeOverlayDirect('topicEditOverlay');
   const sp=document.getElementById(`sp-${teYid}-checklist`);
@@ -2805,7 +3118,7 @@ APP.settings.code = c.course;
       });
 
       if (!appYear.checklist) appYear.checklist = {};
-      appYear.checklist[nid] = { topics: [], done: {} };
+      appYear.checklist[nid] = { topics: [] };
     });
   });
 

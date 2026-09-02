@@ -402,6 +402,13 @@ body.sidebar-is-open { overflow: hidden; }
 .cat-sel-btn.active-test { border-color:var(--cat-test-color); background:var(--cat-test-bg); color:var(--cat-test-color); box-shadow:0 0 0 1px var(--cat-test-color); }
 .cat-sel-btn.active-other { border-color:var(--cat-other-color); background:var(--cat-other-bg); color:var(--cat-other-color); box-shadow:0 0 0 1px var(--cat-other-color); }
 
+/* ── FEEDBACK TYPE SELECTOR (support/feedback modal) ──
+   Reuses .ob-btn's visual pattern but with a single generic accent-colored
+   active state rather than .ob-btn's yes/no color-coding. */
+.fb-type-btn { padding:6px 14px; border-radius:var(--r-pill); font-family:var(--fm); font-size:11px; font-weight:500; border:1px solid var(--b1); background:var(--s2); color:var(--tx3); cursor:pointer; transition:all var(--t-fast); }
+.fb-type-btn:hover { border-color:var(--accent-border); color:var(--tx); }
+.fb-type-btn.active { border-color:var(--accent-mid); background:var(--accent-bg); color:var(--accent-mid); box-shadow:0 0 0 1px var(--accent-mid); }
+
 /* ── TIMETABLE ── */
 .tt-stats { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:24px; }
 .tt-stat { flex:1; min-width:90px; background:var(--s1); border:1.5px solid var(--b1); border-radius:var(--r-lg); padding:16px; text-align:center; }
@@ -467,6 +474,44 @@ body.sidebar-is-open { overflow: hidden; }
 .cl-item.chk .cl-tick { opacity:1; transform:scale(1); }
 .cl-lbl { font-size:13px; color:var(--tx2); line-height:1.4; transition:color var(--t-fast); }
 .cl-item.chk .cl-lbl { color:var(--tx); font-weight:600; text-decoration:line-through; opacity:0.7; }
+/* .cl-grid / .cl-item / .cl-box / .cl-tick / .cl-lbl above are no longer used by the
+   topic/sub-topic status model but are left in place as harmless dead CSS. */
+
+/* ── CHECKLIST: TOPIC/SUB-TOPIC STATUS DISPLAY ── */
+.cl-topic-list { display:flex; flex-direction:column; gap:8px; margin-top:16px; }
+.cl-topic { background:var(--s2); border:1px solid var(--b1); border-radius:var(--r-md); overflow:hidden; }
+.cl-topic-hdr { display:flex; align-items:center; gap:10px; padding:10px 14px; }
+.cl-topic.has-sub .cl-topic-hdr { cursor:pointer; user-select:none; }
+.cl-topic-name { flex:1; min-width:0; font-size:13px; font-weight:600; color:var(--tx2); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.cl-topic-right { display:flex; align-items:center; gap:8px; flex-shrink:0; }
+.cl-topic-pct { font-family:var(--fm); font-size:11px; color:var(--tx4); min-width:32px; text-align:right; }
+.cl-subtopic-list { display:none; padding:0 14px 12px 32px; border-top:1px dashed var(--b1); }
+.cl-subtopic-row { display:flex; align-items:center; gap:8px; padding-top:10px; }
+.cl-subtopic-name { flex:1; min-width:0; font-size:12.5px; color:var(--tx3); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+.cl-status-badge { display:inline-flex; align-items:center; font-family:var(--fm); font-size:10px; font-weight:500; padding:3px 9px; border-radius:var(--r-pill); white-space:nowrap; flex-shrink:0; }
+.cl-badge-notstarted { background:var(--s1); color:var(--tx4); border:1px solid var(--b1); }
+.cl-badge-reviewing  { background:var(--ambg); color:var(--am); border:1px solid var(--am3); }
+.cl-badge-mastered   { background:var(--gnbg); color:var(--gn); border:1px solid var(--gn3); }
+
+.cl-status-select { background:var(--s1); border:1.5px solid var(--b1); border-radius:var(--r-sm); padding:4px 8px; font-family:var(--fm); font-size:10px; font-weight:600; color:var(--tx2); outline:none; cursor:pointer; flex-shrink:0; transition:border-color var(--t-fast), box-shadow var(--t-fast); }
+.cl-status-select:hover { border-color:var(--accent-border); }
+.cl-status-select:focus { border-color:var(--accent-mid); box-shadow:0 0 0 3px var(--accent-bg); }
+
+/* ── CHECKLIST: TOPIC/SUB-TOPIC STRUCTURED EDITOR (topicEditOverlay) ── */
+#topicEditorList { display:flex; flex-direction:column; gap:12px; }
+.cl-editor-empty { font-family:var(--fm); font-size:12px; color:var(--tx4); font-style:italic; padding:16px 0; text-align:center; }
+.cl-editor-topic { background:var(--s2); border:1.5px solid var(--b1); border-radius:var(--r-md); padding:12px; }
+.cl-editor-topic-row { display:flex; align-items:center; gap:8px; }
+.cl-editor-topic-name { flex:1; min-width:0; }
+.cl-editor-rollup-note { font-family:var(--fm); font-size:10px; color:var(--tx4); font-style:italic; white-space:nowrap; padding:0 4px; flex-shrink:0; }
+.cl-editor-subtopics { display:flex; flex-direction:column; gap:8px; margin:10px 0 0 20px; padding-left:12px; border-left:2px dashed var(--b1); }
+.cl-editor-subrow { display:flex; align-items:center; gap:8px; }
+.cl-editor-sub-name { flex:1; min-width:0; }
+.cl-editor-topic .btn-add-dashed { margin-top:10px; padding:8px; font-size:11px; }
+
+.cl-editor-status { background:var(--s1); border:1.5px solid var(--b1); border-radius:var(--r-sm); padding:8px 10px; font-family:var(--fm); font-size:11px; font-weight:600; color:var(--tx); outline:none; cursor:pointer; flex-shrink:0; transition:border-color var(--t-fast), box-shadow var(--t-fast); }
+.cl-editor-status:focus { border-color:var(--accent-mid); box-shadow:0 0 0 3px var(--accent-bg); }
 
 /* ── MODAL EXAM VIEW ── */
 .modal-cd { display:flex; align-items:center; justify-content:space-between; background:var(--s2); border:1px dashed var(--b2); border-radius:var(--r-md); padding:12px 16px; margin-bottom:20px; }

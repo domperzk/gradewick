@@ -37,7 +37,7 @@
       <div class="nav-btn-left"><span class="nav-icon">💾</span> <span class="nav-lbl">Data &amp; Privacy</span></div>
     </button>
     <button class="nav-btn" onclick="openSupport()">
-      <div class="nav-btn-left"><span class="nav-icon">🐛</span> <span class="nav-lbl">Report an Issue</span></div>
+      <div class="nav-btn-left"><span class="nav-icon">💬</span> <span class="nav-lbl">Feedback &amp; Support</span></div>
     </button>
     <button class="nav-btn" onclick="openHelp()">
       <div class="nav-btn-left"><span class="nav-icon">❓</span> <span class="nav-lbl">Help &amp; FAQ</span></div>
@@ -261,16 +261,17 @@
 </div>
 
 <div class="overlay" id="topicEditOverlay" onclick="closeOverlay('topicEditOverlay',event)">
-  <div class="modal" onclick="event.stopPropagation()">
+  <div class="modal modal-wide" onclick="event.stopPropagation()">
     <div class="modal-hdr">
       <button class="modal-close" aria-label="Close" onclick="closeOverlayDirect('topicEditOverlay')">✕</button>
       <div style="font-family:var(--fm);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px" id="topicEditEyebrow">Checklist Topics</div>
       <div style="font-family:var(--fd);font-size:20px;font-weight:800" id="topicEditModName"></div>
     </div>
     <div class="modal-body">
-      <label for="topicTextarea" style="display:block;font-family:var(--fm);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">Revision topics</label>
-      <p style="font-size:13px;color:var(--tx3);margin-bottom:14px">One topic per line. Add or remove freely.</p>
-      <textarea class="form-inp" id="topicTextarea" rows="12" style="width:100%;font-family:var(--fm);font-size:12px;resize:vertical;line-height:1.7" placeholder="Topic 1&#10;Topic 2&#10;Topic 3"></textarea>
+      <label style="display:block;font-family:var(--fm);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">Revision topics</label>
+      <p style="font-size:13px;color:var(--tx3);margin-bottom:14px">Add topics and, optionally, sub-topics. Track progress with a status per (sub)topic — a topic with sub-topics shows their combined progress automatically.</p>
+      <div id="topicEditorList"></div>
+      <button type="button" class="btn-add-dashed" style="margin-top:12px" onclick="addTopicRow()">+ Add topic</button>
       <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn btn-primary" onclick="saveTopics()">Save topics</button>
         <button class="btn btn-ghost" onclick="closeOverlayDirect('topicEditOverlay')">Cancel</button>
@@ -417,11 +418,20 @@
   <div class="modal" onclick="event.stopPropagation()">
     <div class="modal-hdr">
       <button class="modal-close" aria-label="Close" onclick="closeOverlayDirect('supportOverlay')">✕</button>
-      <div style="font-family:var(--fm);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">Feedback &amp; Bugs</div>
-      <div style="font-family:var(--fd);font-size:20px;font-weight:800">Report an Issue</div>
+      <div style="font-family:var(--fm);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">We'd love to hear from you</div>
+      <div style="font-family:var(--fd);font-size:20px;font-weight:800">Feedback &amp; Support</div>
     </div>
     <div class="modal-body">
       <p style="font-family:var(--fm);font-size:12px;color:var(--tx3);margin-bottom:20px;line-height:1.65">Found a bug or have a suggestion? Describe it below and hit send — your browser info will be included automatically to help with debugging.</p>
+      <div class="form-row">
+        <label>What's this about?</label>
+        <div class="cat-selector" id="fbTypeSelector">
+          <button type="button" class="fb-type-btn active" data-type="bug" onclick="selectFeedbackType(this)">🐛 Bug report</button>
+          <button type="button" class="fb-type-btn" data-type="suggestion" onclick="selectFeedbackType(this)">💡 Suggestion</button>
+          <button type="button" class="fb-type-btn" data-type="question" onclick="selectFeedbackType(this)">❓ Question</button>
+        </div>
+        <input type="hidden" id="support-type" value="bug" />
+      </div>
       <div class="form-row">
         <label for="support-subject">Subject</label>
         <input class="form-inp" id="support-subject" placeholder="e.g. Grade calculation is wrong for module X" />
@@ -432,7 +442,7 @@
       </div>
       <div class="support-debug-info" id="supportDebugInfo"></div>
       <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap">
-        <button class="btn btn-primary" onclick="sendBugReport()">✉ Report via Email</button>
+        <button class="btn btn-primary" onclick="sendFeedback()">✉ Report via Email</button>
         <button class="btn btn-ghost" onclick="closeOverlayDirect('supportOverlay')">Cancel</button>
       </div>
     </div>

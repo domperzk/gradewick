@@ -1275,6 +1275,25 @@ function ttInjectCSS() {
   document.head.appendChild(style);
 }
 
+/**
+ * Re-render every year's timetables subpane that's already in the DOM.
+ * app.js's boot sequence calls renderAll() before this script has even
+ * started executing, so the first paint of the timetables subpane falls
+ * back to the "module not loaded" placeholder (see buildTimetablesWrapper's
+ * ternary in app.js). By the time this file runs, app.js has finished and
+ * APP.years is populated, so this finds the real panes and swaps in the
+ * actual timetable content immediately — no need to navigate away and back.
+ */
+function ttRefreshAllTimetablePanes() {
+  if (!APP.years) return;
+  APP.years.forEach(yr => {
+    const pane = document.getElementById(`sp-${yr.id}-timetables`);
+    if (!pane) return;
+    pane.innerHTML = typeof buildTimetablesWrapper === 'function' ? buildTimetablesWrapper(yr) : buildSchoolTimetable(yr);
+  });
+}
+ttRefreshAllTimetablePanes();
+
 // ── Init ────────────────────────────────────────────────────────────────────
 
 (function ttInit() {
