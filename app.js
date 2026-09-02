@@ -249,7 +249,7 @@ const DEFAULT_DATA = {
     tabNames: JSON.parse(JSON.stringify(DEFAULT_TAB_NAMES))
   },
   years: [
-    { id:'y1', label:'Year 1', acyr:'2025/26', modules:[], marks:{}, checklist:{}, futureModuleGrades:{}, futureComponentGrades:{}, weighting:0 }
+    { id:'y1', label:'Year 1', acyr:'2026/27', modules:[], marks:{}, checklist:{}, futureModuleGrades:{}, futureComponentGrades:{}, weighting:0 }
   ],
   activeYear: 'y1',
   activeOverview: false,
