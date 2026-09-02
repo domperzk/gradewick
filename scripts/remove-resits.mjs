@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Read the live files directly from the parent directory
 const MODULES_FILE = path.join(__dirname, '../module-data.js');
 const COURSES_FILE = path.join(__dirname, '../course-data.js');
 
@@ -55,17 +54,17 @@ function cleanAssessmentComponents(components) {
     filtered = filtered.slice(0, filtered.length - 1);
   }
 
-  // Safety net: if we somehow deleted everything, return the original untouched
   return filtered.length > 0 ? filtered : components;
 }
 
 try {
-  console.log('🧹 Sweeping live JS files for rogue resits and broken math...');
+  console.log('Sweeping live JS files for rogue resits and broken math...');
 
-  // 1. Process module-data.js
+  // 1. Process module-data.js (Bulletproof parsing)
   let rawMods = fs.readFileSync(MODULES_FILE, 'utf-8');
-  let modJsonStr = rawMods.replace('const WARWICK_ALL_MODULES = ', '').replace(/;\s*$/, '');
-  let modJson = JSON.parse(modJsonStr);
+  let modStart = rawMods.indexOf('[');
+  let modEnd = rawMods.lastIndexOf(']') + 1;
+  let modJson = JSON.parse(rawMods.slice(modStart, modEnd));
   
   let modulesCleaned = 0;
   modJson.forEach(mod => { 
@@ -78,10 +77,11 @@ try {
   
   fs.writeFileSync(MODULES_FILE, `const WARWICK_ALL_MODULES = ${JSON.stringify(modJson, null, 2)};\n`, 'utf-8');
 
-  // 2. Process course-data.js
+  // 2. Process course-data.js (Bulletproof parsing)
   let rawCourses = fs.readFileSync(COURSES_FILE, 'utf-8');
-  let courseJsonStr = rawCourses.replace('const WARWICK_COURSES = ', '').replace(/;\s*$/, '');
-  let courseJson = JSON.parse(courseJsonStr);
+  let courseStart = rawCourses.indexOf('[');
+  let courseEnd = rawCourses.lastIndexOf(']') + 1;
+  let courseJson = JSON.parse(rawCourses.slice(courseStart, courseEnd));
   
   let coursesCleaned = 0;
   courseJson.forEach(course => {
@@ -100,7 +100,7 @@ try {
   
   fs.writeFileSync(COURSES_FILE, `const WARWICK_COURSES = ${JSON.stringify(courseJson, null, 2)};\n`, 'utf-8');
 
-  console.log(`✅ Success! Fixed components in ${modulesCleaned} individual modules and ${coursesCleaned} course structures.`);
+  console.log(`Success! Fixed components in ${modulesCleaned} individual modules and ${coursesCleaned} course structures.`);
 } catch (err) {
-  console.error('❌ Error:', err.message);
+  console.error('Error:', err.message);
 }

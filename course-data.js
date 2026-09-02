@@ -246,14 +246,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Oral Examination - Resit",
-                  "weighting": 20
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 80
                 }
               ]
             }
@@ -281,14 +273,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 50
-                },
-                {
-                  "name": "Assessed Coursework",
-                  "weighting": 20
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 60
                 }
               ]
             }
@@ -454,10 +438,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -527,10 +507,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -554,10 +530,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Assessment 2: 2500 word essay",
                   "weighting": 65
-                },
-                {
-                  "name": "Assessment 2: 2500 word essay",
-                  "weighting": 100
                 }
               ]
             }
@@ -615,10 +587,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -692,10 +660,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "3 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -722,10 +686,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 80
-                },
-                {
-                  "name": "2 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -745,10 +705,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -794,10 +750,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -832,10 +784,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -855,10 +803,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -878,10 +822,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -901,10 +841,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -924,10 +860,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -951,10 +883,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -974,10 +902,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -1016,10 +940,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -1039,10 +959,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -1062,10 +978,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -1084,10 +996,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -1116,10 +1024,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Interim Presentation to supervisor (start of term 2)",
                   "weighting": 5
-                },
-                {
-                  "name": "Essay",
-                  "weighting": 100
                 }
               ]
             }
@@ -1166,10 +1070,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "3 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -1220,10 +1120,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -1243,10 +1139,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -1266,10 +1158,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -1293,10 +1181,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -1324,10 +1208,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -1359,10 +1239,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "3 hour Examination",
                   "weighting": 60
-                },
-                {
-                  "name": "3-hour examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -1382,10 +1258,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2500 word essay",
                   "weighting": 80
-                },
-                {
-                  "name": "3000 word essay",
-                  "weighting": 100
                 }
               ]
             }
@@ -1405,10 +1277,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 90
-                },
-                {
-                  "name": "2 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -1436,10 +1304,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -1467,10 +1331,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -1494,10 +1354,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Examination",
                   "weighting": 85
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -1517,10 +1373,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Examination",
                   "weighting": 85
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -1540,10 +1392,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Examination",
                   "weighting": 85
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -1817,10 +1665,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 75
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -3166,10 +3010,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (Online)",
                   "weighting": 80
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -3317,10 +3157,6 @@ const WARWICK_COURSES = [
                 },
                 {
                   "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
                   "weighting": 50
                 }
               ]
@@ -4069,10 +3905,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "1 x 5000 word essay",
                   "weighting": 100
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 100
                 }
               ]
             }
@@ -4338,10 +4170,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "1 x 5000 word essay",
                   "weighting": 100
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 100
                 }
               ]
             }
@@ -4441,10 +4269,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -4464,10 +4288,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -4487,10 +4307,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -4514,10 +4330,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -4545,10 +4357,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -4592,10 +4400,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -5197,10 +5001,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -5220,10 +5020,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -5243,10 +5039,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -5270,10 +5062,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -5301,10 +5089,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -5348,10 +5132,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -6183,10 +5963,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -6206,10 +5982,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -6229,10 +6001,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -6256,10 +6024,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -6287,10 +6051,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -6334,10 +6094,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -7358,10 +7114,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "3 hour Examination",
                   "weighting": 60
-                },
-                {
-                  "name": "3-hour examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -8203,10 +7955,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -9225,10 +8973,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (Online)",
                   "weighting": 80
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -9331,10 +9075,6 @@ const WARWICK_COURSES = [
                 },
                 {
                   "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
                   "weighting": 50
                 }
               ]
@@ -9743,10 +9483,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (Online)",
                   "weighting": 80
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -9838,10 +9574,6 @@ const WARWICK_COURSES = [
                 },
                 {
                   "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
                   "weighting": 50
                 }
               ]
@@ -10098,10 +9830,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (Online)",
                   "weighting": 80
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -10156,10 +9884,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (Online)",
                   "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 50
                 }
               ]
             }
@@ -10200,10 +9924,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Essay (1500 words)",
                   "weighting": 60
-                },
-                {
-                  "name": "Essay (2500 words)",
-                  "weighting": 100
                 }
               ]
             }
@@ -10223,10 +9943,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 80
-                },
-                {
-                  "name": "2 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -10246,10 +9962,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -10303,10 +10015,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 80
-                },
-                {
-                  "name": "2 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -10338,10 +10046,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "3 hour Examination",
                   "weighting": 60
-                },
-                {
-                  "name": "3-hour examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -10390,10 +10094,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Written Assignment (500 words)",
                   "weighting": 10
-                },
-                {
-                  "name": "3000 word essay",
-                  "weighting": 100
                 }
               ]
             }
@@ -10436,10 +10136,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "3 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -10471,10 +10167,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "3 hour Examination",
                   "weighting": 60
-                },
-                {
-                  "name": "3-hour examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -10527,10 +10219,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "3 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -10550,10 +10238,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Written Assignment (500 words)",
                   "weighting": 10
-                },
-                {
-                  "name": "3000 word essay",
-                  "weighting": 100
                 }
               ]
             }
@@ -10585,10 +10269,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "3 hour Examination",
                   "weighting": 60
-                },
-                {
-                  "name": "3-hour examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -10641,10 +10321,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "3 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -10695,10 +10371,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "3 hour Examination",
                   "weighting": 60
-                },
-                {
-                  "name": "3-hour examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -10718,10 +10390,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2500 word essay",
                   "weighting": 80
-                },
-                {
-                  "name": "3000 word essay",
-                  "weighting": 100
                 }
               ]
             }
@@ -10741,10 +10409,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 90
-                },
-                {
-                  "name": "2 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -10823,10 +10487,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 80
-                },
-                {
-                  "name": "2 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -10846,10 +10506,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "2 hour exam",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -10934,10 +10590,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "3 hour Examination",
                   "weighting": 60
-                },
-                {
-                  "name": "3-hour examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -12705,10 +12357,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "3 hour exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -13494,10 +13142,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (Online)",
                   "weighting": 80
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -13994,10 +13638,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -14062,10 +13702,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -14097,10 +13733,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -15700,10 +15332,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -15735,10 +15363,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -18890,10 +18514,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -18913,10 +18533,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -18940,10 +18556,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -18975,10 +18587,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Presentation",
                   "weighting": 15
-                },
-                {
-                  "name": "Resit Assignment",
-                  "weighting": 100
                 }
               ]
             }
@@ -19055,10 +18663,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -19078,10 +18682,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -19109,10 +18709,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Final Individual Report",
                   "weighting": 50
-                },
-                {
-                  "name": "Final Individual Report",
-                  "weighting": 100
                 }
               ]
             }
@@ -19193,10 +18789,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Management Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit Final Report (including Project Management) & Viva",
-                  "weighting": 100
                 }
               ]
             }
@@ -21970,10 +21562,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -21993,10 +21581,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "On-campus Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22031,10 +21615,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -22049,10 +21629,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -22096,10 +21672,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22218,10 +21790,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22241,10 +21809,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "On-campus Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22279,10 +21843,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -22297,10 +21857,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -22344,10 +21900,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22466,10 +22018,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22489,10 +22037,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "On-campus Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22527,10 +22071,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -22545,10 +22085,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -22592,10 +22128,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22706,10 +22238,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22729,10 +22257,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22784,10 +22308,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -22841,10 +22361,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22868,10 +22384,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22891,10 +22403,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22914,10 +22422,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -22965,10 +22469,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -23045,10 +22545,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23068,10 +22564,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23123,10 +22615,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -23180,10 +22668,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23207,10 +22691,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23230,10 +22710,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23253,10 +22729,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23304,10 +22776,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -23384,10 +22852,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23454,10 +22918,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -23495,10 +22955,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person locally-timetabled closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23518,10 +22974,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23569,10 +23021,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -23592,10 +23040,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 30
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23663,10 +23107,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23733,10 +23173,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -23774,10 +23210,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person locally-timetabled closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23797,10 +23229,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23848,10 +23276,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -23871,10 +23295,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 30
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -23974,10 +23394,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -24012,10 +23428,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24035,10 +23447,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24058,10 +23466,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24095,10 +23499,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24118,10 +23518,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24169,10 +23565,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -24208,10 +23600,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Debate",
                   "weighting": 10
-                },
-                {
-                  "name": "Module is not reassessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -24307,10 +23695,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -24345,10 +23729,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24368,10 +23748,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24391,10 +23767,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24428,10 +23800,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24451,10 +23819,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -24502,10 +23866,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -24544,10 +23904,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Debate",
                   "weighting": 10
-                },
-                {
-                  "name": "Module is not reassessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -24630,10 +23986,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -24792,10 +24144,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -24953,10 +24301,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -25113,10 +24457,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -25298,10 +24638,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -25625,10 +24961,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -25648,10 +24980,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -25880,10 +25208,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -25903,10 +25227,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -26021,10 +25341,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26044,10 +25360,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26083,10 +25395,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26110,10 +25418,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -26145,10 +25449,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Presentation",
                   "weighting": 15
-                },
-                {
-                  "name": "Resit Assignment",
-                  "weighting": 100
                 }
               ]
             }
@@ -26172,10 +25472,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26199,10 +25495,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26222,10 +25514,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26253,10 +25541,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26284,10 +25568,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Final Individual Report",
                   "weighting": 50
-                },
-                {
-                  "name": "Final Individual Report",
-                  "weighting": 100
                 }
               ]
             }
@@ -26319,10 +25599,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26362,10 +25638,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26393,10 +25665,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Management Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit Final Report (including Project Management) & Viva",
-                  "weighting": 100
                 }
               ]
             }
@@ -26446,10 +25714,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26469,10 +25733,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26508,10 +25768,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26535,10 +25791,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -26570,10 +25822,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Presentation",
                   "weighting": 15
-                },
-                {
-                  "name": "Resit Assignment",
-                  "weighting": 100
                 }
               ]
             }
@@ -26597,10 +25845,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26624,10 +25868,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26647,10 +25887,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26678,10 +25914,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26709,10 +25941,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Final Individual Report",
                   "weighting": 50
-                },
-                {
-                  "name": "Final Individual Report",
-                  "weighting": 100
                 }
               ]
             }
@@ -26744,10 +25972,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -26787,10 +26011,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27082,10 +26302,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Information Security Framework of Policies",
                   "weighting": 50
-                },
-                {
-                  "name": "Incident Response and Business Continuity",
-                  "weighting": 50
                 }
               ]
             }
@@ -27242,10 +26458,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27265,10 +26477,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27303,10 +26511,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27326,10 +26530,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27349,10 +26549,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27372,10 +26568,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27403,10 +26595,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Activities",
                   "weighting": 4
-                },
-                {
-                  "name": "Reassessment as an individual project",
-                  "weighting": 100
                 }
               ]
             }
@@ -27426,10 +26614,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27449,10 +26633,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27484,10 +26664,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Final Individual Report",
                   "weighting": 50
-                },
-                {
-                  "name": "Final Individual Report",
-                  "weighting": 100
                 }
               ]
             }
@@ -27507,10 +26683,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27538,10 +26710,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27561,10 +26729,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27584,10 +26748,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27607,10 +26767,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27630,10 +26786,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27657,10 +26809,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27688,10 +26836,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Management Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit Final Report (including Project Management) & Viva",
-                  "weighting": 100
                 }
               ]
             }
@@ -27751,10 +26895,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27774,10 +26914,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27813,10 +26949,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person examination - resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27840,10 +26972,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27863,10 +26991,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27886,10 +27010,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27909,10 +27029,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27932,10 +27048,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27955,10 +27067,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -27982,10 +27090,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28009,10 +27113,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28040,10 +27140,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28063,10 +27159,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28094,10 +27186,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Management Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit Final Report (including Project Management) & Viva",
-                  "weighting": 100
                 }
               ]
             }
@@ -28112,10 +27200,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -28136,10 +27220,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28193,10 +27273,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 50
-                },
-                {
-                  "name": "September Exam - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28220,10 +27296,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28238,10 +27310,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -28262,10 +27330,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -28293,10 +27357,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28324,10 +27384,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28351,10 +27407,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -28386,10 +27438,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28450,10 +27498,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "in-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28473,10 +27517,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -28504,10 +27544,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -28575,10 +27611,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -28610,10 +27642,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29210,10 +28238,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -29281,10 +28305,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -29476,10 +28496,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29646,10 +28662,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29793,10 +28805,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29816,10 +28824,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29839,10 +28843,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29862,10 +28862,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29889,10 +28885,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29912,10 +28904,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29935,10 +28923,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -29970,10 +28954,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Individual Assignment",
                   "weighting": 40
-                },
-                {
-                  "name": "Reassessment tasks - assignment",
-                  "weighting": 100
                 }
               ]
             }
@@ -29993,10 +28973,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30020,10 +28996,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30043,10 +29015,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30066,10 +29034,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30089,10 +29053,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30124,10 +29084,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Essay Plan and Draft",
                   "weighting": 5
-                },
-                {
-                  "name": "Essay",
-                  "weighting": 100
                 }
               ]
             }
@@ -30176,10 +29132,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30199,10 +29151,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30222,10 +29170,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30245,10 +29189,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30268,10 +29208,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30295,10 +29231,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30397,10 +29329,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30420,10 +29348,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30438,10 +29362,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -30477,10 +29397,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "Quantum Mechanics and its Applications",
-                  "weighting": 100
                 }
               ]
             }
@@ -30500,10 +29416,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30578,10 +29490,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30601,10 +29509,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30624,10 +29528,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30647,10 +29547,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30678,10 +29574,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Activities",
                   "weighting": 4
-                },
-                {
-                  "name": "Reassessment as an individual project",
-                  "weighting": 100
                 }
               ]
             }
@@ -30701,10 +29593,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30724,10 +29612,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30751,10 +29635,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30774,10 +29654,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30797,10 +29673,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30820,10 +29692,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30843,10 +29711,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30870,10 +29734,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30928,10 +29788,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30966,10 +29822,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -30989,10 +29841,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31012,10 +29860,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31035,10 +29879,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31066,10 +29906,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Activities",
                   "weighting": 4
-                },
-                {
-                  "name": "Reassessment as an individual project",
-                  "weighting": 100
                 }
               ]
             }
@@ -31089,10 +29925,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31112,10 +29944,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31139,10 +29967,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31162,10 +29986,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31185,10 +30005,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31208,10 +30024,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31250,10 +30062,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -31334,10 +30142,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -31361,10 +30165,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31384,10 +30184,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31407,10 +30203,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31430,10 +30222,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31467,10 +30255,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31490,10 +30274,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31541,10 +30321,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -31564,10 +30340,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31587,10 +30359,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31610,10 +30378,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31649,10 +30413,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Debate",
                   "weighting": 10
-                },
-                {
-                  "name": "Module is not reassessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -31690,10 +30450,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31771,10 +30527,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -31798,10 +30550,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31821,10 +30569,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31844,10 +30588,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31867,10 +30607,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31904,10 +30640,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31927,10 +30659,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -31978,10 +30706,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -32001,10 +30725,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -32024,10 +30744,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -32047,10 +30763,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -32089,10 +30801,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Debate",
                   "weighting": 10
-                },
-                {
-                  "name": "Module is not reassessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -32130,10 +30838,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -32308,10 +31012,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -32331,10 +31031,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "Quantum Mechanics and its Applications",
-                  "weighting": 100
                 }
               ]
             }
@@ -32369,10 +31065,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -32426,10 +31118,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -32607,10 +31295,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -32630,10 +31314,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -32653,10 +31333,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "Quantum Mechanics and its Applications",
-                  "weighting": 100
                 }
               ]
             }
@@ -32725,10 +31401,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -32969,10 +31641,6 @@ const WARWICK_COURSES = [
                 },
                 {
                   "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 67
-                },
-                {
-                  "name": "Online Examination",
                   "weighting": 67
                 }
               ]
@@ -33323,10 +31991,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (Online)",
                   "weighting": 67
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 67
                 }
               ]
             }
@@ -33665,10 +32329,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (Online)",
                   "weighting": 80
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -33691,10 +32351,6 @@ const WARWICK_COURSES = [
                 },
                 {
                   "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 67
-                },
-                {
-                  "name": "Online Examination",
                   "weighting": 67
                 }
               ]
@@ -33825,10 +32481,6 @@ const WARWICK_COURSES = [
                 },
                 {
                   "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
                   "weighting": 50
                 }
               ]
@@ -35265,10 +33917,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35288,10 +33936,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35343,10 +33987,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -35400,10 +34040,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35427,10 +34063,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35450,10 +34082,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35473,10 +34101,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35524,10 +34148,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -35598,10 +34218,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Lab Viva",
                   "weighting": 20
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -35629,10 +34245,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Reflective discussion",
                   "weighting": 10
-                },
-                {
-                  "name": "module not re-assessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -35675,10 +34287,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35698,10 +34306,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35753,10 +34357,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -35810,10 +34410,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35837,10 +34433,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35860,10 +34452,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35883,10 +34471,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -35934,10 +34518,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36008,10 +34588,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Lab Viva",
                   "weighting": 20
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36039,10 +34615,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Reflective discussion",
                   "weighting": 10
-                },
-                {
-                  "name": "module not re-assessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -36085,10 +34657,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36155,10 +34723,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36196,10 +34760,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person locally-timetabled closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36219,10 +34779,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36270,10 +34826,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36293,10 +34845,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 30
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36358,10 +34906,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Lab Viva",
                   "weighting": 20
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36389,10 +34933,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Reflective discussion",
                   "weighting": 10
-                },
-                {
-                  "name": "module not re-assessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -36435,10 +34975,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36505,10 +35041,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36546,10 +35078,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person locally-timetabled closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36569,10 +35097,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36620,10 +35144,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36643,10 +35163,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 30
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36692,10 +35208,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Research Grant Proposal",
                   "weighting": 40
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36719,10 +35231,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Performance",
                   "weighting": 20
-                },
-                {
-                  "name": "module not re-assessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -36797,10 +35305,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -36835,10 +35339,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36858,10 +35358,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36881,10 +35377,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36918,10 +35410,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36941,10 +35429,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -36992,10 +35476,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -37031,10 +35511,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Debate",
                   "weighting": 10
-                },
-                {
-                  "name": "Module is not reassessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -37092,10 +35568,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Lab Viva",
                   "weighting": 20
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -37123,10 +35595,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Reflective discussion",
                   "weighting": 10
-                },
-                {
-                  "name": "module not re-assessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -37201,10 +35669,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -37239,10 +35703,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37262,10 +35722,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37285,10 +35741,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37322,10 +35774,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37345,10 +35793,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37396,10 +35840,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -37435,10 +35875,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Debate",
                   "weighting": 10
-                },
-                {
-                  "name": "Module is not reassessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -37496,10 +35932,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Lab Viva",
                   "weighting": 20
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -37523,10 +35955,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Performance",
                   "weighting": 20
-                },
-                {
-                  "name": "module not re-assessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -37601,10 +36029,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -37628,10 +36052,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37651,10 +36071,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37674,10 +36090,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37697,10 +36109,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37734,10 +36142,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37757,10 +36161,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37808,10 +36208,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -37831,10 +36227,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37854,10 +36246,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37877,10 +36265,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -37916,10 +36300,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Debate",
                   "weighting": 10
-                },
-                {
-                  "name": "Module is not reassessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -37957,10 +36337,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38000,10 +36376,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Lab Viva",
                   "weighting": 20
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -38031,10 +36403,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Reflective discussion",
                   "weighting": 10
-                },
-                {
-                  "name": "module not re-assessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -38109,10 +36477,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Foundational quantitative skills test",
                   "weighting": 8
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -38136,10 +36500,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38159,10 +36519,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 80
-                },
-                {
-                  "name": "Closed-book end-of-year examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38182,10 +36538,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38205,10 +36557,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book computer-based end-of-year examination",
                   "weighting": 60
-                },
-                {
-                  "name": "Closed-book computer-based examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38242,10 +36590,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38265,10 +36609,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38316,10 +36656,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Group project report",
                   "weighting": 15
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -38339,10 +36675,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38362,10 +36694,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38385,10 +36713,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38424,10 +36748,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Debate",
                   "weighting": 10
-                },
-                {
-                  "name": "Module is not reassessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -38465,10 +36785,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book examination",
                   "weighting": 70
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38492,10 +36808,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Research Grant Proposal",
                   "weighting": 40
-                },
-                {
-                  "name": "No reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -38519,10 +36831,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Performance",
                   "weighting": 20
-                },
-                {
-                  "name": "module not re-assessed",
-                  "weighting": 100
                 }
               ]
             }
@@ -38729,10 +37037,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -38752,10 +37056,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -39003,10 +37303,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -39026,10 +37322,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -39285,10 +37577,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -39308,10 +37596,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -39544,10 +37828,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -39567,10 +37847,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "Examination",
-                  "weighting": 100
                 }
               ]
             }
@@ -41289,10 +39565,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41312,10 +39584,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41351,10 +39619,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41378,10 +39642,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -41413,10 +39673,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Presentation",
                   "weighting": 15
-                },
-                {
-                  "name": "Resit Assignment",
-                  "weighting": 100
                 }
               ]
             }
@@ -41440,10 +39696,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41467,10 +39719,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41490,10 +39738,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41521,10 +39765,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41552,10 +39792,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Final Individual Report",
                   "weighting": 50
-                },
-                {
-                  "name": "Final Individual Report",
-                  "weighting": 100
                 }
               ]
             }
@@ -41587,10 +39823,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41630,10 +39862,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "In-person Examination",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41661,10 +39889,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Management Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit Final Report (including Project Management) & Viva",
-                  "weighting": 100
                 }
               ]
             }
@@ -41688,10 +39912,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41723,14 +39943,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Final Presentation",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit report on group project management",
-                  "weighting": 50
-                },
-                {
-                  "name": "Viva on Group Projects",
-                  "weighting": 50
                 }
               ]
             }
@@ -41777,10 +39989,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41800,10 +40008,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41827,10 +40031,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Exam",
-                  "weighting": 100
                 }
               ]
             }
@@ -41862,10 +40062,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Presentation",
                   "weighting": 15
-                },
-                {
-                  "name": "Resit Assignment",
-                  "weighting": 100
                 }
               ]
             }
@@ -41942,10 +40138,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41965,10 +40157,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -41996,10 +40184,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Final Individual Report",
                   "weighting": 50
-                },
-                {
-                  "name": "Final Individual Report",
-                  "weighting": 100
                 }
               ]
             }
@@ -42080,10 +40264,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Management Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit Final Report (including Project Management) & Viva",
-                  "weighting": 100
                 }
               ]
             }
@@ -42126,10 +40306,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42213,10 +40389,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42236,10 +40408,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42275,10 +40443,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person examination - resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42302,10 +40466,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42325,10 +40485,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42348,10 +40504,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42371,10 +40523,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42394,10 +40542,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42417,10 +40561,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42444,10 +40584,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42471,10 +40607,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42502,10 +40634,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42525,10 +40653,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42548,10 +40672,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42579,10 +40699,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Management Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit Final Report (including Project Management) & Viva",
-                  "weighting": 100
                 }
               ]
             }
@@ -42597,10 +40713,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -42621,10 +40733,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -42639,10 +40747,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -45215,10 +43319,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45238,10 +43338,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45261,10 +43357,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45284,10 +43376,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45311,10 +43399,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45334,10 +43418,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45357,10 +43437,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45392,10 +43468,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Individual Assignment",
                   "weighting": 40
-                },
-                {
-                  "name": "Reassessment tasks - assignment",
-                  "weighting": 100
                 }
               ]
             }
@@ -45415,10 +43487,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45442,10 +43510,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45465,10 +43529,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45488,10 +43548,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45511,10 +43567,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45546,10 +43598,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Essay Plan and Draft",
                   "weighting": 5
-                },
-                {
-                  "name": "Essay",
-                  "weighting": 100
                 }
               ]
             }
@@ -45569,10 +43617,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45592,10 +43636,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45644,10 +43684,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45667,10 +43703,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45690,10 +43722,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45713,10 +43741,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45736,10 +43760,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45763,10 +43783,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45865,10 +43881,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45888,10 +43900,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45906,10 +43914,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -45945,10 +43949,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "Quantum Mechanics and its Applications",
-                  "weighting": 100
                 }
               ]
             }
@@ -45968,10 +43968,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -45990,10 +43986,6 @@ const WARWICK_COURSES = [
               "components": [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
                   "weighting": 100
                 }
               ]
@@ -46014,10 +44006,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46037,10 +44025,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46142,10 +44126,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46165,10 +44145,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46188,10 +44164,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46211,10 +44183,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46242,10 +44210,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Activities",
                   "weighting": 4
-                },
-                {
-                  "name": "Reassessment as an individual project",
-                  "weighting": 100
                 }
               ]
             }
@@ -46265,10 +44229,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46288,10 +44248,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46315,10 +44271,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46338,10 +44290,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46361,10 +44309,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46384,10 +44328,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46407,10 +44347,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46434,10 +44370,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46461,10 +44393,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Individual Assignment",
                   "weighting": 40
-                },
-                {
-                  "name": "Statistics Modelling Assessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -46492,10 +44420,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Workflow Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Dissertation reassessment",
-                  "weighting": 100
                 }
               ]
             }
@@ -46544,10 +44468,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 100
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46582,10 +44502,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46605,10 +44521,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46628,10 +44540,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46651,10 +44559,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46682,10 +44586,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Activities",
                   "weighting": 4
-                },
-                {
-                  "name": "Reassessment as an individual project",
-                  "weighting": 100
                 }
               ]
             }
@@ -46705,10 +44605,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46728,10 +44624,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46755,10 +44647,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46778,10 +44666,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46801,10 +44685,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46824,10 +44704,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -46866,10 +44742,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47050,10 +44922,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47073,10 +44941,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "Quantum Mechanics and its Applications",
-                  "weighting": 100
                 }
               ]
             }
@@ -47111,10 +44975,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47138,10 +44998,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47161,10 +45017,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47403,10 +45255,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47426,10 +45274,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47449,10 +45293,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "Quantum Mechanics and its Applications",
-                  "weighting": 100
                 }
               ]
             }
@@ -47506,10 +45346,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47559,10 +45395,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47683,10 +45515,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47706,10 +45534,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 60
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47744,10 +45568,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47767,10 +45587,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47790,10 +45606,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47813,10 +45625,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 85
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47844,10 +45652,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Activities",
                   "weighting": 4
-                },
-                {
-                  "name": "Reassessment as an individual project",
-                  "weighting": 100
                 }
               ]
             }
@@ -47867,10 +45671,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47890,10 +45690,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 80
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47925,10 +45721,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Final Individual Report",
                   "weighting": 50
-                },
-                {
-                  "name": "Final Individual Report",
-                  "weighting": 100
                 }
               ]
             }
@@ -47948,10 +45740,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "On-campus Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -47979,10 +45767,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -48002,10 +45786,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -48025,10 +45805,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -48048,10 +45824,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -48071,10 +45843,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 90
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -48098,10 +45866,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Centrally-timetabled examination (On-campus)",
                   "weighting": 70
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 100
                 }
               ]
             }
@@ -48129,10 +45893,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Project Management Report",
                   "weighting": 10
-                },
-                {
-                  "name": "Resit Final Report (including Project Management) & Viva",
-                  "weighting": 100
                 }
               ]
             }
@@ -48152,10 +45912,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Professional Group Project Portfolio",
                   "weighting": 55
-                },
-                {
-                  "name": "Reassessment as an individual project",
-                  "weighting": 100
                 }
               ]
             }
@@ -48428,10 +46184,6 @@ const WARWICK_COURSES = [
                 {
                   "name": "Closed-book end-of-year examination",
                   "weighting": 50
-                },
-                {
-                  "name": "Closed-book examination",
-                  "weighting": 100
                 }
               ]
             }
