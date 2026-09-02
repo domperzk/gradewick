@@ -228,34 +228,9 @@ const WARWICK_COURSES = [
             "code": "IT101-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Test 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "Test 2",
-                  "weighting": 10
-                },
-                {
-                  "name": "Oral Examination",
-                  "weighting": 20
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 60
-                },
-                {
-                  "name": "Oral Examination - Resit",
-                  "weighting": 20
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 80
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -263,34 +238,9 @@ const WARWICK_COURSES = [
             "code": "IT107-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Test",
-                  "weighting": 10
-                },
-                {
-                  "name": "Assessed coursework",
-                  "weighting": 20
-                },
-                {
-                  "name": "Presentation",
-                  "weighting": 20
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Assessed Coursework",
-                  "weighting": 20
-                },
-                {
-                  "name": "In-person Examination - Resit",
-                  "weighting": 60
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -612,26 +562,9 @@ const WARWICK_COURSES = [
             "code": "PS122-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": [
-                {
-                  "name": "History of Psychology assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Developmental Psychology assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Psychology of Learning Assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Centrally-timetabled examination (in person)",
-                  "weighting": 85
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -695,18 +628,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "Philosophy",
-                  "weighting": 34
-                },
-                {
-                  "name": "Economics",
-                  "weighting": 33
-                },
-                {
-                  "name": "Warwick Business School",
-                  "weighting": 33
-                },
                 {
                   "name": "Video Presentation",
                   "weighting": 20
@@ -1244,26 +1165,9 @@ const WARWICK_COURSES = [
             "code": "PH201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1000 word exercise 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "1000 word exercise 2",
-                  "weighting": 10
-                },
-                {
-                  "name": "Seminar participation",
-                  "weighting": 10
-                },
-                {
-                  "name": "3 hour Examination",
-                  "weighting": 60
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -1371,14 +1275,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "Economics",
-                  "weighting": 50
-                },
-                {
-                  "name": "Politics & International Studies",
-                  "weighting": 50
-                },
-                {
                   "name": "Written Assignment 1 (1000 words)",
                   "weighting": 15
                 },
@@ -1398,14 +1294,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "Economics",
-                  "weighting": 50
-                },
-                {
-                  "name": "Philosophy",
-                  "weighting": 50
-                },
-                {
                   "name": "Written Assignment 1 (1500 words)",
                   "weighting": 15
                 },
@@ -1424,14 +1312,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "Philosophy",
-                  "weighting": 50
-                },
-                {
-                  "name": "Politics & International Studies",
-                  "weighting": 50
-                },
                 {
                   "name": "Written Assignment 1 (1000 words)",
                   "weighting": 15
@@ -1702,14 +1582,9 @@ const WARWICK_COURSES = [
             "code": "CX106-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 25
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -2383,22 +2258,9 @@ const WARWICK_COURSES = [
             "code": "FR202-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "30% coursework, 70% exam",
-              "components": [
-                {
-                  "name": "Grammar test with targeted translation",
-                  "weighting": 15
-                },
-                {
-                  "name": "Oral examination",
-                  "weighting": 20
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -2730,22 +2592,9 @@ const WARWICK_COURSES = [
             "code": "EN126-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Assessed Responses",
-                  "weighting": 5
-                },
-                {
-                  "name": "Assessed Essay 1",
-                  "weighting": 50
-                },
-                {
-                  "name": "Assessed Essay 2",
-                  "weighting": 40
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -2825,14 +2674,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "English and Comparative Literary Studies",
-                  "weighting": 50
-                },
-                {
-                  "name": "History",
-                  "weighting": 50
-                },
                 {
                   "name": "Assessed Essay 1",
                   "weighting": 50
@@ -3199,22 +3040,9 @@ const WARWICK_COURSES = [
             "code": "ET230-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1500 word assignment",
-                  "weighting": 50
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -3574,14 +3402,9 @@ const WARWICK_COURSES = [
             "code": "CW102-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "1000 word Creative Component & 2000 word Critical Reflection",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -4565,26 +4388,9 @@ const WARWICK_COURSES = [
             "code": "FR201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "10% coursework, 90% exam",
-              "components": [
-                {
-                  "name": "Online Examination - Grammar test 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 30
-                },
-                {
-                  "name": "Online Examination - Grammar",
-                  "weighting": 10
-                },
-                {
-                  "name": "Oral Examination",
-                  "weighting": 20
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -4592,22 +4398,9 @@ const WARWICK_COURSES = [
             "code": "FR202-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "30% coursework, 70% exam",
-              "components": [
-                {
-                  "name": "Grammar test with targeted translation",
-                  "weighting": 15
-                },
-                {
-                  "name": "Oral examination",
-                  "weighting": 20
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -4761,26 +4554,9 @@ const WARWICK_COURSES = [
             "code": "FR201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "10% coursework, 90% exam",
-              "components": [
-                {
-                  "name": "Online Examination - Grammar test 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 30
-                },
-                {
-                  "name": "Online Examination - Grammar",
-                  "weighting": 10
-                },
-                {
-                  "name": "Oral Examination",
-                  "weighting": 20
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -4914,26 +4690,9 @@ const WARWICK_COURSES = [
             "code": "FR201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "10% coursework, 90% exam",
-              "components": [
-                {
-                  "name": "Online Examination - Grammar test 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 30
-                },
-                {
-                  "name": "Online Examination - Grammar",
-                  "weighting": 10
-                },
-                {
-                  "name": "Oral Examination",
-                  "weighting": 20
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -4941,22 +4700,9 @@ const WARWICK_COURSES = [
             "code": "FR202-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "30% coursework, 70% exam",
-              "components": [
-                {
-                  "name": "Grammar test with targeted translation",
-                  "weighting": 15
-                },
-                {
-                  "name": "Oral examination",
-                  "weighting": 20
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -5740,22 +5486,9 @@ const WARWICK_COURSES = [
             "code": "PO102-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Summative Presentation",
-                  "weighting": 10
-                },
-                {
-                  "name": "Summative Essay",
-                  "weighting": 20
-                },
-                {
-                  "name": "Summative Pressure Group Project",
-                  "weighting": 40
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -7137,26 +6870,9 @@ const WARWICK_COURSES = [
             "code": "PH201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1000 word exercise 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "1000 word exercise 2",
-                  "weighting": 10
-                },
-                {
-                  "name": "Seminar participation",
-                  "weighting": 10
-                },
-                {
-                  "name": "3 hour Examination",
-                  "weighting": 60
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -8446,12 +8162,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Contract Law Final assessment",
-                  "weighting": 100
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -8678,14 +8389,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
-                {
-                  "name": "School of Law",
-                  "weighting": 50
-                },
-                {
-                  "name": "Sociology",
-                  "weighting": 50
-                },
                 {
                   "name": "2500 word essay",
                   "weighting": 40
@@ -9115,22 +8818,9 @@ const WARWICK_COURSES = [
             "code": "ET230-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1500 word assignment",
-                  "weighting": 50
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -9618,22 +9308,9 @@ const WARWICK_COURSES = [
             "code": "ET230-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1500 word assignment",
-                  "weighting": 50
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -9931,22 +9608,9 @@ const WARWICK_COURSES = [
             "code": "ET230-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1500 word assignment",
-                  "weighting": 50
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -10089,26 +9753,9 @@ const WARWICK_COURSES = [
             "code": "PH201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1000 word exercise 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "1000 word exercise 2",
-                  "weighting": 10
-                },
-                {
-                  "name": "Seminar participation",
-                  "weighting": 10
-                },
-                {
-                  "name": "3 hour Examination",
-                  "weighting": 60
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -10148,14 +9795,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "English and Comparative Literary Studies",
-                  "weighting": 50
-                },
-                {
-                  "name": "Philosophy",
-                  "weighting": 50
-                },
                 {
                   "name": "Written Assignment (2500 words)",
                   "weighting": 90
@@ -10218,26 +9857,9 @@ const WARWICK_COURSES = [
             "code": "PH201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1000 word exercise 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "1000 word exercise 2",
-                  "weighting": 10
-                },
-                {
-                  "name": "Seminar participation",
-                  "weighting": 10
-                },
-                {
-                  "name": "3 hour Examination",
-                  "weighting": 60
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -10301,14 +9923,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "English and Comparative Literary Studies",
-                  "weighting": 50
-                },
-                {
-                  "name": "Philosophy",
-                  "weighting": 50
-                },
-                {
                   "name": "Written Assignment (2500 words)",
                   "weighting": 90
                 },
@@ -10328,26 +9942,9 @@ const WARWICK_COURSES = [
             "code": "PH201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1000 word exercise 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "1000 word exercise 2",
-                  "weighting": 10
-                },
-                {
-                  "name": "Seminar participation",
-                  "weighting": 10
-                },
-                {
-                  "name": "3 hour Examination",
-                  "weighting": 60
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -10430,26 +10027,9 @@ const WARWICK_COURSES = [
             "code": "PH201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1000 word exercise 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "1000 word exercise 2",
-                  "weighting": 10
-                },
-                {
-                  "name": "Seminar participation",
-                  "weighting": 10
-                },
-                {
-                  "name": "3 hour Examination",
-                  "weighting": 60
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -10649,26 +10229,9 @@ const WARWICK_COURSES = [
             "code": "PH201-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1000 word exercise 1",
-                  "weighting": 10
-                },
-                {
-                  "name": "1000 word exercise 2",
-                  "weighting": 10
-                },
-                {
-                  "name": "Seminar participation",
-                  "weighting": 10
-                },
-                {
-                  "name": "3 hour Examination",
-                  "weighting": 60
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -10766,22 +10329,9 @@ const WARWICK_COURSES = [
             "code": "PO102-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Summative Presentation",
-                  "weighting": 10
-                },
-                {
-                  "name": "Summative Essay",
-                  "weighting": 20
-                },
-                {
-                  "name": "Summative Pressure Group Project",
-                  "weighting": 40
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -11178,22 +10728,9 @@ const WARWICK_COURSES = [
             "code": "PO102-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Summative Presentation",
-                  "weighting": 10
-                },
-                {
-                  "name": "Summative Essay",
-                  "weighting": 20
-                },
-                {
-                  "name": "Summative Pressure Group Project",
-                  "weighting": 40
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -12397,18 +11934,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "Philosophy",
-                  "weighting": 34
-                },
-                {
-                  "name": "Politics & International Studies",
-                  "weighting": 33
-                },
-                {
-                  "name": "School of Law",
-                  "weighting": 33
-                },
-                {
                   "name": "Essay 1",
                   "weighting": 50
                 },
@@ -13017,30 +12542,9 @@ const WARWICK_COURSES = [
             "code": "SO337-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Seminar participation.",
-                  "weighting": 10
-                },
-                {
-                  "name": "Short essay",
-                  "weighting": 45
-                },
-                {
-                  "name": "Essay Conversation (oral exam)",
-                  "weighting": 45
-                },
-                {
-                  "name": "Reflection on seminar preparation questions",
-                  "weighting": 10
-                },
-                {
-                  "name": "Essay conversation (oral exam)",
-                  "weighting": 45
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -17361,16 +16865,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -17480,14 +16975,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
                 {
                   "name": "Group Design Project",
                   "weighting": 40
@@ -17607,14 +17094,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -17709,14 +17188,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -17818,16 +17289,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -17995,14 +17457,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -18140,14 +17594,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -18170,14 +17616,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -18279,16 +17717,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -18512,14 +17941,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
-                {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
                 {
                   "name": "Individual Reflective Report",
                   "weighting": 20
@@ -18770,16 +18191,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -18940,14 +18352,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "Computer Science",
-                  "weighting": 50
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 50
-                },
-                {
                   "name": "Progress Report",
                   "weighting": 15
                 },
@@ -19067,16 +18471,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -19206,14 +18601,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -19309,14 +18696,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -19407,14 +18786,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -19516,16 +18887,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -19636,14 +18998,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -19743,14 +19097,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
-                {
                   "name": "Project Feasibility Study",
                   "weighting": 15
                 },
@@ -19773,14 +19119,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
-                {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
                 {
                   "name": "Individual Reflective Report",
                   "weighting": 20
@@ -19901,16 +19239,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -20097,14 +19426,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -20262,16 +19583,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -20401,14 +19713,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -20504,14 +19808,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -20606,14 +19902,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -20715,16 +20003,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -20854,14 +20133,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -20953,14 +20224,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -21051,14 +20314,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -21439,16 +20694,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -21578,14 +20824,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -21676,14 +20914,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
-                {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
                 {
                   "name": "Individual Reflective Report",
                   "weighting": 20
@@ -21787,14 +21017,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -22661,14 +21883,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "Life Sciences",
-                  "weighting": 78
-                },
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 22
-                },
-                {
                   "name": "In-class assignment",
                   "weighting": 30
                 },
@@ -22975,14 +22189,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "Life Sciences",
-                  "weighting": 78
-                },
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 22
-                },
                 {
                   "name": "In-class assignment",
                   "weighting": 30
@@ -23815,14 +23021,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "Life Sciences",
-                  "weighting": 78
-                },
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 22
-                },
-                {
                   "name": "In-class assignment",
                   "weighting": 30
                 },
@@ -24123,14 +23321,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "Life Sciences",
-                  "weighting": 78
-                },
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 22
-                },
                 {
                   "name": "In-class assignment",
                   "weighting": 30
@@ -26575,14 +25765,9 @@ const WARWICK_COURSES = [
             "code": "WM282-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Coursework",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -26590,14 +25775,9 @@ const WARWICK_COURSES = [
             "code": "WM283-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Coursework",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -26605,22 +25785,9 @@ const WARWICK_COURSES = [
             "code": "WM279-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Report on managing risks",
-                  "weighting": 50
-                },
-                {
-                  "name": "Information Security Framework of Policies",
-                  "weighting": 50
-                },
-                {
-                  "name": "Incident Response and Business Continuity",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -27142,14 +26309,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "Computer Science",
-                  "weighting": 50
-                },
-                {
-                  "name": "Statistics",
-                  "weighting": 50
-                },
                 {
                   "name": "Progress Report",
                   "weighting": 15
@@ -27992,14 +27151,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "Economics",
-                  "weighting": 50
-                },
-                {
-                  "name": "Warwick Business School",
-                  "weighting": 50
-                },
-                {
                   "name": "Research project proposal",
                   "weighting": 10
                 },
@@ -28390,26 +27541,9 @@ const WARWICK_COURSES = [
             "code": "MD1A4-45",
             "credits": 45,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "80% coursework, 20% exam",
-              "components": [
-                {
-                  "name": "3 x laboratory reports",
-                  "weighting": 40
-                },
-                {
-                  "name": "Mathematical Skills",
-                  "weighting": 20
-                },
-                {
-                  "name": "Assessment of laboratory skills",
-                  "weighting": 20
-                },
-                {
-                  "name": "Written examination",
-                  "weighting": 20
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -28463,26 +27597,9 @@ const WARWICK_COURSES = [
             "code": "MS202-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 60
-                },
-                {
-                  "name": "Life Sciences",
-                  "weighting": 40
-                },
-                {
-                  "name": "Quantitative approaches to biological imaging data",
-                  "weighting": 50
-                },
-                {
-                  "name": "Mathematical approaches to understanding biological networks",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -31168,18 +30285,9 @@ const WARWICK_COURSES = [
             "code": "PX153-20",
             "credits": 20,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": [
-                {
-                  "name": "Coursework Problems",
-                  "weighting": 15
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 42
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -31447,18 +30555,9 @@ const WARWICK_COURSES = [
             "code": "PX153-20",
             "credits": 20,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": [
-                {
-                  "name": "Coursework Problems",
-                  "weighting": 15
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 42
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -31817,26 +30916,9 @@ const WARWICK_COURSES = [
             "code": "PS122-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": [
-                {
-                  "name": "History of Psychology assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Developmental Psychology assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Psychology of Learning Assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Centrally-timetabled examination (in person)",
-                  "weighting": 85
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -31922,22 +31004,9 @@ const WARWICK_COURSES = [
             "code": "PS201-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Essay in Action assignment",
-                  "weighting": 33
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 67
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 67
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -32018,18 +31087,9 @@ const WARWICK_COURSES = [
             "code": "PS220-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "30% coursework, 70% exam",
-              "components": [
-                {
-                  "name": "MCQ Test",
-                  "weighting": 12
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 70
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -32132,26 +31192,9 @@ const WARWICK_COURSES = [
             "code": "PS122-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": [
-                {
-                  "name": "History of Psychology assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Developmental Psychology assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Psychology of Learning Assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Centrally-timetabled examination (in person)",
-                  "weighting": 85
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -32271,22 +31314,9 @@ const WARWICK_COURSES = [
             "code": "PS201-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Essay in Action assignment",
-                  "weighting": 33
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 67
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 67
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -32508,26 +31538,9 @@ const WARWICK_COURSES = [
             "code": "PS122-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": [
-                {
-                  "name": "History of Psychology assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Developmental Psychology assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Psychology of Learning Assessment",
-                  "weighting": 5
-                },
-                {
-                  "name": "Centrally-timetabled examination (in person)",
-                  "weighting": 85
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -32636,22 +31649,9 @@ const WARWICK_COURSES = [
             "code": "PS201-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Essay in Action assignment",
-                  "weighting": 33
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 67
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 67
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -32770,22 +31770,9 @@ const WARWICK_COURSES = [
             "code": "ET230-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "1500 word assignment",
-                  "weighting": 50
-                },
-                {
-                  "name": "Centrally-timetabled examination (Online)",
-                  "weighting": 50
-                },
-                {
-                  "name": "Online Examination",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -32959,12 +31946,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Contract Law Final assessment",
-                  "weighting": 100
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -33202,12 +32184,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Contract Law Final assessment",
-                  "weighting": 100
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -33463,18 +32440,9 @@ const WARWICK_COURSES = [
             "code": "LA2E3-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "20% coursework, 80% exam",
-              "components": [
-                {
-                  "name": "French Law Moot",
-                  "weighting": 20
-                },
-                {
-                  "name": "Final exam",
-                  "weighting": 80
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -33499,12 +32467,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Contract Law Final assessment",
-                  "weighting": 100
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -33781,12 +32744,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Contract Law Final assessment",
-                  "weighting": 100
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -34040,12 +32998,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Contract Law Final assessment",
-                  "weighting": 100
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -34082,12 +33035,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Study Abroad (English)",
-                  "weighting": 100
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -34335,14 +33283,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "Life Sciences",
-                  "weighting": 78
-                },
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 22
-                },
                 {
                   "name": "In-class assignment",
                   "weighting": 30
@@ -34713,14 +33653,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "Life Sciences",
-                  "weighting": 78
-                },
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 22
-                },
                 {
                   "name": "In-class assignment",
                   "weighting": 30
@@ -35722,14 +34654,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "Life Sciences",
-                  "weighting": 78
-                },
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 22
-                },
-                {
                   "name": "In-class assignment",
                   "weighting": 30
                 },
@@ -36093,14 +35017,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "Multiple",
               "components": [
-                {
-                  "name": "Life Sciences",
-                  "weighting": 78
-                },
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 22
-                },
                 {
                   "name": "In-class assignment",
                   "weighting": 30
@@ -38375,16 +37291,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -38494,14 +37401,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
                 {
                   "name": "Group Design Project",
                   "weighting": 40
@@ -38621,14 +37520,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -38723,14 +37614,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -38831,14 +37714,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
-                {
                   "name": "PFS & Video",
                   "weighting": 15
                 },
@@ -38936,16 +37811,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -39113,14 +37979,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -39258,14 +38116,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -39288,14 +38138,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -39358,18 +38200,9 @@ const WARWICK_COURSES = [
             "code": "ES4A4-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "30% coursework, 70% exam",
-              "components": [
-                {
-                  "name": "Biomedical Case Study",
-                  "weighting": 30
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 70
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -39389,14 +38222,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
                 {
                   "name": "PFS & Video",
                   "weighting": 15
@@ -39495,16 +38320,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -39729,14 +38545,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -39832,14 +38640,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
-                {
                   "name": "Project Feasibility Study",
                   "weighting": 15
                 },
@@ -39934,14 +38734,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
                 {
                   "name": "PFS & Video",
                   "weighting": 15
@@ -40359,34 +39151,9 @@ const WARWICK_COURSES = [
             "code": "CS407-30",
             "credits": 30,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "Multiple",
-              "components": [
-                {
-                  "name": "Progress Presentation",
-                  "weighting": 20
-                },
-                {
-                  "name": "Group Report",
-                  "weighting": 60
-                },
-                {
-                  "name": "Individual Report",
-                  "weighting": 10
-                },
-                {
-                  "name": "Final Presentation",
-                  "weighting": 10
-                },
-                {
-                  "name": "Resit report on group project management",
-                  "weighting": 50
-                },
-                {
-                  "name": "Viva on Group Projects",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           }
         ]
@@ -40530,16 +39297,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -40700,14 +39458,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "Computer Science",
-                  "weighting": 50
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 50
-                },
-                {
                   "name": "Progress Report",
                   "weighting": 15
                 },
@@ -40776,14 +39526,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
                 {
                   "name": "PFS & Video",
                   "weighting": 15
@@ -41290,16 +40032,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -41429,14 +40162,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -41532,14 +40257,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -41630,14 +40347,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -41742,14 +40451,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
-                {
                   "name": "PFS & Video",
                   "weighting": 15
                 },
@@ -41847,16 +40548,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -41967,14 +40659,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -42074,14 +40758,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
-                {
                   "name": "Project Feasibility Study",
                   "weighting": 15
                 },
@@ -42104,14 +40780,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
-                {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
                 {
                   "name": "Individual Reflective Report",
                   "weighting": 20
@@ -42216,14 +40884,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
-                {
                   "name": "PFS & Video",
                   "weighting": 15
                 },
@@ -42321,16 +40981,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -42460,14 +41111,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -42563,14 +41206,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -42665,14 +41300,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -42781,14 +41408,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
-                {
                   "name": "PFS & Video",
                   "weighting": 15
                 },
@@ -42886,16 +41505,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -43025,14 +41635,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -43124,14 +41726,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
                 {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
-                {
                   "name": "Individual Reflective Report",
                   "weighting": 20
                 },
@@ -43222,14 +41816,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
                 {
                   "name": "Project Feasibility Study",
                   "weighting": 15
@@ -43325,14 +41911,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
                 {
                   "name": "PFS & Video",
                   "weighting": 15
@@ -43431,16 +42009,7 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% exam",
-              "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 78
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 22
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -43570,14 +42139,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "40% coursework, 60% exam",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 90
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 10
-                },
-                {
                   "name": "Group Design Project",
                   "weighting": 40
                 },
@@ -43668,14 +42229,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "50% coursework, 50% exam",
               "components": [
-                {
-                  "name": "WMG",
-                  "weighting": 60
-                },
-                {
-                  "name": "School of Engineering",
-                  "weighting": 40
-                },
                 {
                   "name": "Individual Reflective Report",
                   "weighting": 20
@@ -43780,14 +42333,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "100% coursework",
               "components": [
                 {
-                  "name": "School of Engineering",
-                  "weighting": 68
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 32
-                },
-                {
                   "name": "Project Feasibility Study",
                   "weighting": 15
                 },
@@ -43890,14 +42435,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "School of Engineering",
-                  "weighting": 79
-                },
-                {
-                  "name": "WMG",
-                  "weighting": 21
-                },
                 {
                   "name": "PFS & Video",
                   "weighting": 15
@@ -45389,18 +43926,9 @@ const WARWICK_COURSES = [
             "code": "PX153-20",
             "credits": 20,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": [
-                {
-                  "name": "Coursework Problems",
-                  "weighting": 15
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 42
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -45718,18 +44246,9 @@ const WARWICK_COURSES = [
             "code": "PX153-20",
             "credits": 20,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": [
-                {
-                  "name": "Coursework Problems",
-                  "weighting": 15
-                },
-                {
-                  "name": "Centrally-timetabled examination (On-campus)",
-                  "weighting": 42
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -46484,14 +45003,6 @@ const WARWICK_COURSES = [
               "assessmentSplit": "Multiple",
               "components": [
                 {
-                  "name": "Computer Science",
-                  "weighting": 50
-                },
-                {
-                  "name": "Statistics",
-                  "weighting": 50
-                },
-                {
                   "name": "Progress Report",
                   "weighting": 15
                 },
@@ -46537,14 +45048,6 @@ const WARWICK_COURSES = [
               "ok": true,
               "assessmentSplit": "100% coursework",
               "components": [
-                {
-                  "name": "Computer Science",
-                  "weighting": 50
-                },
-                {
-                  "name": "Statistics",
-                  "weighting": 50
-                },
                 {
                   "name": "Workflow Report",
                   "weighting": 10
@@ -46630,26 +45133,9 @@ const WARWICK_COURSES = [
             "code": "MD1A4-45",
             "credits": 45,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "80% coursework, 20% exam",
-              "components": [
-                {
-                  "name": "3 x laboratory reports",
-                  "weighting": 40
-                },
-                {
-                  "name": "Mathematical Skills",
-                  "weighting": 20
-                },
-                {
-                  "name": "Assessment of laboratory skills",
-                  "weighting": 20
-                },
-                {
-                  "name": "Written examination",
-                  "weighting": 20
-                }
-              ]
+              "components": []
             }
           },
           {
@@ -46703,26 +45189,9 @@ const WARWICK_COURSES = [
             "code": "MS202-15",
             "credits": 15,
             "assessment": {
-              "ok": true,
+              "ok": false,
               "assessmentSplit": "100% coursework",
-              "components": [
-                {
-                  "name": "Warwick Medical School",
-                  "weighting": 60
-                },
-                {
-                  "name": "Life Sciences",
-                  "weighting": 40
-                },
-                {
-                  "name": "Quantitative approaches to biological imaging data",
-                  "weighting": 50
-                },
-                {
-                  "name": "Mathematical approaches to understanding biological networks",
-                  "weighting": 50
-                }
-              ]
+              "components": []
             }
           },
           {

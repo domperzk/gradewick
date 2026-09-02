@@ -242,12 +242,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Development Planner: Warwick Award",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -1423,14 +1418,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "20% coursework, 80% exam",
       "components": [
         {
-          "name": "Chemistry",
-          "weighting": 50
-        },
-        {
-          "name": "Physics",
-          "weighting": 50
-        },
-        {
           "name": "Computational Workshops",
           "weighting": 20
         },
@@ -1971,14 +1958,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "Multiple",
       "components": [
-        {
-          "name": "Computer Science",
-          "weighting": 50
-        },
-        {
-          "name": "Statistics",
-          "weighting": 50
-        },
         {
           "name": "Progress Report",
           "weighting": 15
@@ -3609,14 +3588,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "100% coursework",
       "components": [
         {
-          "name": "Economics",
-          "weighting": 50
-        },
-        {
-          "name": "Warwick Business School",
-          "weighting": 50
-        },
-        {
           "name": "Research project proposal",
           "weighting": 10
         },
@@ -4056,14 +4027,9 @@ const WARWICK_ALL_MODULES = [
     "code": "EC9B9-12",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Referee Report",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -4146,14 +4112,9 @@ const WARWICK_ALL_MODULES = [
     "code": "EC9C6-12",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Review of Research Paper",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -5192,22 +5153,9 @@ const WARWICK_ALL_MODULES = [
     "code": "EP958-30",
     "credits": 30,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Literature Review into a Subject Specific Pedagogy",
-          "weighting": 50
-        },
-        {
-          "name": "Critical Reflection on a Specific Subject Pedagogy in Practice",
-          "weighting": 50
-        },
-        {
-          "name": "As original",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -7004,14 +6952,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "100% coursework",
       "components": [
-        {
-          "name": "School of Engineering",
-          "weighting": 79
-        },
-        {
-          "name": "WMG",
-          "weighting": 21
-        },
         {
           "name": "PFS & Video",
           "weighting": 15
@@ -10813,18 +10753,9 @@ const WARWICK_ALL_MODULES = [
     "code": "HI3O4-15",
     "credits": 12,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Seminar contribution",
-          "weighting": 20
-        },
-        {
-          "name": "Public-Facing Educational Output on the History of Anti/Mafia 12CATS",
-          "weighting": 80
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -12302,30 +12233,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB359-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Participation",
-          "weighting": 10
-        },
-        {
-          "name": "Group Project",
-          "weighting": 20
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Assignment",
-          "weighting": 30
-        },
-        {
-          "name": "In-person Examination",
-          "weighting": 70
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -13543,14 +13453,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB9CJ-12",
     "credits": 12,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Research Report (12 CATS)",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -13586,14 +13491,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB9CK-12",
     "credits": 12,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Research Report (12 CATS)",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -13629,14 +13529,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB9CL-12",
     "credits": 12,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Research Report (12 CATS)",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -14631,14 +14526,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB9RP-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Individual Assignment",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -16558,34 +16448,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IT101-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Test 1",
-          "weighting": 10
-        },
-        {
-          "name": "Test 2",
-          "weighting": 10
-        },
-        {
-          "name": "Oral Examination",
-          "weighting": 20
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 60
-        },
-        {
-          "name": "Oral Examination - Resit",
-          "weighting": 20
-        },
-        {
-          "name": "In-person Examination - Resit",
-          "weighting": 80
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -16672,26 +16537,9 @@ const WARWICK_ALL_MODULES = [
     "code": "LA1H7-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "50% coursework, 50% exam",
-      "components": [
-        {
-          "name": "Enhanced Court Visit Critical Reflection",
-          "weighting": 30
-        },
-        {
-          "name": "Doctrinal Law - Case Note",
-          "weighting": 20
-        },
-        {
-          "name": "English Legal System - Multiple Choice Test",
-          "weighting": 20
-        },
-        {
-          "name": "Doctrinal Law Examination",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -16730,14 +16578,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
       "components": [
-        {
-          "name": "School of Law",
-          "weighting": 50
-        },
-        {
-          "name": "Sociology",
-          "weighting": 50
-        },
         {
           "name": "2500 word essay",
           "weighting": 40
@@ -16870,12 +16710,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Study Abroad (English)",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -17407,14 +17242,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "85% coursework, 15% exam",
       "components": [
-        {
-          "name": "School of Law",
-          "weighting": 90
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 10
-        },
         {
           "name": "Individual written coursework",
           "weighting": 85
@@ -18253,14 +18080,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "Multiple",
       "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "WMS, Biomedical Sciences",
-          "weighting": 15
-        },
         {
           "name": "In-class closed-book examination",
           "weighting": 40
@@ -21689,30 +21508,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MA300-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Moodle Quiz",
-          "weighting": 10
-        },
-        {
-          "name": "Assignments",
-          "weighting": 40
-        },
-        {
-          "name": "Group Project",
-          "weighting": 40
-        },
-        {
-          "name": "Project presentation",
-          "weighting": 10
-        },
-        {
-          "name": "Project",
-          "weighting": 80
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -22429,22 +22227,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MA4N1-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Formalization of Mathematics",
-          "weighting": 70
-        },
-        {
-          "name": "Presentation",
-          "weighting": 20
-        },
-        {
-          "name": "Project outline",
-          "weighting": 10
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -24163,14 +23948,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "English and Comparative Literary Studies",
-          "weighting": 50
-        },
-        {
-          "name": "Philosophy",
-          "weighting": 50
-        },
-        {
           "name": "Written Assignment (2500 words)",
           "weighting": 90
         },
@@ -24268,18 +24045,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "100% coursework",
       "components": [
-        {
-          "name": "Philosophy",
-          "weighting": 34
-        },
-        {
-          "name": "Politics & International Studies",
-          "weighting": 33
-        },
-        {
-          "name": "School of Law",
-          "weighting": 33
-        },
         {
           "name": "Essay 1",
           "weighting": 50
@@ -24418,18 +24183,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Philosophy",
-          "weighting": 34
-        },
-        {
-          "name": "Economics",
-          "weighting": 33
-        },
-        {
-          "name": "Warwick Business School",
-          "weighting": 33
-        },
-        {
           "name": "Video Presentation",
           "weighting": 20
         },
@@ -24475,20 +24228,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Philosophy",
-          "weighting": 34
-        },
-        {
-          "name": "Economics",
-          "weighting": 33
-        },
-        {
-          "name": "Politics & International Studies",
-          "weighting": 33
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -24526,24 +24266,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Economics",
-          "weighting": 25
-        },
-        {
-          "name": "Philosophy",
-          "weighting": 25
-        },
-        {
-          "name": "Psychology",
-          "weighting": 25
-        },
-        {
-          "name": "Warwick Business School",
-          "weighting": 25
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -24970,18 +24693,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PO2D1-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "To be selected from list or negotiated.",
-          "weighting": 40
-        },
-        {
-          "name": "To be selected from list and students to also provide a headline.",
-          "weighting": 10
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -25062,12 +24776,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -25105,12 +24814,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -25148,12 +24852,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -26859,12 +26558,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Analysis of oral history",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -27295,30 +26989,9 @@ const WARWICK_ALL_MODULES = [
     "code": "SO337-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Seminar participation.",
-          "weighting": 10
-        },
-        {
-          "name": "Short essay",
-          "weighting": 45
-        },
-        {
-          "name": "Essay Conversation (oral exam)",
-          "weighting": 45
-        },
-        {
-          "name": "Reflection on seminar preparation questions",
-          "weighting": 10
-        },
-        {
-          "name": "Essay conversation (oral exam)",
-          "weighting": 45
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -28115,14 +27788,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "100% coursework",
       "components": [
         {
-          "name": "Computer Science",
-          "weighting": 50
-        },
-        {
-          "name": "Statistics",
-          "weighting": 50
-        },
-        {
           "name": "Workflow Report",
           "weighting": 10
         },
@@ -28259,30 +27924,9 @@ const WARWICK_ALL_MODULES = [
     "code": "ST920-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Probability",
-          "weighting": 20
-        },
-        {
-          "name": "Mathematical Finance",
-          "weighting": 20
-        },
-        {
-          "name": "Statistical Methodology and Theory",
-          "weighting": 20
-        },
-        {
-          "name": "Computational Statistics",
-          "weighting": 20
-        },
-        {
-          "name": "Applied Statistics",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -29630,22 +29274,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM994-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Evaluation of technology application",
-          "weighting": 60
-        },
-        {
-          "name": "Evaluation of practical activities - Group work",
-          "weighting": 40
-        },
-        {
-          "name": "Evaluation of practical activities - Individual work",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -29916,22 +29547,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9B7-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Individual Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -29967,22 +29585,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9E2-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "A critical assessment of the objectives and outcomes of a trade agreement negotiation",
-          "weighting": 70
-        },
-        {
-          "name": "An analysis of the negotiating strategy to be adopted by each country",
-          "weighting": 30
-        },
-        {
-          "name": "An assessment of the strengths and weaknesses of the country's position in the trade negotiation.",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -30018,22 +29623,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9E5-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "In-module group work",
-          "weighting": 30
-        },
-        {
-          "name": "Post Module Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Reflective piece/critical assessment on case study",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -30116,22 +29708,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9J6-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Sales Strategy Report",
-          "weighting": 70
-        },
-        {
-          "name": "Group Presentation on Set Task",
-          "weighting": 30
-        },
-        {
-          "name": "Evaluation of Performance on Sales Simulation",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -30308,22 +29887,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9N3-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Written report",
-          "weighting": 80
-        },
-        {
-          "name": "Group presentation",
-          "weighting": 20
-        },
-        {
-          "name": "Presentation - Individual",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -30637,22 +30203,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9QE-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -31107,14 +30660,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CE1D9-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Essay",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -31510,14 +31058,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CE340-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Essay",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -32460,14 +32003,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "50% coursework, 50% exam",
       "components": [
         {
-          "name": "Physics",
-          "weighting": 80
-        },
-        {
-          "name": "Chemistry",
-          "weighting": 20
-        },
-        {
           "name": "Mixed assessment",
           "weighting": 50
         },
@@ -32514,14 +32049,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "100% coursework",
       "components": [
-        {
-          "name": "Statistics",
-          "weighting": 85
-        },
-        {
-          "name": "Chemistry",
-          "weighting": 15
-        },
         {
           "name": "Assessed work",
           "weighting": 50
@@ -33076,14 +32603,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Computer Science",
-          "weighting": 50
-        },
-        {
-          "name": "School of Engineering",
-          "weighting": 50
-        },
-        {
           "name": "Progress Report",
           "weighting": 15
         },
@@ -33515,14 +33034,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CX106-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 25
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -33715,14 +33229,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CX236-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 75
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -35445,26 +34954,9 @@ const WARWICK_ALL_MODULES = [
     "code": "EC400-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Oral Presentation",
-          "weighting": 15
-        },
-        {
-          "name": "Written Dissertation",
-          "weighting": 75
-        },
-        {
-          "name": "Workflow Report",
-          "weighting": 10
-        },
-        {
-          "name": "Written Dissertation and/or Oral Examination",
-          "weighting": 10
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -35841,22 +35333,9 @@ const WARWICK_ALL_MODULES = [
     "code": "EN126-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessed Responses",
-          "weighting": 5
-        },
-        {
-          "name": "Assessed Essay 1",
-          "weighting": 50
-        },
-        {
-          "name": "Assessed Essay 2",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -38033,14 +37512,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "100% coursework",
       "components": [
         {
-          "name": "School of Engineering",
-          "weighting": 68
-        },
-        {
-          "name": "WMG",
-          "weighting": 32
-        },
-        {
           "name": "Project Feasibility Study",
           "weighting": 15
         },
@@ -38773,18 +38244,9 @@ const WARWICK_ALL_MODULES = [
     "code": "ES966-10",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Assessed work as specified by department",
-          "weighting": 80
-        },
-        {
-          "name": "Teams-based In-module Case Study",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -39006,12 +38468,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Assessed work as specified by department",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -41159,26 +40616,9 @@ const WARWICK_ALL_MODULES = [
     "code": "FR201-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "10% coursework, 90% exam",
-      "components": [
-        {
-          "name": "Online Examination - Grammar test 1",
-          "weighting": 10
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 30
-        },
-        {
-          "name": "Online Examination - Grammar",
-          "weighting": 10
-        },
-        {
-          "name": "Oral Examination",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -41853,38 +41293,9 @@ const WARWICK_ALL_MODULES = [
     "code": "GD323-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Global Sustainable Development",
-          "weighting": 60
-        },
-        {
-          "name": "Life Sciences",
-          "weighting": 20
-        },
-        {
-          "name": "Physics",
-          "weighting": 10
-        },
-        {
-          "name": "Warwick Business School",
-          "weighting": 10
-        },
-        {
-          "name": "Group Presentation",
-          "weighting": 30
-        },
-        {
-          "name": "Essay",
-          "weighting": 50
-        },
-        {
-          "name": "Multiple choice quiz",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -42775,22 +42186,9 @@ const WARWICK_ALL_MODULES = [
     "code": "HI3I4-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "1500-Word Essay",
-          "weighting": 10
-        },
-        {
-          "name": "3000-word essay",
-          "weighting": 40
-        },
-        {
-          "name": "Seminar contribution",
-          "weighting": 10
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -43935,14 +43333,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB2C4-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Individual Assignment",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -47369,14 +46762,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB9RM-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Individual Assignment",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -50216,14 +49604,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Life Sciences",
-          "weighting": 83
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 17
-        },
-        {
           "name": "Project",
           "weighting": 80
         },
@@ -50923,16 +50303,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -50971,14 +50342,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "100% coursework",
       "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 20
-        },
         {
           "name": "Data led computer based assessment",
           "weighting": 50
@@ -51026,14 +50389,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "100% coursework",
       "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "WMS, Biomedical Sciences",
-          "weighting": 20
-        },
         {
           "name": "Presentation",
           "weighting": 50
@@ -54585,30 +53940,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MA3L3-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Written public engagement in mathematics",
-          "weighting": 20
-        },
-        {
-          "name": "Video, podcast, animation or social media engagement piece.",
-          "weighting": 20
-        },
-        {
-          "name": "In person public engagement event.",
-          "weighting": 40
-        },
-        {
-          "name": "Reflective piece on the public engagement activity",
-          "weighting": 20
-        },
-        {
-          "name": "Engagement piece",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -55424,26 +54758,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MS202-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Warwick Medical School",
-          "weighting": 60
-        },
-        {
-          "name": "Life Sciences",
-          "weighting": 40
-        },
-        {
-          "name": "Quantitative approaches to biological imaging data",
-          "weighting": 50
-        },
-        {
-          "name": "Mathematical approaches to understanding biological networks",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -56116,26 +55433,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MS954-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "40% coursework, 60% exam",
-      "components": [
-        {
-          "name": "Warwick Medical School",
-          "weighting": 90
-        },
-        {
-          "name": "Life Sciences",
-          "weighting": 10
-        },
-        {
-          "name": "Poster - Frontier Techniques in Biomedical Research",
-          "weighting": 40
-        },
-        {
-          "name": "Exam -Frontier Techniques in Biomedical Research",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -56209,26 +55509,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PH201-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "1000 word exercise 1",
-          "weighting": 10
-        },
-        {
-          "name": "1000 word exercise 2",
-          "weighting": 10
-        },
-        {
-          "name": "Seminar participation",
-          "weighting": 10
-        },
-        {
-          "name": "3 hour Examination",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -56452,14 +55735,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Economics",
-          "weighting": 50
-        },
-        {
-          "name": "Politics & International Studies",
-          "weighting": 50
-        },
-        {
           "name": "Written Assignment 1 (1000 words)",
           "weighting": 15
         },
@@ -56506,14 +55781,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "Multiple",
       "components": [
-        {
-          "name": "Economics",
-          "weighting": 50
-        },
-        {
-          "name": "Philosophy",
-          "weighting": 50
-        },
         {
           "name": "Written Assignment 1 (1500 words)",
           "weighting": 15
@@ -57437,12 +56704,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -57480,12 +56742,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -57523,12 +56780,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -57566,12 +56818,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -57609,12 +56856,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -60085,16 +59327,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Statistics",
-          "weighting": 67
-        },
-        {
-          "name": "Computer Science",
-          "weighting": 33
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -60937,22 +60170,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM198-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Individual Continuous Diagnostic Portfolio (Written)",
-          "weighting": 40
-        },
-        {
-          "name": "Individual Professional Interview",
-          "weighting": 60
-        },
-        {
-          "name": "Individual Professional Discussion (40%)",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -61407,22 +60627,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM3C1-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Report & Presentation",
-          "weighting": 30
-        },
-        {
-          "name": "Post Module Assessment",
-          "weighting": 70
-        },
-        {
-          "name": "Re-Assessment for IMA",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -61505,14 +60712,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM3E5-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Coursework",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -61834,22 +61036,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9A4-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Timed Web Development Activity",
-          "weighting": 30
-        },
-        {
-          "name": "Individual Web Application Development and Reflective Report",
-          "weighting": 70
-        },
-        {
-          "name": "Individiual Assessment",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -62120,22 +61309,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9H9-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Presentation",
-          "weighting": 30
-        },
-        {
-          "name": "Written Report",
-          "weighting": 70
-        },
-        {
-          "name": "Reflective Short Report",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -62445,22 +61621,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9QF-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation with Group Reflection",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -63651,14 +62814,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "50% coursework, 50% exam",
       "components": [
         {
-          "name": "Chemistry",
-          "weighting": 90
-        },
-        {
-          "name": "Physics",
-          "weighting": 10
-        },
-        {
           "name": "Written Reports and Presentations",
           "weighting": 50
         },
@@ -63799,14 +62954,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "25% coursework, 75% exam",
       "components": [
-        {
-          "name": "WMG",
-          "weighting": 85
-        },
-        {
-          "name": "Chemistry",
-          "weighting": 15
-        },
         {
           "name": "Assessed Workshops/Labs",
           "weighting": 25
@@ -64281,34 +63428,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CS407-30",
     "credits": 3,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Progress Presentation",
-          "weighting": 20
-        },
-        {
-          "name": "Group Report",
-          "weighting": 60
-        },
-        {
-          "name": "Individual Report",
-          "weighting": 10
-        },
-        {
-          "name": "Final Presentation",
-          "weighting": 10
-        },
-        {
-          "name": "Resit report on group project management",
-          "weighting": 50
-        },
-        {
-          "name": "Viva on Group Projects",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -65120,14 +64242,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CX206-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 25
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -67404,14 +66521,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "100% coursework",
       "components": [
         {
-          "name": "English and Comparative Literary Studies",
-          "weighting": 50
-        },
-        {
-          "name": "History",
-          "weighting": 50
-        },
-        {
           "name": "Assessed Essay 1",
           "weighting": 50
         },
@@ -68696,22 +67805,9 @@ const WARWICK_ALL_MODULES = [
     "code": "EP963-30",
     "credits": 30,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Literature Review into a Subject Specific Pedagogy",
-          "weighting": 50
-        },
-        {
-          "name": "Critical Reflection on a Specific Subject Pedagogy in Practice",
-          "weighting": 50
-        },
-        {
-          "name": "As original",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -72501,22 +71597,9 @@ const WARWICK_ALL_MODULES = [
     "code": "FR202-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "30% coursework, 70% exam",
-      "components": [
-        {
-          "name": "Grammar test with targeted translation",
-          "weighting": 15
-        },
-        {
-          "name": "Oral examination",
-          "weighting": 20
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -73979,22 +73062,9 @@ const WARWICK_ALL_MODULES = [
     "code": "HI275-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Seminar contribution",
-          "weighting": 10
-        },
-        {
-          "name": "1500 word essay",
-          "weighting": 10
-        },
-        {
-          "name": "3000 word essay",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -75599,14 +74669,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB3BM-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Individual Assignment",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -77846,14 +76911,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB9RN-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Individual Assignment",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -80209,14 +79269,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Life Sciences",
-          "weighting": 78
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 22
-        },
-        {
           "name": "In-class assignment",
           "weighting": 30
         },
@@ -80687,14 +79739,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Life Sciences",
-          "weighting": 95
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 5
-        },
-        {
           "name": "Metanalysis/systemic review",
           "weighting": 50
         },
@@ -80850,16 +79894,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
-      "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 70
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -80898,14 +79933,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
       "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 70
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 30
-        },
         {
           "name": "Group presentation",
           "weighting": 30
@@ -81009,18 +80036,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "100% coursework",
       "components": [
         {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "Institute for Advanced Teaching and Learning",
-          "weighting": 10
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 10
-        },
-        {
           "name": "Data Driven Assessment",
           "weighting": 50
         },
@@ -81067,14 +80082,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "100% coursework",
       "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 20
-        },
         {
           "name": "Literature review of specific animal models for disease",
           "weighting": 50
@@ -82763,26 +81770,9 @@ const WARWICK_ALL_MODULES = [
     "code": "LN906-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Annotated Bibliography in Modern Languages and Translation Studies",
-          "weighting": 30
-        },
-        {
-          "name": "Literature review in Modern Languages and Translation Studies",
-          "weighting": 70
-        },
-        {
-          "name": "Annotated Bibliography",
-          "weighting": 30
-        },
-        {
-          "name": "Literature Review in Modern Languages and Translation Studies",
-          "weighting": 70
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -84138,14 +83128,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "100% coursework",
       "components": [
         {
-          "name": "Warwick Medical School",
-          "weighting": 60
-        },
-        {
-          "name": "Life Sciences",
-          "weighting": 40
-        },
-        {
           "name": "Problem-solving assignment 1",
           "weighting": 40
         },
@@ -84788,14 +83770,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MD990-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Essay titles will depend on subject.",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -84878,42 +83855,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MD9A3-40",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Portfolio of Practice (RPS 2021 Competency) including log-book of practice hours",
-          "weighting": 70
-        },
-        {
-          "name": "MCQ written paper",
-          "weighting": 29
-        },
-        {
-          "name": "Numeracy Examination (SNAP)",
-          "weighting": 1
-        },
-        {
-          "name": "Practice profile",
-          "weighting": 0
-        },
-        {
-          "name": "Portfolio",
-          "weighting": 70
-        },
-        {
-          "name": "Written examination (In-department)",
-          "weighting": 30
-        },
-        {
-          "name": "Numerical assessment (Prescribing practice)",
-          "weighting": 0
-        },
-        {
-          "name": "Objective Structured Clinical Examination (OSCE)",
-          "weighting": 0
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -84952,14 +83896,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "100% coursework",
       "components": [
-        {
-          "name": "Warwick Medical School",
-          "weighting": 60
-        },
-        {
-          "name": "Life Sciences",
-          "weighting": 40
-        },
         {
           "name": "Problem-solving assignment 1",
           "weighting": 50
@@ -85661,14 +84597,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Philosophy",
-          "weighting": 50
-        },
-        {
-          "name": "Politics & International Studies",
-          "weighting": 50
-        },
-        {
           "name": "Written Assignment 1 (1000 words)",
           "weighting": 15
         },
@@ -85804,16 +84732,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "English and Comparative Literary Studies",
-          "weighting": 50
-        },
-        {
-          "name": "Philosophy",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -86552,12 +85471,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -87333,18 +86247,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PS220-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "30% coursework, 70% exam",
-      "components": [
-        {
-          "name": "MCQ Test",
-          "weighting": 12
-        },
-        {
-          "name": "Centrally-timetabled examination (Online)",
-          "weighting": 70
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -90122,16 +89027,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Statistics",
-          "weighting": 67
-        },
-        {
-          "name": "Computer Science",
-          "weighting": 33
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -90978,14 +89874,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM282-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Coursework",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -91385,14 +90276,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM3E1-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Coursework",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -91714,22 +90600,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9A3-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Digital Marketing Campaign Presentation",
-          "weighting": 40
-        },
-        {
-          "name": "DMC Critical Review",
-          "weighting": 60
-        },
-        {
-          "name": "Digital Marketing Campaign Report",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -92321,22 +91194,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9K9-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -92834,22 +91694,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9QG-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -92979,18 +91826,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9QR-60",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "90% coursework, 10% exam",
-      "components": [
-        {
-          "name": "Assessed work as specified by department",
-          "weighting": 90
-        },
-        {
-          "name": "Oral Examination on 15,000 word Dissertation",
-          "weighting": 10
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -95735,14 +94573,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CX136-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 75
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -97928,16 +96761,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "English and Comparative Literary Studies",
-          "weighting": 50
-        },
-        {
-          "name": "School of Modern Languages and Cultures",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -99799,16 +98623,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% exam",
-      "components": [
-        {
-          "name": "School of Engineering",
-          "weighting": 78
-        },
-        {
-          "name": "WMG",
-          "weighting": 22
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -100207,14 +99022,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
       "components": [
-        {
-          "name": "School of Engineering",
-          "weighting": 90
-        },
-        {
-          "name": "WMG",
-          "weighting": 10
-        },
         {
           "name": "Group Design Project",
           "weighting": 40
@@ -100807,14 +99614,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "50% coursework, 50% exam",
       "components": [
         {
-          "name": "WMG",
-          "weighting": 60
-        },
-        {
-          "name": "School of Engineering",
-          "weighting": 40
-        },
-        {
           "name": "Individual Reflective Report",
           "weighting": 20
         },
@@ -100909,18 +99708,9 @@ const WARWICK_ALL_MODULES = [
     "code": "ES4A4-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "30% coursework, 70% exam",
-      "components": [
-        {
-          "name": "Biomedical Case Study",
-          "weighting": 30
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 70
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -104832,22 +103622,9 @@ const WARWICK_ALL_MODULES = [
     "code": "HI290-30",
     "credits": 30,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Seminar contribution",
-          "weighting": 10
-        },
-        {
-          "name": "1500 word essay or equivalent",
-          "weighting": 10
-        },
-        {
-          "name": "3000 word essay or equivalent",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -105950,14 +104727,9 @@ const WARWICK_ALL_MODULES = [
     "code": "HP214-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessed essay",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -106639,30 +105411,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB352-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Work",
-          "weighting": 20
-        },
-        {
-          "name": "Weekly Online Multiple Choice Questions",
-          "weighting": 5
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 75
-        },
-        {
-          "name": "Individual Assignment",
-          "weighting": 25
-        },
-        {
-          "name": "In-person Examination",
-          "weighting": 75
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -111471,12 +110222,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "International Economic Law of the Digital Economy",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -111787,14 +110533,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Life Sciences",
-          "weighting": 70
-        },
-        {
-          "name": "Warwick Mathematics Institute",
-          "weighting": 30
-        },
-        {
           "name": "In-class computer-based assignment",
           "weighting": 30
         },
@@ -112058,14 +110796,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Life Sciences",
-          "weighting": 74
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 26
-        },
-        {
           "name": "Literature-based assessment",
           "weighting": 50
         },
@@ -112274,14 +111004,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "100% coursework",
       "components": [
         {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 20
-        },
-        {
           "name": "Group presentation on genetic technologies",
           "weighting": 50
         },
@@ -112328,14 +111050,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
       "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 20
-        },
         {
           "name": "Individual Reflective Essay",
           "weighting": 50
@@ -115205,26 +113919,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MD1A4-45",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "80% coursework, 20% exam",
-      "components": [
-        {
-          "name": "3 x laboratory reports",
-          "weighting": 40
-        },
-        {
-          "name": "Mathematical Skills",
-          "weighting": 20
-        },
-        {
-          "name": "Assessment of laboratory skills",
-          "weighting": 20
-        },
-        {
-          "name": "Written examination",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -115628,14 +114325,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MH902-20",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Written Assignments",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -116513,16 +115205,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "English and Comparative Literary Studies",
-          "weighting": 50
-        },
-        {
-          "name": "Philosophy",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -116746,22 +115429,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PO102-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Summative Presentation",
-          "weighting": 10
-        },
-        {
-          "name": "Summative Essay",
-          "weighting": 20
-        },
-        {
-          "name": "Summative Pressure Group Project",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -117026,12 +115696,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Assessment by Brussels School of Governance, VUB",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -117533,26 +116198,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PS122-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "15% coursework, 85% exam",
-      "components": [
-        {
-          "name": "History of Psychology assessment",
-          "weighting": 5
-        },
-        {
-          "name": "Developmental Psychology assessment",
-          "weighting": 5
-        },
-        {
-          "name": "Psychology of Learning Assessment",
-          "weighting": 5
-        },
-        {
-          "name": "Centrally-timetabled examination (in person)",
-          "weighting": 85
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -117588,22 +116236,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PS201-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Essay in Action assignment",
-          "weighting": 33
-        },
-        {
-          "name": "Centrally-timetabled examination (Online)",
-          "weighting": 67
-        },
-        {
-          "name": "Online Examination",
-          "weighting": 67
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -117917,26 +116552,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PS369-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Applied Linguistics",
-          "weighting": 90
-        },
-        {
-          "name": "Psychology",
-          "weighting": 10
-        },
-        {
-          "name": "Project Report",
-          "weighting": 95
-        },
-        {
-          "name": "Oral presentation",
-          "weighting": 5
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -119564,14 +118182,6 @@ const WARWICK_ALL_MODULES = [
       "assessmentSplit": "Multiple",
       "components": [
         {
-          "name": "Statistics",
-          "weighting": 67
-        },
-        {
-          "name": "Warwick Business School",
-          "weighting": 33
-        },
-        {
           "name": "Class Test 1",
           "weighting": 5
         },
@@ -120692,26 +119302,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM291-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Assignment 1",
-          "weighting": 25
-        },
-        {
-          "name": "Assignment 2",
-          "weighting": 25
-        },
-        {
-          "name": "Assignment 3 - Group design project",
-          "weighting": 50
-        },
-        {
-          "name": "Individual design project",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -120884,14 +119477,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM3B4-18",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Coursework",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -120927,30 +119515,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM3B5-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Project Proposal",
-          "weighting": 15
-        },
-        {
-          "name": "Progress update",
-          "weighting": 15
-        },
-        {
-          "name": "Final report",
-          "weighting": 70
-        },
-        {
-          "name": "Project management review",
-          "weighting": 15
-        },
-        {
-          "name": "Project initiation review",
-          "weighting": 15
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -121135,22 +119702,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM931-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -121186,22 +119740,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM950-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Written assessment",
-          "weighting": 70
-        },
-        {
-          "name": "In Module Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Individual Presentation",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -121378,22 +119919,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9A1-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Digital Store Front Design - Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Business Report",
-          "weighting": 70
-        },
-        {
-          "name": "Digital Store Front Design - Individual Assessment",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -122141,14 +120669,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "100% coursework",
       "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 80
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 20
-        },
         {
           "name": "Patient information sheet OR policy brief (student's choice), plus reflection on task.",
           "weighting": 75
@@ -124065,14 +122585,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CW102-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "1000 word Creative Component & 2000 word Critical Reflection",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -124723,14 +123238,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CX306-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 25
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -124817,14 +123327,9 @@ const WARWICK_ALL_MODULES = [
     "code": "CX336-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 75
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -126191,18 +124696,9 @@ const WARWICK_ALL_MODULES = [
     "code": "EC9A1-35",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "In class test",
-          "weighting": 20
-        },
-        {
-          "name": "In Department Exam",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -127070,16 +125566,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "English and Comparative Literary Studies",
-          "weighting": 50
-        },
-        {
-          "name": "School of Modern Languages and Cultures",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -129517,12 +128004,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Assessed work as specified by department",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -129889,12 +128371,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Assessed work as specified by department",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -130247,22 +128724,9 @@ const WARWICK_ALL_MODULES = [
     "code": "ET230-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "1500 word assignment",
-          "weighting": 50
-        },
-        {
-          "name": "Centrally-timetabled examination (Online)",
-          "weighting": 50
-        },
-        {
-          "name": "Online Examination",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -133505,16 +131969,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "English and Comparative Literary Studies",
-          "weighting": 50
-        },
-        {
-          "name": "School of Modern Languages and Cultures",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -134259,30 +132714,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IB2B2-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Report",
-          "weighting": 20
-        },
-        {
-          "name": "Participation",
-          "weighting": 10
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Assignment",
-          "weighting": 30
-        },
-        {
-          "name": "In-person Examination - Resit",
-          "weighting": 70
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -137466,34 +135900,9 @@ const WARWICK_ALL_MODULES = [
     "code": "IT107-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Test",
-          "weighting": 10
-        },
-        {
-          "name": "Assessed coursework",
-          "weighting": 20
-        },
-        {
-          "name": "Presentation",
-          "weighting": 20
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 50
-        },
-        {
-          "name": "Assessed Coursework",
-          "weighting": 20
-        },
-        {
-          "name": "In-person Examination - Resit",
-          "weighting": 60
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -137760,22 +136169,9 @@ const WARWICK_ALL_MODULES = [
     "code": "LA212-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "30% coursework, 70% exam",
-      "components": [
-        {
-          "name": "2000 word essay",
-          "weighting": 30
-        },
-        {
-          "name": "Centrally-timetabled examination (Online)",
-          "weighting": 50
-        },
-        {
-          "name": "French Law Moot",
-          "weighting": 20
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -137958,12 +136354,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Contract Law Final assessment",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -137999,18 +136390,9 @@ const WARWICK_ALL_MODULES = [
     "code": "LA2E3-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "20% coursework, 80% exam",
-      "components": [
-        {
-          "name": "French Law Moot",
-          "weighting": 20
-        },
-        {
-          "name": "Final exam",
-          "weighting": 80
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -138273,18 +136655,9 @@ const WARWICK_ALL_MODULES = [
     "code": "LA367-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Written Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Reflective Journal - International Economic Law",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -139172,14 +137545,6 @@ const WARWICK_ALL_MODULES = [
       "ok": true,
       "assessmentSplit": "Multiple",
       "components": [
-        {
-          "name": "Life Sciences",
-          "weighting": 94
-        },
-        {
-          "name": "Warwick Medical School",
-          "weighting": 6
-        },
         {
           "name": "Environmental lab report",
           "weighting": 48
@@ -142892,26 +141257,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MD40X-120",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "30% coursework, 70% exam",
-      "components": [
-        {
-          "name": "Phase 3 (Year 4) Engagement Criteria",
-          "weighting": 30
-        },
-        {
-          "name": "UKMLA Clinical Component",
-          "weighting": 30
-        },
-        {
-          "name": "UKMLA Written Component",
-          "weighting": 30
-        },
-        {
-          "name": "Warwick Prescribing Assessment (WPA)",
-          "weighting": 10
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -143135,22 +141483,9 @@ const WARWICK_ALL_MODULES = [
     "code": "MD997-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Oral presentation of scientific paper",
-          "weighting": 25
-        },
-        {
-          "name": "Written Research Grant proposal",
-          "weighting": 45
-        },
-        {
-          "name": "Oral Defence",
-          "weighting": 15
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -144035,18 +142370,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PH342-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "500 word exercise",
-          "weighting": 10
-        },
-        {
-          "name": "2500 word essay",
-          "weighting": 80
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -144084,20 +142410,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Philosophy",
-          "weighting": 40
-        },
-        {
-          "name": "Politics & International Studies",
-          "weighting": 30
-        },
-        {
-          "name": "School of Law",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -146295,18 +144608,9 @@ const WARWICK_ALL_MODULES = [
     "code": "PX153-20",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "15% coursework, 85% exam",
-      "components": [
-        {
-          "name": "Coursework Problems",
-          "weighting": 15
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 42
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -147330,12 +145634,7 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Transcript of grades obtained at host institute or Reflective learning diary",
-          "weighting": 100
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -147960,30 +146259,9 @@ const WARWICK_ALL_MODULES = [
     "code": "ST347-30",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Class Test 1",
-          "weighting": 5
-        },
-        {
-          "name": "Assessment 1",
-          "weighting": 10
-        },
-        {
-          "name": "Class Test 2",
-          "weighting": 5
-        },
-        {
-          "name": "Assessment 2",
-          "weighting": 10
-        },
-        {
-          "name": "Centrally-timetabled examination (On-campus)",
-          "weighting": 35
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -148399,26 +146677,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM191-30",
     "credits": 30,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Assignment 1",
-          "weighting": 25
-        },
-        {
-          "name": "Assignment 2 - Group design project",
-          "weighting": 50
-        },
-        {
-          "name": "Assignment 3 - Initial Professional Development",
-          "weighting": 25
-        },
-        {
-          "name": "Individual design project",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -148603,22 +146864,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM279-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Report on managing risks",
-          "weighting": 50
-        },
-        {
-          "name": "Information Security Framework of Policies",
-          "weighting": 50
-        },
-        {
-          "name": "Incident Response and Business Continuity",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -148654,14 +146902,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM283-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "100% coursework",
-      "components": [
-        {
-          "name": "Coursework",
-          "weighting": 50
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -149073,22 +147316,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM956-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Business Report",
-          "weighting": 70
-        },
-        {
-          "name": "eCommerce Website Build Presentation",
-          "weighting": 30
-        },
-        {
-          "name": "Individual Assessment",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -149171,22 +147401,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM986-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Evaluation of technology application",
-          "weighting": 60
-        },
-        {
-          "name": "Evaluation of practical activities - Group work",
-          "weighting": 40
-        },
-        {
-          "name": "Evaluation of practical activities - Individual work",
-          "weighting": 40
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -149645,22 +147862,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9K4-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Digital Marketing Data Analytics and use of Marketing Technology",
-          "weighting": 30
-        },
-        {
-          "name": "Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -149876,22 +148080,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9PP-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment - Digital Product Development Campaign",
-          "weighting": 30
-        },
-        {
-          "name": "Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Assessment - Digital Product Development Campaign",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -149927,22 +148118,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9PQ-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Assignment",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation with Group Reflection",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -149978,22 +148156,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9PR-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Client ERP Solution Proposal Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Individual Assignment - Digital Retail Operations Portfolio",
-          "weighting": 70
-        },
-        {
-          "name": "ERP Evaluation & Solution Proposal - Individual",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
@@ -150127,22 +148292,9 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9QD-15",
     "credits": 15,
     "assessment": {
-      "ok": true,
+      "ok": false,
       "assessmentSplit": "Multiple",
-      "components": [
-        {
-          "name": "Group Assessment",
-          "weighting": 30
-        },
-        {
-          "name": "Individual Ethical AI Audit Report",
-          "weighting": 70
-        },
-        {
-          "name": "Individual Presentation with Group Reflection",
-          "weighting": 30
-        }
-      ]
+      "components": []
     },
     "years": {
       "Year 1": {
