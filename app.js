@@ -700,6 +700,8 @@ function deleteCurrentMod() {
   if (modToDelete) {
     if (yr.futureModuleGrades) delete yr.futureModuleGrades[modToDelete.id];
     if (yr.futureComponentGrades) (modToDelete.components || []).forEach(c=>delete yr.futureComponentGrades[c.id]);
+    if (yr.marks) (modToDelete.components || []).forEach(c=>delete yr.marks[c.id]);
+    if (yr.checklist) delete yr.checklist[modToDelete.id];
   }
   yr.modules=yr.modules.filter(m=>m.id!==meModId);
   persist(); closeOverlayDirect('modEditOverlay'); renderYearPane(meYid);
@@ -870,18 +872,21 @@ function openOverlay(id) {
   const overlay = document.getElementById(id);
   if (!overlay) return;
   overlay.classList.add('open');
+  document.body.classList.add('overlay-is-open');
   // Fix 2: push a history entry so the mobile back-button closes the modal
   // instead of navigating away from the page.
   history.pushState({ modal: id }, '');
   const firstInput = overlay.querySelector('input:not([type=hidden]), select, textarea');
   if (firstInput) setTimeout(() => firstInput.focus(), 80);
 }
-function closeOverlay(id,e)     { if(e.target===document.getElementById(id)) document.getElementById(id).classList.remove('open'); }
-function closeOverlayDirect(id) { document.getElementById(id).classList.remove('open'); }
+function closeOverlay(id,e)     { if(e.target===document.getElementById(id)) { document.getElementById(id).classList.remove('open'); document.body.classList.remove('overlay-is-open'); } }
+function closeOverlayDirect(id) { document.getElementById(id).classList.remove('open'); document.body.classList.remove('overlay-is-open'); }
 document.addEventListener('keydown', e => {
   if (e.key !== 'Escape') return;
   const openOverlay = document.querySelector('.overlay.open');
-  if (openOverlay) closeOverlayDirect(openOverlay.id);
+  if (openOverlay) { closeOverlayDirect(openOverlay.id); return; }
+  const sidebar = document.getElementById('sidebar');
+  if (sidebar && sidebar.classList.contains('open')) closeSidebar();
 });
 
 // Fix 2: intercept the browser back-button / swipe-back gesture on mobile.
@@ -1609,8 +1614,7 @@ function openExamView(yid, compId) {
 }
 
 function buildModules(yr) {
-  let html=`<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
-    <div class="sec-title" style="margin:0;padding:0;border:none;font-family:var(--fd);font-size:20px;font-weight:800;color:var(--tx)">Modules</div>
+  let html=`<div style="display:flex;align-items:center;justify-content:flex-end;margin-bottom:16px">
     <button class="btn btn-primary btn-sm" onclick="openModEdit('${yr.id}',null)">+ Add module</button>
   </div>`;
 
@@ -1797,7 +1801,6 @@ function buildTarget(yr) {
   }
 
   let html = `
-    <div style="font-family:var(--fd);font-size:20px;font-weight:800;color:var(--tx);margin-bottom:8px">Grade Simulator</div>
     <div style="font-family:var(--fm);font-size:12px;color:var(--tx3);margin-bottom:24px;line-height:1.5">
       Edit the simulated grade for each unmarked assessment. Marks entered in <strong>Modules</strong> are locked here and only change when you update them in Modules.
     </div>
@@ -1834,6 +1837,19 @@ function buildTarget(yr) {
         </div>
       </div>`;
   });
+
+  const anySimData = Object.keys(yr.futureModuleGrades).length > 0 || Object.keys(yr.futureComponentGrades).length > 0;
+  html += `<div class="reset-zone">
+    <div class="reset-zone-title">Reset Options — ${yr.label}</div>
+    <div class="reset-zone-sub">Use these options to clear simulated grades. Marks entered in Modules are never affected. Actions take effect immediately and cannot be undone.</div>
+    <div class="reset-group">
+      <div>
+        <div class="reset-group-label" style="color:var(--red2)">Full Reset</div>
+        <div class="reset-group-desc">Clear every simulated grade across all modules in this year and return them to the default.</div>
+      </div>
+      <div class="reset-btns"><button class="btn btn-danger btn-sm" ${anySimData?'':'disabled'} onclick="resetSimAll('${yr.id}')">Full Reset</button></div>
+    </div>
+  </div>`;
 
   return html;
 }
@@ -1881,14 +1897,14 @@ function buildFutureModImpact(yr, mod) {
       <span class="fut-impact-lbl">Set all unlocked assessments in this module</span>
       <span class="fut-impact-val fut-apply-all" onclick="event.stopPropagation()">
         ${unlockedComponents.length
-          ? `<input type="number" class="inp inp-num" style="width:76px;font-size:15px;font-weight:700;color:${gradeColor(simGrade)}" value="${normaliseFutureGrade(yr.futureModuleGrades[mod.id], 70).toFixed(1)}" min="0" max="100" step="0.1" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureGrade('${yr.id}','${mod.id}',this.value)" />`
+          ? `<input id="futall-${yr.id}-${mod.id}" type="number" class="inp inp-num" style="width:76px;font-size:15px;font-weight:700;color:${gradeColor(simGrade)}" value="${normaliseFutureGrade(yr.futureModuleGrades[mod.id], 70).toFixed(1)}" min="0" max="100" step="0.1" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureGrade('${yr.id}','${mod.id}',this.value)" />`
           : `<span class="fut-locked-note">Locked from Modules</span>`}
       </span>
     </div>`
     : `<div class="fut-impact-row">
       <span class="fut-impact-lbl">Set module simulation</span>
       <span class="fut-impact-val fut-apply-all" onclick="event.stopPropagation()">
-        <input type="number" class="inp inp-num" style="width:76px;font-size:15px;font-weight:700;color:${gradeColor(simGrade)}" value="${simGrade.toFixed(1)}" min="0" max="100" step="0.1" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureGrade('${yr.id}','${mod.id}',this.value)" />
+        <input id="futall-${yr.id}-${mod.id}" type="number" class="inp inp-num" style="width:76px;font-size:15px;font-weight:700;color:${gradeColor(simGrade)}" value="${simGrade.toFixed(1)}" min="0" max="100" step="0.1" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureGrade('${yr.id}','${mod.id}',this.value)" />
       </span>
     </div>`;
 
@@ -1904,7 +1920,7 @@ function buildFutureModImpact(yr, mod) {
         </label>`
       : `<label class="fut-comp-input-wrap" onclick="event.stopPropagation()">
           <span class="fut-comp-input-label">Sim mark</span>
-          <input class="inp inp-num fut-comp-input" type="number" min="0" max="100" step="0.1" value="${compGrade.toFixed(1)}" style="color:${gradeColor(compGrade)}" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureComponentGrade('${yr.id}','${mod.id}','${c.id}',this.value)" />
+          <input id="futcomp-${yr.id}-${mod.id}-${c.id}" class="inp inp-num fut-comp-input" type="number" min="0" max="100" step="0.1" value="${compGrade.toFixed(1)}" style="color:${gradeColor(compGrade)}" onkeydown="return !['e','E','+','-'].includes(event.key)" onchange="updateFutureComponentGrade('${yr.id}','${mod.id}','${c.id}',this.value)" />
         </label>`;
 
     return `<div class="fut-comp-row ${isLocked ? 'locked' : ''}">
@@ -1916,6 +1932,12 @@ function buildFutureModImpact(yr, mod) {
       <span class="fut-comp-contrib">+${contribution.toFixed(1)} pts</span>
     </div>`;
   }).join('') || `<div class="tt-empty">No assessment components yet. Add components in the Modules tab to simulate them individually.</div>`;
+
+  const hasSimData = (yr.futureModuleGrades[mod.id] !== undefined) ||
+    components.some(c => yr.futureComponentGrades[c.id] !== undefined);
+  const modResetBtn = hasSimData
+    ? `<button class="btn btn-danger btn-sm" style="margin-top:14px" onclick="event.stopPropagation();resetSimMod('${yr.id}','${mod.id}')" title="Reset simulated grades for ${escapeHTML(mod.code)}">Reset Module</button>`
+    : '';
 
   return `<div class="fut-impact-grid">
     ${applyAllHtml}
@@ -1929,6 +1951,7 @@ function buildFutureModImpact(yr, mod) {
       <span>Module total: <strong style="color:${gradeColor(simGrade)}">${simGrade.toFixed(1)}%</strong></span>
     </div>
     ${compRows}
+    ${modResetBtn}
   </div>`;
 }
 
@@ -1939,6 +1962,44 @@ function rerenderTargetPane(yid) {
   const openCards = [...pane.querySelectorAll('.card.open')].map(c => c.id);
   pane.innerHTML = buildTarget(yr);
   restoreOpenCards(openCards, '.mod-body');
+}
+
+// M1: lightweight re-entrancy guard so a fast double-click can't stack two
+// native confirm() dialogs for the same reset action. Not required for
+// correctness (confirm() is synchronous and blocks the main thread already)
+// but cheap insurance against edge cases across browsers/embedded webviews.
+let _resetInFlight = false;
+function withResetGuard(fn) {
+  if (_resetInFlight) return;
+  _resetInFlight = true;
+  try { fn(); } finally { _resetInFlight = false; }
+}
+
+function resetSimMod(yid, mid) {
+  withResetGuard(() => {
+    const yr = getYear(yid);
+    const mod = yr ? yr.modules.find(m => m.id === mid) : null;
+    if (!yr || !mod) return;
+    if (!confirm(`Reset simulated grades for ${mod.code}?`)) return;
+    if (yr.futureModuleGrades) delete yr.futureModuleGrades[mid];
+    if (yr.futureComponentGrades) (mod.components || []).forEach(c => delete yr.futureComponentGrades[c.id]);
+    persist();
+    rerenderTargetPane(yid);
+    showToast(`${mod.code} simulation reset.`);
+  });
+}
+
+function resetSimAll(yid) {
+  withResetGuard(() => {
+    const yr = getYear(yid);
+    if (!yr) return;
+    if (!confirm('Reset ALL simulated grades for this year? Marks entered in Modules will not be affected.')) return;
+    yr.futureModuleGrades = {};
+    yr.futureComponentGrades = {};
+    persist();
+    rerenderTargetPane(yid);
+    showToast('Grade Simulator reset.');
+  });
 }
 
 function updateFutureGrade(yid, mid, val) {
@@ -1959,7 +2020,13 @@ function updateFutureGrade(yid, mid, val) {
   }
 
   persist();
+  // Fix 1: preserve focus across the target-pane re-render so Tab-key works.
+  const focusedId = document.activeElement ? document.activeElement.id : null;
   rerenderTargetPane(yid);
+  if (focusedId) {
+    const refocusEl = document.getElementById(focusedId);
+    if (refocusEl) refocusEl.focus();
+  }
 }
 
 function updateFutureComponentGrade(yid, mid, cid, val) {
@@ -1987,8 +2054,7 @@ function updateFutureComponentGrade(yid, mid, cid, val) {
 function setOverviewTargetAndRefresh(yid, val) {
   APP.overviewTargetGrade = val;
   persist();
-  const pane = document.getElementById(`sp-${yid}-target`);
-  if (pane) pane.innerHTML = buildTarget(getYear(yid));
+  rerenderTargetPane(yid);
 }
 
 
@@ -2416,7 +2482,6 @@ function buildChecklist(yr) {
   const actHtml=`<div class="cl-actions">
     <button class="btn btn-ghost btn-sm" onclick="clExpandAll('${yr.id}')">Expand all</button>
     <button class="btn btn-ghost btn-sm" onclick="clCollapseAll('${yr.id}')">Collapse all</button>
-    <button class="btn btn-danger btn-sm" onclick="clReset('${yr.id}')">Reset all progress</button>
   </div>`;
 
   let modHtml='';
@@ -2457,7 +2522,7 @@ function buildChecklist(yr) {
       </div>`;
     });
     if(!items) items=`<div style="font-family:var(--fm);font-size:11px;color:var(--tx4);font-style:italic;padding:8px 0">No topics yet. Click ✎ to add some.</div>`;
-    const modResetBtn=total>0?`<button class="btn btn-danger btn-sm" style="margin-top:10px" onclick="clResetMod('${yr.id}','${m.id}')">Reset ${escapeHTML(m.code)} progress</button>`:'';
+    const modResetBtn=total>0?`<button class="btn btn-danger btn-sm" style="margin-top:10px" onclick="clResetMod('${yr.id}','${m.id}')" title="Reset checklist progress for ${escapeHTML(m.code)}">Reset</button>`:'';
     modHtml+=`<div class="card" id="clcard-${yr.id}-${m.id}">
       <div class="cl-mod-hdr" onclick="toggleCard('clcard-${yr.id}-${m.id}')">
         <span class="mod-code">${escapeHTML(m.code)}</span>
@@ -2471,7 +2536,19 @@ function buildChecklist(yr) {
     </div>`;
   });
 
-  return statsHtml+actHtml+`<div>${modHtml}</div>`;
+  const clResetZone=`<div class="reset-zone">
+    <div class="reset-zone-title">Reset Options — ${yr.label}</div>
+    <div class="reset-zone-sub">Use these options to clear revision progress. Actions take effect immediately and cannot be undone.</div>
+    <div class="reset-group">
+      <div>
+        <div class="reset-group-label" style="color:var(--red2)">Full Reset</div>
+        <div class="reset-group-desc">Set every topic and sub-topic across all modules back to "Not started". Topics themselves are preserved.</div>
+      </div>
+      <div class="reset-btns"><button class="btn btn-danger btn-sm" onclick="clReset('${yr.id}')">Full Reset</button></div>
+    </div>
+  </div>`;
+
+  return statsHtml+actHtml+`<div>${modHtml}</div>`+clResetZone;
 }
 
 function toggleClTopic(id){
@@ -2515,31 +2592,35 @@ function clExpandAll(yid){document.querySelectorAll(`#sp-${yid}-checklist .card`
 function clCollapseAll(yid){document.querySelectorAll(`#sp-${yid}-checklist .card`).forEach(c=>{c.classList.remove('open');const body=c.querySelector('.cl-mod-body');if(body)body.style.display='none';const chev=c.querySelector('.cl-mod-hdr .chevron');if(chev)chev.style.transform='';});}
 
 function clReset(yid){
-  if(!confirm('Reset ALL checklist progress?'))return;
-  const yr=getYear(yid);
-  if(yr.checklist) Object.values(yr.checklist).forEach(cl=>{
-    (cl.topics||[]).forEach(t=>{ t.status='not-started'; (t.subtopics||[]).forEach(st=>st.status='not-started'); });
+  withResetGuard(() => {
+    if(!confirm('Reset ALL checklist progress?'))return;
+    const yr=getYear(yid);
+    if(yr.checklist) Object.values(yr.checklist).forEach(cl=>{
+      (cl.topics||[]).forEach(t=>{ t.status='not-started'; (t.subtopics||[]).forEach(st=>st.status='not-started'); });
+    });
+    persist();
+    const sp=document.getElementById(`sp-${yid}-checklist`);
+    if(sp)sp.innerHTML=buildChecklist(yr);
+    showToast('Checklist reset.');
   });
-  persist();
-  const sp=document.getElementById(`sp-${yid}-checklist`);
-  if(sp)sp.innerHTML=buildChecklist(yr);
-  showToast('Checklist reset.');
 }
 function clResetMod(yid,mid){
-  const yr=getYear(yid),mod=yr.modules.find(m=>m.id===mid);
-  if(!confirm(`Reset checklist progress for ${mod.code}?`))return;
-  const cl=yr.checklist&&yr.checklist[mid];
-  if(cl) (cl.topics||[]).forEach(t=>{ t.status='not-started'; (t.subtopics||[]).forEach(st=>st.status='not-started'); });
-  persist();
-  const sp=document.getElementById(`sp-${yid}-checklist`);
-  const openCards=sp?[...sp.querySelectorAll('.card.open')].map(c=>c.id):[];
-  if(sp)sp.innerHTML=buildChecklist(yr);
-  restoreOpenCards(openCards,'.cl-mod-body');
-  showToast(`${mod.code} checklist reset.`);
+  withResetGuard(() => {
+    const yr=getYear(yid),mod=yr.modules.find(m=>m.id===mid);
+    if(!confirm(`Reset checklist progress for ${mod.code}?`))return;
+    const cl=yr.checklist&&yr.checklist[mid];
+    if(cl) (cl.topics||[]).forEach(t=>{ t.status='not-started'; (t.subtopics||[]).forEach(st=>st.status='not-started'); });
+    persist();
+    const sp=document.getElementById(`sp-${yid}-checklist`);
+    const openCards=sp?[...sp.querySelectorAll('.card.open')].map(c=>c.id):[];
+    if(sp)sp.innerHTML=buildChecklist(yr);
+    restoreOpenCards(openCards,'.cl-mod-body');
+    showToast(`${mod.code} checklist reset.`);
+  });
 }
 
 function restoreOpenCards(openCardIds, bodySelector) {
-  openCardIds.forEach(id=>{const card=document.getElementById(id);if(!card)return;card.classList.add('open');const body=card.querySelector(bodySelector);if(body)body.style.display='block';const chev=card.querySelector('.cl-mod-hdr .chevron, .mod-hdr .chevron');if(chev)chev.style.transform='rotate(180deg)';});
+  openCardIds.forEach(id=>{const card=document.getElementById(id);if(!card)return;card.classList.add('open');const body=card.querySelector(bodySelector);if(body)body.style.display='block';const chev=card.querySelector('.chevron');if(chev)chev.style.transform='rotate(180deg)';});
 }
 
 // ── Checklist topic/sub-topic structured editor ─────────────────────────────
