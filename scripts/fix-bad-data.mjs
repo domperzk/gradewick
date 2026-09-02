@@ -3,72 +3,73 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_FILE = path.join(__dirname, 'data', 'warwick-deep-modules.json');
 
-// Words that indicate a department
-const DEPT_KEYWORDS = [
-  "school", "wmg", "warwick", "sciences", "physics",
-  "chemistry", "computer science", "statistics", "economics",
-  "philosophy", "politics", "psychology", "sociology", "history",
-  "biomedical", "institute", "department", "language", "english",
-  "mathematics", "mathematical", "law"
+// We read and fix the live JS files directly
+const MODULES_FILE = path.join(__dirname, '../module-data.js');
+const COURSES_FILE = path.join(__dirname, '../course-data.js');
+
+// EXACT MATCHES ONLY. It will never accidentally delete a real assessment.
+const EXACT_FAKES = [
+  "school of engineering", "wmg", "computer science", "statistics",
+  "physics", "chemistry", "economics", "philosophy",
+  "politics & international studies", "school of law",
+  "warwick business school", "life sciences", "warwick medical school",
+  "wms, biomedical sciences", "english and comparative literary studies",
+  "school of modern languages and cultures", "sociology",
+  "history", "applied linguistics", "psychology",
+  "institute for advanced teaching and learning",
+  "mathematics", "warwick mathematics institute"
 ];
 
-// Words that indicate a REAL assessment
-const SAFE_WORDS = [
-  "exam", "test", "report", "essay", "project", "portfolio", 
-  "coursework", "assignment", "presentation", "quiz", "viva", 
-  "lab", "practical", "dissertation", "exercise", "review"
-];
-
-function isFakeDepartmentComponent(name) {
-  const lower = name.toLowerCase();
-  const hasDeptWord = DEPT_KEYWORDS.some(k => lower.includes(k));
-  const hasSafeWord = SAFE_WORDS.some(k => lower.includes(k));
+function fixAssessment(assessment) {
+  if (!assessment || !assessment.components) return assessment;
   
-  // If it sounds like a department AND doesn't have an assessment word, it's fake.
-  // (e.g., "Computer Science" = fake. "Computer Science Project" = real).
-  return hasDeptWord && !hasSafeWord;
+  // 1. Delete ONLY if the component name exactly matches the fake department list
+  assessment.components = assessment.components.filter(c => 
+    !EXACT_FAKES.includes(c.name.toLowerCase().trim())
+  );
+  
+  // 2. Check the math of what is left
+  let sum = assessment.components.reduce((acc, c) => acc + c.weighting, 0);
+  let roundedSum = Math.round(sum * 10) / 10;
+  
+  // 3. If Warwick's own data is genuinely broken (e.g. adds to 160%), wipe it so the user can enter it manually
+  if (roundedSum !== 100 && assessment.components.length > 0) {
+    assessment.ok = false;
+    assessment.components = [];
+  }
+  
+  return assessment;
 }
 
 try {
-  console.log('🧹 Auditing database for department names and broken math...');
-  const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
+  console.log('🧹 Running EXACT-MATCH cleanup on compiled JS files...');
+
+  // Fix Modules
+  let rawMods = fs.readFileSync(MODULES_FILE, 'utf-8');
+  let modJson = JSON.parse(rawMods.replace('const WARWICK_ALL_MODULES = ', '').replace(/;\s*$/, ''));
   
-  let deptFixedCount = 0;
-  let mathFailedCount = 0;
-
-  data.forEach(mod => {
-    if (!mod.assessment || !mod.assessment.components) return;
-
-    const originalLen = mod.assessment.components.length;
-    
-    // 1. Filter out the fake department components
-    mod.assessment.components = mod.assessment.components.filter(c => !isFakeDepartmentComponent(c.name));
-    
-    if (mod.assessment.components.length !== originalLen) {
-      deptFixedCount++;
-    }
-
-    // 2. Check if the remaining components sum to exactly 100
-    const sum = mod.assessment.components.reduce((acc, c) => acc + c.weighting, 0);
-    
-    // Sometimes JavaScript math gets weird with decimals (e.g., 99.999999), so we round it
-    const roundedSum = Math.round(sum * 10) / 10;
-    
-    if (roundedSum !== 100 && mod.assessment.components.length > 0) {
-      // If it still doesn't equal 100 after cleanup, the data is just broken.
-      // We invalidate the assessment so the user can just enter it manually.
-      mod.assessment.ok = false;
-      mod.assessment.components = [];
-      mathFailedCount++;
-    }
+  modJson.forEach(mod => { 
+    mod.assessment = fixAssessment(mod.assessment); 
   });
-
-  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-  console.log(`\n✅ Cleaned up ${deptFixedCount} modules containing fake department splits.`);
-  console.log(`🗑️ Erased ${mathFailedCount} modules where the math didn't sum to 100%.\n`);
   
+  fs.writeFileSync(MODULES_FILE, `const WARWICK_ALL_MODULES = ${JSON.stringify(modJson, null, 2)};\n`, 'utf-8');
+
+  // Fix Courses
+  let rawCourses = fs.readFileSync(COURSES_FILE, 'utf-8');
+  let courseJson = JSON.parse(rawCourses.replace('const WARWICK_COURSES = ', '').replace(/;\s*$/, ''));
+  
+  courseJson.forEach(course => {
+    Object.values(course.years || {}).forEach(year => {
+      (year.core || []).forEach(coreMod => {
+        coreMod.assessment = fixAssessment(coreMod.assessment);
+      });
+    });
+  });
+  
+  fs.writeFileSync(COURSES_FILE, `const WARWICK_COURSES = ${JSON.stringify(courseJson, null, 2)};\n`, 'utf-8');
+
+  console.log('✅ Successfully purged department names and saved clean .js files!');
 } catch (err) {
-  console.error('❌ Error during cleanup:', err);
+  console.error('❌ Error:', err.message);
 }

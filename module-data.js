@@ -242,7 +242,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Development Planner: Warwick Award",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -10753,9 +10758,18 @@ const WARWICK_ALL_MODULES = [
     "code": "HI3O4-15",
     "credits": 12,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Seminar contribution",
+          "weighting": 20
+        },
+        {
+          "name": "Public-Facing Educational Output on the History of Anti/Mafia 12CATS",
+          "weighting": 80
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -16537,9 +16551,26 @@ const WARWICK_ALL_MODULES = [
     "code": "LA1H7-30",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "50% coursework, 50% exam",
-      "components": []
+      "components": [
+        {
+          "name": "Enhanced Court Visit Critical Reflection",
+          "weighting": 30
+        },
+        {
+          "name": "Doctrinal Law - Case Note",
+          "weighting": 20
+        },
+        {
+          "name": "English Legal System - Multiple Choice Test",
+          "weighting": 20
+        },
+        {
+          "name": "Doctrinal Law Examination",
+          "weighting": 30
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -16710,7 +16741,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Study Abroad (English)",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -22227,9 +22263,22 @@ const WARWICK_ALL_MODULES = [
     "code": "MA4N1-15",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Formalization of Mathematics",
+          "weighting": 70
+        },
+        {
+          "name": "Presentation",
+          "weighting": 20
+        },
+        {
+          "name": "Project outline",
+          "weighting": 10
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -24776,7 +24825,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -24814,7 +24868,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -24852,7 +24911,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -26558,7 +26622,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Analysis of oral history",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -27924,9 +27993,30 @@ const WARWICK_ALL_MODULES = [
     "code": "ST920-15",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Probability",
+          "weighting": 20
+        },
+        {
+          "name": "Mathematical Finance",
+          "weighting": 20
+        },
+        {
+          "name": "Statistical Methodology and Theory",
+          "weighting": 20
+        },
+        {
+          "name": "Computational Statistics",
+          "weighting": 20
+        },
+        {
+          "name": "Applied Statistics",
+          "weighting": 20
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -38244,9 +38334,18 @@ const WARWICK_ALL_MODULES = [
     "code": "ES966-10",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "Multiple",
-      "components": []
+      "components": [
+        {
+          "name": "Assessed work as specified by department",
+          "weighting": 80
+        },
+        {
+          "name": "Teams-based In-module Case Study",
+          "weighting": 20
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -38468,7 +38567,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
-      "components": []
+      "components": [
+        {
+          "name": "Assessed work as specified by department",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -54758,9 +54862,18 @@ const WARWICK_ALL_MODULES = [
     "code": "MS202-15",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Quantitative approaches to biological imaging data",
+          "weighting": 50
+        },
+        {
+          "name": "Mathematical approaches to understanding biological networks",
+          "weighting": 50
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -55433,9 +55546,18 @@ const WARWICK_ALL_MODULES = [
     "code": "MS954-15",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "40% coursework, 60% exam",
-      "components": []
+      "components": [
+        {
+          "name": "Poster - Frontier Techniques in Biomedical Research",
+          "weighting": 40
+        },
+        {
+          "name": "Exam -Frontier Techniques in Biomedical Research",
+          "weighting": 60
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -56704,7 +56826,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -56742,7 +56869,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -56780,7 +56912,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -56818,7 +56955,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -56856,7 +56998,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -85471,7 +85618,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -91826,9 +91978,18 @@ const WARWICK_ALL_MODULES = [
     "code": "WM9QR-60",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "90% coursework, 10% exam",
-      "components": []
+      "components": [
+        {
+          "name": "Assessed work as specified by department",
+          "weighting": 90
+        },
+        {
+          "name": "Oral Examination on 15,000 word Dissertation",
+          "weighting": 10
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -99708,9 +99869,18 @@ const WARWICK_ALL_MODULES = [
     "code": "ES4A4-15",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
-      "components": []
+      "components": [
+        {
+          "name": "Biomedical Case Study",
+          "weighting": 30
+        },
+        {
+          "name": "Centrally-timetabled examination (On-campus)",
+          "weighting": 70
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -110222,7 +110392,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "International Economic Law of the Digital Economy",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -113919,9 +114094,26 @@ const WARWICK_ALL_MODULES = [
     "code": "MD1A4-45",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "80% coursework, 20% exam",
-      "components": []
+      "components": [
+        {
+          "name": "3 x laboratory reports",
+          "weighting": 40
+        },
+        {
+          "name": "Mathematical Skills",
+          "weighting": 20
+        },
+        {
+          "name": "Assessment of laboratory skills",
+          "weighting": 20
+        },
+        {
+          "name": "Written examination",
+          "weighting": 20
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -115696,7 +115888,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Assessment by Brussels School of Governance, VUB",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -116198,9 +116395,26 @@ const WARWICK_ALL_MODULES = [
     "code": "PS122-15",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "15% coursework, 85% exam",
-      "components": []
+      "components": [
+        {
+          "name": "History of Psychology assessment",
+          "weighting": 5
+        },
+        {
+          "name": "Developmental Psychology assessment",
+          "weighting": 5
+        },
+        {
+          "name": "Psychology of Learning Assessment",
+          "weighting": 5
+        },
+        {
+          "name": "Centrally-timetabled examination (in person)",
+          "weighting": 85
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -116552,9 +116766,18 @@ const WARWICK_ALL_MODULES = [
     "code": "PS369-30",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Project Report",
+          "weighting": 95
+        },
+        {
+          "name": "Oral presentation",
+          "weighting": 5
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -128004,7 +128227,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
-      "components": []
+      "components": [
+        {
+          "name": "Assessed work as specified by department",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -128371,7 +128599,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "Multiple",
-      "components": []
+      "components": [
+        {
+          "name": "Assessed work as specified by department",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -136169,9 +136402,22 @@ const WARWICK_ALL_MODULES = [
     "code": "LA212-30",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
-      "components": []
+      "components": [
+        {
+          "name": "2000 word essay",
+          "weighting": 30
+        },
+        {
+          "name": "Centrally-timetabled examination (Online)",
+          "weighting": 50
+        },
+        {
+          "name": "French Law Moot",
+          "weighting": 20
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -136354,7 +136600,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Contract Law Final assessment",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -136390,9 +136641,18 @@ const WARWICK_ALL_MODULES = [
     "code": "LA2E3-15",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "20% coursework, 80% exam",
-      "components": []
+      "components": [
+        {
+          "name": "French Law Moot",
+          "weighting": 20
+        },
+        {
+          "name": "Final exam",
+          "weighting": 80
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -136655,9 +136915,18 @@ const WARWICK_ALL_MODULES = [
     "code": "LA367-15",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Written Assignment",
+          "weighting": 70
+        },
+        {
+          "name": "Reflective Journal - International Economic Law",
+          "weighting": 30
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -141257,9 +141526,26 @@ const WARWICK_ALL_MODULES = [
     "code": "MD40X-120",
     "credits": 15,
     "assessment": {
-      "ok": false,
+      "ok": true,
       "assessmentSplit": "30% coursework, 70% exam",
-      "components": []
+      "components": [
+        {
+          "name": "Phase 3 (Year 4) Engagement Criteria",
+          "weighting": 30
+        },
+        {
+          "name": "UKMLA Clinical Component",
+          "weighting": 30
+        },
+        {
+          "name": "UKMLA Written Component",
+          "weighting": 30
+        },
+        {
+          "name": "Warwick Prescribing Assessment (WPA)",
+          "weighting": 10
+        }
+      ]
     },
     "years": {
       "Year 1": {
@@ -145634,7 +145920,12 @@ const WARWICK_ALL_MODULES = [
     "assessment": {
       "ok": true,
       "assessmentSplit": "100% coursework",
-      "components": []
+      "components": [
+        {
+          "name": "Transcript of grades obtained at host institute or Reflective learning diary",
+          "weighting": 100
+        }
+      ]
     },
     "years": {
       "Year 1": {

@@ -562,9 +562,26 @@ const WARWICK_COURSES = [
             "code": "PS122-15",
             "credits": 15,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": []
+              "components": [
+                {
+                  "name": "History of Psychology assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Developmental Psychology assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Psychology of Learning Assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Centrally-timetabled examination (in person)",
+                  "weighting": 85
+                }
+              ]
             }
           },
           {
@@ -8162,7 +8179,12 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Contract Law Final assessment",
+                  "weighting": 100
+                }
+              ]
             }
           },
           {
@@ -27541,9 +27563,26 @@ const WARWICK_COURSES = [
             "code": "MD1A4-45",
             "credits": 45,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "80% coursework, 20% exam",
-              "components": []
+              "components": [
+                {
+                  "name": "3 x laboratory reports",
+                  "weighting": 40
+                },
+                {
+                  "name": "Mathematical Skills",
+                  "weighting": 20
+                },
+                {
+                  "name": "Assessment of laboratory skills",
+                  "weighting": 20
+                },
+                {
+                  "name": "Written examination",
+                  "weighting": 20
+                }
+              ]
             }
           },
           {
@@ -27597,9 +27636,18 @@ const WARWICK_COURSES = [
             "code": "MS202-15",
             "credits": 15,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Quantitative approaches to biological imaging data",
+                  "weighting": 50
+                },
+                {
+                  "name": "Mathematical approaches to understanding biological networks",
+                  "weighting": 50
+                }
+              ]
             }
           },
           {
@@ -30916,9 +30964,26 @@ const WARWICK_COURSES = [
             "code": "PS122-15",
             "credits": 15,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": []
+              "components": [
+                {
+                  "name": "History of Psychology assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Developmental Psychology assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Psychology of Learning Assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Centrally-timetabled examination (in person)",
+                  "weighting": 85
+                }
+              ]
             }
           },
           {
@@ -31192,9 +31257,26 @@ const WARWICK_COURSES = [
             "code": "PS122-15",
             "credits": 15,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": []
+              "components": [
+                {
+                  "name": "History of Psychology assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Developmental Psychology assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Psychology of Learning Assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Centrally-timetabled examination (in person)",
+                  "weighting": 85
+                }
+              ]
             }
           },
           {
@@ -31538,9 +31620,26 @@ const WARWICK_COURSES = [
             "code": "PS122-15",
             "credits": 15,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "15% coursework, 85% exam",
-              "components": []
+              "components": [
+                {
+                  "name": "History of Psychology assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Developmental Psychology assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Psychology of Learning Assessment",
+                  "weighting": 5
+                },
+                {
+                  "name": "Centrally-timetabled examination (in person)",
+                  "weighting": 85
+                }
+              ]
             }
           },
           {
@@ -31946,7 +32045,12 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Contract Law Final assessment",
+                  "weighting": 100
+                }
+              ]
             }
           },
           {
@@ -32184,7 +32288,12 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Contract Law Final assessment",
+                  "weighting": 100
+                }
+              ]
             }
           },
           {
@@ -32440,9 +32549,18 @@ const WARWICK_COURSES = [
             "code": "LA2E3-15",
             "credits": 15,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "20% coursework, 80% exam",
-              "components": []
+              "components": [
+                {
+                  "name": "French Law Moot",
+                  "weighting": 20
+                },
+                {
+                  "name": "Final exam",
+                  "weighting": 80
+                }
+              ]
             }
           },
           {
@@ -32467,7 +32585,12 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Contract Law Final assessment",
+                  "weighting": 100
+                }
+              ]
             }
           },
           {
@@ -32744,7 +32867,12 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Contract Law Final assessment",
+                  "weighting": 100
+                }
+              ]
             }
           },
           {
@@ -32998,7 +33126,12 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Contract Law Final assessment",
+                  "weighting": 100
+                }
+              ]
             }
           },
           {
@@ -33035,7 +33168,12 @@ const WARWICK_COURSES = [
             "assessment": {
               "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Study Abroad (English)",
+                  "weighting": 100
+                }
+              ]
             }
           }
         ]
@@ -38200,9 +38338,18 @@ const WARWICK_COURSES = [
             "code": "ES4A4-15",
             "credits": 15,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "30% coursework, 70% exam",
-              "components": []
+              "components": [
+                {
+                  "name": "Biomedical Case Study",
+                  "weighting": 30
+                },
+                {
+                  "name": "Centrally-timetabled examination (On-campus)",
+                  "weighting": 70
+                }
+              ]
             }
           },
           {
@@ -45133,9 +45280,26 @@ const WARWICK_COURSES = [
             "code": "MD1A4-45",
             "credits": 45,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "80% coursework, 20% exam",
-              "components": []
+              "components": [
+                {
+                  "name": "3 x laboratory reports",
+                  "weighting": 40
+                },
+                {
+                  "name": "Mathematical Skills",
+                  "weighting": 20
+                },
+                {
+                  "name": "Assessment of laboratory skills",
+                  "weighting": 20
+                },
+                {
+                  "name": "Written examination",
+                  "weighting": 20
+                }
+              ]
             }
           },
           {
@@ -45189,9 +45353,18 @@ const WARWICK_COURSES = [
             "code": "MS202-15",
             "credits": 15,
             "assessment": {
-              "ok": false,
+              "ok": true,
               "assessmentSplit": "100% coursework",
-              "components": []
+              "components": [
+                {
+                  "name": "Quantitative approaches to biological imaging data",
+                  "weighting": 50
+                },
+                {
+                  "name": "Mathematical approaches to understanding biological networks",
+                  "weighting": 50
+                }
+              ]
             }
           },
           {
