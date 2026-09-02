@@ -433,9 +433,10 @@ function ttDeserialiseEvent(ev) {
 // ── Main pane builder ──────────────────────────────────────────────────────
 
 function ttRenderPane(yid) {
-  const pane = document.getElementById(`sp-${yid}-schooltimetable`);
+  const pane = document.getElementById(`sp-${yid}-timetables`);
   if (!pane) return;
-  pane.innerHTML = buildSchoolTimetable(getYear(yid));
+  // Re-trigger the wrapper rendering so toggle states are preserved
+  pane.innerHTML = typeof buildTimetablesWrapper === 'function' ? buildTimetablesWrapper(getYear(yid)) : buildSchoolTimetable(getYear(yid));
 }
 
 const TT_VIEWS = [
@@ -609,11 +610,11 @@ function ttBuildEventBlock(yid, ev) {
 
   const safeUid = escapeHTML(ev.uid || '');
   return `
-    <div class="tt-event-block" style="top:${top}px;height:${height}px;background:${col.bg};border-left:3px solid ${col.border};color:${col.text}"
+    <div class="tt-event-block" style="top:${top}px;height:${height}px;border-left:4px solid ${col.border};background:var(--s1);"
          onclick="ttOpenEvent('${yid}','${safeUid}')" title="${escapeHTML(ev.summary)}">
-      <div class="tt-ev-code">${escapeHTML(code)}${typeTag?` <span class="tt-ev-type">${typeTag}</span>`:''}</div>
-      ${height >= 36 ? `<div class="tt-ev-title">${escapeHTML(title)}</div>` : ''}
-      ${height >= 52 && ev.location ? `<div class="tt-ev-loc">📍 ${escapeHTML(ev.location)}</div>` : ''}
+      <div class="tt-ev-code" style="color:var(--tx2);background:var(--s2);border:1px solid var(--b1);">${escapeHTML(code)}${typeTag?` <span class="tt-ev-type" style="color:var(--tx3)">${typeTag}</span>`:''}</div>
+      ${height >= 36 ? `<div class="tt-ev-title" style="color:var(--tx)">${escapeHTML(title)}</div>` : ''}
+      ${height >= 52 && ev.location ? `<div class="tt-ev-loc" style="color:var(--tx3)">📍 ${escapeHTML(ev.location)}</div>` : ''}
     </div>`;
 }
 
@@ -819,15 +820,15 @@ function ttBuildListView(yid, events) {
       const duration = ev.end ? Math.round((ev.end - ev.start) / 60000) : null;
       const durStr   = duration ? `${Math.floor(duration/60)}h${duration%60?` ${duration%60}m`:''}` : '';
       html += `
-        <div class="tt-list-event" style="border-left:3px solid ${col.border};background:${col.bg}"
+        <div class="tt-list-event tt-item" style="border-left:4px solid ${col.border};background:var(--s1);border-top:1.5px solid var(--b1);border-right:1.5px solid var(--b1);border-bottom:1.5px solid var(--b1);"
              onclick="ttOpenEvent('${yid}','${escapeHTML(ev.uid || '')}')">
-          <div class="tt-list-time">${ttFmtTime(ev.start)}${ev.end?` – ${ttFmtTime(ev.end)}`:''}${durStr?` <span style="color:${col.border};opacity:.7">(${durStr})</span>`:''}</div>
-          <div class="tt-list-title">
-            <span class="tt-ev-code-pill" style="background:${col.border}20;color:${col.text};border:1px solid ${col.border}40">${escapeHTML(ttModuleKey(ev.summary))}</span>
+          <div class="tt-list-time" style="color:var(--tx2)">${ttFmtTime(ev.start)}${ev.end?` – ${ttFmtTime(ev.end)}`:''}${durStr?` <span style="color:var(--tx4)">(${durStr})</span>`:''}</div>
+          <div class="tt-list-title" style="color:var(--tx)">
+            <span class="tt-ev-code-pill" style="background:var(--s2);color:var(--tx2);border:1px solid var(--b1)">${escapeHTML(ttModuleKey(ev.summary))}</span>
             ${escapeHTML(ev.summary)}
-            ${typeTag?`<span class="tt-ev-type" style="background:${col.border}15;color:${col.text}">${typeTag}</span>`:''}
+            ${typeTag?`<span class="tt-ev-type" style="background:var(--s2);color:var(--tx3);border:1px solid var(--b1)">${typeTag}</span>`:''}
           </div>
-          ${ev.location ? `<div class="tt-list-loc">📍 ${escapeHTML(ev.location)}</div>` : ''}
+          ${ev.location ? `<div class="tt-list-loc" style="color:var(--tx3)">📍 ${escapeHTML(ev.location)}</div>` : ''}
         </div>`;
     });
   }
@@ -1123,21 +1124,24 @@ function ttInjectCSS() {
 /* Event blocks */
 .tt-event-block {
   position: absolute; left: 2px; right: 2px;
-  border-radius: 5px; padding: 3px 5px;
+  border-radius: 6px; padding: 4px 6px;
   cursor: pointer; overflow: hidden;
-  transition: transform var(--t-fast) var(--spring), box-shadow var(--t-fast);
-  font-size: 11px; line-height: 1.25;
-  z-index: 2;
+  border: 1.5px solid var(--b1);
+  box-shadow: 0 2px 6px rgba(0,0,0,.03);
+  transition: transform var(--t-fast) var(--spring), border-color var(--t-fast), box-shadow var(--t-fast);
+  font-size: 11px; line-height: 1.25; z-index: 2;
 }
 .tt-event-block:hover {
   transform: scale(1.02) translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  border-color: var(--b2);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
   z-index: 5;
 }
 .tt-ev-code {
+  display: inline-flex; align-items: center; gap: 4px;
   font-family: var(--fm); font-size: 9px; font-weight: 600;
-  letter-spacing: .04em; text-transform: uppercase; opacity: .85;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  letter-spacing: .04em; text-transform: uppercase;
+  margin-bottom: 2px;
 }
 .tt-ev-title {
   font-family: var(--fd); font-size: 10px; font-weight: 700;
@@ -1269,122 +1273,6 @@ function ttInjectCSS() {
 }
 `;
   document.head.appendChild(style);
-}
-
-// ── Hook into Gradewick's tab system ─────────────────────────────────────────
-//
-// We monkey-patch the key functions that render year panes and sidebar nav
-// to insert our new 'schooltimetable' tab without touching the original files.
-
-// 1. Extend renderSidebarNav to include the new tab
-const _origRenderSidebarNav = renderSidebarNav;
-window.renderSidebarNav = function(yid) {
-  _origRenderSidebarNav(yid);
-  // Add schooltimetable button to sidebar nav
-  const nav = document.getElementById('sidebarNav');
-  if (!nav) return;
-  const st = _yearSubtabs[yid] || APP.lastTab?.[yid] || 'dashboard';
-  const names = APP.settings.tabNames;
-  const ttName = names.schooltimetable || 'Uni Timetable';
-  const ttBtn = document.createElement('div');
-  ttBtn.className = `nav-btn ${st === 'schooltimetable' ? 'active' : ''}`;
-  ttBtn.setAttribute('onclick', `switchSubtab('${yid}','schooltimetable')`);
-  ttBtn.innerHTML = `
-    <div class="nav-btn-left">
-      <span class="nav-icon">
-        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/></svg>
-      </span>
-      <span class="nav-lbl">${ttName}</span>
-    </div>`;
-  nav.appendChild(ttBtn);
-};
-
-// 2. Extend renderYearPane to include the new subpane
-const _origRenderYearPane = renderYearPane;
-window.renderYearPane = function(yid) {
-  _origRenderYearPane(yid);
-  const yr   = getYear(yid);
-  const pane = document.getElementById('pane-' + yid);
-  if (!pane || !yr) return;
-  const st = _yearSubtabs[yid] || APP.lastTab?.[yid] || 'dashboard';
-  // Only add if not already present
-  if (!document.getElementById(`sp-${yid}-schooltimetable`)) {
-    const sp = document.createElement('div');
-    sp.className = `subpane${st === 'schooltimetable' ? ' active' : ''}`;
-    sp.id = `sp-${yid}-schooltimetable`;
-    pane.appendChild(sp);
-  }
-  if (st === 'schooltimetable') {
-    ttRenderPane(yid);
-  }
-};
-
-// 3. Extend switchSubtab to handle schooltimetable
-const _origSwitchSubtab = switchSubtab;
-window.switchSubtab = function(yid, st) {
-  if (st !== 'schooltimetable') {
-    _origSwitchSubtab(yid, st);
-    return;
-  }
-
-  // Mirror what the original function does
-  _yearSubtabs[yid] = st;
-  if (!APP.lastTab) APP.lastTab = {};
-  APP.lastTab[yid] = st;
-
-  if (APP.activeOverview) {
-    APP.activeOverview = false;
-    APP.activeYear = yid;
-    const ovPane = document.getElementById('pane-overview');
-    if (ovPane) { ovPane.style.display = 'none'; ovPane.classList.remove('active'); }
-    const yearPane = document.getElementById('pane-' + yid);
-    if (yearPane) { yearPane.style.display = 'block'; yearPane.classList.add('active'); }
-    renderYearsNav();
-  }
-
-  persist();
-
-  // Deactivate all subpanes in this year
-  document.querySelectorAll(`#pane-${yid} > .subpane`).forEach(p => p.classList.remove('active'));
-
-  // Activate ours (create if missing)
-  let sp = document.getElementById(`sp-${yid}-schooltimetable`);
-  if (!sp) {
-    sp = document.createElement('div');
-    sp.className = 'subpane active';
-    sp.id = `sp-${yid}-schooltimetable`;
-    const yearPane = document.getElementById('pane-' + yid);
-    if (yearPane) yearPane.appendChild(sp);
-  } else {
-    sp.classList.add('active');
-  }
-
-  ttRenderPane(yid);
-  renderSidebarNav(yid);
-  renderHeader();
-  closeSidebar();
-};
-
-// 4. Extend renderHeader to show a nice title for the new tab
-const _origRenderHeader = renderHeader;
-window.renderHeader = function() {
-  _origRenderHeader();
-  const yr = activeYear();
-  if (!yr) return;
-  const st = _yearSubtabs[yr.id] || APP.lastTab?.[yr.id] || 'dashboard';
-  if (st !== 'schooltimetable') return;
-  // Override the h1 set by renderHeader
-  const s    = APP.settings;
-  const name = s.name ? `<span class="hl">${s.name}'s </span>` : '';
-  const h1   = document.getElementById('hdrTitle');
-  if (h1) h1.innerHTML = `${name}School Timetable`;
-};
-
-// ── Default tab name ────────────────────────────────────────────────────────
-// Make sure migrateData() doesn't strip our tab name on next load.
-// We patch DEFAULT_TAB_NAMES (it's a const object, but properties are mutable).
-if (typeof DEFAULT_TAB_NAMES !== 'undefined') {
-  DEFAULT_TAB_NAMES.schooltimetable = 'School Timetable';
 }
 
 // ── Init ────────────────────────────────────────────────────────────────────
