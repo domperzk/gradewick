@@ -60,7 +60,7 @@ body::before {
  * Layout contract: the sidebar is ALWAYS exactly 100dvh tall.
  * The three flex children (logo, scrollable-middle, footer) divide that
  * height between them.  The middle section (years + nav) gets all the
- * leftover space and is the ONLY part allowed to scroll — and only when
+ * leftover space and is the ONLY part allowed to scroll, and only when
  * there are so many years/tabs that they genuinely cannot fit, which in
  * practice should be rare.  Everything else (logo, footer buttons, credit)
  * is flex-shrink:0 so it is never squashed away.
@@ -72,7 +72,7 @@ body::before {
 .sidebar {
   width: var(--sidebar-w);
   height: 100vh;             /* fallback for browsers that don't support dvh */
-  height: 100dvh;            /* exact viewport height — adapts to mobile browser chrome */
+  height: 100dvh;            /* exact viewport height, adapts to mobile browser chrome */
   background: var(--s1);
   border-right: 1.5px solid var(--b1);
   display: flex;
@@ -82,7 +82,7 @@ body::before {
   transition: transform var(--t-mid) var(--ease), background var(--t-mid);
 }
 
-/* ── Logo block — fixed height, never shrinks ── */
+/* ── Logo block: fixed height, never shrinks ── */
 .sidebar-logo {
   flex-shrink: 0;
   padding: clamp(12px, 2.5vh, 24px) 20px clamp(10px, 2vh, 20px);
@@ -179,7 +179,7 @@ body::before {
 .nav-edit-btn { opacity: 0; }
 .nav-btn:hover .nav-edit-btn { opacity: 1; }
 
-/* ── Footer — fixed height, never shrinks, always visible ── */
+/* ── Footer: fixed height, never shrinks, always visible ── */
 .sidebar-footer {
   flex-shrink: 0;
   padding: clamp(6px, 1vh, 12px);

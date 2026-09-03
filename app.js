@@ -67,7 +67,7 @@ function makeId() { return '_' + Math.random().toString(36).slice(2, 9); }
 function escapeHTML(str) {
   if (str === null || str === undefined) return '';
   return String(str)
-    .replace(/&/g,  '&amp;')   // must be first — avoids double-escaping
+    .replace(/&/g,  '&amp;')   // must be first, avoids double-escaping
     .replace(/</g,  '&lt;')
     .replace(/>/g,  '&gt;')
     .replace(/"/g,  '&quot;')
@@ -118,23 +118,23 @@ function inferCategory(name) {
  *   1. Exact uppercase key:        "CS118"
  *   2. Credit-suffixed variant:    "CS118-15", "CS118-10" (first match wins)
  *
- * Only overwrites date / time / duration / location — all other fields
+ * Only overwrites date / time / duration / location, all other fields
  * (id, name, category, weight, etc.) are left completely untouched.
  *
  * Returns true if enrichment was applied, false otherwise.
  * The boolean return value lets callers decide whether to show a toast.
  */
 function enrichExamData(moduleCode, componentObj) {
-  // Guard 1 — dictionary must be loaded
+  // Guard 1: dictionary must be loaded
   if (typeof EXAM_TIMETABLE === 'undefined') return false;
 
-  // Guard 2 — must be an Exam component (by category or name keyword)
+  // Guard 2: must be an Exam component (by category or name keyword)
   const isExam =
     componentObj.category === 'Exam' ||
     (componentObj.name || '').toLowerCase().includes('exam');
   if (!isExam) return false;
 
-  // Guard 3 — module code must be a usable string
+  // Guard 3: module code must be a usable string
   if (!moduleCode || typeof moduleCode !== 'string') return false;
 
   const code = moduleCode.trim().toUpperCase();
@@ -151,7 +151,7 @@ function enrichExamData(moduleCode, componentObj) {
 
   if (!entry) return false;
 
-  // Apply official data — only these four fields are ever overwritten
+  // Apply official data. Only these four fields are ever overwritten
   componentObj.date     = entry.date     || componentObj.date;
   componentObj.time     = entry.time     || componentObj.time;
   componentObj.duration = entry.duration || componentObj.duration;
@@ -317,7 +317,7 @@ function migrateData() {
         if (c.openBook     === undefined) c.openBook     = '';
       });
     });
-    // TODO: remove in v9 — legacy migration for pre-v6 data
+    // TODO: remove in v9. Legacy migration for pre-v6 data
     delete yr.dates;
     delete yr.labels;
   });
@@ -325,11 +325,11 @@ function migrateData() {
 
 function persist() {
   // Fix 4: wrap in try/catch so a full or blocked localStorage never causes a
-  // silent JS crash — the user gets a visible toast warning instead.
+  // silent JS crash. The user gets a visible toast warning instead.
   try {
     localStorage.setItem('gradetracker_v7', JSON.stringify(APP));
   } catch (e) {
-    showToast('⚠ Unable to save — storage full or blocked.');
+    showToast('⚠ Unable to save. Storage full or blocked.');
     return; // skip the "saved" indicator when the write failed
   }
   const el = document.getElementById('autosaveIndicator');
@@ -792,13 +792,13 @@ function saveCompEdit() {
   if (!name||!weight) { showToast('Fill in name and weight'); return; }
   const yr=getYear(ceYid), mod=yr.modules.find(m=>m.id===ceModId);
   if (ceCompId) {
-    // ── EDIT existing component — apply the user's explicit values as-is ──
+    // EDIT existing component: apply the user's explicit values as-is
     const comp=mod.components.find(c=>c.id===ceCompId);
     comp.name=name; comp.category=category; comp.weight=weight;
     comp.date=date; comp.time=time; comp.duration=duration; comp.location=location;
     comp.readingTime=readingTime; comp.seat=seat; comp.openBook=openBook;
   } else {
-    // ── ADD new component — build the object, then attempt auto-fill ──
+    // ADD new component: build the object, then attempt auto-fill
     const newComp = {id:makeId(),name,category,weight,date,time,duration,location,readingTime,seat,openBook};
     // enrichExamData returns true only when it found and applied official timetable data
     const wasEnriched = enrichExamData(mod.code, newComp);
@@ -1069,7 +1069,7 @@ function buildOverview() {
       return `<div class="yr-pill">${m.code} ${label}</div>`;
     }).join('');
 
-    const wtLabel = wt ? wt + '% weight ✎' : 'No weight set — click to add ✎';
+    const wtLabel = wt ? wt + '% weight ✎' : 'No weight set, click to add ✎';
     const wtCls   = wt ? 'ov-yr-card-wt ov-wt-set' : 'ov-yr-card-wt ov-wt-unset';
 
     yearCards += `
@@ -1243,7 +1243,7 @@ function buildDegreeBoundaryCard() {
   const thresholds = getGradeThresholds();
   const overall = overallDegreeMark();
 
-  // If we have a proper weighted degree mark (2+ graded years with weightings), show it
+  // If there's a proper weighted degree mark (2+ graded years with weightings), show it
   if (overall !== null) {
     const col = gradeColor(overall);
     const cls = gradeClass(overall);
@@ -1257,7 +1257,7 @@ function buildDegreeBoundaryCard() {
     } else if (higher) {
       gapText = `${(higher.min - overall).toFixed(1)} marks from a ${higher.label}.`;
     } else {
-      gapText = `You are in ${cls} class territory — keep it up!`;
+      gapText = `You are in ${cls} class territory, keep it up!`;
     }
 
     return `<div class="dashboard-card degree-boundary-card">
@@ -1282,7 +1282,7 @@ function buildDegreeBoundaryCard() {
       ? 'Classification labels are turned off.'
       : higher
         ? `${(higher.min - anyYearMark).toFixed(1)} marks from a ${higher.label}.`
-        : `You are in ${cls} class territory — keep it up!`;
+        : `You are in ${cls} class territory, keep it up!`;
 
     return `<div class="dashboard-card degree-boundary-card">
       <div>
@@ -1307,7 +1307,7 @@ function buildUpcomingDeadlinesCard(yr) {
   const items = getUpcomingDeadlines(yr, 5);
   let rows = '';
   if (!items.length) {
-    rows = '<div style="font-family:var(--fm);font-size:11px;color:var(--tx4);font-style:italic">No upcoming deadlines — you are all caught up!</div>';
+    rows = '<div style="font-family:var(--fm);font-size:11px;color:var(--tx4);font-style:italic">No upcoming deadlines, you are all caught up!</div>';
   } else {
     rows = `<div class="deadline-list">${items.map(item => {
       const status = item.mark !== null
@@ -1554,7 +1554,7 @@ function buildTTList(items, yr) {
       h+=`<div class="tt-item ${sc} clickable" onclick="openExamView('${yr.id}','${item.comp.id}')">
         ${dateBlockHtml}
         <div>
-          <div class="tt-title">${escapeHTML(item.mod.name)} — ${escapeHTML(item.comp.name)}</div>
+          <div class="tt-title">${escapeHTML(item.mod.name)}: ${escapeHTML(item.comp.name)}</div>
           <div class="tt-meta">
             <span class="tt-mod">${escapeHTML(item.mod.code)}</span>${catBadgeHtml(item.comp.category)}
             <span class="tt-wt">${item.comp.weight}% wt</span>${timeBadge}${rdBadge}${locBadge}${seatBadge}${obBadge}
@@ -1589,7 +1589,7 @@ function openExamView(yid, compId) {
   const d=resolveCompDate(comp);
   document.getElementById('ev-modbadge').textContent=mod.code;
   document.getElementById('ev-catbadge').innerHTML=catBadgeHtml(comp.category);
-  document.getElementById('ev-title').textContent=mod.name+' — '+comp.name;
+  document.getElementById('ev-title').textContent=mod.name+': '+comp.name;
   const cdVal=document.getElementById('ev-cd-val'), cdLbl=document.getElementById('ev-cd-lbl');
   if(hasMark){cdVal.textContent='Completed ✓';cdVal.className='modal-cd-val done';cdLbl.textContent='Status';}
   else if(d){const du=Math.ceil((d-today)/86400000),txt=du<0?Math.abs(du)+'d ago':du===0?'Today!':du+'d',cls=du<0?'done':du===0||du<=7?'urgent':du<=14?'soon':'';cdVal.textContent=txt;cdVal.className='modal-cd-val '+cls;cdLbl.textContent='Time until';}
@@ -1634,10 +1634,10 @@ function buildModules(yr) {
     if(total!==null){pillTxt=total.toFixed(1)+'%';pillStyle=`color:${gradeColor(total)};background:${gradeColor(total)}18;border-color:${gradeColor(total)}44`;}
     else if(partial!==null){pillTxt=`${partial.toFixed(1)} / ${ew} pts`;pillStyle='color:var(--tx2);';}
 
-    // Normalized dictionary lookup — saveModEdit() already normalizes codes with
+    // Normalized dictionary lookup. saveModEdit() already normalizes codes with
     // .trim().toUpperCase() before storing/looking up, but cpConfirm() (the automatic
     // course-onboarding flow) stores m.code as-is. ALL_MODULES_DICT keys are always
-    // uppercase, so normalize here too — fixes the lookup regardless of how the module was added.
+    // uppercase, so normalize here too, fixes the lookup regardless of how the module was added.
     const dictEntry = ALL_MODULES_DICT[(mod.code || '').trim().toUpperCase()];
 
     // Module URL quick-link (from course import/catalogue data)
@@ -1840,7 +1840,7 @@ function buildTarget(yr) {
 
   const anySimData = Object.keys(yr.futureModuleGrades).length > 0 || Object.keys(yr.futureComponentGrades).length > 0;
   html += `<div class="reset-zone">
-    <div class="reset-zone-title">Reset Options — ${yr.label}</div>
+    <div class="reset-zone-title">Reset Options: ${yr.label}</div>
     <div class="reset-zone-sub">Use these options to clear simulated grades. Marks entered in Modules are never affected. Actions take effect immediately and cannot be undone.</div>
     <div class="reset-group">
       <div>
@@ -2060,7 +2060,7 @@ function setOverviewTargetAndRefresh(yid, val) {
 
 function buildResetZone(yr) {
   return `<div class="reset-zone">
-    <div class="reset-zone-title">Reset Options — ${yr.label}</div>
+    <div class="reset-zone-title">Reset Options: ${yr.label}</div>
     <div class="reset-zone-sub">Use these options to clear grades or remove module data. Actions take effect immediately and cannot be undone.</div>
     <div class="reset-group">
       <div>
@@ -2098,7 +2098,7 @@ function onMark(yid, compId, el) {
   yr.marks[compId]=v===''?'':Math.min(100,Math.max(0,parseFloat(v)));
   persist();
   // Fix 1: snapshot which input had focus (e.g. "inp-_abc123") before the
-  // innerHTML wipe destroys the DOM — we'll restore focus after re-rendering
+  // innerHTML wipe destroys the DOM, so restore focus after re-rendering
   // so Tab-key mass-entry keeps working uninterrupted.
   const focusedId = document.activeElement ? document.activeElement.id : null;
   const sp=document.getElementById(`sp-${yid}-modules`), dsp=document.getElementById(`sp-${yid}-dashboard`);
@@ -2127,7 +2127,7 @@ function clearModAll(yid,mid)    { if(!confirm('Clear all scores for this module
 
 function hardResetAll() {
   if(!confirm('⚠ HARD RESET: permanently delete ALL data?'))return;
-  if(!confirm('Last chance — click OK to permanently delete everything.'))return;
+  if(!confirm('Last chance. Click OK to permanently delete everything.'))return;
   localStorage.removeItem('gradetracker_v7');
   localStorage.removeItem(COURSE_ONBOARDING_KEY);
   APP=JSON.parse(JSON.stringify(DEFAULT_DATA));
@@ -2234,12 +2234,12 @@ const FEEDBACK_TYPE_COPY = {
   suggestion: {
     subjectPlaceholder: 'e.g. Add support for weighted GPA imports',
     descLabel: 'Your suggestion',
-    descPlaceholder: `Tell us what you'd like to see added or improved…`
+    descPlaceholder: `Tell me what you'd like to see added or improved…`
   },
   question: {
     subjectPlaceholder: 'e.g. How is my overall grade calculated?',
     descLabel: 'Your question',
-    descPlaceholder: 'Ask away — the more detail you give, the better we can help…'
+    descPlaceholder: 'Ask away, the more detail you give the better I can help…'
   }
 };
 
@@ -2339,7 +2339,7 @@ function buildHelpPane() {
     },
     {
       q: 'How is my projected degree classification calculated?',
-      a: `<p>Each academic year has a <strong>weighting percentage</strong> (e.g. Year 1 = 10%, Year 2 = 30%, Year 3 = 60%). Your projected mark is the weighted average of the years you've <strong>actually graded so far</strong>, using their weightings as a ratio against each other — not against your whole degree:</p>
+      a: `<p>Each academic year has a <strong>weighting percentage</strong> (e.g. Year 1 = 10%, Year 2 = 30%, Year 3 = 60%). Your projected mark is the weighted average of the years you've <strong>actually graded so far</strong>, using their weightings as a ratio against each other, not against your whole degree:</p>
       <div class="help-formula">Projected Mark = Σ (Year Mark × Year Weighting%) ÷ Σ (Weighting% of graded years)</div>
       <p>For example, Year 1 (10% weighting) at 60% and Year 2 (30% weighting) at 70%, with Year 3 not yet graded:</p>
       <div class="help-formula">(60 × 10 + 70 × 30) ÷ (10 + 30) = 2700 ÷ 40 = <strong>67.5%</strong></div>
@@ -2358,7 +2358,7 @@ function buildHelpPane() {
     },
     {
       q: 'Can I add custom assessment categories?',
-      a: `<p>Yes! When adding or editing a component, select <strong>📦 Other</strong> in the category picker — a text field will appear below where you can type any custom label (e.g. "Lab Report", "Presentation", "Viva").</p>`
+      a: `<p>Yes! When adding or editing a component, select <strong>📦 Other</strong> in the category picker. A text field will appear below where you can type any custom label (e.g. "Lab Report", "Presentation", "Viva").</p>`
     },
     {
       q: 'How do I add or edit academic years?',
@@ -2366,7 +2366,7 @@ function buildHelpPane() {
     },
     {
       q: 'Where is my data stored? Is it private?',
-      a: `<p>All your data is stored exclusively in your browser's <strong>localStorage</strong> — it never leaves your device and is never sent to any server. Gradewick has no backend, no accounts, and no tracking.</p>
+      a: `<p>All your data is stored exclusively in your browser's <strong>localStorage</strong>. It never leaves your device and is never sent to any server. Gradewick has no backend, no accounts, and no tracking.</p>
       <p>To back up your data, use <strong>Data &amp; Privacy → Download JSON backup</strong>.</p>`
     },
     {
@@ -2537,7 +2537,7 @@ function buildChecklist(yr) {
   });
 
   const clResetZone=`<div class="reset-zone">
-    <div class="reset-zone-title">Reset Options — ${yr.label}</div>
+    <div class="reset-zone-title">Reset Options: ${yr.label}</div>
     <div class="reset-zone-sub">Use these options to clear revision progress. Actions take effect immediately and cannot be undone.</div>
     <div class="reset-group">
       <div>
@@ -2787,9 +2787,9 @@ const ALL_MODULES_DICT = {};
  * datalists contain the full 3,500+ entry set.
  *
  * PRIORITY RULES:
- *  1. PRIMARY  — WARWICK_ALL_MODULES (deep-scraped, module-data.js).
+ *  1. PRIMARY  : WARWICK_ALL_MODULES (deep-scraped, module-data.js).
  *                Every entry here is written unconditionally.
- *  2. FALLBACK — WARWICK_COURSES (core degree structures, course-data.js).
+ *  2. FALLBACK : WARWICK_COURSES (core degree structures, course-data.js).
  *                A code is only written from this source if it was NOT already
  *                found in the primary set, so the deep-scraped assessment data
  *                is never clobbered by the smaller core dataset.
@@ -2824,7 +2824,7 @@ function buildModuleDict() {
       primaryCount++;
     });
   } else {
-    // Warn if the primary source is missing — likely a script load-order problem.
+    // Warn if the primary source is missing, likely a script load-order problem.
     console.warn(
       '[Gradewick] buildModuleDict: WARWICK_ALL_MODULES is not defined or empty. ' +
       'Make sure module-data.js is loaded BEFORE app.js in index.html. ' +
@@ -2843,7 +2843,7 @@ function buildModuleDict() {
         yr.core.forEach(m => {
           if (!m.code) return;
           const code = m.code.toUpperCase();
-          if (ALL_MODULES_DICT[code]) return; // already covered by primary — do not overwrite
+          if (ALL_MODULES_DICT[code]) return; // already covered by primary, do not overwrite
 
           const asm = m.assessment || {};
           const components = [];
@@ -3149,7 +3149,7 @@ APP.settings.code = c.course;
   APP.activeOverview = false;
   APP.lastTab = {};
 
-  // Distribute populated years — importing full components from assessment data
+  // Distribute populated years, importing full components from assessment data
   populatedKeys.forEach(yrKey => {
     let targetIdx = 0;
     if (yrKey.startsWith('Year')) {

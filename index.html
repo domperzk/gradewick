@@ -204,7 +204,7 @@
         <input type="hidden" id="ce-category" />
         <div id="ce-category-custom-wrap" style="display:none;margin-top:10px">
           <input class="form-inp" id="ce-category-custom" placeholder="e.g. Lab Report, Presentation, Viva…" autocomplete="off" />
-          <div style="font-family:var(--fm);font-size:10px;color:var(--tx4);margin-top:4px">Type a custom category name — overrides the selection above.</div>
+          <div style="font-family:var(--fm);font-size:10px;color:var(--tx4);margin-top:4px">Type a custom category name, overrides the selection above.</div>
         </div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">
@@ -218,7 +218,7 @@
       <div class="form-row"><label for="ce-location">Venue / Location</label><input class="form-inp" id="ce-location" placeholder="Room 101, Main Building" /></div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">
         <div class="form-row" style="margin:0"><label for="ce-readingTime">Reading time</label><input class="form-inp" id="ce-readingTime" placeholder="e.g. 15 mins" /><div style="font-family:var(--fm);font-size:10px;color:var(--tx4);margin-top:4px">Allocated reading time before the exam starts.</div></div>
-        <div class="form-row" style="margin:0"><label for="ce-seat">Seat number</label><input class="form-inp" id="ce-seat" placeholder="e.g. A14" /><div style="font-family:var(--fm);font-size:10px;color:var(--tx4);margin-top:4px">Your assigned seat — fill this in closer to the date.</div></div>
+        <div class="form-row" style="margin:0"><label for="ce-seat">Seat number</label><input class="form-inp" id="ce-seat" placeholder="e.g. A14" /><div style="font-family:var(--fm);font-size:10px;color:var(--tx4);margin-top:4px">Your assigned seat, fill this in closer to the date.</div></div>
       </div>
       <div class="form-row" style="margin-bottom:18px">
         <label style="margin-bottom:8px;display:block">Open book?</label>
@@ -269,7 +269,7 @@
     </div>
     <div class="modal-body">
       <label style="display:block;font-family:var(--fm);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">Revision topics</label>
-      <p style="font-size:13px;color:var(--tx3);margin-bottom:14px">Add topics and, optionally, sub-topics. Track progress with a status per (sub)topic — a topic with sub-topics shows their combined progress automatically.</p>
+      <p style="font-size:13px;color:var(--tx3);margin-bottom:14px">Add topics and, optionally, sub-topics. Track progress with a status per (sub)topic. A topic with sub-topics shows their combined progress automatically.</p>
       <div id="topicEditorList"></div>
       <button type="button" class="btn-add-dashed" style="margin-top:12px" onclick="addTopicRow()">+ Add topic</button>
       <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
@@ -300,7 +300,7 @@
           <button class="cp-path-card" onclick="cpStartCourse()">
             <div class="cp-path-icon">🎓</div>
             <div class="cp-path-title">Find my course automatically</div>
-            <div class="cp-path-sub">Choose your department and course name — your modules and assessment details will be filled in for you.</div>
+            <div class="cp-path-sub">Choose your department and course name, your modules and assessment details will be filled in for you.</div>
           </button>
           <button class="cp-path-card" onclick="cpSkip()">
             <div class="cp-path-icon">✏</div>
@@ -308,12 +308,12 @@
             <div class="cp-path-sub">Add modules, components and credits yourself at any time from the website's Modules tab.</div>
           </button>
         </div>
-        <!-- Privacy disclaimer — Course Picker modal, Step 0 -->
+        <!-- Privacy disclaimer: Course Picker modal, Step 0 -->
         <div class="privacy-badge" role="note" aria-label="Data privacy notice" style="margin-top:16px">
           <span class="privacy-badge-icon">🔒</span>
           <div>
             <strong>100% Local Storage. No Backend.</strong>
-            <span>Your data never leaves your device. Everything is saved in your browser only — nothing is sent to any server.</span>
+            <span>Your data never leaves your device. Everything is saved in your browser only, nothing is sent to any server.</span>
           </div>
         </div>
       </div>
@@ -321,7 +321,7 @@
       <div id="cp-step-1" style="display:none">
         <div class="cp-back-row">
           <button class="cp-back-btn" onclick="cpGoStep(0)">← Back</button>
-          <div style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Step 1 of 3 — Department</div>
+          <div style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Step 1 of 3: Department</div>
         </div>
         <input class="form-inp cp-search" id="cp-dept-search" aria-label="Search departments" placeholder="Search departments…" oninput="cpFilterDepts(this.value)" />
         <div class="cp-grid" id="cp-dept-grid"></div>
@@ -330,7 +330,7 @@
       <div id="cp-step-2" style="display:none">
         <div class="cp-back-row">
           <button class="cp-back-btn" onclick="cpGoStep(1)">← Back</button>
-          <div style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Step 2 of 3 — Course</div>
+          <div style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Step 2 of 3: Course</div>
         </div>
         <div style="font-family:var(--fd);font-size:13px;font-weight:700;color:var(--accent-mid);margin-bottom:10px" id="cp-dept-label"></div>
         <input class="form-inp cp-search" id="cp-course-search" aria-label="Search courses" placeholder="Search courses…" oninput="cpFilterCourses(this.value)" />
@@ -340,7 +340,7 @@
       <div id="cp-step-3" style="display:none">
         <div class="cp-back-row">
           <button class="cp-back-btn" onclick="cpGoStep(2)">← Back</button>
-          <div style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Step 3 of 3 — Confirm</div>
+          <div style="font-family:var(--fm);font-size:10px;color:var(--tx4)">Step 3 of 3: Confirm</div>
         </div>
         <div class="cp-preview-header" id="cp-preview-header"></div>
         <div style="font-family:var(--fm);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3);margin-bottom:10px">Core modules to be added</div>
@@ -389,7 +389,7 @@
 
       <!-- Import -->
       <div class="settings-section-title" style="margin-top:24px">Import / Restore</div>
-      <p style="font-family:var(--fm);font-size:11px;color:var(--tx3);margin-bottom:14px;line-height:1.6">Restore a previous JSON backup. This will replace all current data — download a backup first if you need it.</p>
+      <p style="font-family:var(--fm);font-size:11px;color:var(--tx3);margin-bottom:14px;line-height:1.6">Restore a previous JSON backup. This will replace all current data, download a backup first if you need it.</p>
       <button class="btn btn-ghost" onclick="importData()">↑ Restore from JSON backup</button>
 
       <!-- Privacy -->
@@ -398,7 +398,7 @@
         <span class="privacy-badge-icon">🔒</span>
         <div>
           <strong>100% Local Storage. No Backend.</strong>
-          <span>Your data never leaves your device. Everything is saved in your browser only — nothing is sent to any server.</span>
+          <span>Your data never leaves your device. Everything is saved in your browser only, nothing is sent to any server.</span>
         </div>
       </div>
 
@@ -418,11 +418,11 @@
   <div class="modal" onclick="event.stopPropagation()">
     <div class="modal-hdr">
       <button class="modal-close" aria-label="Close" onclick="closeOverlayDirect('supportOverlay')">✕</button>
-      <div style="font-family:var(--fm);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">We'd love to hear from you</div>
+      <div style="font-family:var(--fm);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px">I'd love to hear from you</div>
       <div style="font-family:var(--fd);font-size:20px;font-weight:800">Feedback &amp; Support</div>
     </div>
     <div class="modal-body">
-      <p style="font-family:var(--fm);font-size:12px;color:var(--tx3);margin-bottom:20px;line-height:1.65">Found a bug or have a suggestion? Describe it below and hit send — your browser info will be included automatically to help with debugging.</p>
+      <p style="font-family:var(--fm);font-size:12px;color:var(--tx3);margin-bottom:20px;line-height:1.65">Found a bug or have a suggestion? Describe it below and hit send, your browser info will be included automatically to help with debugging.</p>
       <div class="form-row">
         <label>What's this about?</label>
         <div class="cat-selector" id="fbTypeSelector">
